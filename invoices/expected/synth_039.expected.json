@@ -1,0 +1,22 @@
+{
+  "merchant_name": "Phoenix Solar Installations",
+  "date": "2025-06-10",
+  "total_amount": 5294.5,
+  "subtotal": 4936.6,
+  "tax": 357.9,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "Inspection and testing",
+      "quantity": 5,
+      "unit_price": 388.16,
+      "amount": 1940.8
+    },
+    {
+      "name": "Professional service",
+      "quantity": 20,
+      "unit_price": 149.79,
+      "amount": 2995.8
+    }
+  ]
+}

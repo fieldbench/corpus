@@ -1,0 +1,49 @@
+{
+  "certificate_date": "2025-05-23",
+  "certificate_holder_name": "Pinnacle Ventures LLC",
+  "insured_name": "Continental Scaffolding Inc.",
+  "policies": [
+    {
+      "policy_number": "AUT4318380",
+      "coverage_type": "Automobile Liability",
+      "carrier_name": "Compass Rose Specialty",
+      "effective_date": "2026-10-12",
+      "expiration_date": "2027-10-12",
+      "limits": [
+        {
+          "name": "Combined Single Limit (Each Accident)",
+          "amount": 1000000
+        }
+      ],
+      "additional_insureds": [
+        "Pinnacle Ventures LLC"
+      ]
+    },
+    {
+      "policy_number": "WC3899818",
+      "coverage_type": "Workers Compensation",
+      "carrier_name": "Redwood Workers Compensation Fund",
+      "effective_date": "2026-10-12",
+      "expiration_date": "2027-10-12",
+      "limits": [
+        {
+          "name": "Bodily Injury by Accident (Each Accident)",
+          "amount": 1000000
+        },
+        {
+          "name": "Bodily Injury by Disease (Policy Limit)",
+          "amount": 500000
+        },
+        {
+          "name": "Bodily Injury by Disease (Each Employee)",
+          "amount": 1000000
+        }
+      ],
+      "additional_insureds": [
+        "Pinnacle Ventures LLC"
+      ]
+    }
+  ],
+  "producer_name": "Granite State Agency Inc.",
+  "producer_phone": "(603) 555-0133"
+}

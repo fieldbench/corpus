@@ -1,0 +1,17 @@
+{
+  "filename": "edgar_10q_02.md",
+  "source_name": "SEC EDGAR",
+  "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000789019&type=10-Q",
+  "license": "No explicit license — mandatory public disclosure filed with the SEC; copyright retained by the filing registrant",
+  "license_url": null,
+  "attribution": "Microsoft Corporation",
+  "original_format": "HTML",
+  "r2_url": null,
+  "pages": 1,
+  "added_date": "2026-04-12",
+  "added_by": "corpus-bootstrap",
+  "schema": "sec_filings/schemas/filing_metadata.yaml",
+  "notes": "Microsoft 10-Q header from Q2 FY2024. Tests field names with slight label variations (e.g., 'Registrant name' instead of 'Filer').",
+  "license_basis": "Not a US Government work: 17 U.S.C. §105 does not apply because the document was authored by the filing registrant, not by the SEC. Redistributed for research use as a public disclosure record. See DATA_LICENSE.md.",
+  "source": "real"
+}

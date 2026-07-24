@@ -1,0 +1,13 @@
+{
+  "employer_name": "Ironwood Enterprises Inc.",
+  "employer_ein": "41-8935169",
+  "employee_name": "Morgan P. Nguyen",
+  "employee_ssn": "XXX-XX-7939",
+  "wages": 35563.38,
+  "federal_income_tax": 3774.63,
+  "social_security_wages": 35563.38,
+  "social_security_tax": 2204.93,
+  "medicare_wages": 35563.38,
+  "medicare_tax": 515.67,
+  "tax_year": 2024
+}

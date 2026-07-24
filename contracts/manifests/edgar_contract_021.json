@@ -1,0 +1,20 @@
+{
+  "filename": "edgar_contract_021.md",
+  "source_name": "SEC EDGAR (8-K Exhibit 10)",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/21828/000114036111013491/ex10_16.htm",
+  "license": "No explicit license — mandatory public disclosure filed with the SEC; copyright retained by the filing registrant",
+  "license_url": null,
+  "attribution": "COLONIAL COMMERCIAL CORP",
+  "original_format": "HTML",
+  "r2_url": null,
+  "pages": 6,
+  "added_date": "2026-05-21",
+  "added_by": "edgar-contracts-sourcer",
+  "schema": "contracts/schemas/contract.yaml",
+  "accession_number": "0001140361-11-013491",
+  "cik": "0000021828",
+  "filer_name": "COLONIAL COMMERCIAL CORP  (CIK 0000021828)",
+  "notes": "Material contract (Exhibit 10) from COLONIAL COMMERCIAL CORP  (CIK 0000021828)'s 8-K filing (accession 0001140361-11-013491). Expected JSON needs manual annotation.",
+  "license_basis": "Not a US Government work: 17 U.S.C. §105 does not apply because the document was authored by the filing registrant, not by the SEC. Redistributed for research use as a public disclosure record. See DATA_LICENSE.md.",
+  "source": "real"
+}

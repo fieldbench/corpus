@@ -1,0 +1,16 @@
+{
+  "merchant_name": "PixelForge Studios",
+  "date": "2026-04-06",
+  "total_amount": 834.3,
+  "subtotal": 695.25,
+  "tax": 139.05,
+  "currency": "GBP",
+  "items": [
+    {
+      "name": "Motion graphics (per second)",
+      "quantity": 9,
+      "unit_price": 77.25,
+      "amount": 695.25
+    }
+  ]
+}

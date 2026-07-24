@@ -1,0 +1,34 @@
+{
+  "merchant_name": "Precision Optics AG",
+  "date": "2025-05-08",
+  "total_amount": 25076.42,
+  "subtotal": 20897.02,
+  "tax": 4179.4,
+  "currency": "EUR",
+  "items": [
+    {
+      "name": "Inspection and testing",
+      "quantity": 38,
+      "unit_price": 212.42,
+      "amount": 8071.96
+    },
+    {
+      "name": "Shipping and handling",
+      "quantity": 40,
+      "unit_price": 24.92,
+      "amount": 996.8
+    },
+    {
+      "name": "Professional service",
+      "quantity": 21,
+      "unit_price": 336.66,
+      "amount": 7069.86
+    },
+    {
+      "name": "Consultation fee",
+      "quantity": 16,
+      "unit_price": 297.4,
+      "amount": 4758.4
+    }
+  ]
+}

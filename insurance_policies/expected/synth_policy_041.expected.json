@@ -1,0 +1,11 @@
+{
+  "insurer_name": "Mountain West Casualty Co.",
+  "named_insured": "Westridge Concrete Foundations",
+  "policy_number": "CU1800515",
+  "policy_type": "Umbrella/Excess",
+  "effective_date": "2025-11-25",
+  "expiration_date": "2026-11-25",
+  "total_premium": 6100,
+  "each_occurrence_limit": 10000000,
+  "general_aggregate_limit": 10000000
+}

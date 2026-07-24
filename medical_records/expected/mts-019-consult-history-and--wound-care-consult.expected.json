@@ -1,0 +1,22 @@
+{
+  "admission_date": "2008-07-07",
+  "attending_physician": "Dr. Z",
+  "discharge_date": "2008-08-11",
+  "medications_at_discharge": [
+    "Fragmin",
+    "Lyrica",
+    "Cymbalta"
+  ],
+  "primary_diagnosis": "esophageal retention",
+  "procedures": [
+    "exploratory laparotomy",
+    "esophagogastrectomy",
+    "esophagogastric anastomosis",
+    "Dor fundoplication",
+    "hiatal hernia repair",
+    "small bowel resection",
+    "lysis of adhesions",
+    "tracheostomy",
+    "flexible bronchoscopy"
+  ]
+}

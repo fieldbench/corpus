@@ -1,0 +1,52 @@
+{
+  "merchant_name": "MedPro Surgical Supplies",
+  "date": "2024-04-15",
+  "total_amount": 6628.2,
+  "subtotal": 6180.14,
+  "tax": 448.06,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "Stethoscope",
+      "quantity": 23,
+      "unit_price": 131.96,
+      "amount": 3035.08
+    },
+    {
+      "name": "Suture kit 4-0",
+      "quantity": 17,
+      "unit_price": 15.32,
+      "amount": 260.44
+    },
+    {
+      "name": "Hand sanitizer (gallon)",
+      "quantity": 42,
+      "unit_price": 12.1,
+      "amount": 508.2
+    },
+    {
+      "name": "Examination table paper (case)",
+      "quantity": 16,
+      "unit_price": 78.01,
+      "amount": 1248.16
+    },
+    {
+      "name": "Sterile drape pack",
+      "quantity": 17,
+      "unit_price": 53.98,
+      "amount": 917.66
+    },
+    {
+      "name": "Bandage roll (case of 12)",
+      "quantity": 10,
+      "unit_price": 12.58,
+      "amount": 125.8
+    },
+    {
+      "name": "Digital thermometer",
+      "quantity": 5,
+      "unit_price": 16.96,
+      "amount": 84.8
+    }
+  ]
+}

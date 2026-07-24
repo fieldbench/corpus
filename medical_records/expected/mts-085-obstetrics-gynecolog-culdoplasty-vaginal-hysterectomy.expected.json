@@ -1,0 +1,13 @@
+{
+  "admission_date": null,
+  "attending_physician": null,
+  "discharge_date": null,
+  "medications_at_discharge": null,
+  "primary_diagnosis": "Chronic pelvic inflammatory disease",
+  "procedures": [
+    "Laparoscopic assisted vaginal hysterectomy",
+    "bilateral salpingo-oophorectomy",
+    "McCall's culdoplasty",
+    "Cystoscopy"
+  ]
+}

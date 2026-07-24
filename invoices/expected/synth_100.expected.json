@@ -1,0 +1,40 @@
+{
+  "merchant_name": "TransAlpine Courier GmbH",
+  "date": "2025-05-09",
+  "total_amount": 23228.67,
+  "subtotal": 23228.67,
+  "tax": 0.0,
+  "currency": "EUR",
+  "items": [
+    {
+      "name": "Packaging service",
+      "quantity": 5,
+      "unit_price": 119.86,
+      "amount": 599.3
+    },
+    {
+      "name": "Loading and unloading",
+      "quantity": 5,
+      "unit_price": 376.5,
+      "amount": 1882.5
+    },
+    {
+      "name": "Documentation handling",
+      "quantity": 34,
+      "unit_price": 105.87,
+      "amount": 3599.58
+    },
+    {
+      "name": "Refrigerated transport",
+      "quantity": 9,
+      "unit_price": 1603.61,
+      "amount": 14432.49
+    },
+    {
+      "name": "Last-mile delivery",
+      "quantity": 20,
+      "unit_price": 135.74,
+      "amount": 2714.8
+    }
+  ]
+}

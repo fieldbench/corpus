@@ -1,0 +1,16 @@
+{
+  "merchant_name": "Boulangerie Saint-Martin",
+  "date": "2024-11-23",
+  "total_amount": 9141.99,
+  "subtotal": 8543.92,
+  "tax": 598.07,
+  "currency": "EUR",
+  "items": [
+    {
+      "name": "Specialty cake",
+      "quantity": 44,
+      "unit_price": 194.18,
+      "amount": 8543.92
+    }
+  ]
+}

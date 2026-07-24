@@ -1,0 +1,16 @@
+{
+  "merchant_name": "Nordic Timber AB",
+  "date": "2025-12-03",
+  "total_amount": 4108.6,
+  "subtotal": 3830.86,
+  "tax": 277.74,
+  "currency": "EUR",
+  "items": [
+    {
+      "name": "Lumber 2x4x8 (per bundle)",
+      "quantity": 11,
+      "unit_price": 348.26,
+      "amount": 3830.86
+    }
+  ]
+}

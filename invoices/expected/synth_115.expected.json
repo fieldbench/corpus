@@ -1,0 +1,28 @@
+{
+  "merchant_name": "Redwood Creative Agency",
+  "date": "2025-02-16",
+  "total_amount": 129569.18,
+  "subtotal": 122235.08,
+  "tax": 7334.1,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "SEO audit and recommendations",
+      "quantity": 3,
+      "unit_price": 1232.97,
+      "amount": 3698.91
+    },
+    {
+      "name": "Social media management (monthly)",
+      "quantity": 37,
+      "unit_price": 2981.21,
+      "amount": 110304.77
+    },
+    {
+      "name": "Print collateral design",
+      "quantity": 20,
+      "unit_price": 411.57,
+      "amount": 8231.4
+    }
+  ]
+}

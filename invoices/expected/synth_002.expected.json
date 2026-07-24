@@ -1,0 +1,52 @@
+{
+  "merchant_name": "Greenfield Construction Ltd.",
+  "date": "2025-10-27",
+  "total_amount": 27433.94,
+  "subtotal": 27433.94,
+  "tax": 0.0,
+  "currency": "CAD",
+  "items": [
+    {
+      "name": "Window installation",
+      "quantity": 3,
+      "unit_price": 331.68,
+      "amount": 995.04
+    },
+    {
+      "name": "Plumbing rough-in",
+      "quantity": 5,
+      "unit_price": 2138.91,
+      "amount": 10694.55
+    },
+    {
+      "name": "Rebar #4 (per ton)",
+      "quantity": 1,
+      "unit_price": 725.96,
+      "amount": 725.96
+    },
+    {
+      "name": "Concrete (per cubic yard)",
+      "quantity": 4,
+      "unit_price": 176.55,
+      "amount": 706.2
+    },
+    {
+      "name": "Lumber 2x4x8 (per bundle)",
+      "quantity": 19,
+      "unit_price": 277.66,
+      "amount": 5275.54
+    },
+    {
+      "name": "Excavation (per hour)",
+      "quantity": 32,
+      "unit_price": 204.83,
+      "amount": 6554.56
+    },
+    {
+      "name": "Roofing shingles (per square)",
+      "quantity": 13,
+      "unit_price": 190.93,
+      "amount": 2482.09
+    }
+  ]
+}

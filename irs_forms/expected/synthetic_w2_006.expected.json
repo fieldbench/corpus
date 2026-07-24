@@ -1,0 +1,13 @@
+{
+  "employer_name": "Summit Manufacturing Corp.",
+  "employer_ein": "18-1527021",
+  "employee_name": "Jamie J. Thompson",
+  "employee_ssn": "XXX-XX-8953",
+  "wages": 166053.75,
+  "federal_income_tax": 35359.98,
+  "social_security_wages": 166053.75,
+  "social_security_tax": 10295.33,
+  "medicare_wages": 166053.75,
+  "medicare_tax": 2407.78,
+  "tax_year": 2024
+}

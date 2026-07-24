@@ -1,0 +1,111 @@
+{
+  "certificate_date": "2025-12-03",
+  "certificate_holder_name": "Keystone Aerospace Components Inc.",
+  "insured_name": "Redbrick Manufacturing Corp.",
+  "policies": [
+    {
+      "policy_number": "GL-104822",
+      "coverage_type": "General Liability",
+      "carrier_name": "Atlantic Mutual Specialty",
+      "effective_date": "2025-03-01",
+      "expiration_date": "2026-03-01",
+      "limits": [
+        {
+          "name": "Each Occurrence",
+          "amount": 1000000
+        },
+        {
+          "name": "General Aggregate",
+          "amount": 2000000
+        },
+        {
+          "name": "Products/Completed Ops Aggregate",
+          "amount": 2000000
+        },
+        {
+          "name": "Personal & Advertising Injury",
+          "amount": 1000000
+        },
+        {
+          "name": "Damage to Rented Premises",
+          "amount": 100000
+        },
+        {
+          "name": "Medical Payments (any one person)",
+          "amount": 10000
+        }
+      ],
+      "additional_insureds": [
+        "Keystone Aerospace Components Inc."
+      ]
+    },
+    {
+      "policy_number": "AU-104823",
+      "coverage_type": "Auto",
+      "carrier_name": "Atlantic Mutual Specialty",
+      "effective_date": "2025-03-01",
+      "expiration_date": "2026-03-01",
+      "limits": [
+        {
+          "name": "Combined Single Limit (each accident)",
+          "amount": 1000000
+        },
+        {
+          "name": "Uninsured/Underinsured Motorist",
+          "amount": 1000000
+        },
+        {
+          "name": "Medical Payments",
+          "amount": 5000
+        }
+      ],
+      "additional_insureds": [
+        "Keystone Aerospace Components Inc."
+      ]
+    },
+    {
+      "policy_number": "UMB-557801",
+      "coverage_type": "Umbrella",
+      "carrier_name": "Granite State Casualty Insurance",
+      "effective_date": "2025-03-01",
+      "expiration_date": "2026-03-01",
+      "limits": [
+        {
+          "name": "Each Occurrence",
+          "amount": 10000000
+        },
+        {
+          "name": "Aggregate",
+          "amount": 10000000
+        }
+      ],
+      "additional_insureds": [
+        "Keystone Aerospace Components Inc."
+      ]
+    },
+    {
+      "policy_number": "WC-220145",
+      "coverage_type": "Workers Comp",
+      "carrier_name": "Northeast Workers Compensation Trust",
+      "effective_date": "2025-03-01",
+      "expiration_date": "2026-03-01",
+      "limits": [
+        {
+          "name": "Bodily Injury by Accident (Each Accident)",
+          "amount": 1000000
+        },
+        {
+          "name": "Bodily Injury by Disease (Policy Limit)",
+          "amount": 1000000
+        },
+        {
+          "name": "Bodily Injury by Disease (Each Employee)",
+          "amount": 1000000
+        }
+      ],
+      "additional_insureds": []
+    }
+  ],
+  "producer_name": "Blackwater Brokerage Partners LLC",
+  "producer_phone": "617-555-0144"
+}

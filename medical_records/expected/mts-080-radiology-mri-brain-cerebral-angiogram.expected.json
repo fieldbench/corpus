@@ -1,0 +1,14 @@
+{
+  "admission_date": "1996-02-20",
+  "attending_physician": null,
+  "discharge_date": null,
+  "medications_at_discharge": [
+    "Prednisone",
+    "Tagamet"
+  ],
+  "primary_diagnosis": "CNS Vasculitis with evidence of ischemic infarction in the right and left frontal lobes.",
+  "procedures": [
+    "Cerebral Angiography",
+    "right frontal brain biopsy"
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "certificate_date": "2026-03-21",
+  "certificate_holder_name": "Sunshine Development Partners LLC",
+  "insured_name": "Valley Forge Painting Contractors",
+  "policies": [
+    {
+      "policy_number": "CGL8705768",
+      "coverage_type": "Commercial General Liability",
+      "carrier_name": "Midwest Indemnity Holdings",
+      "effective_date": "2025-12-14",
+      "expiration_date": "2026-12-14",
+      "limits": [
+        {
+          "name": "Each Occurrence",
+          "amount": 2000000
+        },
+        {
+          "name": "General Aggregate",
+          "amount": 4000000
+        },
+        {
+          "name": "Products / Completed Operations",
+          "amount": 4000000
+        },
+        {
+          "name": "Personal & Advertising Injury",
+          "amount": 1000000
+        },
+        {
+          "name": "Damage to Rented Premises",
+          "amount": 500000
+        },
+        {
+          "name": "Medical Expense (Any One Person)",
+          "amount": 10000
+        }
+      ],
+      "additional_insureds": [
+        "Keystone Realty Advisors",
+        "Sunshine Development Partners LLC"
+      ]
+    },
+    {
+      "policy_number": "AUT9927161",
+      "coverage_type": "Automobile Liability",
+      "carrier_name": "Sterling National Insurance Co.",
+      "effective_date": "2025-12-14",
+      "expiration_date": "2026-12-14",
+      "limits": [
+        {
+          "name": "Combined Single Limit (Each Accident)",
+          "amount": 2000000
+        }
+      ],
+      "additional_insureds": [
+        "Titan Construction Management LLC"
+      ]
+    },
+    {
+      "policy_number": "UMB9483291",
+      "coverage_type": "Umbrella Liability",
+      "carrier_name": "Sunbelt Workers Comp Trust",
+      "effective_date": "2025-12-14",
+      "expiration_date": "2026-12-14",
+      "limits": [
+        {
+          "name": "Each Occurrence",
+          "amount": 10000000
+        },
+        {
+          "name": "Aggregate",
+          "amount": 5000000
+        },
+        {
+          "name": "Self-Insured Retention",
+          "amount": 10000
+        }
+      ],
+      "additional_insureds": []
+    },
+    {
+      "policy_number": "WC7908773",
+      "coverage_type": "Workers Compensation",
+      "carrier_name": "Sunbelt Workers Comp Trust",
+      "effective_date": "2025-12-14",
+      "expiration_date": "2026-12-14",
+      "limits": [
+        {
+          "name": "Bodily Injury by Accident (Each Accident)",
+          "amount": 1000000
+        },
+        {
+          "name": "Bodily Injury by Disease (Policy Limit)",
+          "amount": 500000
+        },
+        {
+          "name": "Bodily Injury by Disease (Each Employee)",
+          "amount": 1000000
+        }
+      ],
+      "additional_insureds": []
+    }
+  ],
+  "producer_name": "Blue Ridge Underwriters",
+  "producer_phone": "(704) 555-0122"
+}

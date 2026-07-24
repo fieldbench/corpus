@@ -1,0 +1,13 @@
+{
+  "admission_date": "2008-12-19",
+  "attending_physician": null,
+  "discharge_date": null,
+  "medications_at_discharge": [
+    "carboplatin",
+    "gemcitabine"
+  ],
+  "primary_diagnosis": "non-small cell lung cancer stage IV metastatic disease",
+  "procedures": [
+    "CT-guided biopsy of the left adrenal mass"
+  ]
+}

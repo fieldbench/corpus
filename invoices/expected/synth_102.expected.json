@@ -1,0 +1,34 @@
+{
+  "merchant_name": "Greenfield Construction Ltd.",
+  "date": "2024-01-01",
+  "total_amount": 52895.41,
+  "subtotal": 52895.41,
+  "tax": 0.0,
+  "currency": "CAD",
+  "items": [
+    {
+      "name": "Concrete (per cubic yard)",
+      "quantity": 46,
+      "unit_price": 158.76,
+      "amount": 7302.96
+    },
+    {
+      "name": "Plumbing rough-in",
+      "quantity": 8,
+      "unit_price": 860.06,
+      "amount": 6880.48
+    },
+    {
+      "name": "Rebar #4 (per ton)",
+      "quantity": 36,
+      "unit_price": 933.52,
+      "amount": 33606.72
+    },
+    {
+      "name": "Foundation inspection",
+      "quantity": 15,
+      "unit_price": 340.35,
+      "amount": 5105.25
+    }
+  ]
+}

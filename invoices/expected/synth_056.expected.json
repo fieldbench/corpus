@@ -1,0 +1,46 @@
+{
+  "merchant_name": "Bright Spark Electrical",
+  "date": "2025-09-22",
+  "total_amount": 4355.82,
+  "subtotal": 4000.75,
+  "tax": 355.07,
+  "currency": "SGD",
+  "items": [
+    {
+      "name": "Surge protector panel",
+      "quantity": 1,
+      "unit_price": 83.76,
+      "amount": 83.76
+    },
+    {
+      "name": "Circuit breaker 20A",
+      "quantity": 40,
+      "unit_price": 18.48,
+      "amount": 739.2
+    },
+    {
+      "name": "Electrical conduit (bundle)",
+      "quantity": 18,
+      "unit_price": 21.06,
+      "amount": 379.08
+    },
+    {
+      "name": "LED panel light 600x600",
+      "quantity": 5,
+      "unit_price": 69.09,
+      "amount": 345.45
+    },
+    {
+      "name": "Cable tray (3m section)",
+      "quantity": 37,
+      "unit_price": 56.21,
+      "amount": 2079.77
+    },
+    {
+      "name": "Smoke detector",
+      "quantity": 13,
+      "unit_price": 28.73,
+      "amount": 373.49
+    }
+  ]
+}

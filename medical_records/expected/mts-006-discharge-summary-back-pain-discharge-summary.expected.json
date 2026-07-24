@@ -1,0 +1,16 @@
+{
+  "admission_date": "2007-08-29",
+  "attending_physician": "Dr. A",
+  "discharge_date": null,
+  "medications_at_discharge": [
+    "Decadron",
+    "Percocet",
+    "Colace",
+    "lactulose",
+    "Protonix"
+  ],
+  "primary_diagnosis": "Acute on chronic back pain",
+  "procedures": [
+    "right orchiectomy"
+  ]
+}

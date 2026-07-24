@@ -1,0 +1,34 @@
+{
+  "merchant_name": "Ravenna Consulting Group",
+  "date": "2025-01-24",
+  "total_amount": 85471.18,
+  "subtotal": 85471.18,
+  "tax": 0.0,
+  "currency": "EUR",
+  "items": [
+    {
+      "name": "Due diligence review",
+      "quantity": 3,
+      "unit_price": 14497.41,
+      "amount": 43492.23
+    },
+    {
+      "name": "Stakeholder interview series",
+      "quantity": 5,
+      "unit_price": 4906.28,
+      "amount": 24531.4
+    },
+    {
+      "name": "Risk assessment",
+      "quantity": 1,
+      "unit_price": 3740.11,
+      "amount": 3740.11
+    },
+    {
+      "name": "Board presentation materials",
+      "quantity": 4,
+      "unit_price": 3426.86,
+      "amount": 13707.44
+    }
+  ]
+}

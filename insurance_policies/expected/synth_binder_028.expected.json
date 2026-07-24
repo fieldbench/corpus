@@ -1,0 +1,11 @@
+{
+  "insurer_name": "Northern Lights Insurance Corp.",
+  "named_insured": "Karen N. Blackwell",
+  "policy_number": "BND-138476",
+  "policy_type": "Umbrella/Excess",
+  "effective_date": "2025-06-24",
+  "expiration_date": "2026-06-24",
+  "each_occurrence_limit": 500000,
+  "general_aggregate_limit": 2000000,
+  "total_premium": 2500
+}

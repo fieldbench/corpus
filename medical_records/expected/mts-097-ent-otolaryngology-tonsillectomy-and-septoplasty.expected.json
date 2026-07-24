@@ -1,0 +1,16 @@
+{
+  "admission_date": null,
+  "attending_physician": "Dr. XYZ",
+  "discharge_date": null,
+  "medications_at_discharge": [
+    "Afrin drops",
+    "0.25% Marcaine with 1:200,000 epinephrine",
+    "Polysporin ointment"
+  ],
+  "primary_diagnosis": "Obstructive sleep apnea syndrome with hypertrophy of tonsils and of uvula and soft palate with deviation of nasal septum.",
+  "procedures": [
+    "Tonsillectomy",
+    "uvulopalatopharyngoplasty",
+    "septoplasty"
+  ]
+}

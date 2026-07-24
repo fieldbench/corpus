@@ -1,0 +1,40 @@
+{
+  "merchant_name": "Gulf Coast Marine Repair",
+  "date": "2025-09-13",
+  "total_amount": 15109.41,
+  "subtotal": 15109.41,
+  "tax": 0.0,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "Travel expenses",
+      "quantity": 15,
+      "unit_price": 111.81,
+      "amount": 1677.15
+    },
+    {
+      "name": "Materials and supplies",
+      "quantity": 1,
+      "unit_price": 243.68,
+      "amount": 243.68
+    },
+    {
+      "name": "Maintenance service",
+      "quantity": 29,
+      "unit_price": 105.27,
+      "amount": 3052.83
+    },
+    {
+      "name": "Documentation",
+      "quantity": 50,
+      "unit_price": 142.57,
+      "amount": 7128.5
+    },
+    {
+      "name": "Inspection and testing",
+      "quantity": 23,
+      "unit_price": 130.75,
+      "amount": 3007.25
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "merchant_name": "Precision Optics AG",
+  "date": "2025-07-05",
+  "total_amount": 25499.58,
+  "subtotal": 23420.97,
+  "tax": 2078.61,
+  "currency": "EUR",
+  "items": [
+    {
+      "name": "Maintenance service",
+      "quantity": 8,
+      "unit_price": 327.94,
+      "amount": 2623.52
+    },
+    {
+      "name": "Administrative fee",
+      "quantity": 43,
+      "unit_price": 58.22,
+      "amount": 2503.46
+    },
+    {
+      "name": "Professional service",
+      "quantity": 3,
+      "unit_price": 205.54,
+      "amount": 616.62
+    },
+    {
+      "name": "Training session",
+      "quantity": 5,
+      "unit_price": 518.24,
+      "amount": 2591.2
+    },
+    {
+      "name": "Consultation fee",
+      "quantity": 1,
+      "unit_price": 501.31,
+      "amount": 501.31
+    },
+    {
+      "name": "Inspection and testing",
+      "quantity": 4,
+      "unit_price": 325.72,
+      "amount": 1302.88
+    },
+    {
+      "name": "Materials and supplies",
+      "quantity": 45,
+      "unit_price": 96.51,
+      "amount": 4342.95
+    },
+    {
+      "name": "Setup and configuration",
+      "quantity": 3,
+      "unit_price": 692.6,
+      "amount": 2077.8
+    },
+    {
+      "name": "Equipment rental",
+      "quantity": 1,
+      "unit_price": 194.25,
+      "amount": 194.25
+    },
+    {
+      "name": "Documentation",
+      "quantity": 14,
+      "unit_price": 65.52,
+      "amount": 917.28
+    },
+    {
+      "name": "Shipping and handling",
+      "quantity": 2,
+      "unit_price": 65.4,
+      "amount": 130.8
+    },
+    {
+      "name": "Travel expenses",
+      "quantity": 46,
+      "unit_price": 122.15,
+      "amount": 5618.9
+    }
+  ]
+}

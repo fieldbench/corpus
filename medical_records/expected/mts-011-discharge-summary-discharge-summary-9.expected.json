@@ -1,0 +1,19 @@
+{
+  "admission_date": null,
+  "attending_physician": "Dr. XYZ",
+  "discharge_date": null,
+  "medications_at_discharge": [
+    "Coreg",
+    "Cozaar",
+    "Aldactone",
+    "Synthroid",
+    "Carafate",
+    "Claritin",
+    "Lasix",
+    "K-Dur",
+    "Prilosec",
+    "Zofran"
+  ],
+  "primary_diagnosis": "Epigastric pain",
+  "procedures": null
+}

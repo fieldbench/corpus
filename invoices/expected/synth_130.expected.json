@@ -1,0 +1,82 @@
+{
+  "merchant_name": "Sterling Architectural Design",
+  "date": "2025-01-28",
+  "total_amount": 91058.56,
+  "subtotal": 76519.8,
+  "tax": 14538.76,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "Materials and supplies",
+      "quantity": 30,
+      "unit_price": 159.83,
+      "amount": 4794.9
+    },
+    {
+      "name": "Inspection and testing",
+      "quantity": 31,
+      "unit_price": 334.37,
+      "amount": 10365.47
+    },
+    {
+      "name": "Documentation",
+      "quantity": 47,
+      "unit_price": 193.83,
+      "amount": 9110.01
+    },
+    {
+      "name": "Maintenance service",
+      "quantity": 5,
+      "unit_price": 218.75,
+      "amount": 1093.75
+    },
+    {
+      "name": "Professional service",
+      "quantity": 32,
+      "unit_price": 290.89,
+      "amount": 9308.48
+    },
+    {
+      "name": "Shipping and handling",
+      "quantity": 2,
+      "unit_price": 61.61,
+      "amount": 123.22
+    },
+    {
+      "name": "Administrative fee",
+      "quantity": 44,
+      "unit_price": 58.59,
+      "amount": 2577.96
+    },
+    {
+      "name": "Setup and configuration",
+      "quantity": 9,
+      "unit_price": 425.12,
+      "amount": 3826.08
+    },
+    {
+      "name": "Consultation fee",
+      "quantity": 1,
+      "unit_price": 260.75,
+      "amount": 260.75
+    },
+    {
+      "name": "Travel expenses",
+      "quantity": 38,
+      "unit_price": 74.96,
+      "amount": 2848.48
+    },
+    {
+      "name": "Equipment rental",
+      "quantity": 42,
+      "unit_price": 302.47,
+      "amount": 12703.74
+    },
+    {
+      "name": "Training session",
+      "quantity": 36,
+      "unit_price": 541.86,
+      "amount": 19506.96
+    }
+  ]
+}

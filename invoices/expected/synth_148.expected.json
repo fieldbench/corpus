@@ -1,0 +1,28 @@
+{
+  "merchant_name": "Osaka Electronics Trading Co.",
+  "date": "2025-03-09",
+  "total_amount": 8503.27,
+  "subtotal": 7810.12,
+  "tax": 693.15,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "Administrative fee",
+      "quantity": 9,
+      "unit_price": 51.76,
+      "amount": 465.84
+    },
+    {
+      "name": "Travel expenses",
+      "quantity": 1,
+      "unit_price": 172.28,
+      "amount": 172.28
+    },
+    {
+      "name": "Setup and configuration",
+      "quantity": 10,
+      "unit_price": 717.2,
+      "amount": 7172.0
+    }
+  ]
+}

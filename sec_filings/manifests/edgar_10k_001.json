@@ -1,0 +1,19 @@
+{
+  "filename": "edgar_10k_001.md",
+  "source_name": "SEC EDGAR",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1080448/000168316826002795/patriot_i10k-123125.htm",
+  "license": "No explicit license — mandatory public disclosure filed with the SEC; copyright retained by the filing registrant",
+  "license_url": null,
+  "attribution": "PATRIOT GOLD CORP.",
+  "original_format": "HTML",
+  "r2_url": null,
+  "pages": 1,
+  "added_date": "2026-04-12",
+  "added_by": "corpus-bootstrap",
+  "schema": "sec_filings/schemas/filing_metadata.yaml",
+  "accession_number": "0001683168-26-002795",
+  "cik": "0001080448",
+  "notes": "10-K filing for PATRIOT GOLD CORP (accession 0001683168-26-002795). Document text converted from EDGAR primary HTML; expected JSON is sourced directly from the EDGAR submission index (authoritative).",
+  "license_basis": "Not a US Government work: 17 U.S.C. §105 does not apply because the document was authored by the filing registrant, not by the SEC. Redistributed for research use as a public disclosure record. See DATA_LICENSE.md.",
+  "source": "real"
+}

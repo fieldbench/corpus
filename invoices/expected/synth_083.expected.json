@@ -1,0 +1,28 @@
+{
+  "merchant_name": "Whistler Ski Rentals",
+  "date": "2025-01-13",
+  "total_amount": 3596.44,
+  "subtotal": 3361.16,
+  "tax": 235.28,
+  "currency": "CAD",
+  "items": [
+    {
+      "name": "Maintenance service",
+      "quantity": 5,
+      "unit_price": 456.77,
+      "amount": 2283.85
+    },
+    {
+      "name": "Professional service",
+      "quantity": 4,
+      "unit_price": 203.23,
+      "amount": 812.92
+    },
+    {
+      "name": "Setup and configuration",
+      "quantity": 1,
+      "unit_price": 264.39,
+      "amount": 264.39
+    }
+  ]
+}

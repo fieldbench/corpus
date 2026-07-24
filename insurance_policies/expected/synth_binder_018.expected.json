@@ -1,0 +1,11 @@
+{
+  "insurer_name": "Liberty Bell Underwriters",
+  "named_insured": "Daniel F. McAllister",
+  "policy_number": "BND-680858",
+  "policy_type": "Commercial General Liability",
+  "effective_date": "2026-08-05",
+  "expiration_date": "2027-08-05",
+  "each_occurrence_limit": 1000000,
+  "general_aggregate_limit": 2000000,
+  "total_premium": null
+}

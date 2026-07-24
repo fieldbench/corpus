@@ -1,0 +1,19 @@
+{
+  "admission_date": "2007-02-23",
+  "attending_physician": "Sheryl Asplund, M.D.",
+  "discharge_date": null,
+  "medications_at_discharge": [
+    "Lovenox",
+    "Coumadin",
+    "Protonix",
+    "Vicodin",
+    "Levaquin"
+  ],
+  "primary_diagnosis": "high-risk acute lymphoblastic leukemia",
+  "procedures": [
+    "balloon angioplasty",
+    "placement of a vena caval filter",
+    "mechanical thrombolysis",
+    "pharmacologic thrombolysis"
+  ]
+}

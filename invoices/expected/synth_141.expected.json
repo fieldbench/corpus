@@ -1,0 +1,16 @@
+{
+  "merchant_name": "Metro Office Supplies Inc.",
+  "date": "2025-12-20",
+  "total_amount": 381.95,
+  "subtotal": 338.01,
+  "tax": 43.94,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "Setup and configuration",
+      "quantity": 1,
+      "unit_price": 338.01,
+      "amount": 338.01
+    }
+  ]
+}

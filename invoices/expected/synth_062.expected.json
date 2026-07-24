@@ -1,0 +1,34 @@
+{
+  "merchant_name": "LegalEase Document Services",
+  "date": "2024-01-03",
+  "total_amount": 80740.24,
+  "subtotal": 80740.24,
+  "tax": 0.0,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "Legal research memo",
+      "quantity": 24,
+      "unit_price": 1402.06,
+      "amount": 33649.44
+    },
+    {
+      "name": "Trademark application",
+      "quantity": 9,
+      "unit_price": 1285.23,
+      "amount": 11567.07
+    },
+    {
+      "name": "Court filing preparation",
+      "quantity": 1,
+      "unit_price": 828.85,
+      "amount": 828.85
+    },
+    {
+      "name": "Corporate formation",
+      "quantity": 24,
+      "unit_price": 1445.62,
+      "amount": 34694.88
+    }
+  ]
+}

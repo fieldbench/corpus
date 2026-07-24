@@ -1,0 +1,17 @@
+{
+  "admission_date": "1993-05-03",
+  "attending_physician": null,
+  "discharge_date": "1993-06-08",
+  "medications_at_discharge": [
+    "Coumadin",
+    "Zoloft",
+    "Lithium"
+  ],
+  "primary_diagnosis": "atypical Guillain-Barre vs. polyradiculopathy",
+  "procedures": [
+    "MRI L-spine",
+    "MRI Brain",
+    "plasma exchange",
+    "surgical decompression"
+  ]
+}

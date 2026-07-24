@@ -1,0 +1,11 @@
+{
+  "insurer_name": "Pinnacle Specialty Insurance",
+  "named_insured": "Cascade Plumbing & HVAC Inc.",
+  "policy_number": "WC7407736",
+  "policy_type": "Workers Compensation",
+  "effective_date": "2025-07-28",
+  "expiration_date": "2026-07-28",
+  "total_premium": 299750,
+  "each_occurrence_limit": 1000000,
+  "general_aggregate_limit": null
+}

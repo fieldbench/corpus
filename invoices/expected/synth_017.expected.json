@@ -1,0 +1,40 @@
+{
+  "merchant_name": "Prairie Veterinary Clinic",
+  "date": "2025-08-22",
+  "total_amount": 7480.13,
+  "subtotal": 6285.82,
+  "tax": 1194.31,
+  "currency": "CAD",
+  "items": [
+    {
+      "name": "Equipment rental",
+      "quantity": 7,
+      "unit_price": 168.2,
+      "amount": 1177.4
+    },
+    {
+      "name": "Documentation",
+      "quantity": 1,
+      "unit_price": 154.16,
+      "amount": 154.16
+    },
+    {
+      "name": "Maintenance service",
+      "quantity": 5,
+      "unit_price": 356.22,
+      "amount": 1781.1
+    },
+    {
+      "name": "Materials and supplies",
+      "quantity": 2,
+      "unit_price": 217.42,
+      "amount": 434.84
+    },
+    {
+      "name": "Training session",
+      "quantity": 4,
+      "unit_price": 684.58,
+      "amount": 2738.32
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "admission_date": null,
+  "attending_physician": "Dr. X",
+  "discharge_date": null,
+  "medications_at_discharge": [
+    "Vicoprofen",
+    "clindamycin"
+  ],
+  "primary_diagnosis": "Hallux abductovalgus deformity with bunion of the left foot.",
+  "procedures": [
+    "Scarf bunionectomy"
+  ]
+}

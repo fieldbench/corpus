@@ -1,0 +1,21 @@
+{
+  "admission_date": null,
+  "attending_physician": null,
+  "discharge_date": null,
+  "medications_at_discharge": [
+    "Enteric-coated aspirin",
+    "TriCor",
+    "Zantac",
+    "Lisinopril",
+    "Mobic",
+    "Metformin",
+    "Macrodantin",
+    "Zocor",
+    "Effexor XR"
+  ],
+  "primary_diagnosis": "Chest pain, acute myocardial infarction ruled out",
+  "procedures": [
+    "lumbar puncture",
+    "stress test"
+  ]
+}

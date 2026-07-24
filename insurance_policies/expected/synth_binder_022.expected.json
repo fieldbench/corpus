@@ -1,0 +1,11 @@
+{
+  "insurer_name": "Midwest Indemnity Holdings",
+  "named_insured": "Thomas H. Fitzgerald",
+  "policy_number": "BOP-833837",
+  "policy_type": "Businessowners",
+  "effective_date": "2026-10-28",
+  "expiration_date": "2027-10-28",
+  "each_occurrence_limit": 2000000,
+  "general_aggregate_limit": 1000000,
+  "total_premium": null
+}

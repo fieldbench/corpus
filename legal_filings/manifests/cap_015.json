@@ -1,0 +1,16 @@
+{
+  "filename": "cap_015.md",
+  "source_name": "CourtListener",
+  "source_url": "https://www.courtlistener.com/opinion/9479368/",
+  "license": "Public Domain (US Court Opinions)",
+  "attribution": "Free Law Project / CourtListener",
+  "original_format": "HTML",
+  "pages": 2,
+  "added_date": "2026-05-21",
+  "added_by": "legal-cl-sourcer",
+  "schema": "legal_filings/schemas/legal_filing.yaml",
+  "case_name": "Contract Pharmacal Corp. v. Air Indus. Group",
+  "citation": "2024 NY Slip Op 00995",
+  "court": "Appellate Division of the Supreme Court of the State of New York",
+  "source": "real"
+}

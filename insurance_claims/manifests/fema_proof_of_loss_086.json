@@ -1,0 +1,17 @@
+{
+  "filename": "fema_proof_of_loss_086.md",
+  "source_name": "FEMA Form 086-0-09 — NFIP Proof of Loss",
+  "source_url": "https://www.fema.gov/sites/default/files/2020-07/FEMA-Form_086-0-09_proof-of-loss.pdf",
+  "license": "Public domain — US Government work",
+  "license_url": null,
+  "attribution": "FEMA Form 086-0-09 — NFIP Proof of Loss",
+  "original_format": "PDF (parsed via docling)",
+  "r2_url": null,
+  "pages": 2,
+  "added_date": "2026-04-16",
+  "added_by": "accuracy-25",
+  "schema": "insurance_claims/schemas/claim_form.yaml",
+  "doc_type": "proof_of_loss",
+  "notes": "Real proof_of_loss form from FEMA Form 086-0-09 — NFIP Proof of Loss.",
+  "source": "real"
+}

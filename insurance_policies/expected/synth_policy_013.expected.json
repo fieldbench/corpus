@@ -1,0 +1,11 @@
+{
+  "insurer_name": "Compass Rose Specialty",
+  "named_insured": "Granite Peak General Contractors",
+  "policy_number": "BPP 4517831",
+  "policy_type": "Businessowners",
+  "effective_date": "2026-10-23",
+  "expiration_date": "2027-10-23",
+  "total_premium": 9300,
+  "each_occurrence_limit": 1000000,
+  "general_aggregate_limit": 4000000
+}

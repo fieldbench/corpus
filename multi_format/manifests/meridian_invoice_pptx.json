@@ -1,0 +1,18 @@
+{
+  "filename": "meridian_invoice_pptx.md",
+  "source_filename": "meridian_invoice.pptx",
+  "source_name": "FieldBench multi-format corpus (accuracy-10)",
+  "source_url": null,
+  "license": "CC0 \u2014 synthetic test fixture",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "attribution": "FieldBench accuracy lane",
+  "original_format": "pptx",
+  "original_format_mime": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+  "r2_url": null,
+  "pages": 1,
+  "added_date": "2026-04-14",
+  "added_by": "accuracy-10",
+  "schema": "invoices/schemas/invoice_basic.yaml",
+  "notes": "Synthetic PowerPoint invoice across 3 slides (cover, line items, totals) generated via python-pptx. Docling flattens slides into reading order, preserves the line-items table, but emits no # headings.",
+  "source": "synthetic"
+}

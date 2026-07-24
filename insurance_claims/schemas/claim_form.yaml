@@ -1,0 +1,181 @@
+name: claim_form
+description: |
+  Insurance claim form extraction — covers NFIP proof-of-loss forms,
+  workers comp first-report-of-injury, loss run reports, and
+  subrogation demand letters. Mixed structured forms and free-text
+  narrative documents.
+
+blank_form_aware: true
+
+  Many of these forms are BLANK templates (no data filled in).
+  For blank forms, every field should be null — the schema validates
+  that the engine doesn't hallucinate data from form labels.
+
+compare:
+  fuzzy_threshold: 0.85
+
+categories:
+  keywords:
+    header: ["proof of loss", "first report of injury", "claim form", "employer's report"]
+    claimant: ["claimant", "injured worker", "employee", "insured"]
+    employer: ["employer", "policyholder", "insured employer"]
+    incident: ["date of loss", "date of injury", "description of loss", "description of accident", "cause of injury", "nature of injury", "describe how injury occurred"]
+    financial: ["amount claimed", "total amount", "building damage", "contents damage"]
+
+fields:
+  form_type:
+    type: string
+    description: |
+      Type of claim form. Extract from the form title or header.
+    mappings:
+      "Employer's First Report":
+        - "First Report of Injury"
+        - "Employer's First Report of Injury"
+        - "First Report of Injury or Illness"
+        - "Employer's Report of Injury"
+      "Proof of Loss":
+        - "Sworn Statement in Proof of Loss"
+        - "Proof of Loss Statement"
+      "Loss Run":
+        - "Loss Run Report"
+        - "Claims History"
+        - "Loss History Report"
+        - "Loss Run / Claims History Report"
+        - "Claims History Report"
+        - "Loss Experience Report"
+      "Demand Letter":
+        - "Subrogation Demand"
+        - "Demand for Payment"
+        - "Subrogation Demand Letter"
+    options:
+      - Proof of Loss
+      - Employer's First Report
+      - Loss Run
+      - Demand Letter
+      - Other
+    hints:
+      look_in: [header]
+      prefer_position: top
+
+  claimant_name:
+    type: string
+    description: |
+      This is a DOCUMENT-LEVEL field — the single claimant this
+      document is about.
+
+      On a proof of loss: the insured/policyholder.
+      On a workers comp FROI: the injured employee.
+      On a demand letter: the damaged/injured party on whose behalf
+      the demand is made.
+
+      If the document contains MULTIPLE claimants (e.g., a loss run
+      listing many claims in a table), return null. Only extract a
+      name if the document is about a single specific claimant.
+      Loss run reports always have multiple claimants — always null.
+    hints:
+      look_in: [claimant, header]
+      patterns: ["(?:claimant|insured|injured\\s*(?:worker|employee))\\s*(?:name)?[:\\s]"]
+
+  employer_name:
+    type: string
+    description: |
+      The company or organization associated with the claim.
+
+      On a workers comp FROI: the employer where the injury occurred.
+      On a loss run report: the "Named Insured" or "Insured" shown
+      in the report header — this is the policyholder whose claims
+      history the report covers.
+      On a demand letter: null (not applicable).
+      On a proof of loss: the insured/policyholder.
+    hints:
+      look_in: [employer, header]
+      prefer_position: top
+      patterns: ["employer\\s*(?:name)?[:\\s]", "named\\s*insured[:\\s]", "insured\\s*(?:name)?[:\\s]", "policyholder[:\\s]"]
+
+  date_of_loss:
+    type: date
+    description: |
+      Date of the loss or injury. On a proof of loss this is the
+      date the damage occurred. On a FROI this is the date of
+      injury.
+    hints:
+      look_in: [incident, header]
+      patterns: ["date\\s*of\\s*(?:loss|injury|accident|occurrence)", "when\\s*did\\s*(?:injury|accident)"]
+      signals: [has_dates]
+
+  description_of_loss:
+    type: string
+    verbatim: true
+    description: |
+      Narrative description of what happened. Extract the description
+      VERBATIM — use the exact wording as written, do not paraphrase
+      or summarize.
+
+      On a FROI form, extract from the "Description of Accident" or
+      "Describe how injury occurred" field. This is a FREE-TEXT
+      NARRATIVE (one or more sentences describing what happened).
+      Do NOT extract from "Nature of Injury" or "Cause of Injury"
+      fields — those are short classification CODES, not descriptions.
+      Do NOT use any example text from these instructions — only
+      extract text that appears verbatim in the document.
+
+      On a proof of loss, extract from the description of damage.
+      On a demand letter, extract the core incident description
+      (1-2 sentences) from the letter body.
+    hints:
+      look_in: [incident]
+      patterns: ["description\\s*of\\s*(?:loss|injury|accident)", "describe\\s*how\\s*(?:injury|accident)\\s*occurred", "how\\s*(?:did|injury)\\s*occur"]
+      prefer_contains:
+        - "Description of Accident"
+        - "Describe how injury"
+        - "Description of Loss"
+
+  body_part:
+    type: string
+    description: |
+      Body part injured (workers comp FROI only). The specific
+      body part affected by the workplace injury. Null for
+      non-WC forms.
+    hints:
+      look_in: [incident]
+      patterns: ["body\\s*part", "part\\s*of\\s*body", "nature\\s*of\\s*injury"]
+
+  amount_claimed:
+    type: number
+    description: |
+      Total amount claimed in dollars. On a proof of loss this
+      is the total of building + contents + other amounts. On a
+      FROI this is typically not present (null).
+    hints:
+      look_in: [financial]
+      patterns: ["(?:total\\s*)?amount\\s*claimed", "total\\s*(?:loss|damage|claimed)"]
+      signals: [has_dollar_amounts]
+
+  policy_number:
+    type: string
+    description: Policy number referenced on the claim form.
+    hints:
+      look_in: [header]
+      patterns: ["policy\\s*(?:number|no|#)", "nfip\\s*policy"]
+
+  state:
+    type: string
+    description: |
+      US state where the loss or injury occurred, as a two-letter
+      abbreviation (e.g., NY, CA, TX).
+    extraction_hint: |
+      For demand letters with multiple addresses, extract the state
+      where the LOSS or DAMAGE occurred — the insured's property
+      location — NOT the at-fault party's or defendant's business
+      address. Look for phrases like "our insured's property at"
+      or "damage to property located at" to identify the loss site.
+    derived_from:
+      field: description_of_loss
+      method: us_state_lookup
+      prefer: last
+    hints:
+      look_in: [header, employer, incident]
+      patterns: ["state\\s*(?:of)?[:\\s]", "jurisdiction"]
+
+validation:
+  - min_words: { field: description_of_loss, min: 5 }

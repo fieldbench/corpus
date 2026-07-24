@@ -1,0 +1,24 @@
+{
+  "admission_date": null,
+  "attending_physician": "Dr. X",
+  "discharge_date": null,
+  "medications_at_discharge": [
+    "NovoLog",
+    "insulin pump",
+    "metformin",
+    "metoprolol",
+    "amlodipine",
+    "Topamax",
+    "Lortab",
+    "tramadol",
+    "amitriptyline",
+    "calcium plus vitamin D",
+    "fluoxetine",
+    "pantoprazole",
+    "Naprosyn",
+    "fluticasone propionate",
+    "vitamin C"
+  ],
+  "primary_diagnosis": "early stages of a likely dementia",
+  "procedures": null
+}

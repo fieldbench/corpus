@@ -1,0 +1,12 @@
+{
+  "admission_date": null,
+  "attending_physician": "Dr. X",
+  "discharge_date": null,
+  "medications_at_discharge": [
+    "Nexium"
+  ],
+  "primary_diagnosis": "Diffuse esophageal dilatation/hematemesis",
+  "procedures": [
+    "EGD"
+  ]
+}

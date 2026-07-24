@@ -1,0 +1,22 @@
+{
+  "merchant_name": "Pinnacle IT Solutions",
+  "date": "2025-06-28",
+  "total_amount": 8856.0,
+  "subtotal": 8257.34,
+  "tax": 598.66,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "Disaster recovery plan",
+      "quantity": 1,
+      "unit_price": 3661.98,
+      "amount": 3661.98
+    },
+    {
+      "name": "DevOps pipeline setup",
+      "quantity": 2,
+      "unit_price": 2297.68,
+      "amount": 4595.36
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "merchant_name": "Highline Security Systems",
+  "date": "2025-10-28",
+  "total_amount": 3931.04,
+  "subtotal": 3610.6,
+  "tax": 320.44,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "Equipment rental",
+      "quantity": 28,
+      "unit_price": 128.95,
+      "amount": 3610.6
+    }
+  ]
+}

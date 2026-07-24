@@ -1,0 +1,76 @@
+{
+  "merchant_name": "Santiago Mining Equipment SpA",
+  "date": "2026-07-19",
+  "total_amount": 61325.99,
+  "subtotal": 56326.97,
+  "tax": 4999.02,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "Setup and configuration",
+      "quantity": 50,
+      "unit_price": 512.29,
+      "amount": 25614.5
+    },
+    {
+      "name": "Maintenance service",
+      "quantity": 37,
+      "unit_price": 411.01,
+      "amount": 15207.37
+    },
+    {
+      "name": "Administrative fee",
+      "quantity": 1,
+      "unit_price": 37.87,
+      "amount": 37.87
+    },
+    {
+      "name": "Materials and supplies",
+      "quantity": 19,
+      "unit_price": 272.24,
+      "amount": 5172.56
+    },
+    {
+      "name": "Professional service",
+      "quantity": 1,
+      "unit_price": 385.71,
+      "amount": 385.71
+    },
+    {
+      "name": "Travel expenses",
+      "quantity": 11,
+      "unit_price": 229.12,
+      "amount": 2520.32
+    },
+    {
+      "name": "Documentation",
+      "quantity": 8,
+      "unit_price": 154.37,
+      "amount": 1234.96
+    },
+    {
+      "name": "Consultation fee",
+      "quantity": 8,
+      "unit_price": 365.07,
+      "amount": 2920.56
+    },
+    {
+      "name": "Training session",
+      "quantity": 2,
+      "unit_price": 737.47,
+      "amount": 1474.94
+    },
+    {
+      "name": "Shipping and handling",
+      "quantity": 13,
+      "unit_price": 51.82,
+      "amount": 673.66
+    },
+    {
+      "name": "Inspection and testing",
+      "quantity": 4,
+      "unit_price": 271.13,
+      "amount": 1084.52
+    }
+  ]
+}

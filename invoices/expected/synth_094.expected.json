@@ -1,0 +1,16 @@
+{
+  "merchant_name": "Gulf Coast Marine Repair",
+  "date": "2025-04-22",
+  "total_amount": 17228.78,
+  "subtotal": 16064.13,
+  "tax": 1164.65,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "Professional service",
+      "quantity": 47,
+      "unit_price": 341.79,
+      "amount": 16064.13
+    }
+  ]
+}

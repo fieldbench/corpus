@@ -1,0 +1,16 @@
+{
+  "filename": "cap_023.md",
+  "source_name": "CourtListener",
+  "source_url": "https://www.courtlistener.com/opinion/11330459/",
+  "license": "Public Domain (US Court Opinions)",
+  "attribution": "Free Law Project / CourtListener",
+  "original_format": "text",
+  "pages": 8,
+  "added_date": "2026-05-21",
+  "added_by": "legal-cl-opinions-sourcer",
+  "schema": "legal_filings/schemas/legal_filing.yaml",
+  "opinion_id": "11330459",
+  "case_name": "State v. Day",
+  "court": "Ohioctapp",
+  "source": "real"
+}

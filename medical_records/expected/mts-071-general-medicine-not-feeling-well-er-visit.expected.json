@@ -1,0 +1,17 @@
+{
+  "admission_date": null,
+  "attending_physician": "Dr. X",
+  "discharge_date": null,
+  "medications_at_discharge": [
+    "Tylenol PM",
+    "Lasix",
+    "Coumadin",
+    "Norvasc",
+    "Lanoxin",
+    "Diovan",
+    "atenolol",
+    "folic acid"
+  ],
+  "primary_diagnosis": "EARLY DEMENTIA",
+  "procedures": null
+}

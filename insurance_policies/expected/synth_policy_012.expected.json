@@ -1,0 +1,11 @@
+{
+  "insurer_name": "Riverdale Insurance Exchange",
+  "named_insured": "Valley Forge Painting Contractors",
+  "policy_number": "BOW-9531057",
+  "policy_type": "Businessowners",
+  "effective_date": "2024-04-11",
+  "expiration_date": "2025-04-11",
+  "total_premium": 6800,
+  "each_occurrence_limit": 1000000,
+  "general_aggregate_limit": 2000000
+}

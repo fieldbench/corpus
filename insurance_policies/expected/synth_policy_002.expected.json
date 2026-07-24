@@ -1,0 +1,11 @@
+{
+  "insurer_name": "Continental Shield Insurance Co.",
+  "named_insured": "Cornerstone Civil Engineering PC",
+  "policy_number": "GLP-1747850",
+  "policy_type": "Commercial General Liability",
+  "effective_date": "2026-08-24",
+  "expiration_date": "2027-08-24",
+  "total_premium": 66950,
+  "each_occurrence_limit": 1000000,
+  "general_aggregate_limit": 2000000
+}

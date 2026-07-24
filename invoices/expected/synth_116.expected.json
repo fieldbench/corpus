@@ -1,0 +1,22 @@
+{
+  "merchant_name": "Hartmann Elektrotechnik GmbH",
+  "date": "2025-05-23",
+  "total_amount": 12538.97,
+  "subtotal": 10449.14,
+  "tax": 2089.83,
+  "currency": "EUR",
+  "items": [
+    {
+      "name": "Safety inspection",
+      "quantity": 22,
+      "unit_price": 255.71,
+      "amount": 5625.62
+    },
+    {
+      "name": "Installation labor (per hour)",
+      "quantity": 48,
+      "unit_price": 100.49,
+      "amount": 4823.52
+    }
+  ]
+}

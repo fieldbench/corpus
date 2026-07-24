@@ -1,0 +1,52 @@
+{
+  "merchant_name": "Blue Horizon Travel",
+  "date": "2025-09-17",
+  "total_amount": 18250.64,
+  "subtotal": 16762.93,
+  "tax": 1487.71,
+  "currency": "AUD",
+  "items": [
+    {
+      "name": "Professional service",
+      "quantity": 6,
+      "unit_price": 179.47,
+      "amount": 1076.82
+    },
+    {
+      "name": "Documentation",
+      "quantity": 15,
+      "unit_price": 180.49,
+      "amount": 2707.35
+    },
+    {
+      "name": "Training session",
+      "quantity": 7,
+      "unit_price": 370.93,
+      "amount": 2596.51
+    },
+    {
+      "name": "Consultation fee",
+      "quantity": 20,
+      "unit_price": 209.97,
+      "amount": 4199.4
+    },
+    {
+      "name": "Materials and supplies",
+      "quantity": 10,
+      "unit_price": 169.29,
+      "amount": 1692.9
+    },
+    {
+      "name": "Administrative fee",
+      "quantity": 9,
+      "unit_price": 25.04,
+      "amount": 225.36
+    },
+    {
+      "name": "Maintenance service",
+      "quantity": 11,
+      "unit_price": 387.69,
+      "amount": 4264.59
+    }
+  ]
+}

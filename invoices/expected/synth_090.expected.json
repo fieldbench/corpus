@@ -1,0 +1,16 @@
+{
+  "merchant_name": "Queenstown Adventure Tours",
+  "date": "2026-03-11",
+  "total_amount": 11371.26,
+  "subtotal": 10727.6,
+  "tax": 643.66,
+  "currency": "NZD",
+  "items": [
+    {
+      "name": "Consultation fee",
+      "quantity": 40,
+      "unit_price": 268.19,
+      "amount": 10727.6
+    }
+  ]
+}

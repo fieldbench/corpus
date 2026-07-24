@@ -1,0 +1,13 @@
+{
+  "employer_name": "Meridian Manufacturing Corp.",
+  "employer_ein": "34-9876543",
+  "employee_name": "Sarah J. Thompson",
+  "employee_ssn": "XXX-XX-7733",
+  "wages": 156800.00,
+  "federal_income_tax": 22952.00,
+  "social_security_wages": 156800.00,
+  "social_security_tax": 9721.60,
+  "medicare_wages": 156800.00,
+  "medicare_tax": 2273.60,
+  "tax_year": 2024
+}

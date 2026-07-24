@@ -1,0 +1,17 @@
+{
+  "filename": "anomaly_checkbox_artifacts.md",
+  "source_name": "FieldBench adversarial corpus (accuracy-9)",
+  "source_url": null,
+  "license": "CC0 \u2014 synthetic test fixture",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "attribution": "FieldBench accuracy lane",
+  "original_format": "Markdown (synthetic)",
+  "r2_url": null,
+  "pages": 1,
+  "added_date": "2026-05-27",
+  "added_by": "accuracy-9",
+  "schema": "sec_filings/schemas/filing_metadata.yaml",
+  "anomaly": true,
+  "notes": "A synthetic 10-K cover page for Lakefront Consumer Products, Inc. with realistic checkbox/radio button artifacts (\u2612, \u2610) from scanned-form OCR. The cover page contains dense checkbox boilerplate (Section 13 compliance, GAAP basis, filer status checkboxes) interleaved with the standard registrant block. Tests that checkbox glyphs and boilerplate do not confuse filer_name, form_type, period_fiscal_year_end, or filing_date extraction. Positive-assertion case: all four core fields should be extractable despite the checkbox noise.",
+  "source": "synthetic"
+}

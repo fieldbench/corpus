@@ -1,0 +1,11 @@
+{
+  "insurer_name": "Pacific Crest Casualty",
+  "named_insured": "Trident Marine Services Inc.",
+  "policy_number": "CPP2756998-08",
+  "policy_type": "Commercial Property",
+  "effective_date": "2024-01-28",
+  "expiration_date": "2025-01-28",
+  "total_premium": 16250,
+  "each_occurrence_limit": 10000000,
+  "general_aggregate_limit": 10000000
+}

@@ -1,0 +1,11 @@
+{
+  "insurer_name": "Continental Shield Insurance Co.",
+  "named_insured": "Brookfield Property Management Group",
+  "policy_number": "CA 1912037-00",
+  "policy_type": "Commercial Auto",
+  "effective_date": "2026-12-23",
+  "expiration_date": "2027-12-23",
+  "total_premium": 72900,
+  "each_occurrence_limit": 500000,
+  "general_aggregate_limit": null
+}

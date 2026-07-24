@@ -1,0 +1,17 @@
+{
+  "filename": "wc_froi_alabama.md",
+  "source_name": "Alabama — Employer's First Report of Injury",
+  "source_url": "https://labor.alabama.gov/docs/forms/wc_froi_new_with_different_margins.pdf",
+  "license": "Public domain — state government form",
+  "license_url": null,
+  "attribution": "Alabama — Employer's First Report of Injury",
+  "original_format": "PDF (parsed via docling)",
+  "r2_url": null,
+  "pages": 1,
+  "added_date": "2026-04-16",
+  "added_by": "accuracy-25",
+  "schema": "insurance_claims/schemas/claim_form.yaml",
+  "doc_type": "first_report_of_injury",
+  "notes": "Real first_report_of_injury form from Alabama — Employer's First Report of Injury.",
+  "source": "real"
+}

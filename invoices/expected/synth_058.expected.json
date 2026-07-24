@@ -1,0 +1,16 @@
+{
+  "merchant_name": "Thornbury & Associates LLP",
+  "date": "2025-02-28",
+  "total_amount": 14873.99,
+  "subtotal": 12499.15,
+  "tax": 2374.84,
+  "currency": "GBP",
+  "items": [
+    {
+      "name": "Legal consultation (hourly)",
+      "quantity": 19,
+      "unit_price": 657.85,
+      "amount": 12499.15
+    }
+  ]
+}

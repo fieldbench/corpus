@@ -1,0 +1,13 @@
+{
+  "employer_name": "Keystone Consulting LLC",
+  "employer_ein": "97-2921859",
+  "employee_name": "Blake D. Lee",
+  "employee_ssn": "XXX-XX-8123",
+  "wages": 210994.11,
+  "federal_income_tax": 44847.05,
+  "social_security_wages": 168600.0,
+  "social_security_tax": 10453.2,
+  "medicare_wages": 210994.11,
+  "medicare_tax": 3059.41,
+  "tax_year": 2024
+}

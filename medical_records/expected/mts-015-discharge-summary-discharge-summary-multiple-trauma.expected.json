@@ -1,0 +1,17 @@
+{
+  "admission_date": null,
+  "attending_physician": "Dr. Y",
+  "discharge_date": "2008-06-20",
+  "medications_at_discharge": [
+    "Calcium with vitamin D",
+    "Ferrous sulfate",
+    "Multivitamin",
+    "nicotine patch",
+    "Seroquel",
+    "Xenaderm",
+    "Vicodin",
+    "Ativan"
+  ],
+  "primary_diagnosis": "Aftercare following surgery for injury and trauma.",
+  "procedures": []
+}

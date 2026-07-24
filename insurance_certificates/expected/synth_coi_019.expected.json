@@ -1,0 +1,85 @@
+{
+  "certificate_date": "2025-08-28",
+  "certificate_holder_name": "Lakewood Properties Inc.",
+  "insured_name": "Evergreen Site Development Corp.",
+  "policies": [
+    {
+      "policy_number": "WC6981354",
+      "coverage_type": "Workers Compensation",
+      "carrier_name": "Mountain West Casualty Co.",
+      "effective_date": "2026-09-28",
+      "expiration_date": "2027-09-28",
+      "limits": [
+        {
+          "name": "Bodily Injury by Accident (Each Accident)",
+          "amount": 500000
+        },
+        {
+          "name": "Bodily Injury by Disease (Policy Limit)",
+          "amount": 1000000
+        },
+        {
+          "name": "Bodily Injury by Disease (Each Employee)",
+          "amount": 1000000
+        }
+      ],
+      "additional_insureds": [
+        "Lakewood Properties Inc."
+      ]
+    },
+    {
+      "policy_number": "CGL4243897",
+      "coverage_type": "Commercial General Liability",
+      "carrier_name": "Midwest Indemnity Holdings",
+      "effective_date": "2026-09-28",
+      "expiration_date": "2027-09-28",
+      "limits": [
+        {
+          "name": "Each Occurrence",
+          "amount": 1000000
+        },
+        {
+          "name": "General Aggregate",
+          "amount": 4000000
+        },
+        {
+          "name": "Products / Completed Operations",
+          "amount": 4000000
+        },
+        {
+          "name": "Personal & Advertising Injury",
+          "amount": 2000000
+        },
+        {
+          "name": "Damage to Rented Premises",
+          "amount": 300000
+        },
+        {
+          "name": "Medical Expense (Any One Person)",
+          "amount": 10000
+        }
+      ],
+      "additional_insureds": [
+        "Lakewood Properties Inc."
+      ]
+    },
+    {
+      "policy_number": "AUT6284049",
+      "coverage_type": "Automobile Liability",
+      "carrier_name": "Appalachian Fidelity Mutual",
+      "effective_date": "2026-09-28",
+      "expiration_date": "2027-09-28",
+      "limits": [
+        {
+          "name": "Combined Single Limit (Each Accident)",
+          "amount": 1000000
+        }
+      ],
+      "additional_insureds": [
+        "Lakewood Properties Inc."
+      ]
+    }
+  ],
+  "producer_name": "Cascadia Insurance Brokers",
+  "producer_phone": "(206) 555-0199"
+}

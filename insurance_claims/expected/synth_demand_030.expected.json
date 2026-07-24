@@ -1,0 +1,11 @@
+{
+  "form_type": "Demand Letter",
+  "claimant_name": "Matthew T. Ivanov",
+  "employer_name": null,
+  "date_of_loss": "2025-08-01",
+  "description_of_loss": "On 08/01/2025, a fire originating at 3200 Westheimer Road, Houston, TX 77098, owned or operated by Apex Transport LLC, spread to our insured's adjacent property at 2200 Market Street, Philadelphia, PA 19103. The Philadelphia Fire Department responded and confirmed the fire originated at your client's property. The fire department report (Incident No. FD-2026-68394) indicates the cause was a faulty electrical system.",
+  "amount_claimed": 68000,
+  "policy_number": "HO-561133",
+  "body_part": null,
+  "state": "PA"
+}

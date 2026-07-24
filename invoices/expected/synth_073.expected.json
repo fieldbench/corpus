@@ -1,0 +1,52 @@
+{
+  "merchant_name": "Pacifica Marine Services",
+  "date": "2025-08-21",
+  "total_amount": 10191.76,
+  "subtotal": 10191.76,
+  "tax": 0.0,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "Consultation fee",
+      "quantity": 1,
+      "unit_price": 174.1,
+      "amount": 174.1
+    },
+    {
+      "name": "Materials and supplies",
+      "quantity": 7,
+      "unit_price": 57.3,
+      "amount": 401.1
+    },
+    {
+      "name": "Travel expenses",
+      "quantity": 43,
+      "unit_price": 99.3,
+      "amount": 4269.9
+    },
+    {
+      "name": "Shipping and handling",
+      "quantity": 15,
+      "unit_price": 16.13,
+      "amount": 241.95
+    },
+    {
+      "name": "Training session",
+      "quantity": 9,
+      "unit_price": 363.92,
+      "amount": 3275.28
+    },
+    {
+      "name": "Administrative fee",
+      "quantity": 1,
+      "unit_price": 44.55,
+      "amount": 44.55
+    },
+    {
+      "name": "Equipment rental",
+      "quantity": 6,
+      "unit_price": 297.48,
+      "amount": 1784.88
+    }
+  ]
+}

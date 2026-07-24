@@ -1,0 +1,15 @@
+{
+  "merchant_name": "Weber Präzisionsmechanik GmbH",
+  "date": "2025-08-28",
+  "total_amount": 7056.70,
+  "subtotal": 5930.00,
+  "tax": 1126.70,
+  "currency": "EUR",
+  "items": [
+    {"name": "Wellendichtring 45x65x10 NBR", "quantity": 200, "unit_price": 4.85, "amount": 970.00},
+    {"name": "Nadellager HK2020 INA", "quantity": 150, "unit_price": 12.40, "amount": 1860.00},
+    {"name": "Präzisionsbolzen M8x50 12.9", "quantity": 500, "unit_price": 2.10, "amount": 1050.00},
+    {"name": "Sonderanfertigung Distanzring (Zeichnung 7741-A)", "quantity": 50, "unit_price": 38.00, "amount": 1900.00},
+    {"name": "Qualitätsprüfung / Zertifikat 3.1", "quantity": 1, "unit_price": 150.00, "amount": 150.00}
+  ]
+}

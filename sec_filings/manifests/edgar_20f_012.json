@@ -1,0 +1,19 @@
+{
+  "filename": "edgar_20f_012.md",
+  "source_name": "SEC EDGAR",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1725882/000121390026060125/ea0290209-20f_inxltd.htm",
+  "license": "No explicit license — mandatory public disclosure filed with the SEC; copyright retained by the filing registrant",
+  "license_url": null,
+  "attribution": "INX LIMITED",
+  "original_format": "HTML",
+  "r2_url": null,
+  "pages": 330,
+  "added_date": "2026-04-12",
+  "added_by": "corpus-bootstrap",
+  "schema": "sec_filings/schemas/filing_metadata.yaml",
+  "accession_number": "0001213900-26-060125",
+  "cik": "0001725882",
+  "notes": "20-F filing for INX Ltd (accession 0001213900-26-060125). Document text produced by piping the EDGAR primary HTML through fieldbench parse (docling); expected JSON is sourced from the EDGAR submission index (authoritative for filer, form type, dates).",
+  "license_basis": "Not a US Government work: 17 U.S.C. §105 does not apply because the document was authored by the filing registrant, not by the SEC. Redistributed for research use as a public disclosure record. See DATA_LICENSE.md.",
+  "source": "real"
+}

@@ -1,0 +1,11 @@
+{
+  "admission_date": null,
+  "attending_physician": "Dr. A",
+  "discharge_date": null,
+  "medications_at_discharge": [
+    "Synthroid",
+    "lithium"
+  ],
+  "primary_diagnosis": "Dysthymia",
+  "procedures": null
+}

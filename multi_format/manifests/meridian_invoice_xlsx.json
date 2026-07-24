@@ -1,0 +1,18 @@
+{
+  "filename": "meridian_invoice_xlsx.md",
+  "source_filename": "meridian_invoice.xlsx",
+  "source_name": "FieldBench multi-format corpus (accuracy-10)",
+  "source_url": null,
+  "license": "CC0 \u2014 synthetic test fixture",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "attribution": "FieldBench accuracy lane",
+  "original_format": "xlsx",
+  "original_format_mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  "r2_url": null,
+  "pages": 1,
+  "added_date": "2026-04-14",
+  "added_by": "accuracy-10",
+  "schema": "invoices/schemas/invoice_basic.yaml",
+  "notes": "Synthetic Excel invoice generated via openpyxl. Docling renders every contiguous block as a markdown table (no # headings). Numbers come through as raw values without \\$ / comma formatting \u2014 tests whether extract handles numeric cells without the dollar-sign hint.",
+  "source": "synthetic"
+}

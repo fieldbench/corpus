@@ -1,0 +1,17 @@
+{
+  "filename": "wc_froi_virginia.md",
+  "source_name": "Virginia VWC Form #3 — First Report of Injury",
+  "source_url": "https://workcomp.virginia.gov/sites/default/files/forms/First-Report-of-Injury_0.pdf",
+  "license": "Public domain — state government form",
+  "license_url": null,
+  "attribution": "Virginia VWC Form #3 — First Report of Injury",
+  "original_format": "PDF (parsed via docling)",
+  "r2_url": null,
+  "pages": 1,
+  "added_date": "2026-04-16",
+  "added_by": "accuracy-25",
+  "schema": "insurance_claims/schemas/claim_form.yaml",
+  "doc_type": "first_report_of_injury",
+  "notes": "Real first_report_of_injury form from Virginia VWC Form #3 — First Report of Injury.",
+  "source": "real"
+}

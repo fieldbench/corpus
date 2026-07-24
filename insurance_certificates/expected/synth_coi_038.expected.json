@@ -1,0 +1,123 @@
+{
+  "certificate_date": "2025-10-17",
+  "certificate_holder_name": "Harbor Point Real Estate Holdings",
+  "insured_name": "Westridge Concrete Foundations",
+  "policies": [
+    {
+      "policy_number": "CGL6085523",
+      "coverage_type": "Commercial General Liability",
+      "carrier_name": "Atlantic Coast Mutual",
+      "effective_date": "2026-05-22",
+      "expiration_date": "2027-05-22",
+      "limits": [
+        {
+          "name": "Each Occurrence",
+          "amount": 2000000
+        },
+        {
+          "name": "General Aggregate",
+          "amount": 4000000
+        },
+        {
+          "name": "Products / Completed Operations",
+          "amount": 4000000
+        },
+        {
+          "name": "Personal & Advertising Injury",
+          "amount": 1000000
+        },
+        {
+          "name": "Damage to Rented Premises",
+          "amount": 100000
+        },
+        {
+          "name": "Medical Expense (Any One Person)",
+          "amount": 10000
+        }
+      ],
+      "additional_insureds": []
+    },
+    {
+      "policy_number": "AUT6064070",
+      "coverage_type": "Automobile Liability",
+      "carrier_name": "Keystone Indemnity Group",
+      "effective_date": "2026-05-22",
+      "expiration_date": "2027-05-22",
+      "limits": [
+        {
+          "name": "Combined Single Limit (Each Accident)",
+          "amount": 1000000
+        }
+      ],
+      "additional_insureds": []
+    },
+    {
+      "policy_number": "WC5852098",
+      "coverage_type": "Workers Compensation",
+      "carrier_name": "Evergreen Mutual Insurance Company",
+      "effective_date": "2026-05-22",
+      "expiration_date": "2027-05-22",
+      "limits": [
+        {
+          "name": "Bodily Injury by Accident (Each Accident)",
+          "amount": 500000
+        },
+        {
+          "name": "Bodily Injury by Disease (Policy Limit)",
+          "amount": 500000
+        },
+        {
+          "name": "Bodily Injury by Disease (Each Employee)",
+          "amount": 1000000
+        }
+      ],
+      "additional_insureds": []
+    },
+    {
+      "policy_number": "PL7357532",
+      "coverage_type": "Professional Liability",
+      "carrier_name": "Atlantic Coast Mutual",
+      "effective_date": "2026-05-22",
+      "expiration_date": "2027-05-22",
+      "limits": [
+        {
+          "name": "Each Claim",
+          "amount": 1000000
+        },
+        {
+          "name": "Aggregate",
+          "amount": 10000000
+        },
+        {
+          "name": "Deductible",
+          "amount": 10000
+        }
+      ],
+      "additional_insureds": []
+    },
+    {
+      "policy_number": "UMB3927797",
+      "coverage_type": "Umbrella Liability",
+      "carrier_name": "Keystone Indemnity Group",
+      "effective_date": "2026-05-22",
+      "expiration_date": "2027-05-22",
+      "limits": [
+        {
+          "name": "Each Occurrence",
+          "amount": 5000000
+        },
+        {
+          "name": "Aggregate",
+          "amount": 25000000
+        },
+        {
+          "name": "Self-Insured Retention",
+          "amount": 25000
+        }
+      ],
+      "additional_insureds": []
+    }
+  ],
+  "producer_name": "Redwood Insurance Partners",
+  "producer_phone": "(415) 555-0177"
+}

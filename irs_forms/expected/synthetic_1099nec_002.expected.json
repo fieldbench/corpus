@@ -1,0 +1,9 @@
+{
+  "payer_name": "Acme Holdings LLC",
+  "payer_tin": "35-8038374",
+  "recipient_name": "Quinn A. Garcia",
+  "recipient_tin": "XXX-XX-7924",
+  "nonemployee_compensation": 42679.91,
+  "federal_income_tax_withheld": 0.0,
+  "tax_year": 2024
+}

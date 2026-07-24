@@ -1,0 +1,11 @@
+{
+  "insurer_name": "Tidewater Surety & Casualty",
+  "named_insured": "Heather N. Ridgeway",
+  "policy_number": "BND-823472",
+  "policy_type": "Commercial Property",
+  "effective_date": "2026-12-11",
+  "expiration_date": "2027-12-11",
+  "each_occurrence_limit": 1000000,
+  "general_aggregate_limit": 2000000,
+  "total_premium": null
+}

@@ -1,0 +1,17 @@
+{
+  "filename": "anomaly_numeric_noise.md",
+  "source_name": "FieldBench adversarial corpus (accuracy-9)",
+  "source_url": null,
+  "license": "CC0 \u2014 synthetic test fixture",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "attribution": "FieldBench accuracy lane",
+  "original_format": "Markdown (synthetic)",
+  "r2_url": null,
+  "pages": 1,
+  "added_date": "2026-05-27",
+  "added_by": "accuracy-9",
+  "schema": "sec_filings/schemas/filing_metadata.yaml",
+  "anomaly": true,
+  "notes": "A document consisting entirely of numeric and technical noise: mathematical constants, hex values, binary strings, IEEE floats, GPS coordinates, hash digests, version strings, phone numbers, and currency amounts. No prose, no SEC structure. Tests that the extractor does not pattern-match dates from GPS coordinates, version numbers, or hex values, and does not fabricate a filer name from numeric content. All fields expected null.",
+  "source": "synthetic"
+}

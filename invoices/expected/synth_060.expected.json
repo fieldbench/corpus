@@ -1,0 +1,16 @@
+{
+  "merchant_name": "Nordic Timber AB",
+  "date": "2025-11-04",
+  "total_amount": 1072.32,
+  "subtotal": 948.96,
+  "tax": 123.36,
+  "currency": "EUR",
+  "items": [
+    {
+      "name": "Roofing shingles (per square)",
+      "quantity": 8,
+      "unit_price": 118.62,
+      "amount": 948.96
+    }
+  ]
+}

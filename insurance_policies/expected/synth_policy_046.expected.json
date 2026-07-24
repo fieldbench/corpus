@@ -1,0 +1,11 @@
+{
+  "insurer_name": "Beacon Hill Mutual",
+  "named_insured": "Sierra Technical Engineering PC",
+  "policy_number": "PLI1134058",
+  "policy_type": "Professional Liability",
+  "effective_date": "2024-02-07",
+  "expiration_date": "2025-02-07",
+  "total_premium": 64100,
+  "each_occurrence_limit": 1000000,
+  "general_aggregate_limit": 5000000
+}

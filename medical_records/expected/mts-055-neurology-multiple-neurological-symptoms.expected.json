@@ -1,0 +1,28 @@
+{
+  "admission_date": null,
+  "attending_physician": "Dr. Y",
+  "discharge_date": null,
+  "medications_at_discharge": [
+    "Actos",
+    "Ambien",
+    "baby aspirin",
+    "Coreg",
+    "Entocort",
+    "folic acid",
+    "Flomax",
+    "iron",
+    "Lexapro",
+    "Lipitor",
+    "Pentasa",
+    "Plavix",
+    "Protonix",
+    "Toprol",
+    "Celebrex",
+    "Zetia"
+  ],
+  "primary_diagnosis": "multiple neurologic and nonneurologic symptoms including numbness, gait instability, decreased dexterity of his arms and general fatigue",
+  "procedures": [
+    "EMG",
+    "nerve conduction studies"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "contract_type": "Lease",
+  "effective_date": "2005-09-13",
+  "governing_law": "North Carolina",
+  "parties": [
+    "JPC MONROE, LLC",
+    "Bank of Oak Ridge"
+  ],
+  "termination_date": "2022-06-01"
+}

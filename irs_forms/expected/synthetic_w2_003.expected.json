@@ -1,0 +1,13 @@
+{
+  "employer_name": "Northstar Consulting LLC",
+  "employer_ein": "86-6438436",
+  "employee_name": "Cameron K. Johnson",
+  "employee_ssn": "XXX-XX-1949",
+  "wages": 41702.42,
+  "federal_income_tax": 4146.87,
+  "social_security_wages": 41702.42,
+  "social_security_tax": 2585.55,
+  "medicare_wages": 41702.42,
+  "medicare_tax": 604.69,
+  "tax_year": 2024
+}

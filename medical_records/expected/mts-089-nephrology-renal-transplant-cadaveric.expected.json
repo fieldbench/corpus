@@ -1,0 +1,10 @@
+{
+  "admission_date": null,
+  "attending_physician": "Dr. A",
+  "discharge_date": null,
+  "medications_at_discharge": null,
+  "primary_diagnosis": "Endstage renal disease",
+  "procedures": [
+    "Cadaveric renal transplant to right pelvis"
+  ]
+}

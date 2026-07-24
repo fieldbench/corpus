@@ -1,0 +1,16 @@
+{
+  "admission_date": null,
+  "attending_physician": "Dr. X",
+  "discharge_date": null,
+  "medications_at_discharge": [
+    "Metformin",
+    "Lipitor",
+    "lisinopril",
+    "metoprolol",
+    "Uroxatral",
+    "Detrol LA",
+    "aspirin"
+  ],
+  "primary_diagnosis": "Possible idiopathic normal pressure hydrocephalus",
+  "procedures": null
+}

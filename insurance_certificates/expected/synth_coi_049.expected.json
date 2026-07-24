@@ -1,0 +1,49 @@
+{
+  "certificate_date": "2026-10-10",
+  "producer_name": "Magnolia Brokerage Services",
+  "producer_phone": "(504) 555-0144",
+  "insured_name": "Prairie Home Builders LLC",
+  "certificate_holder_name": "Triton Capital Group",
+  "policies": [
+    {
+      "policy_number": "WC9497364",
+      "coverage_type": "Workers Compensation",
+      "carrier_name": "Redwood Workers Compensation Fund",
+      "effective_date": "2025-05-11",
+      "expiration_date": "2026-05-11",
+      "limits": [
+        {
+          "name": "Bodily Injury by Accident (Each Accident)",
+          "amount": 1000000
+        },
+        {
+          "name": "Bodily Injury by Disease (Policy Limit)",
+          "amount": 1000000
+        },
+        {
+          "name": "Bodily Injury by Disease (Each Employee)",
+          "amount": 1000000
+        }
+      ],
+      "additional_insureds": [
+        "Triton Capital Group"
+      ]
+    },
+    {
+      "policy_number": "AUT8201878",
+      "coverage_type": "Automobile Liability",
+      "carrier_name": "Liberty Bell Underwriters",
+      "effective_date": "2025-05-11",
+      "expiration_date": "2026-05-11",
+      "limits": [
+        {
+          "name": "Combined Single Limit (Each Accident)",
+          "amount": 1000000
+        }
+      ],
+      "additional_insureds": [
+        "Triton Capital Group"
+      ]
+    }
+  ]
+}

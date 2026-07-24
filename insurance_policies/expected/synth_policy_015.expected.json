@@ -1,0 +1,11 @@
+{
+  "insurer_name": "Atlantic Coast Mutual",
+  "named_insured": "Trident Marine Services Inc.",
+  "policy_number": "WC 9710114",
+  "policy_type": "Workers Compensation",
+  "effective_date": "2025-06-19",
+  "expiration_date": "2026-06-19",
+  "total_premium": 454200,
+  "each_occurrence_limit": 1000000,
+  "general_aggregate_limit": null
+}

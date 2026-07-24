@@ -1,0 +1,34 @@
+{
+  "merchant_name": "Sagebrush Design Studio",
+  "date": "2025-11-03",
+  "total_amount": 8400.00,
+  "subtotal": 8400.00,
+  "tax": 0.00,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "Brand identity workshop",
+      "quantity": 8,
+      "unit_price": 200.00,
+      "amount": 1600.00
+    },
+    {
+      "name": "Logo refinement (4 rounds)",
+      "quantity": 12,
+      "unit_price": 200.00,
+      "amount": 2400.00
+    },
+    {
+      "name": "Style guide and brand book",
+      "quantity": 16,
+      "unit_price": 200.00,
+      "amount": 3200.00
+    },
+    {
+      "name": "Presentation templates",
+      "quantity": 6,
+      "unit_price": 200.00,
+      "amount": 1200.00
+    }
+  ]
+}

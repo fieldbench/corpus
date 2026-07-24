@@ -1,0 +1,46 @@
+{
+  "merchant_name": "Whistler Ski Rentals",
+  "date": "2025-04-07",
+  "total_amount": 13614.8,
+  "subtotal": 12504.98,
+  "tax": 1109.82,
+  "currency": "CAD",
+  "items": [
+    {
+      "name": "Training session",
+      "quantity": 8,
+      "unit_price": 351.21,
+      "amount": 2809.68
+    },
+    {
+      "name": "Setup and configuration",
+      "quantity": 1,
+      "unit_price": 379.92,
+      "amount": 379.92
+    },
+    {
+      "name": "Shipping and handling",
+      "quantity": 6,
+      "unit_price": 24.69,
+      "amount": 148.14
+    },
+    {
+      "name": "Professional service",
+      "quantity": 5,
+      "unit_price": 362.41,
+      "amount": 1812.05
+    },
+    {
+      "name": "Materials and supplies",
+      "quantity": 9,
+      "unit_price": 208.29,
+      "amount": 1874.61
+    },
+    {
+      "name": "Documentation",
+      "quantity": 42,
+      "unit_price": 130.49,
+      "amount": 5480.58
+    }
+  ]
+}

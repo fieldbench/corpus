@@ -1,0 +1,40 @@
+{
+  "merchant_name": "Tanglin Catering Pte Ltd",
+  "date": "2024-06-12",
+  "total_amount": 7522.61,
+  "subtotal": 7096.8,
+  "tax": 425.81,
+  "currency": "SGD",
+  "items": [
+    {
+      "name": "Catering \u2014 appetizer platter",
+      "quantity": 7,
+      "unit_price": 54.59,
+      "amount": 382.13
+    },
+    {
+      "name": "Dessert platter",
+      "quantity": 3,
+      "unit_price": 73.31,
+      "amount": 219.93
+    },
+    {
+      "name": "Beverage service (per person)",
+      "quantity": 4,
+      "unit_price": 15.13,
+      "amount": 60.52
+    },
+    {
+      "name": "Table setup and service",
+      "quantity": 3,
+      "unit_price": 360.13,
+      "amount": 1080.39
+    },
+    {
+      "name": "Late-night snack station",
+      "quantity": 27,
+      "unit_price": 198.29,
+      "amount": 5353.83
+    }
+  ]
+}

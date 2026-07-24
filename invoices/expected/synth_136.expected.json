@@ -1,0 +1,40 @@
+{
+  "merchant_name": "Heartland Grain Cooperative",
+  "date": "2025-11-09",
+  "total_amount": 27223.25,
+  "subtotal": 25442.29,
+  "tax": 1780.96,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "Training session",
+      "quantity": 1,
+      "unit_price": 614.58,
+      "amount": 614.58
+    },
+    {
+      "name": "Equipment rental",
+      "quantity": 1,
+      "unit_price": 124.97,
+      "amount": 124.97
+    },
+    {
+      "name": "Maintenance service",
+      "quantity": 44,
+      "unit_price": 446.91,
+      "amount": 19664.04
+    },
+    {
+      "name": "Inspection and testing",
+      "quantity": 15,
+      "unit_price": 287.71,
+      "amount": 4315.65
+    },
+    {
+      "name": "Materials and supplies",
+      "quantity": 5,
+      "unit_price": 144.61,
+      "amount": 723.05
+    }
+  ]
+}

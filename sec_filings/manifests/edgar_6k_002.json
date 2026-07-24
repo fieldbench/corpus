@@ -1,0 +1,19 @@
+{
+  "filename": "edgar_6k_002.md",
+  "source_name": "SEC EDGAR",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1747661/000121390026043522/ea0283172-6k_zeta.htm",
+  "license": "No explicit license — mandatory public disclosure filed with the SEC; copyright retained by the filing registrant",
+  "license_url": null,
+  "attribution": "Zeta Network Group",
+  "original_format": "HTML",
+  "r2_url": null,
+  "pages": 5,
+  "added_date": "2026-04-14",
+  "added_by": "accuracy-12",
+  "schema": "sec_filings/schemas/filing_metadata.yaml",
+  "accession_number": "0001213900-26-043522",
+  "cik": "0001747661",
+  "notes": "6-K filing for Zeta Network Group (accession 0001213900-26-043522). Document text produced by piping the EDGAR primary HTML through fieldbench parse (docling); expected JSON is sourced from the EDGAR submission index (authoritative for filer, form type, dates).",
+  "license_basis": "Not a US Government work: 17 U.S.C. §105 does not apply because the document was authored by the filing registrant, not by the SEC. Redistributed for research use as a public disclosure record. See DATA_LICENSE.md.",
+  "source": "real"
+}

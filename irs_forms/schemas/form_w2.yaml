@@ -1,0 +1,101 @@
+name: form_w2
+description: IRS Form W-2 (Wage and Tax Statement) — employer, employee, wages, withholdings
+
+categories:
+  keywords:
+    employer: ["employer", "employer's name", "employer id", "ein"]
+    employee: ["employee", "employee's name", "employee ssn"]
+    wages: ["wages", "box 1", "federal income tax", "social security", "medicare"]
+
+fields:
+  employer_name:
+    type: string
+    required: true
+    description: Name of the employer
+    hints:
+      look_in: [employer]
+      patterns: ["employer['\u2019]?s?\\s*name"]
+      signals: [has_name_references]
+
+  employer_ein:
+    type: string
+    required: true
+    description: Employer Identification Number (format XX-XXXXXXX)
+    hints:
+      look_in: [employer]
+      patterns: ["employer['\u2019]?s?\\s*(?:identification|ein)", "\\d{2}-\\d{7}"]
+
+  employee_name:
+    type: string
+    required: true
+    description: Name of the employee
+    hints:
+      look_in: [employee]
+      patterns: ["employee['\u2019]?s?\\s*(?:first\\s*)?name"]
+      signals: [has_name_references]
+
+  employee_ssn:
+    type: string
+    required: true
+    description: Employee Social Security Number
+    hints:
+      look_in: [employee]
+      patterns: ["employee['\u2019]?s?\\s*(?:ssa\\s*)?(?:ssn|social\\s*security)", "\\d{3}-\\d{2}-\\d{4}"]
+
+  wages:
+    type: number
+    required: true
+    description: Box 1 — Wages, tips, other compensation
+    hints:
+      look_in: [wages]
+      patterns: ["box\\s*1", "wages.*tips"]
+      signals: [has_dollar_amounts]
+
+  federal_income_tax:
+    type: number
+    required: true
+    description: Box 2 — Federal income tax withheld
+    hints:
+      look_in: [wages]
+      patterns: ["box\\s*2", "federal\\s*income\\s*tax\\s*withheld"]
+      signals: [has_dollar_amounts]
+
+  social_security_wages:
+    type: number
+    description: Box 3 — Social security wages
+    hints:
+      look_in: [wages]
+      patterns: ["box\\s*3", "social\\s*security\\s*wages"]
+      signals: [has_dollar_amounts]
+
+  social_security_tax:
+    type: number
+    description: Box 4 — Social security tax withheld
+    hints:
+      look_in: [wages]
+      patterns: ["box\\s*4", "social\\s*security\\s*tax"]
+      signals: [has_dollar_amounts]
+
+  medicare_wages:
+    type: number
+    description: Box 5 — Medicare wages and tips
+    hints:
+      look_in: [wages]
+      patterns: ["box\\s*5", "medicare\\s*wages"]
+      signals: [has_dollar_amounts]
+
+  medicare_tax:
+    type: number
+    description: Box 6 — Medicare tax withheld
+    hints:
+      look_in: [wages]
+      patterns: ["box\\s*6", "medicare\\s*tax"]
+      signals: [has_dollar_amounts]
+
+  tax_year:
+    type: number
+    required: true
+    description: Tax year the form reports
+    hints:
+      look_in: [employer]
+      patterns: ["(?:tax\\s*)?year", "20\\d{2}"]

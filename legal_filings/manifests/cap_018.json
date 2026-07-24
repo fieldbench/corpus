@@ -1,0 +1,16 @@
+{
+  "filename": "cap_018.md",
+  "source_name": "CourtListener",
+  "source_url": "https://www.courtlistener.com/opinion/10026411/",
+  "license": "Public Domain (US Court Opinions)",
+  "attribution": "Free Law Project / CourtListener",
+  "original_format": "HTML",
+  "pages": 8,
+  "added_date": "2026-05-21",
+  "added_by": "legal-cl-sourcer",
+  "schema": "legal_filings/schemas/legal_filing.yaml",
+  "case_name": "Bennington Town Plan Entergy Element - Entry Regarding Motion to Dismiss",
+  "citation": "",
+  "court": "Vermont Superior Court",
+  "source": "real"
+}

@@ -1,0 +1,68 @@
+name: form_1099_nec
+description: IRS Form 1099-NEC (Nonemployee Compensation) — payer, recipient, income
+
+categories:
+  keywords:
+    payer: ["payer", "payer's tin", "payer tin"]
+    recipient: ["recipient", "recipient's tin", "recipient tin"]
+    amounts: ["nonemployee compensation", "box 1", "federal tax withheld", "state tax"]
+
+fields:
+  payer_name:
+    type: string
+    required: true
+    description: Name of the business or individual making the payment
+    hints:
+      look_in: [payer]
+      patterns: ["payer['\u2019]?s?\\s*name"]
+      signals: [has_name_references]
+
+  payer_tin:
+    type: string
+    required: true
+    description: Payer's Taxpayer Identification Number (EIN or SSN)
+    hints:
+      look_in: [payer]
+      patterns: ["payer['\u2019]?s?\\s*tin", "\\d{2}-\\d{7}"]
+
+  recipient_name:
+    type: string
+    required: true
+    description: Name of the recipient (nonemployee contractor)
+    hints:
+      look_in: [recipient]
+      patterns: ["recipient['\u2019]?s?\\s*name"]
+      signals: [has_name_references]
+
+  recipient_tin:
+    type: string
+    required: true
+    description: Recipient's Taxpayer Identification Number
+    hints:
+      look_in: [recipient]
+      patterns: ["recipient['\u2019]?s?\\s*tin", "\\d{3}-\\d{2}-\\d{4}"]
+
+  nonemployee_compensation:
+    type: number
+    required: true
+    description: Box 1 — Nonemployee compensation (total paid)
+    hints:
+      look_in: [amounts]
+      patterns: ["box\\s*1", "nonemployee\\s*compensation"]
+      signals: [has_dollar_amounts]
+
+  federal_income_tax_withheld:
+    type: number
+    description: Box 4 — Federal income tax withheld
+    hints:
+      look_in: [amounts]
+      patterns: ["box\\s*4", "federal\\s*income\\s*tax"]
+      signals: [has_dollar_amounts]
+
+  tax_year:
+    type: number
+    required: true
+    description: Tax year the form reports (e.g., 2024)
+    hints:
+      look_in: [payer]
+      patterns: ["(?:tax\\s*)?year", "20\\d{2}"]

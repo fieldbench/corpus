@@ -1,0 +1,16 @@
+{
+  "filename": "cap_035.md",
+  "source_name": "CourtListener",
+  "source_url": "https://www.courtlistener.com/opinion/11330490/",
+  "license": "Public Domain (US Court Opinions)",
+  "attribution": "Free Law Project / CourtListener",
+  "original_format": "text",
+  "pages": 14,
+  "added_date": "2026-05-21",
+  "added_by": "legal-cl-opinions-sourcer",
+  "schema": "legal_filings/schemas/legal_filing.yaml",
+  "opinion_id": "11330490",
+  "case_name": "J.People v. Super.Ct. CA1/3",
+  "court": "Calctapp",
+  "source": "real"
+}

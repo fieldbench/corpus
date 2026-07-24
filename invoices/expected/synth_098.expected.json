@@ -1,0 +1,64 @@
+{
+  "merchant_name": "Osaka Electronics Trading Co.",
+  "date": "2026-06-19",
+  "total_amount": 25756.28,
+  "subtotal": 22793.17,
+  "tax": 2963.11,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "Travel expenses",
+      "quantity": 1,
+      "unit_price": 236.2,
+      "amount": 236.2
+    },
+    {
+      "name": "Shipping and handling",
+      "quantity": 5,
+      "unit_price": 55.7,
+      "amount": 278.5
+    },
+    {
+      "name": "Documentation",
+      "quantity": 9,
+      "unit_price": 75.42,
+      "amount": 678.78
+    },
+    {
+      "name": "Administrative fee",
+      "quantity": 1,
+      "unit_price": 52.86,
+      "amount": 52.86
+    },
+    {
+      "name": "Professional service",
+      "quantity": 11,
+      "unit_price": 439.51,
+      "amount": 4834.61
+    },
+    {
+      "name": "Maintenance service",
+      "quantity": 1,
+      "unit_price": 340.57,
+      "amount": 340.57
+    },
+    {
+      "name": "Materials and supplies",
+      "quantity": 1,
+      "unit_price": 124.15,
+      "amount": 124.15
+    },
+    {
+      "name": "Consultation fee",
+      "quantity": 46,
+      "unit_price": 344.65,
+      "amount": 15853.9
+    },
+    {
+      "name": "Equipment rental",
+      "quantity": 1,
+      "unit_price": 393.6,
+      "amount": 393.6
+    }
+  ]
+}

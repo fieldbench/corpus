@@ -1,0 +1,11 @@
+{
+  "insurer_name": "Continental Shield Insurance Co.",
+  "named_insured": "Elizabeth R. Dominguez",
+  "policy_number": "BND-988975",
+  "policy_type": "Commercial Property",
+  "effective_date": "2026-11-25",
+  "expiration_date": "2027-11-25",
+  "each_occurrence_limit": 1000000,
+  "general_aggregate_limit": 4000000,
+  "total_premium": 5000
+}

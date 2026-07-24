@@ -1,0 +1,40 @@
+{
+  "merchant_name": "Compass Data Recovery",
+  "date": "2025-07-14",
+  "total_amount": 218032.39,
+  "subtotal": 205690.93,
+  "tax": 12341.46,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "Security audit",
+      "quantity": 14,
+      "unit_price": 3517.76,
+      "amount": 49248.64
+    },
+    {
+      "name": "DevOps pipeline setup",
+      "quantity": 4,
+      "unit_price": 3325.1,
+      "amount": 13300.4
+    },
+    {
+      "name": "Cloud hosting (monthly)",
+      "quantity": 5,
+      "unit_price": 1577.85,
+      "amount": 7889.25
+    },
+    {
+      "name": "API integration setup",
+      "quantity": 48,
+      "unit_price": 2359.25,
+      "amount": 113244.0
+    },
+    {
+      "name": "Software license renewal",
+      "quantity": 16,
+      "unit_price": 1375.54,
+      "amount": 22008.64
+    }
+  ]
+}

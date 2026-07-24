@@ -1,0 +1,17 @@
+{
+  "admission_date": "1993-01-17",
+  "attending_physician": null,
+  "discharge_date": "1993-01-22",
+  "medications_at_discharge": [
+    "ASA"
+  ],
+  "primary_diagnosis": "senile chorea and dementia (unspecified type)",
+  "procedures": [
+    "Brain CT",
+    "Carotid duplex",
+    "Transthoracic Echocardiogram",
+    "EEG",
+    "MRI Brain",
+    "Bone Marrow Bx"
+  ]
+}

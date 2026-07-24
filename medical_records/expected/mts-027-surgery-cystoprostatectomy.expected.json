@@ -1,0 +1,15 @@
+{
+  "admission_date": null,
+  "attending_physician": "Dr. X",
+  "discharge_date": null,
+  "medications_at_discharge": null,
+  "primary_diagnosis": "Clinical stage T4a, N3, M1 transitional cell carcinoma of the urinary bladder, status post chemotherapy and radiation therapy.",
+  "procedures": [
+    "Exploratory laparotomy",
+    "resection of small bowel lesion",
+    "biopsy of small bowel mesentery",
+    "bilateral extended pelvic and iliac lymphadenectomy",
+    "salvage radical cystoprostatectomy",
+    "continent urinary diversion with an Indiana pouch"
+  ]
+}

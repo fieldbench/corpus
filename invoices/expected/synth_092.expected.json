@@ -1,0 +1,28 @@
+{
+  "merchant_name": "Vancouver Film Equipment Rentals",
+  "date": "2024-04-26",
+  "total_amount": 6688.96,
+  "subtotal": 5919.43,
+  "tax": 769.53,
+  "currency": "CAD",
+  "items": [
+    {
+      "name": "Shipping and handling",
+      "quantity": 8,
+      "unit_price": 20.89,
+      "amount": 167.12
+    },
+    {
+      "name": "Consultation fee",
+      "quantity": 14,
+      "unit_price": 361.66,
+      "amount": 5063.24
+    },
+    {
+      "name": "Training session",
+      "quantity": 1,
+      "unit_price": 689.07,
+      "amount": 689.07
+    }
+  ]
+}

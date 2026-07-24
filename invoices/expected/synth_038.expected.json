@@ -1,0 +1,28 @@
+{
+  "merchant_name": "Bay Area Pet Hospital",
+  "date": "2024-10-15",
+  "total_amount": 4603.38,
+  "subtotal": 4603.38,
+  "tax": 0.0,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "Setup and configuration",
+      "quantity": 5,
+      "unit_price": 275.6,
+      "amount": 1378.0
+    },
+    {
+      "name": "Travel expenses",
+      "quantity": 9,
+      "unit_price": 179.51,
+      "amount": 1615.59
+    },
+    {
+      "name": "Inspection and testing",
+      "quantity": 7,
+      "unit_price": 229.97,
+      "amount": 1609.79
+    }
+  ]
+}

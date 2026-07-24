@@ -1,0 +1,22 @@
+{
+  "merchant_name": "Golden Gate Catering Co.",
+  "date": "2025-07-09",
+  "total_amount": 6572.44,
+  "subtotal": 5523.06,
+  "tax": 1049.38,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "Table setup and service",
+      "quantity": 24,
+      "unit_price": 221.81,
+      "amount": 5323.44
+    },
+    {
+      "name": "Delivery charge",
+      "quantity": 6,
+      "unit_price": 33.27,
+      "amount": 199.62
+    }
+  ]
+}

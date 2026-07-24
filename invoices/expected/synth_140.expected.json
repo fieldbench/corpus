@@ -1,0 +1,58 @@
+{
+  "merchant_name": "Queenstown Adventure Tours",
+  "date": "2025-09-27",
+  "total_amount": 52089.52,
+  "subtotal": 48568.32,
+  "tax": 3521.2,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "Consultation fee",
+      "quantity": 1,
+      "unit_price": 437.32,
+      "amount": 437.32
+    },
+    {
+      "name": "Equipment rental",
+      "quantity": 17,
+      "unit_price": 396.87,
+      "amount": 6746.79
+    },
+    {
+      "name": "Maintenance service",
+      "quantity": 27,
+      "unit_price": 275.19,
+      "amount": 7430.13
+    },
+    {
+      "name": "Inspection and testing",
+      "quantity": 9,
+      "unit_price": 374.27,
+      "amount": 3368.43
+    },
+    {
+      "name": "Training session",
+      "quantity": 13,
+      "unit_price": 666.63,
+      "amount": 8666.19
+    },
+    {
+      "name": "Shipping and handling",
+      "quantity": 6,
+      "unit_price": 53.19,
+      "amount": 319.14
+    },
+    {
+      "name": "Professional service",
+      "quantity": 46,
+      "unit_price": 418.94,
+      "amount": 19271.24
+    },
+    {
+      "name": "Administrative fee",
+      "quantity": 26,
+      "unit_price": 89.58,
+      "amount": 2329.08
+    }
+  ]
+}

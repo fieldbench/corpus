@@ -1,0 +1,11 @@
+{
+  "admission_date": null,
+  "attending_physician": "Dr. A",
+  "discharge_date": null,
+  "medications_at_discharge": null,
+  "primary_diagnosis": "Large cardioembolic stroke initially to the right brain",
+  "procedures": [
+    "arteriogram",
+    "clot extraction"
+  ]
+}

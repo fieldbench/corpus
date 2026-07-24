@@ -1,0 +1,13 @@
+{
+  "employer_name": "Pacific Coast Logistics Inc.",
+  "employer_ein": "94-1234567",
+  "employee_name": "David R. Martinez",
+  "employee_ssn": "XXX-XX-5544",
+  "wages": 78500.00,
+  "federal_income_tax": 9420.00,
+  "social_security_wages": 78500.00,
+  "social_security_tax": 4867.00,
+  "medicare_wages": 78500.00,
+  "medicare_tax": 1138.25,
+  "tax_year": 2024
+}

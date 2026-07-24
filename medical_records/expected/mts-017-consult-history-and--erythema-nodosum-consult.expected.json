@@ -1,0 +1,16 @@
+{
+  "admission_date": null,
+  "attending_physician": null,
+  "discharge_date": null,
+  "medications_at_discharge": [
+    "colchicine",
+    "ranitidine"
+  ],
+  "primary_diagnosis": "presumptive erythema nodosum",
+  "procedures": [
+    "colonoscopy",
+    "capsule endoscopy",
+    "DEXA scan",
+    "echocardiogram"
+  ]
+}

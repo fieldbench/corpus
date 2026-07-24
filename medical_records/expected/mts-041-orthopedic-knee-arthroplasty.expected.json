@@ -1,0 +1,11 @@
+{
+  "admission_date": null,
+  "attending_physician": null,
+  "discharge_date": null,
+  "medications_at_discharge": null,
+  "primary_diagnosis": "Bilateral degenerative arthritis of the knees.",
+  "procedures": [
+    "Right total knee arthroplasty",
+    "Left total knee arthroplasty"
+  ]
+}

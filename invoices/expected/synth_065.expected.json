@@ -1,0 +1,46 @@
+{
+  "merchant_name": "Redwood Creative Agency",
+  "date": "2025-04-17",
+  "total_amount": 143587.49,
+  "subtotal": 119656.24,
+  "tax": 23931.25,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "PPC campaign management",
+      "quantity": 1,
+      "unit_price": 582.9,
+      "amount": 582.9
+    },
+    {
+      "name": "Photography session (half day)",
+      "quantity": 22,
+      "unit_price": 816.88,
+      "amount": 17971.36
+    },
+    {
+      "name": "Video production (30s spot)",
+      "quantity": 2,
+      "unit_price": 3018.05,
+      "amount": 6036.1
+    },
+    {
+      "name": "Social media management (monthly)",
+      "quantity": 34,
+      "unit_price": 1929.76,
+      "amount": 65611.84
+    },
+    {
+      "name": "Market research survey",
+      "quantity": 6,
+      "unit_price": 2435.62,
+      "amount": 14613.72
+    },
+    {
+      "name": "Brand strategy session",
+      "quantity": 4,
+      "unit_price": 3710.08,
+      "amount": 14840.32
+    }
+  ]
+}

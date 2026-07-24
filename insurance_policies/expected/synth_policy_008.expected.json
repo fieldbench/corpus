@@ -1,0 +1,11 @@
+{
+  "insurer_name": "Evergreen Mutual Insurance Company",
+  "named_insured": "Westridge Concrete Foundations",
+  "policy_number": "BOP-4808343",
+  "policy_type": "Businessowners",
+  "effective_date": "2025-06-03",
+  "expiration_date": "2026-06-03",
+  "total_premium": 4600,
+  "each_occurrence_limit": 2000000,
+  "general_aggregate_limit": 2000000
+}

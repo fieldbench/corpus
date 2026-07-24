@@ -1,0 +1,24 @@
+{
+  "admission_date": null,
+  "attending_physician": null,
+  "discharge_date": null,
+  "medications_at_discharge": [
+    "Lantus insulin",
+    "oral hypoglycemics",
+    "Levophed",
+    "Ativan",
+    "fentanyl",
+    "cefepime",
+    "Flagyl",
+    "fluconazole",
+    "vancomycin",
+    "Nexium",
+    "Synthroid",
+    "hydrocortisone",
+    "Angiomax"
+  ],
+  "primary_diagnosis": "mesenteric ischemia secondary to visceral venous occlusion",
+  "procedures": [
+    "small bowel resection"
+  ]
+}

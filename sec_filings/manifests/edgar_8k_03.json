@@ -1,0 +1,17 @@
+{
+  "filename": "edgar_8k_03.md",
+  "source_name": "SEC EDGAR",
+  "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001318605&type=8-K",
+  "license": "No explicit license — mandatory public disclosure filed with the SEC; copyright retained by the filing registrant",
+  "license_url": null,
+  "attribution": "TESLA, INC.",
+  "original_format": "HTML",
+  "r2_url": null,
+  "pages": 1,
+  "added_date": "2026-04-12",
+  "added_by": "corpus-bootstrap",
+  "schema": "sec_filings/schemas/filing_metadata.yaml",
+  "notes": "Tesla 8-K current report. Tests extraction when fiscal period and filing date are the same (common for 8-K). Mix of table-based and prose metadata.",
+  "license_basis": "Not a US Government work: 17 U.S.C. §105 does not apply because the document was authored by the filing registrant, not by the SEC. Redistributed for research use as a public disclosure record. See DATA_LICENSE.md.",
+  "source": "real"
+}

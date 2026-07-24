@@ -1,0 +1,58 @@
+{
+  "merchant_name": "Sahara Print Solutions",
+  "date": "2026-05-08",
+  "total_amount": 9586.76,
+  "subtotal": 9044.11,
+  "tax": 542.65,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "Inspection and testing",
+      "quantity": 5,
+      "unit_price": 333.46,
+      "amount": 1667.3
+    },
+    {
+      "name": "Equipment rental",
+      "quantity": 17,
+      "unit_price": 164.57,
+      "amount": 2797.69
+    },
+    {
+      "name": "Setup and configuration",
+      "quantity": 3,
+      "unit_price": 477.49,
+      "amount": 1432.47
+    },
+    {
+      "name": "Professional service",
+      "quantity": 1,
+      "unit_price": 292.09,
+      "amount": 292.09
+    },
+    {
+      "name": "Shipping and handling",
+      "quantity": 1,
+      "unit_price": 35.67,
+      "amount": 35.67
+    },
+    {
+      "name": "Travel expenses",
+      "quantity": 5,
+      "unit_price": 77.34,
+      "amount": 386.7
+    },
+    {
+      "name": "Training session",
+      "quantity": 1,
+      "unit_price": 534.32,
+      "amount": 534.32
+    },
+    {
+      "name": "Materials and supplies",
+      "quantity": 13,
+      "unit_price": 145.99,
+      "amount": 1897.87
+    }
+  ]
+}

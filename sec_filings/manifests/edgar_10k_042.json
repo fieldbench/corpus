@@ -1,0 +1,19 @@
+{
+  "filename": "edgar_10k_042.md",
+  "source_name": "SEC EDGAR",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1324948/000121390026057626/ea0288814-10k_rbcbear.htm",
+  "license": "No explicit license — mandatory public disclosure filed with the SEC; copyright retained by the filing registrant",
+  "license_url": null,
+  "attribution": "RBC BEARINGS INCORPORATED",
+  "original_format": "HTML",
+  "r2_url": null,
+  "pages": 159,
+  "added_date": "2026-04-12",
+  "added_by": "corpus-bootstrap",
+  "schema": "sec_filings/schemas/filing_metadata.yaml",
+  "accession_number": "0001213900-26-057626",
+  "cik": "0001324948",
+  "notes": "10-K filing for RBC Bearings INC (accession 0001213900-26-057626). Document text produced by piping the EDGAR primary HTML through fieldbench parse (docling); expected JSON is sourced from the EDGAR submission index (authoritative for filer, form type, dates).",
+  "license_basis": "Not a US Government work: 17 U.S.C. §105 does not apply because the document was authored by the filing registrant, not by the SEC. Redistributed for research use as a public disclosure record. See DATA_LICENSE.md.",
+  "source": "real"
+}

@@ -1,0 +1,15 @@
+{
+  "merchant_name": "Amazona Parts Supply Co.",
+  "date": "2025-06-17",
+  "total_amount": 1304.16,
+  "subtotal": 1235.00,
+  "tax": 69.16,
+  "currency": "USD",
+  "items": [
+    {"name": "Stainless bolt M12x40", "quantity": 500, "unit_price": 1.25, "amount": 625.00},
+    {"name": "Hex nut M12", "quantity": 500, "unit_price": 0.35, "amount": 175.00},
+    {"name": "Lock washer M12", "quantity": 500, "unit_price": 0.28, "amount": 140.00},
+    {"name": "Grade 8 washer M12", "quantity": 500, "unit_price": 0.42, "amount": 210.00},
+    {"name": "Shipping handling", "quantity": 1, "unit_price": 85.00, "amount": 85.00}
+  ]
+}

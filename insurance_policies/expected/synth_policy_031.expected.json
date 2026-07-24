@@ -1,0 +1,11 @@
+{
+  "insurer_name": "Atlantic Coast Mutual",
+  "named_insured": "Michael S. Petrov",
+  "policy_number": "HO3074626",
+  "policy_type": "Homeowners",
+  "effective_date": "2025-10-26",
+  "expiration_date": "2026-10-26",
+  "total_premium": 2100,
+  "each_occurrence_limit": 100000,
+  "general_aggregate_limit": null
+}

@@ -1,0 +1,28 @@
+{
+  "merchant_name": "LegalEase Document Services",
+  "date": "2026-01-22",
+  "total_amount": 15318.87,
+  "subtotal": 13556.52,
+  "tax": 1762.35,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "Document review (per page)",
+      "quantity": 9,
+      "unit_price": 6.74,
+      "amount": 60.66
+    },
+    {
+      "name": "Mediation services (half day)",
+      "quantity": 5,
+      "unit_price": 2535.77,
+      "amount": 12678.85
+    },
+    {
+      "name": "Trademark application",
+      "quantity": 1,
+      "unit_price": 817.01,
+      "amount": 817.01
+    }
+  ]
+}

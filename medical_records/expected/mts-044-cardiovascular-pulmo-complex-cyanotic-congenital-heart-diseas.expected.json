@@ -1,0 +1,15 @@
+{
+  "admission_date": null,
+  "attending_physician": "Dr. X",
+  "discharge_date": null,
+  "medications_at_discharge": [
+    "aspirin",
+    "Plavix"
+  ],
+  "primary_diagnosis": "Obstructed right caval pulmonary anastomosis",
+  "procedures": [
+    "Balloon dilation of the right superior vena cava and stent implantation",
+    "Balloon dilation of the proximal right pulmonary artery",
+    "Embolization of venovenous collateral vessel"
+  ]
+}

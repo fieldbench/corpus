@@ -1,0 +1,13 @@
+{
+  "employer_name": "Crescent Holdings LLC",
+  "employer_ein": "32-9517485",
+  "employee_name": "Elena T. Zhang",
+  "employee_ssn": "XXX-XX-4258",
+  "wages": 130178.91,
+  "federal_income_tax": 26910.27,
+  "social_security_wages": 130178.91,
+  "social_security_tax": 8071.09,
+  "medicare_wages": 130178.91,
+  "medicare_tax": 1887.59,
+  "tax_year": 2024
+}

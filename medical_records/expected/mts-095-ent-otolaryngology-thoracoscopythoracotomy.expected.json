@@ -1,0 +1,14 @@
+{
+  "admission_date": null,
+  "attending_physician": null,
+  "discharge_date": null,
+  "medications_at_discharge": null,
+  "primary_diagnosis": "Empyema of the left chest",
+  "procedures": [
+    "Left thoracoscopy",
+    "Left thoracotomy",
+    "Declaudication",
+    "Drainage of lung abscesses",
+    "Multiple biopsies of pleura and lung"
+  ]
+}

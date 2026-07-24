@@ -1,0 +1,17 @@
+{
+  "filename": "anomaly_wrong_domain.md",
+  "source_name": "FieldBench adversarial corpus (accuracy-9)",
+  "source_url": null,
+  "license": "CC0 \u2014 synthetic test fixture",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "attribution": "FieldBench accuracy lane",
+  "original_format": "Markdown (synthetic)",
+  "r2_url": null,
+  "pages": 1,
+  "added_date": "2026-05-27",
+  "added_by": "accuracy-9",
+  "schema": "sec_filings/schemas/filing_metadata.yaml",
+  "anomaly": true,
+  "notes": "A complete synthetic patient medical record (HIPAA-covered entity, hospital discharge summary) with the SEC filing_metadata schema applied. Extends anomaly_wrong_schema by using a clearly different domain (healthcare vs. insurance). Tests that the extractor does not map medical concepts to SEC fields: patient name must not become filer_name, admission/discharge dates must not become filing_date or period dates, ICD-10 codes must not suggest form_type. The physician attestation date (Feb 7, 2026) and patient name are the highest-risk hallucination targets.",
+  "source": "synthetic"
+}

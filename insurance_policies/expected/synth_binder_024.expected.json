@@ -1,0 +1,11 @@
+{
+  "insurer_name": "Evergreen Mutual Insurance Company",
+  "named_insured": "Rebecca F. Salazar",
+  "policy_number": "BND-453793",
+  "policy_type": "Commercial General Liability",
+  "effective_date": "2026-01-13",
+  "expiration_date": "2027-01-13",
+  "each_occurrence_limit": 2000000,
+  "general_aggregate_limit": 4000000,
+  "total_premium": null
+}

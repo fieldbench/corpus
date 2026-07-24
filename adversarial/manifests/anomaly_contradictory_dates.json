@@ -1,0 +1,17 @@
+{
+  "filename": "anomaly_contradictory_dates.md",
+  "source_name": "FieldBench adversarial corpus (accuracy-9)",
+  "source_url": null,
+  "license": "CC0 \u2014 synthetic test fixture",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "attribution": "FieldBench accuracy lane",
+  "original_format": "Markdown (synthetic)",
+  "r2_url": null,
+  "pages": 1,
+  "added_date": "2026-05-27",
+  "added_by": "accuracy-9",
+  "schema": "sec_filings/schemas/filing_metadata.yaml",
+  "anomaly": true,
+  "notes": "A synthetic 10-K cover page for Meridian Industrial Holdings, Inc. where the cover page fiscal year end (December 31, 2025) directly contradicts the Explanatory Note fiscal year end (September 30, 2025), reflecting a mid-year fiscal year change. Tests that the extractor follows the schema hint to prefer the cover-page declaration and returns 2025-12-31 \u2014 not the body-prose date. Also asserts filer_name, form_type, and filing_date from the unambiguous portions of the document.",
+  "source": "synthetic"
+}

@@ -1,0 +1,20 @@
+{
+  "filename": "cap_010.md",
+  "source_name": "Caselaw Access Project (Harvard Law School)",
+  "source_url": "https://case.law/",
+  "license": "CC0 (Public Domain)",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "attribution": "Caselaw Access Project, Harvard Law School Library Innovation Lab",
+  "original_format": "text",
+  "r2_url": null,
+  "pages": 1,
+  "added_date": "2026-05-21",
+  "added_by": "legal-cap-sourcer",
+  "schema": "legal_filings/schemas/legal_filing.yaml",
+  "case_name": "Unknown",
+  "citation": "",
+  "court": "",
+  "decision_date": "",
+  "notes": "Court opinion: Unknown. Source: Caselaw Access Project (Harvard). Expected JSON auto-filled from metadata where possible; judge field needs manual annotation.",
+  "source": "real"
+}

@@ -1,0 +1,11 @@
+{
+  "admission_date": null,
+  "attending_physician": "Dr. X",
+  "discharge_date": null,
+  "medications_at_discharge": [
+    "MiraLax",
+    "Zoloft"
+  ],
+  "primary_diagnosis": "Adjustment disorder with disturbance of conduct",
+  "procedures": null
+}

@@ -1,0 +1,11 @@
+{
+  "insurer_name": "Tidewater Surety & Casualty",
+  "named_insured": "Redline Fire Protection Corp.",
+  "policy_number": "CU1085444",
+  "policy_type": "Umbrella/Excess",
+  "effective_date": "2025-03-22",
+  "expiration_date": "2026-03-22",
+  "total_premium": 4200,
+  "each_occurrence_limit": 10000000,
+  "general_aggregate_limit": 10000000
+}

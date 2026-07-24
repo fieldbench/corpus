@@ -1,0 +1,14 @@
+{
+  "admission_date": "2010-01-17",
+  "attending_physician": "Dr. X",
+  "discharge_date": null,
+  "medications_at_discharge": [
+    "Flecainide",
+    "Atenolol",
+    "Coumadin"
+  ],
+  "primary_diagnosis": "Atrial flutter",
+  "procedures": [
+    "Cardioversion"
+  ]
+}

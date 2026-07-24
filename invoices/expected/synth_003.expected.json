@@ -1,0 +1,28 @@
+{
+  "merchant_name": "Sakura Sushi Bar",
+  "date": "2025-10-10",
+  "total_amount": 1128.95,
+  "subtotal": 1036.92,
+  "tax": 92.03,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "Late-night snack station",
+      "quantity": 7,
+      "unit_price": 112.95,
+      "amount": 790.65
+    },
+    {
+      "name": "Table setup and service",
+      "quantity": 1,
+      "unit_price": 106.25,
+      "amount": 106.25
+    },
+    {
+      "name": "Equipment rental",
+      "quantity": 1,
+      "unit_price": 140.02,
+      "amount": 140.02
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "filename": "edgar_contract_023.md",
+  "source_name": "SEC EDGAR (8-K Exhibit 10)",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/31462/000155837017004928/ex-10d1vii.htm",
+  "license": "No explicit license — mandatory public disclosure filed with the SEC; copyright retained by the filing registrant",
+  "license_url": null,
+  "attribution": "ECOLAB INC.",
+  "original_format": "HTML",
+  "r2_url": null,
+  "pages": 1,
+  "added_date": "2026-05-21",
+  "added_by": "edgar-contracts-sourcer",
+  "schema": "contracts/schemas/contract.yaml",
+  "accession_number": "0001558370-17-004928",
+  "cik": "0000031462",
+  "filer_name": "ECOLAB INC.  (ECL)  (CIK 0000031462)",
+  "notes": "Material contract (Exhibit 10) from ECOLAB INC.  (ECL)  (CIK 0000031462)'s 8-K filing (accession 0001558370-17-004928). Expected JSON needs manual annotation.",
+  "license_basis": "Not a US Government work: 17 U.S.C. §105 does not apply because the document was authored by the filing registrant, not by the SEC. Redistributed for research use as a public disclosure record. See DATA_LICENSE.md.",
+  "source": "real"
+}

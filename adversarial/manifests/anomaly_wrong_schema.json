@@ -1,0 +1,17 @@
+{
+  "filename": "anomaly_wrong_schema.md",
+  "source_name": "FieldBench adversarial corpus (accuracy-9)",
+  "source_url": null,
+  "license": "CC0 \u2014 synthetic test fixture",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "attribution": "FieldBench accuracy lane",
+  "original_format": "Markdown (synthetic)",
+  "r2_url": null,
+  "pages": 1,
+  "added_date": "2026-04-13",
+  "added_by": "accuracy-9",
+  "schema": "sec_filings/schemas/filing_metadata.yaml",
+  "anomaly": true,
+  "notes": "A certificate of liability insurance (not an SEC filing at all) with the SEC filing_metadata schema applied. Tests that the extractor does not fabricate SEC metadata from unrelated business-document content. The MOST COMMON real-world adversarial case: users applying the wrong schema to the wrong doc type.",
+  "source": "synthetic"
+}

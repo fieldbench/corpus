@@ -1,0 +1,57 @@
+{
+  "certificate_date": "2025-08-12",
+  "certificate_holder_name": "Pinnacle Ventures LLC",
+  "insured_name": "Brookfield Property Management Group",
+  "policies": [
+    {
+      "policy_number": "CGL9582571",
+      "coverage_type": "Commercial General Liability",
+      "carrier_name": "Appalachian Fidelity Mutual",
+      "effective_date": "2025-04-14",
+      "expiration_date": "2026-04-14",
+      "limits": [
+        {
+          "name": "Each Occurrence",
+          "amount": 1000000
+        },
+        {
+          "name": "General Aggregate",
+          "amount": 2000000
+        },
+        {
+          "name": "Products / Completed Operations",
+          "amount": 2000000
+        },
+        {
+          "name": "Personal & Advertising Injury",
+          "amount": 2000000
+        },
+        {
+          "name": "Damage to Rented Premises",
+          "amount": 300000
+        },
+        {
+          "name": "Medical Expense (Any One Person)",
+          "amount": 15000
+        }
+      ],
+      "additional_insureds": []
+    },
+    {
+      "policy_number": "AUT6778988",
+      "coverage_type": "Automobile Liability",
+      "carrier_name": "Liberty Bell Underwriters",
+      "effective_date": "2025-04-14",
+      "expiration_date": "2026-04-14",
+      "limits": [
+        {
+          "name": "Combined Single Limit (Each Accident)",
+          "amount": 2000000
+        }
+      ],
+      "additional_insureds": []
+    }
+  ],
+  "producer_name": "Granite State Agency Inc.",
+  "producer_phone": "(603) 555-0133"
+}

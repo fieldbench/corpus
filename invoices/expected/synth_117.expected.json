@@ -1,0 +1,82 @@
+{
+  "merchant_name": "Prairie Veterinary Clinic",
+  "date": "2025-05-03",
+  "total_amount": 32116.53,
+  "subtotal": 30015.45,
+  "tax": 2101.08,
+  "currency": "CAD",
+  "items": [
+    {
+      "name": "Setup and configuration",
+      "quantity": 1,
+      "unit_price": 390.41,
+      "amount": 390.41
+    },
+    {
+      "name": "Travel expenses",
+      "quantity": 20,
+      "unit_price": 110.19,
+      "amount": 2203.8
+    },
+    {
+      "name": "Consultation fee",
+      "quantity": 30,
+      "unit_price": 170.27,
+      "amount": 5108.1
+    },
+    {
+      "name": "Maintenance service",
+      "quantity": 5,
+      "unit_price": 314.44,
+      "amount": 1572.2
+    },
+    {
+      "name": "Professional service",
+      "quantity": 10,
+      "unit_price": 121.93,
+      "amount": 1219.3
+    },
+    {
+      "name": "Administrative fee",
+      "quantity": 10,
+      "unit_price": 68.94,
+      "amount": 689.4
+    },
+    {
+      "name": "Equipment rental",
+      "quantity": 37,
+      "unit_price": 291.92,
+      "amount": 10801.04
+    },
+    {
+      "name": "Materials and supplies",
+      "quantity": 1,
+      "unit_price": 256.23,
+      "amount": 256.23
+    },
+    {
+      "name": "Training session",
+      "quantity": 5,
+      "unit_price": 754.96,
+      "amount": 3774.8
+    },
+    {
+      "name": "Documentation",
+      "quantity": 1,
+      "unit_price": 157.75,
+      "amount": 157.75
+    },
+    {
+      "name": "Inspection and testing",
+      "quantity": 9,
+      "unit_price": 366.16,
+      "amount": 3295.44
+    },
+    {
+      "name": "Shipping and handling",
+      "quantity": 14,
+      "unit_price": 39.07,
+      "amount": 546.98
+    }
+  ]
+}

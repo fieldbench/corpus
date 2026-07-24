@@ -1,0 +1,13 @@
+{
+  "admission_date": null,
+  "attending_physician": null,
+  "discharge_date": null,
+  "medications_at_discharge": [
+    "Aricept",
+    "Fiorinal",
+    "aspirin",
+    "Premarin"
+  ],
+  "primary_diagnosis": "likely mild dementia, most likely Alzheimer type",
+  "procedures": null
+}

@@ -1,0 +1,22 @@
+{
+  "merchant_name": "Aotearoa Wool Export Ltd",
+  "date": "2026-01-28",
+  "total_amount": 6752.1,
+  "subtotal": 5674.03,
+  "tax": 1078.07,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "Setup and configuration",
+      "quantity": 8,
+      "unit_price": 668.87,
+      "amount": 5350.96
+    },
+    {
+      "name": "Consultation fee",
+      "quantity": 1,
+      "unit_price": 323.07,
+      "amount": 323.07
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "filename": "fema_proof_of_loss_hpcc.md",
+  "source_name": "FEMA HPCC Proof of Loss (current version)",
+  "source_url": "https://www.fema.gov/sites/default/files/documents/fema_hpcc-proof-of-loss-form-english-exp-11.30.2026.pdf",
+  "license": "Public domain — US Government work",
+  "license_url": null,
+  "attribution": "FEMA HPCC Proof of Loss (current version)",
+  "original_format": "PDF (parsed via docling)",
+  "r2_url": null,
+  "pages": 2,
+  "added_date": "2026-04-16",
+  "added_by": "accuracy-25",
+  "schema": "insurance_claims/schemas/claim_form.yaml",
+  "doc_type": "proof_of_loss",
+  "notes": "Real proof_of_loss form from FEMA HPCC Proof of Loss (current version).",
+  "source": "real"
+}

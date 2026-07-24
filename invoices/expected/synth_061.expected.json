@@ -1,0 +1,70 @@
+{
+  "merchant_name": "Cascade Plumbing & Heating",
+  "date": "2025-10-08",
+  "total_amount": 57218.29,
+  "subtotal": 53979.52,
+  "tax": 3238.77,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "Equipment rental",
+      "quantity": 1,
+      "unit_price": 237.23,
+      "amount": 237.23
+    },
+    {
+      "name": "Materials and supplies",
+      "quantity": 22,
+      "unit_price": 119.42,
+      "amount": 2627.24
+    },
+    {
+      "name": "Setup and configuration",
+      "quantity": 2,
+      "unit_price": 297.85,
+      "amount": 595.7
+    },
+    {
+      "name": "Documentation",
+      "quantity": 49,
+      "unit_price": 126.64,
+      "amount": 6205.36
+    },
+    {
+      "name": "Inspection and testing",
+      "quantity": 42,
+      "unit_price": 112.9,
+      "amount": 4741.8
+    },
+    {
+      "name": "Consultation fee",
+      "quantity": 40,
+      "unit_price": 346.36,
+      "amount": 13854.4
+    },
+    {
+      "name": "Professional service",
+      "quantity": 4,
+      "unit_price": 190.41,
+      "amount": 761.64
+    },
+    {
+      "name": "Maintenance service",
+      "quantity": 40,
+      "unit_price": 385.81,
+      "amount": 15432.4
+    },
+    {
+      "name": "Travel expenses",
+      "quantity": 39,
+      "unit_price": 242.52,
+      "amount": 9458.28
+    },
+    {
+      "name": "Administrative fee",
+      "quantity": 1,
+      "unit_price": 65.47,
+      "amount": 65.47
+    }
+  ]
+}

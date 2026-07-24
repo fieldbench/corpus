@@ -1,0 +1,20 @@
+{
+  "admission_date": "2008-06-27",
+  "attending_physician": "Dr. Z",
+  "discharge_date": "2008-06-28",
+  "medications_at_discharge": [
+    "Cipro",
+    "Arixtra",
+    "lisinopril",
+    "Diflucan",
+    "Lantus",
+    "Keppra"
+  ],
+  "primary_diagnosis": "Central nervous system lymphoma",
+  "procedures": [
+    "Cycle five high-dose methotrexate",
+    "Rituxan weekly",
+    "Chest x-ray",
+    "Wound consult"
+  ]
+}

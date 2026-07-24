@@ -1,0 +1,52 @@
+{
+  "merchant_name": "Pinnacle IT Solutions",
+  "date": "2025-04-15",
+  "total_amount": 442237.9,
+  "subtotal": 442237.9,
+  "tax": 0.0,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "SSL certificate (annual)",
+      "quantity": 1,
+      "unit_price": 250.97,
+      "amount": 250.97
+    },
+    {
+      "name": "Load testing service",
+      "quantity": 37,
+      "unit_price": 1577.99,
+      "amount": 58385.63
+    },
+    {
+      "name": "API integration setup",
+      "quantity": 10,
+      "unit_price": 3813.22,
+      "amount": 38132.2
+    },
+    {
+      "name": "Data migration service",
+      "quantity": 1,
+      "unit_price": 7663.88,
+      "amount": 7663.88
+    },
+    {
+      "name": "Cloud hosting (monthly)",
+      "quantity": 3,
+      "unit_price": 1447.28,
+      "amount": 4341.84
+    },
+    {
+      "name": "Security audit",
+      "quantity": 45,
+      "unit_price": 4033.79,
+      "amount": 181520.55
+    },
+    {
+      "name": "Disaster recovery plan",
+      "quantity": 39,
+      "unit_price": 3895.97,
+      "amount": 151942.83
+    }
+  ]
+}

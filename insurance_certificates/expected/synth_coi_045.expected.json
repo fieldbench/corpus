@@ -1,0 +1,79 @@
+{
+  "certificate_date": "2025-08-13",
+  "producer_name": "Great Lakes Risk Advisors",
+  "producer_phone": "(313) 555-0188",
+  "insured_name": "Clearwater Environmental Solutions",
+  "certificate_holder_name": "Harbor Point Real Estate Holdings",
+  "policies": [
+    {
+      "policy_number": "AUT8023377",
+      "coverage_type": "Automobile Liability",
+      "carrier_name": "Redwood Workers Compensation Fund",
+      "effective_date": "2025-05-28",
+      "expiration_date": "2026-05-28",
+      "limits": [
+        {
+          "name": "Combined Single Limit (Each Accident)",
+          "amount": 1000000
+        }
+      ],
+      "additional_insureds": []
+    },
+    {
+      "policy_number": "WC1085444",
+      "coverage_type": "Workers Compensation",
+      "carrier_name": "Midwest Indemnity Holdings",
+      "effective_date": "2025-05-28",
+      "expiration_date": "2026-05-28",
+      "limits": [
+        {
+          "name": "Bodily Injury by Accident (Each Accident)",
+          "amount": 500000
+        },
+        {
+          "name": "Bodily Injury by Disease (Policy Limit)",
+          "amount": 1000000
+        },
+        {
+          "name": "Bodily Injury by Disease (Each Employee)",
+          "amount": 1000000
+        }
+      ],
+      "additional_insureds": []
+    },
+    {
+      "policy_number": "CGL3971284",
+      "coverage_type": "Commercial General Liability",
+      "carrier_name": "Redwood Workers Compensation Fund",
+      "effective_date": "2025-05-28",
+      "expiration_date": "2026-05-28",
+      "limits": [
+        {
+          "name": "Each Occurrence",
+          "amount": 1000000
+        },
+        {
+          "name": "General Aggregate",
+          "amount": 2000000
+        },
+        {
+          "name": "Products / Completed Operations",
+          "amount": 4000000
+        },
+        {
+          "name": "Personal & Advertising Injury",
+          "amount": 2000000
+        },
+        {
+          "name": "Damage to Rented Premises",
+          "amount": 500000
+        },
+        {
+          "name": "Medical Expense (Any One Person)",
+          "amount": 10000
+        }
+      ],
+      "additional_insureds": []
+    }
+  ]
+}

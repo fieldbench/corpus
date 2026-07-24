@@ -1,0 +1,153 @@
+name: legal_filing
+description: |
+  Metadata from federal and state court filings — complaints, motions,
+  briefs, orders, and memoranda. Extracts the case caption information
+  (parties, court, case number) and filing metadata (date, type, judge).
+
+compare:
+  fuzzy_threshold: 0.85
+
+categories:
+  keywords:
+    caption:
+      - "plaintiff"
+      - "defendant"
+      - "petitioner"
+      - "respondent"
+      - "court"
+      - "case no"
+      - "civil action"
+      - "docket"
+      - "united states district court"
+      - "v."
+      - "vs."
+    signature:
+      - "respectfully submitted"
+      - "attorney for"
+      - "counsel for"
+      - "/s/"
+      - "dated"
+    body:
+      - "comes now"
+      - "respectfully"
+      - "wherefore"
+      - "hereby"
+      - "pursuant to"
+
+fields:
+  case_number:
+    type: string
+    required: true
+    description: |
+      The case number or docket number assigned by the court.
+      Typically appears in the caption block at the top of the filing.
+      Format varies by court: "1:24-cv-01234", "No. 24-1234",
+      "Civil Action No. 2024-0567", etc.
+    hints:
+      look_in: [caption]
+      prefer_position: top
+      patterns:
+        - "case\\s*no"
+        - "docket\\s*no"
+        - "civil\\s*action\\s*no"
+        - "\\d{1,2}[:-]\\d{2}-[a-z]{2}-\\d+"
+
+  court:
+    type: string
+    required: true
+    description: |
+      Full name of the court where the case is filed.
+      Examples: "United States District Court for the Southern District
+      of New York", "Superior Court of California, County of Los Angeles".
+    hints:
+      look_in: [caption]
+      prefer_position: top
+      patterns:
+        - "court\\s*of"
+        - "district\\s*court"
+        - "circuit\\s*court"
+        - "superior\\s*court"
+        - "united\\s*states\\s*district"
+
+  filing_date:
+    type: date
+    description: |
+      Date the document was filed with the court. May appear at the
+      top of the filing (clerk's stamp), in the signature block
+      ("Dated: Month DD, YYYY"), or in a filing header.
+    hints:
+      patterns:
+        - "filed"
+        - "date\\s*filed"
+        - "dated"
+      signals: [has_dates]
+
+  filing_type:
+    type: enum
+    description: |
+      Type of court filing. Determined from the document title or
+      header — e.g., "COMPLAINT FOR DAMAGES", "MOTION TO DISMISS",
+      "MEMORANDUM OF LAW IN SUPPORT".
+    options:
+      - Opinion
+      - Complaint
+      - Motion
+      - Brief
+      - Order
+      - Memorandum
+      - Declaration
+      - Stipulation
+      - Answer
+      - Other
+    hints:
+      look_in: [caption]
+      prefer_position: top
+      patterns:
+        - "complaint"
+        - "motion"
+        - "brief"
+        - "order"
+        - "memorandum"
+        - "declaration"
+
+  plaintiff:
+    type: string
+    required: true
+    description: |
+      Name of the plaintiff or petitioner. Appears in the case caption,
+      typically above "v." or "vs." May be an individual, company, or
+      government entity. For class actions, use the named plaintiff.
+    hints:
+      look_in: [caption]
+      prefer_position: top
+      patterns:
+        - "plaintiff"
+        - "petitioner"
+        - "complainant"
+
+  defendant:
+    type: string
+    required: true
+    description: |
+      Name of the defendant or respondent. Appears in the case caption,
+      typically below "v." or "vs." May be an individual, company, or
+      government entity.
+    hints:
+      look_in: [caption]
+      prefer_position: top
+      patterns:
+        - "defendant"
+        - "respondent"
+
+  judge:
+    type: string
+    description: |
+      Name of the presiding judge or magistrate. May appear in the
+      caption ("Before the Honorable Jane Smith"), in the filing
+      header, or in an order's signature block.
+    hints:
+      patterns:
+        - "honorable"
+        - "judge"
+        - "magistrate"
+        - "before"

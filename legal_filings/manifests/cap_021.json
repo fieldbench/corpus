@@ -1,0 +1,16 @@
+{
+  "filename": "cap_021.md",
+  "source_name": "CourtListener",
+  "source_url": "https://www.courtlistener.com/opinion/9431135/",
+  "license": "Public Domain (US Court Opinions)",
+  "attribution": "Free Law Project / CourtListener",
+  "original_format": "HTML",
+  "pages": 4,
+  "added_date": "2026-05-21",
+  "added_by": "legal-cl-sourcer",
+  "schema": "legal_filings/schemas/legal_filing.yaml",
+  "case_name": "Taper v. Ohio Dept. of Rehab. & Corr.",
+  "citation": "2023 Ohio 3259",
+  "court": "Ohio Court of Claims",
+  "source": "real"
+}

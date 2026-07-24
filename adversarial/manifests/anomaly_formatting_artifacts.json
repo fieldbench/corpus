@@ -1,0 +1,17 @@
+{
+  "filename": "anomaly_formatting_artifacts.md",
+  "source_name": "FieldBench adversarial corpus (accuracy-9)",
+  "source_url": null,
+  "license": "CC0 \u2014 synthetic test fixture",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "attribution": "FieldBench accuracy lane",
+  "original_format": "Markdown (synthetic)",
+  "r2_url": null,
+  "pages": 1,
+  "added_date": "2026-05-27",
+  "added_by": "accuracy-9",
+  "schema": "sec_filings/schemas/filing_metadata.yaml",
+  "anomaly": true,
+  "notes": "A synthetic 10-K cover page for Phoenix Data Systems, Inc. with heavy markdown rendering noise: escaped asterisks, strikethrough of stale values alongside live values (old company name, old address, old date crossed out with new values alongside), HTML-style table bracket artifacts, and commented-out document-boundary markers. Tests that the extractor ignores struck-through stale values and resolves the correct current values. Expects filer_name, form_type, period_fiscal_year_end, and filing_date from the non-struck-through content.",
+  "source": "synthetic"
+}

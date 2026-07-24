@@ -1,0 +1,20 @@
+{
+  "filename": "edgar_contract_041.md",
+  "source_name": "SEC EDGAR (8-K Exhibit 10)",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1845942/000157570521000649/ex10_5.htm",
+  "license": "No explicit license — mandatory public disclosure filed with the SEC; copyright retained by the filing registrant",
+  "license_url": null,
+  "attribution": "Bannix Acquisition Corp.",
+  "original_format": "HTML",
+  "r2_url": null,
+  "pages": 21,
+  "added_date": "2026-05-21",
+  "added_by": "edgar-contracts-sourcer",
+  "schema": "contracts/schemas/contract.yaml",
+  "accession_number": "0001575705-21-000649",
+  "cik": "0001845942",
+  "filer_name": "Bannix Acquisition Corp.  (BNIX, BNIXR, BNIXW)  (CIK 0001845942)",
+  "notes": "Material contract (Exhibit 10) from Bannix Acquisition Corp.  (BNIX, BNIXR, BNIXW)  (CIK 0001845942)'s 8-K filing (accession 0001575705-21-000649). Expected JSON needs manual annotation.",
+  "license_basis": "Not a US Government work: 17 U.S.C. §105 does not apply because the document was authored by the filing registrant, not by the SEC. Redistributed for research use as a public disclosure record. See DATA_LICENSE.md.",
+  "source": "real"
+}

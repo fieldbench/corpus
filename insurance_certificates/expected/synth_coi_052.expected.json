@@ -1,0 +1,101 @@
+{
+  "certificate_date": "2025-11-08",
+  "producer_name": "Magnolia Brokerage Services",
+  "producer_phone": "(504) 555-0144",
+  "insured_name": "Bayou City Demolition Services",
+  "certificate_holder_name": "Crossroads Commercial Properties",
+  "policies": [
+    {
+      "policy_number": "CGL7424100",
+      "coverage_type": "Commercial General Liability",
+      "carrier_name": "Redwood Workers Compensation Fund",
+      "effective_date": "2026-02-08",
+      "expiration_date": "2027-02-08",
+      "limits": [
+        {
+          "name": "Each Occurrence",
+          "amount": 1000000
+        },
+        {
+          "name": "General Aggregate",
+          "amount": 4000000
+        },
+        {
+          "name": "Products / Completed Operations",
+          "amount": 4000000
+        },
+        {
+          "name": "Personal & Advertising Injury",
+          "amount": 1000000
+        },
+        {
+          "name": "Damage to Rented Premises",
+          "amount": 300000
+        },
+        {
+          "name": "Medical Expense (Any One Person)",
+          "amount": 5000
+        }
+      ],
+      "additional_insureds": []
+    },
+    {
+      "policy_number": "AUT1138733",
+      "coverage_type": "Automobile Liability",
+      "carrier_name": "Evergreen Mutual Insurance Company",
+      "effective_date": "2026-02-08",
+      "expiration_date": "2027-02-08",
+      "limits": [
+        {
+          "name": "Combined Single Limit (Each Accident)",
+          "amount": 1000000
+        }
+      ],
+      "additional_insureds": []
+    },
+    {
+      "policy_number": "CYB6372986",
+      "coverage_type": "Cyber Liability",
+      "carrier_name": "Midwest Indemnity Holdings",
+      "effective_date": "2026-02-08",
+      "expiration_date": "2027-02-08",
+      "limits": [
+        {
+          "name": "Each Incident",
+          "amount": 1000000
+        },
+        {
+          "name": "Aggregate",
+          "amount": 5000000
+        },
+        {
+          "name": "Retention",
+          "amount": 15000
+        }
+      ],
+      "additional_insureds": []
+    },
+    {
+      "policy_number": "WC4694746",
+      "coverage_type": "Workers Compensation",
+      "carrier_name": "Sterling National Insurance Co.",
+      "effective_date": "2026-02-08",
+      "expiration_date": "2027-02-08",
+      "limits": [
+        {
+          "name": "Bodily Injury by Accident (Each Accident)",
+          "amount": 500000
+        },
+        {
+          "name": "Bodily Injury by Disease (Policy Limit)",
+          "amount": 1000000
+        },
+        {
+          "name": "Bodily Injury by Disease (Each Employee)",
+          "amount": 1000000
+        }
+      ],
+      "additional_insureds": []
+    }
+  ]
+}

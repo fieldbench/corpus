@@ -1,0 +1,19 @@
+{
+  "filename": "edgar_10k_031.md",
+  "source_name": "SEC EDGAR",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1804745/000180474526000048/drvn-20251227.htm",
+  "license": "No explicit license — mandatory public disclosure filed with the SEC; copyright retained by the filing registrant",
+  "license_url": null,
+  "attribution": "Driven Brands Holdings Inc.",
+  "original_format": "HTML",
+  "r2_url": null,
+  "pages": 1332,
+  "added_date": "2026-04-12",
+  "added_by": "corpus-bootstrap",
+  "schema": "sec_filings/schemas/filing_metadata.yaml",
+  "accession_number": "0001804745-26-000048",
+  "cik": "0001804745",
+  "notes": "10-K filing for Driven Brands Holdings Inc. (accession 0001804745-26-000048). Document text produced by piping the EDGAR primary HTML through fieldbench parse (docling); expected JSON is sourced from the EDGAR submission index (authoritative for filer, form type, dates).",
+  "license_basis": "Not a US Government work: 17 U.S.C. §105 does not apply because the document was authored by the filing registrant, not by the SEC. Redistributed for research use as a public disclosure record. See DATA_LICENSE.md.",
+  "source": "real"
+}

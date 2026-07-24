@@ -1,0 +1,13 @@
+{
+  "employer_name": "Redwood Solutions Group",
+  "employer_ein": "66-9683481",
+  "employee_name": "Jamie C. Martinez",
+  "employee_ssn": "XXX-XX-1344",
+  "wages": 139745.82,
+  "federal_income_tax": 22419.62,
+  "social_security_wages": 139745.82,
+  "social_security_tax": 8664.24,
+  "medicare_wages": 139745.82,
+  "medicare_tax": 2026.31,
+  "tax_year": 2024
+}

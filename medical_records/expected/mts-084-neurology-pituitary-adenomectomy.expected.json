@@ -1,0 +1,10 @@
+{
+  "admission_date": null,
+  "attending_physician": null,
+  "discharge_date": null,
+  "medications_at_discharge": null,
+  "primary_diagnosis": "Large and invasive recurrent pituitary adenoma.",
+  "procedures": [
+    "Endoscopic-assisted transsphenoidal exploration and radical excision of pituitary adenoma"
+  ]
+}

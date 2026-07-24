@@ -1,0 +1,101 @@
+{
+  "certificate_date": "2025-04-23",
+  "certificate_holder_name": "Northwind Infrastructure Partners",
+  "insured_name": "Suncoast Roofing & Waterproofing",
+  "policies": [
+    {
+      "policy_number": "CGL2720015",
+      "coverage_type": "Commercial General Liability",
+      "carrier_name": "Ironbridge Excess Carriers Ltd.",
+      "effective_date": "2026-09-03",
+      "expiration_date": "2027-09-03",
+      "limits": [
+        {
+          "name": "Each Occurrence",
+          "amount": 1000000
+        },
+        {
+          "name": "General Aggregate",
+          "amount": 4000000
+        },
+        {
+          "name": "Products / Completed Operations",
+          "amount": 4000000
+        },
+        {
+          "name": "Personal & Advertising Injury",
+          "amount": 1000000
+        },
+        {
+          "name": "Damage to Rented Premises",
+          "amount": 500000
+        },
+        {
+          "name": "Medical Expense (Any One Person)",
+          "amount": 5000
+        }
+      ],
+      "additional_insureds": []
+    },
+    {
+      "policy_number": "WC8217484",
+      "coverage_type": "Workers Compensation",
+      "carrier_name": "Keystone Indemnity Group",
+      "effective_date": "2026-09-03",
+      "expiration_date": "2027-09-03",
+      "limits": [
+        {
+          "name": "Bodily Injury by Accident (Each Accident)",
+          "amount": 500000
+        },
+        {
+          "name": "Bodily Injury by Disease (Policy Limit)",
+          "amount": 1000000
+        },
+        {
+          "name": "Bodily Injury by Disease (Each Employee)",
+          "amount": 1000000
+        }
+      ],
+      "additional_insureds": []
+    },
+    {
+      "policy_number": "UMB2299823",
+      "coverage_type": "Umbrella Liability",
+      "carrier_name": "Ironbridge Excess Carriers Ltd.",
+      "effective_date": "2026-09-03",
+      "expiration_date": "2027-09-03",
+      "limits": [
+        {
+          "name": "Each Occurrence",
+          "amount": 5000000
+        },
+        {
+          "name": "Aggregate",
+          "amount": 10000000
+        },
+        {
+          "name": "Self-Insured Retention",
+          "amount": 10000
+        }
+      ],
+      "additional_insureds": []
+    },
+    {
+      "policy_number": "AUT8583133",
+      "coverage_type": "Automobile Liability",
+      "carrier_name": "Keystone Indemnity Group",
+      "effective_date": "2026-09-03",
+      "expiration_date": "2027-09-03",
+      "limits": [
+        {
+          "name": "Combined Single Limit (Each Accident)",
+          "amount": 1000000
+        }
+      ],
+      "additional_insureds": []
+    }
+  ],
+  "producer_name": "Pacific Brokerage Group",
+  "producer_phone": "(310) 555-0199"
+}

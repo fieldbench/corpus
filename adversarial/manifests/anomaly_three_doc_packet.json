@@ -1,0 +1,17 @@
+{
+  "filename": "anomaly_three_doc_packet.md",
+  "source_name": "FieldBench adversarial corpus (accuracy-9)",
+  "source_url": null,
+  "license": "CC0 \u2014 synthetic test fixture",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "attribution": "FieldBench accuracy lane",
+  "original_format": "Markdown (synthetic)",
+  "r2_url": null,
+  "pages": 3,
+  "added_date": "2026-04-13",
+  "added_by": "accuracy-9",
+  "schema": "insurance_certificates/schemas/certificate_of_liability.yaml",
+  "anomaly": true,
+  "notes": "Three-document packet: (1) invoice from Meridian Supply Co., (2) certificate of liability insurance for Horizon Holdings LLC, (3) commercial general liability policy declarations page. Schema targets the COI (section 2). Correct behavior: extract Cornerstone Insurance as producer, Horizon Holdings as insured, Plano Corporate Park Management as certificate holder \u2014 all from the middle section. Today the extractor will likely pick up content from section 1 or section 3 depending on chunk routing. Tracks real-world use case: user uploads a packet with multiple document types and expects a specific one to be extracted. Waiting on oss-28 (classify + split pipeline stage) for a proper fix \u2014 this test will validate it lands correctly.",
+  "source": "synthetic"
+}

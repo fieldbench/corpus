@@ -1,0 +1,22 @@
+{
+  "merchant_name": "Ravenna Consulting Group",
+  "date": "2025-06-02",
+  "total_amount": 581989.63,
+  "subtotal": 542647.67,
+  "tax": 39341.96,
+  "currency": "EUR",
+  "items": [
+    {
+      "name": "Due diligence review",
+      "quantity": 31,
+      "unit_price": 16867.75,
+      "amount": 522900.25
+    },
+    {
+      "name": "Process optimization review",
+      "quantity": 7,
+      "unit_price": 2821.06,
+      "amount": 19747.42
+    }
+  ]
+}

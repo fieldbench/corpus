@@ -1,0 +1,17 @@
+{
+  "filename": "wc_froi_federal.md",
+  "source_name": "DOL Federal LS-202 — Employer's First Report of Injury",
+  "source_url": "https://www.dol.gov/sites/dolgov/files/owcp/dlhwc/ls-202.pdf",
+  "license": "Public domain — US Government work",
+  "license_url": null,
+  "attribution": "DOL Federal LS-202 — Employer's First Report of Injury",
+  "original_format": "PDF (parsed via docling)",
+  "r2_url": null,
+  "pages": 4,
+  "added_date": "2026-04-16",
+  "added_by": "accuracy-25",
+  "schema": "insurance_claims/schemas/claim_form.yaml",
+  "doc_type": "first_report_of_injury",
+  "notes": "Real first_report_of_injury form from DOL Federal LS-202 — Employer's First Report of Injury.",
+  "source": "real"
+}

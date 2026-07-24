@@ -1,0 +1,12 @@
+{
+  "merchant_name": "Atelier Rivière SARL",
+  "date": "2025-09-15",
+  "total_amount": 4944.00,
+  "subtotal": 4120.00,
+  "tax": 824.00,
+  "currency": "EUR",
+  "items": [
+    {"name": "Fauteuil Louis XV restauration complète", "quantity": 2, "unit_price": 1850.00, "amount": 3700.00},
+    {"name": "Transport et emballage", "quantity": 1, "unit_price": 420.00, "amount": 420.00}
+  ]
+}

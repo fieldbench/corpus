@@ -1,0 +1,141 @@
+name: discharge_summary
+description: |
+  Key fields from hospital discharge summaries. Extracts admission and
+  discharge dates, diagnoses, procedures, medications at discharge,
+  and the attending physician.
+
+  Sourced from de-identified clinical notes (MIMIC-IV-Note, i2b2).
+  All documents are de-identified — no real patient information.
+
+compare:
+  fuzzy_threshold: 0.85
+
+categories:
+  keywords:
+    header:
+      - "discharge summary"
+      - "admission date"
+      - "discharge date"
+      - "date of birth"
+      - "attending"
+      - "service"
+      - "chief complaint"
+    diagnosis:
+      - "diagnosis"
+      - "principal diagnosis"
+      - "discharge diagnosis"
+      - "admitting diagnosis"
+      - "secondary diagnosis"
+      - "ICD"
+    procedures:
+      - "procedure"
+      - "operation"
+      - "surgical"
+      - "operative"
+      - "history of present illness"
+    medications:
+      - "discharge medication"
+      - "medications on discharge"
+      - "prescription"
+      - "medication list"
+      - "home medications"
+    plan:
+      - "discharge plan"
+      - "discharge instructions"
+      - "follow-up"
+      - "discharge condition"
+      - "disposition"
+
+fields:
+  admission_date:
+    type: date
+    required: true
+    description: |
+      Date of hospital admission. Typically appears at the top of the
+      discharge summary, often labeled "Admission Date:" or
+      "Date of Admission:".
+    hints:
+      look_in: [header]
+      prefer_position: top
+      patterns:
+        - "admission date"
+        - "date of admission"
+        - "admitted"
+        - "admit date"
+      signals: [has_dates]
+
+  discharge_date:
+    type: date
+    required: true
+    description: |
+      Date of hospital discharge. Typically appears near the admission
+      date, labeled "Discharge Date:" or "Date of Discharge:".
+    hints:
+      look_in: [header]
+      prefer_position: top
+      patterns:
+        - "discharge date"
+        - "date of discharge"
+        - "discharged"
+      signals: [has_dates]
+
+  primary_diagnosis:
+    type: string
+    required: true
+    description: |
+      Principal diagnosis at discharge. The primary reason for the
+      hospital stay. May be labeled "Principal Diagnosis:",
+      "Discharge Diagnosis:", or "Primary Diagnosis:". If multiple
+      diagnoses are listed, return the first (principal) one.
+    hints:
+      look_in: [diagnosis]
+      patterns:
+        - "principal diagnosis"
+        - "primary diagnosis"
+        - "discharge diagnosis"
+        - "admitting diagnosis"
+
+  procedures:
+    type: array
+    description: |
+      Procedures performed during the hospital stay. Return as a list
+      of procedure names. May be listed under "Procedures:",
+      "Operations:", or "Major Procedures:" sections.
+    hints:
+      look_in: [procedures]
+      patterns:
+        - "procedure"
+        - "operation"
+        - "surgical"
+        - "major procedure"
+
+  medications_at_discharge:
+    type: array
+    description: |
+      Medications prescribed at discharge. Return as a list of
+      medication names (without dosing details unless they're part
+      of the medication name). Listed under "Discharge Medications:"
+      or "Medications on Discharge:" sections.
+    hints:
+      look_in: [medications]
+      patterns:
+        - "discharge medication"
+        - "medications on discharge"
+        - "medications at discharge"
+        - "home medication"
+
+  attending_physician:
+    type: string
+    description: |
+      Name of the attending physician. Typically appears at the top
+      of the discharge summary ("Attending: Dr. Smith") or in the
+      signature block. In de-identified records, this may be a
+      placeholder name.
+    hints:
+      look_in: [header]
+      prefer_position: top
+      patterns:
+        - "attending"
+        - "physician"
+        - "MD"
+        - "DO"

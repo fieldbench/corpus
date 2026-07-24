@@ -1,0 +1,40 @@
+{
+  "merchant_name": "TransAlpine Courier GmbH",
+  "date": "2024-05-27",
+  "total_amount": 22696.68,
+  "subtotal": 19072.84,
+  "tax": 3623.84,
+  "currency": "EUR",
+  "items": [
+    {
+      "name": "Freight insurance",
+      "quantity": 36,
+      "unit_price": 258.83,
+      "amount": 9317.88
+    },
+    {
+      "name": "Packaging service",
+      "quantity": 9,
+      "unit_price": 114.64,
+      "amount": 1031.76
+    },
+    {
+      "name": "Container shipping 20ft",
+      "quantity": 1,
+      "unit_price": 2174.67,
+      "amount": 2174.67
+    },
+    {
+      "name": "Loading and unloading",
+      "quantity": 16,
+      "unit_price": 394.48,
+      "amount": 6311.68
+    },
+    {
+      "name": "Express courier",
+      "quantity": 5,
+      "unit_price": 47.37,
+      "amount": 236.85
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+name: policy_declarations
+description: |
+  Insurance policy declarations page extraction. Pulls the key
+  identifying and coverage information from the declarations page
+  of a commercial or personal insurance policy — the "who, what,
+  when, how much" summary that accompanies every policy.
+
+  Not every document in this corpus is a full policy with a
+  declarations page. Coverage forms (CG 00 01, etc.) contain
+  only legal language; endorsements modify existing policies;
+  and consumer guides explain concepts. For these documents the
+  expected output is mostly null — the schema validates that the
+  engine correctly returns nothing rather than hallucinating
+  policy details from boilerplate text.
+
+compare:
+  fuzzy_threshold: 0.85
+
+categories:
+  keywords:
+    declarations: ["declarations", "policy declarations", "dec page", "policy summary"]
+    coverage: ["coverage", "limits of insurance", "limits of liability", "each occurrence", "general aggregate"]
+    named_insured: ["named insured", "policyholder", "first named insured"]
+    premium: ["premium", "annual premium", "total premium", "premium summary", "advance premium"]
+    endorsements: ["endorsement", "schedule of endorsements", "forms and endorsements"]
+
+fields:
+  insurer_name:
+    type: string
+    description: |
+      Name of the insurance company issuing the policy. Typically
+      appears at the top of the declarations page or in the policy
+      header. For policies with multiple insurers, use the primary
+      or lead insurer.
+    hints:
+      look_in: [declarations]
+      prefer_position: top
+      patterns: ["(?:insurer|insurance company|underwritten by|issued by)[:\\s]"]
+
+  named_insured:
+    type: string
+    required: true
+    description: |
+      The named insured on the policy — the person or organization
+      to whom the policy is issued. Appears prominently on the
+      declarations page, often as the first or second field.
+    hints:
+      look_in: [declarations, named_insured]
+      prefer_position: top
+      patterns: ["named insured", "policyholder", "insured name"]
+
+  policy_number:
+    type: string
+    description: The policy number or identifier assigned by the insurer.
+    hints:
+      look_in: [declarations]
+      patterns: ["policy.?(?:number|no\\.?|#)", "policy\\s*:\\s*[A-Z0-9]"]
+
+  policy_type:
+    type: string
+    description: |
+      Type of insurance policy. Extract the form type or coverage
+      category as stated on the declarations or coverage form.
+    options:
+      - Commercial General Liability
+      - Businessowners
+      - Workers Compensation
+      - Commercial Auto
+      - Homeowners
+      - Commercial Property
+      - Umbrella/Excess
+      - Professional Liability
+      - Other
+    hints:
+      look_in: [declarations, coverage]
+      prefer_position: top
+      patterns: ["commercial general liability", "businessowners", "workers.?comp", "homeowners", "commercial auto", "umbrella", "excess"]
+
+  effective_date:
+    type: date
+    description: Policy effective date (start of the policy period).
+    hints:
+      look_in: [declarations]
+      patterns: ["(?:effective|inception|from)\\s*(?:date)?[:\\s]", "policy period"]
+      signals: [has_dates]
+
+  expiration_date:
+    type: date
+    description: Policy expiration date (end of the policy period).
+    hints:
+      look_in: [declarations]
+      patterns: ["(?:expiration|expiry|to)\\s*(?:date)?[:\\s]", "policy period"]
+      signals: [has_dates]
+
+  total_premium:
+    type: number
+    description: |
+      Total policy premium amount. May be labeled "total premium",
+      "annual premium", "advance premium", or similar. Extract the
+      total, not per-coverage breakdowns.
+    hints:
+      look_in: [premium, declarations]
+      patterns: ["(?:total|annual|advance|estimated)\\s*premium", "premium\\s*(?:amount|due)?[:\\s]"]
+      signals: [has_dollar_amounts]
+
+  each_occurrence_limit:
+    type: number
+    description: |
+      Per-occurrence limit of liability. For CGL policies, this is
+      the "Each Occurrence" limit on the declarations page. For
+      other policy types, use the primary per-event limit.
+    hints:
+      look_in: [coverage, declarations]
+      patterns: ["each occurrence", "per occurrence", "each accident"]
+      signals: [has_dollar_amounts]
+
+  general_aggregate_limit:
+    type: number
+    description: |
+      General aggregate limit of liability. The maximum the insurer
+      will pay across all occurrences in the policy period. Not
+      present on all policy types (e.g., workers comp uses
+      different limit structures).
+    hints:
+      look_in: [coverage, declarations]
+      patterns: ["general aggregate", "aggregate limit", "policy aggregate"]
+      signals: [has_dollar_amounts]

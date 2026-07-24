@@ -1,0 +1,28 @@
+{
+  "merchant_name": "MedPro Surgical Supplies",
+  "date": "2026-01-07",
+  "total_amount": 1985.4,
+  "subtotal": 1668.4,
+  "tax": 317.0,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "Face shield (box of 25)",
+      "quantity": 35,
+      "unit_price": 22.2,
+      "amount": 777.0
+    },
+    {
+      "name": "Hand sanitizer (gallon)",
+      "quantity": 22,
+      "unit_price": 25.66,
+      "amount": 564.52
+    },
+    {
+      "name": "Digital thermometer",
+      "quantity": 16,
+      "unit_price": 20.43,
+      "amount": 326.88
+    }
+  ]
+}

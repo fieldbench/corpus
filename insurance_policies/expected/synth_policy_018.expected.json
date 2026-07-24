@@ -1,0 +1,11 @@
+{
+  "insurer_name": "Compass Rose Specialty",
+  "named_insured": "Cornerstone Civil Engineering PC",
+  "policy_number": "WCA3915909",
+  "policy_type": "Workers Compensation",
+  "effective_date": "2025-07-09",
+  "expiration_date": "2026-07-09",
+  "total_premium": 279300,
+  "each_occurrence_limit": 500000,
+  "general_aggregate_limit": null
+}

@@ -1,0 +1,13 @@
+{
+  "employer_name": "Pacific Holdings LLC",
+  "employer_ein": "26-3154051",
+  "employee_name": "Quinn T. Zhang",
+  "employee_ssn": "XXX-XX-7932",
+  "wages": 159524.19,
+  "federal_income_tax": 32347.83,
+  "social_security_wages": 159524.19,
+  "social_security_tax": 9890.5,
+  "medicare_wages": 159524.19,
+  "medicare_tax": 2313.1,
+  "tax_year": 2024
+}

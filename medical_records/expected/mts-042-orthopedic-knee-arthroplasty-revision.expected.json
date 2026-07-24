@@ -1,0 +1,10 @@
+{
+  "admission_date": null,
+  "attending_physician": null,
+  "discharge_date": null,
+  "medications_at_discharge": null,
+  "primary_diagnosis": "Right failed total knee arthroplasty.",
+  "procedures": [
+    "Revision right total knee arthroplasty."
+  ]
+}

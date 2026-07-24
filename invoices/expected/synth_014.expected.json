@@ -1,0 +1,28 @@
+{
+  "merchant_name": "Oceanic Freight Logistics",
+  "date": "2026-11-26",
+  "total_amount": 103805.3,
+  "subtotal": 97014.3,
+  "tax": 6791.0,
+  "currency": "AUD",
+  "items": [
+    {
+      "name": "Packaging service",
+      "quantity": 2,
+      "unit_price": 66.15,
+      "amount": 132.3
+    },
+    {
+      "name": "Freight insurance",
+      "quantity": 50,
+      "unit_price": 160.59,
+      "amount": 8029.5
+    },
+    {
+      "name": "Refrigerated transport",
+      "quantity": 45,
+      "unit_price": 1974.5,
+      "amount": 88852.5
+    }
+  ]
+}

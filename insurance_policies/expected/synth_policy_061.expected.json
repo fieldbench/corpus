@@ -1,0 +1,11 @@
+{
+  "insurer_name": "Beacon Hill Mutual",
+  "named_insured": "Redline Fire Protection Corp.",
+  "policy_number": "BOP8387528",
+  "policy_type": "Businessowners",
+  "effective_date": "2026-09-25",
+  "expiration_date": "2027-09-25",
+  "total_premium": 14150,
+  "each_occurrence_limit": 300000,
+  "general_aggregate_limit": 600000
+}

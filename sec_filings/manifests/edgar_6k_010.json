@@ -1,0 +1,19 @@
+{
+  "filename": "edgar_6k_010.md",
+  "source_name": "SEC EDGAR",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1119639/000129281426002243/pbr20260413_6k2.htm",
+  "license": "No explicit license — mandatory public disclosure filed with the SEC; copyright retained by the filing registrant",
+  "license_url": null,
+  "attribution": "Brazilian Petroleum Corporation - PETROBRAS",
+  "original_format": "HTML",
+  "r2_url": null,
+  "pages": 2,
+  "added_date": "2026-04-14",
+  "added_by": "accuracy-12",
+  "schema": "sec_filings/schemas/filing_metadata.yaml",
+  "accession_number": "0001292814-26-002243",
+  "cik": "0001119639",
+  "notes": "6-K filing for PETROBRAS - PETROLEO BRASILEIRO SA (accession 0001292814-26-002243). Document text produced by piping the EDGAR primary HTML through fieldbench parse (docling); expected JSON is sourced from the EDGAR submission index (authoritative for filer, form type, dates).",
+  "license_basis": "Not a US Government work: 17 U.S.C. §105 does not apply because the document was authored by the filing registrant, not by the SEC. Redistributed for research use as a public disclosure record. See DATA_LICENSE.md.",
+  "source": "real"
+}

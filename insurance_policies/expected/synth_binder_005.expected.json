@@ -1,0 +1,11 @@
+{
+  "insurer_name": "Northern Lights Insurance Corp.",
+  "named_insured": "Rebecca F. Salazar",
+  "policy_number": "BND-797094",
+  "policy_type": "Umbrella/Excess",
+  "effective_date": "2026-12-07",
+  "expiration_date": "2027-12-07",
+  "each_occurrence_limit": 1000000,
+  "general_aggregate_limit": 1000000,
+  "total_premium": 12000
+}

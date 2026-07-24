@@ -1,0 +1,28 @@
+{
+  "merchant_name": "Emerald Isle Imports",
+  "date": "2024-04-15",
+  "total_amount": 9245.99,
+  "subtotal": 9245.99,
+  "tax": 0.0,
+  "currency": "EUR",
+  "items": [
+    {
+      "name": "Professional service",
+      "quantity": 1,
+      "unit_price": 269.39,
+      "amount": 269.39
+    },
+    {
+      "name": "Shipping and handling",
+      "quantity": 44,
+      "unit_price": 16.56,
+      "amount": 728.64
+    },
+    {
+      "name": "Training session",
+      "quantity": 14,
+      "unit_price": 589.14,
+      "amount": 8247.96
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "insurer_name": "Pinnacle Specialty Insurance",
+  "named_insured": "Dorothy H. Kessler",
+  "policy_number": "UMB-287701",
+  "policy_type": "Umbrella/Excess",
+  "effective_date": "2026-09-04",
+  "expiration_date": "2027-09-04",
+  "each_occurrence_limit": 2000000,
+  "general_aggregate_limit": 4000000,
+  "total_premium": null
+}

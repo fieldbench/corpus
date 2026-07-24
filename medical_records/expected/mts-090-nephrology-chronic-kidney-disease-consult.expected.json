@@ -1,0 +1,17 @@
+{
+  "admission_date": null,
+  "attending_physician": "Dr. X",
+  "discharge_date": null,
+  "medications_at_discharge": [
+    "Kaletra",
+    "Epivir",
+    "Ziagen",
+    "Lasix",
+    "Valsartan",
+    "Ambien"
+  ],
+  "primary_diagnosis": "Stage IV chronic kidney disease likely secondary to HIV nephropathy",
+  "procedures": [
+    "AV fistula placement"
+  ]
+}

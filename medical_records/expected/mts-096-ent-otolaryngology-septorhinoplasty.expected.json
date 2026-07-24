@@ -1,0 +1,17 @@
+{
+  "admission_date": null,
+  "attending_physician": null,
+  "discharge_date": null,
+  "medications_at_discharge": null,
+  "primary_diagnosis": "Acquired nasal septal deformity.",
+  "procedures": [
+    "Open septorhinoplasty with placement of bilateral spreader grafts.",
+    "Placement of a radiated rib tip graft.",
+    "Placement of a morcellized autogenous cartilage dorsal onlay graft.",
+    "Placement of endogen, radiated collagen dorsal onlay graft.",
+    "Placement of autogenous cartilage columellar strut graft.",
+    "Bilateral lateral osteotomies.",
+    "Takedown of the dorsal hump with repair of the bony and cartilaginous open roof deformities.",
+    "Fracture of right upper lateral cartilage."
+  ]
+}

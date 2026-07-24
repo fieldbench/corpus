@@ -1,0 +1,16 @@
+{
+  "filename": "cap_049.md",
+  "source_name": "CourtListener",
+  "source_url": "https://www.courtlistener.com/opinion/11330487/",
+  "license": "Public Domain (US Court Opinions)",
+  "attribution": "Free Law Project / CourtListener",
+  "original_format": "text",
+  "pages": 6,
+  "added_date": "2026-05-21",
+  "added_by": "legal-cl-opinions-sourcer",
+  "schema": "legal_filings/schemas/legal_filing.yaml",
+  "opinion_id": "11330487",
+  "case_name": "Mather v. Pricewaterhousecoopers CA2/4",
+  "court": "Calctapp",
+  "source": "real"
+}

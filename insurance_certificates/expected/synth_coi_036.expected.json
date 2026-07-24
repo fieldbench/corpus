@@ -1,0 +1,141 @@
+{
+  "certificate_date": "2026-04-19",
+  "certificate_holder_name": "Golden Crest Hospitality Corp.",
+  "insured_name": "Northern Star Telecom Services",
+  "policies": [
+    {
+      "policy_number": "CGL5772385",
+      "coverage_type": "Commercial General Liability",
+      "carrier_name": "Mountain West Casualty Co.",
+      "effective_date": "2026-01-12",
+      "expiration_date": "2027-01-12",
+      "limits": [
+        {
+          "name": "Each Occurrence",
+          "amount": 1000000
+        },
+        {
+          "name": "General Aggregate",
+          "amount": 4000000
+        },
+        {
+          "name": "Products / Completed Operations",
+          "amount": 2000000
+        },
+        {
+          "name": "Personal & Advertising Injury",
+          "amount": 1000000
+        },
+        {
+          "name": "Damage to Rented Premises",
+          "amount": 300000
+        },
+        {
+          "name": "Medical Expense (Any One Person)",
+          "amount": 10000
+        }
+      ],
+      "additional_insureds": []
+    },
+    {
+      "policy_number": "AUT9533817",
+      "coverage_type": "Automobile Liability",
+      "carrier_name": "Sunbelt Workers Comp Trust",
+      "effective_date": "2026-01-12",
+      "expiration_date": "2027-01-12",
+      "limits": [
+        {
+          "name": "Combined Single Limit (Each Accident)",
+          "amount": 2000000
+        }
+      ],
+      "additional_insureds": []
+    },
+    {
+      "policy_number": "EXC8486197",
+      "coverage_type": "Excess Liability",
+      "carrier_name": "Appalachian Fidelity Mutual",
+      "effective_date": "2026-01-12",
+      "expiration_date": "2027-01-12",
+      "limits": [
+        {
+          "name": "Each Occurrence",
+          "amount": 5000000
+        },
+        {
+          "name": "Aggregate",
+          "amount": 10000000
+        }
+      ],
+      "additional_insureds": []
+    },
+    {
+      "policy_number": "PL2025435",
+      "coverage_type": "Professional Liability",
+      "carrier_name": "Keystone Indemnity Group",
+      "effective_date": "2026-01-12",
+      "expiration_date": "2027-01-12",
+      "limits": [
+        {
+          "name": "Each Claim",
+          "amount": 1000000
+        },
+        {
+          "name": "Aggregate",
+          "amount": 2000000
+        },
+        {
+          "name": "Deductible",
+          "amount": 10000
+        }
+      ],
+      "additional_insureds": []
+    },
+    {
+      "policy_number": "CYB1351114",
+      "coverage_type": "Cyber Liability",
+      "carrier_name": "Mountain West Casualty Co.",
+      "effective_date": "2026-01-12",
+      "expiration_date": "2027-01-12",
+      "limits": [
+        {
+          "name": "Each Incident",
+          "amount": 2000000
+        },
+        {
+          "name": "Aggregate",
+          "amount": 5000000
+        },
+        {
+          "name": "Retention",
+          "amount": 50000
+        }
+      ],
+      "additional_insureds": []
+    },
+    {
+      "policy_number": "UMB5578051",
+      "coverage_type": "Umbrella Liability",
+      "carrier_name": "Sunbelt Workers Comp Trust",
+      "effective_date": "2026-01-12",
+      "expiration_date": "2027-01-12",
+      "limits": [
+        {
+          "name": "Each Occurrence",
+          "amount": 10000000
+        },
+        {
+          "name": "Aggregate",
+          "amount": 25000000
+        },
+        {
+          "name": "Self-Insured Retention",
+          "amount": 25000
+        }
+      ],
+      "additional_insureds": []
+    }
+  ],
+  "producer_name": "Heartland Insurance Associates",
+  "producer_phone": "(515) 555-0166"
+}

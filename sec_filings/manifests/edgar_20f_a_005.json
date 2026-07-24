@@ -1,0 +1,19 @@
+{
+  "filename": "edgar_20f_a_005.md",
+  "source_name": "SEC EDGAR",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1779476/000110465926063497/tm2614934d2_20fa.htm",
+  "license": "No explicit license — mandatory public disclosure filed with the SEC; copyright retained by the filing registrant",
+  "license_url": null,
+  "attribution": "36Kr Holdings Inc.",
+  "original_format": "HTML",
+  "r2_url": null,
+  "pages": 109,
+  "added_date": "2026-04-12",
+  "added_by": "corpus-bootstrap",
+  "schema": "sec_filings/schemas/filing_metadata.yaml",
+  "accession_number": "0001104659-26-063497",
+  "cik": "0001779476",
+  "notes": "20-F/A filing for 36Kr Holdings Inc. (accession 0001104659-26-063497). Document text produced by piping the EDGAR primary HTML through fieldbench parse (docling); expected JSON is sourced from the EDGAR submission index (authoritative for filer, form type, dates).",
+  "license_basis": "Not a US Government work: 17 U.S.C. §105 does not apply because the document was authored by the filing registrant, not by the SEC. Redistributed for research use as a public disclosure record. See DATA_LICENSE.md.",
+  "source": "real"
+}

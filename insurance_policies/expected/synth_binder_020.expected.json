@@ -1,0 +1,11 @@
+{
+  "insurer_name": "Golden Gate Assurance Corp.",
+  "named_insured": "Kathleen M. Beaumont",
+  "policy_number": "UMB-332843",
+  "policy_type": "Umbrella/Excess",
+  "effective_date": "2026-05-08",
+  "expiration_date": "2027-05-08",
+  "each_occurrence_limit": 500000,
+  "general_aggregate_limit": 4000000,
+  "total_premium": 500
+}

@@ -1,0 +1,11 @@
+{
+  "insurer_name": "Compass Rose Specialty",
+  "named_insured": "Atlas Framing & Construction LLC",
+  "policy_number": "BOP-4541364",
+  "policy_type": "Businessowners",
+  "effective_date": "2024-10-27",
+  "expiration_date": "2025-10-27",
+  "total_premium": 15600,
+  "each_occurrence_limit": 300000,
+  "general_aggregate_limit": 2000000
+}

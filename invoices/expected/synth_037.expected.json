@@ -1,0 +1,64 @@
+{
+  "merchant_name": "Catalonia Web Development",
+  "date": "2024-01-24",
+  "total_amount": 501011.43,
+  "subtotal": 472652.29,
+  "tax": 28359.14,
+  "currency": "EUR",
+  "items": [
+    {
+      "name": "Database optimization",
+      "quantity": 28,
+      "unit_price": 2607.74,
+      "amount": 73016.72
+    },
+    {
+      "name": "API integration setup",
+      "quantity": 27,
+      "unit_price": 3801.56,
+      "amount": 102642.12
+    },
+    {
+      "name": "Technical consultation (hourly)",
+      "quantity": 28,
+      "unit_price": 151.46,
+      "amount": 4240.88
+    },
+    {
+      "name": "Software license renewal",
+      "quantity": 1,
+      "unit_price": 4964.8,
+      "amount": 4964.8
+    },
+    {
+      "name": "Data migration service",
+      "quantity": 34,
+      "unit_price": 6319.75,
+      "amount": 214871.5
+    },
+    {
+      "name": "Security audit",
+      "quantity": 7,
+      "unit_price": 6891.27,
+      "amount": 48238.89
+    },
+    {
+      "name": "Load testing service",
+      "quantity": 14,
+      "unit_price": 1333.65,
+      "amount": 18671.1
+    },
+    {
+      "name": "Server maintenance (monthly)",
+      "quantity": 7,
+      "unit_price": 829.34,
+      "amount": 5805.38
+    },
+    {
+      "name": "SSL certificate (annual)",
+      "quantity": 1,
+      "unit_price": 200.9,
+      "amount": 200.9
+    }
+  ]
+}

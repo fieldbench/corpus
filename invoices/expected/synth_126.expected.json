@@ -1,0 +1,52 @@
+{
+  "merchant_name": "Solaris Energy Systems",
+  "date": "2026-03-04",
+  "total_amount": 34256.45,
+  "subtotal": 28547.04,
+  "tax": 5709.41,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "Shipping and handling",
+      "quantity": 1,
+      "unit_price": 27.23,
+      "amount": 27.23
+    },
+    {
+      "name": "Equipment rental",
+      "quantity": 4,
+      "unit_price": 84.21,
+      "amount": 336.84
+    },
+    {
+      "name": "Consultation fee",
+      "quantity": 28,
+      "unit_price": 273.73,
+      "amount": 7664.44
+    },
+    {
+      "name": "Inspection and testing",
+      "quantity": 38,
+      "unit_price": 123.09,
+      "amount": 4677.42
+    },
+    {
+      "name": "Maintenance service",
+      "quantity": 20,
+      "unit_price": 383.27,
+      "amount": 7665.4
+    },
+    {
+      "name": "Professional service",
+      "quantity": 2,
+      "unit_price": 243.73,
+      "amount": 487.46
+    },
+    {
+      "name": "Travel expenses",
+      "quantity": 45,
+      "unit_price": 170.85,
+      "amount": 7688.25
+    }
+  ]
+}

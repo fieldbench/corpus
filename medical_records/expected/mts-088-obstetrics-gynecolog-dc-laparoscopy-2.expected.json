@@ -1,0 +1,14 @@
+{
+  "admission_date": null,
+  "attending_physician": null,
+  "discharge_date": null,
+  "medications_at_discharge": null,
+  "primary_diagnosis": "Complex left ovarian cyst.",
+  "procedures": [
+    "Dilation and curettage (D&C)",
+    "Laparoscopy",
+    "Enterolysis",
+    "Lysis of the pelvic adhesions",
+    "Left salpingo-oophorectomy"
+  ]
+}

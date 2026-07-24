@@ -1,0 +1,20 @@
+{
+  "admission_date": "2007-08-24",
+  "attending_physician": "Dr. A",
+  "discharge_date": "2007-09-03",
+  "medications_at_discharge": [
+    "Celebrex",
+    "Colace",
+    "Protonix",
+    "Synthroid",
+    "Diprozone cream",
+    "oxycodone SR",
+    "Percocet",
+    "trazodone",
+    "Ativan",
+    "Toprol-XL",
+    "Coumadin"
+  ],
+  "primary_diagnosis": "Status post right total knee replacement secondary to degenerative joint disease performed on 08/21/2007.",
+  "procedures": []
+}

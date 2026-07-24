@@ -1,0 +1,28 @@
+{
+  "merchant_name": "Metro Office Supplies Inc.",
+  "date": "2025-09-26",
+  "total_amount": 9387.7,
+  "subtotal": 7823.08,
+  "tax": 1564.62,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "Consultation fee",
+      "quantity": 17,
+      "unit_price": 277.71,
+      "amount": 4721.07
+    },
+    {
+      "name": "Equipment rental",
+      "quantity": 1,
+      "unit_price": 367.31,
+      "amount": 367.31
+    },
+    {
+      "name": "Shipping and handling",
+      "quantity": 46,
+      "unit_price": 59.45,
+      "amount": 2734.7
+    }
+  ]
+}

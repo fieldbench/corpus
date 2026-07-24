@@ -1,0 +1,46 @@
+{
+  "merchant_name": "Rotterdam Port Services BV",
+  "date": "2025-12-04",
+  "total_amount": 44592.42,
+  "subtotal": 44592.42,
+  "tax": 0.0,
+  "currency": "EUR",
+  "items": [
+    {
+      "name": "Packaging service",
+      "quantity": 5,
+      "unit_price": 81.59,
+      "amount": 407.95
+    },
+    {
+      "name": "Refrigerated transport",
+      "quantity": 19,
+      "unit_price": 1467.13,
+      "amount": 27875.47
+    },
+    {
+      "name": "Loading and unloading",
+      "quantity": 8,
+      "unit_price": 238.56,
+      "amount": 1908.48
+    },
+    {
+      "name": "Express courier",
+      "quantity": 42,
+      "unit_price": 94.41,
+      "amount": 3965.22
+    },
+    {
+      "name": "Customs clearance",
+      "quantity": 9,
+      "unit_price": 727.37,
+      "amount": 6546.33
+    },
+    {
+      "name": "Container shipping 20ft",
+      "quantity": 1,
+      "unit_price": 3888.97,
+      "amount": 3888.97
+    }
+  ]
+}

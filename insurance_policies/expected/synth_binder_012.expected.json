@@ -1,0 +1,11 @@
+{
+  "insurer_name": "Pacific Crest Casualty",
+  "named_insured": "Frank B. Estrada",
+  "policy_number": "BND-689288",
+  "policy_type": "Commercial Auto",
+  "effective_date": "2025-10-08",
+  "expiration_date": "2026-10-08",
+  "each_occurrence_limit": 2000000,
+  "general_aggregate_limit": 2000000,
+  "total_premium": 12000
+}

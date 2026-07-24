@@ -1,0 +1,11 @@
+{
+  "insurer_name": "Sterling National Insurance Co.",
+  "named_insured": "Piedmont Healthcare Consulting Group",
+  "policy_number": "PLI2796712",
+  "policy_type": "Professional Liability",
+  "effective_date": "2026-02-22",
+  "expiration_date": "2027-02-22",
+  "total_premium": 62800,
+  "each_occurrence_limit": 1000000,
+  "general_aggregate_limit": 10000000
+}

@@ -1,0 +1,28 @@
+{
+  "merchant_name": "Pacifica Marine Services",
+  "date": "2025-10-02",
+  "total_amount": 23171.75,
+  "subtotal": 21655.84,
+  "tax": 1515.91,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "Maintenance service",
+      "quantity": 48,
+      "unit_price": 251.08,
+      "amount": 12051.84
+    },
+    {
+      "name": "Inspection and testing",
+      "quantity": 16,
+      "unit_price": 102.99,
+      "amount": 1647.84
+    },
+    {
+      "name": "Materials and supplies",
+      "quantity": 32,
+      "unit_price": 248.63,
+      "amount": 7956.16
+    }
+  ]
+}

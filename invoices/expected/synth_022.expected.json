@@ -1,0 +1,46 @@
+{
+  "merchant_name": "Summit Accounting Services",
+  "date": "2024-03-07",
+  "total_amount": 28415.26,
+  "subtotal": 26806.85,
+  "tax": 1608.41,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "Shipping and handling",
+      "quantity": 1,
+      "unit_price": 66.66,
+      "amount": 66.66
+    },
+    {
+      "name": "Maintenance service",
+      "quantity": 5,
+      "unit_price": 230.68,
+      "amount": 1153.4
+    },
+    {
+      "name": "Setup and configuration",
+      "quantity": 3,
+      "unit_price": 460.29,
+      "amount": 1380.87
+    },
+    {
+      "name": "Consultation fee",
+      "quantity": 35,
+      "unit_price": 573.32,
+      "amount": 20066.2
+    },
+    {
+      "name": "Equipment rental",
+      "quantity": 12,
+      "unit_price": 94.58,
+      "amount": 1134.96
+    },
+    {
+      "name": "Documentation",
+      "quantity": 44,
+      "unit_price": 68.29,
+      "amount": 3004.76
+    }
+  ]
+}

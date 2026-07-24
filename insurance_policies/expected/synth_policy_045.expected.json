@@ -1,0 +1,11 @@
+{
+  "insurer_name": "Tidewater Surety & Casualty",
+  "named_insured": "Piedmont Healthcare Consulting Group",
+  "policy_number": "PL-3172430",
+  "policy_type": "Professional Liability",
+  "effective_date": "2025-09-21",
+  "expiration_date": "2026-09-21",
+  "total_premium": 69400,
+  "each_occurrence_limit": 1000000,
+  "general_aggregate_limit": 5000000
+}

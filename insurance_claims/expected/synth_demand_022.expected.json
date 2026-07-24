@@ -1,0 +1,11 @@
+{
+  "form_type": "Demand Letter",
+  "claimant_name": "Steven R. Yamamoto",
+  "employer_name": null,
+  "date_of_loss": "2025-09-21",
+  "description_of_loss": "On 09/21/2025, a water leak originating from property owned or managed by Vanguard Maintenance Corp. at 1025 Thomas Jefferson Street, Washington, DC 20007 caused extensive damage to our insured's property located at 600 N. Pine Island Road, Fort Lauderdale, FL 33324. The leak, which appears to have resulted from improper plumbing repairs, went undetected for approximately two days, allowing water to infiltrate our insured's basement and first floor.",
+  "amount_claimed": 35000,
+  "policy_number": "CGL-631312",
+  "body_part": null,
+  "state": "FL"
+}

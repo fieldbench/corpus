@@ -1,0 +1,17 @@
+{
+  "filename": "wc_froi_south_carolina.md",
+  "source_name": "South Carolina WCC Form 12A — First Report of Injury",
+  "source_url": "https://wcc.sc.gov/sites/wcc/files/Documents/Header/Forms/Form12A.pdf",
+  "license": "Public domain — state government form",
+  "license_url": null,
+  "attribution": "South Carolina WCC Form 12A — First Report of Injury",
+  "original_format": "PDF (parsed via docling)",
+  "r2_url": null,
+  "pages": 2,
+  "added_date": "2026-04-16",
+  "added_by": "accuracy-25",
+  "schema": "insurance_claims/schemas/claim_form.yaml",
+  "doc_type": "first_report_of_injury",
+  "notes": "Real first_report_of_injury form from South Carolina WCC Form 12A — First Report of Injury.",
+  "source": "real"
+}

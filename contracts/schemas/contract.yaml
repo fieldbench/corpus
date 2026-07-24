@@ -1,0 +1,129 @@
+name: contract
+description: |
+  Key terms from material contracts and agreements — supply agreements,
+  license agreements, employment agreements, credit facilities, leases,
+  and other commercial contracts. Extracts party names, dates, governing
+  law, and contract type.
+
+  Commonly sourced from SEC EDGAR 8-K exhibits (material contracts),
+  government procurement portals, and court filings.
+
+compare:
+  fuzzy_threshold: 0.85
+
+categories:
+  keywords:
+    preamble:
+      - "agreement"
+      - "contract"
+      - "entered into"
+      - "by and between"
+      - "by and among"
+      - "effective as of"
+      - "witnesseth"
+      - "recitals"
+    definitions:
+      - "definitions"
+      - "defined terms"
+      - "shall mean"
+      - "as used herein"
+    governing:
+      - "governing law"
+      - "jurisdiction"
+      - "governed by"
+      - "laws of the state"
+      - "dispute resolution"
+      - "arbitration"
+    signatures:
+      - "in witness whereof"
+      - "duly authorized"
+      - "/s/"
+      - "signature"
+
+fields:
+  contract_type:
+    type: enum
+    description: |
+      Type of agreement. Determined from the document title or preamble.
+      Example: "MASTER SUPPLY AGREEMENT", "SOFTWARE LICENSE AGREEMENT".
+    options:
+      - Supply Agreement
+      - License Agreement
+      - Employment Agreement
+      - Credit Agreement
+      - Lease
+      - Settlement Agreement
+      - Merger Agreement
+      - Services Agreement
+      - Non-Disclosure Agreement
+      - Other
+    hints:
+      look_in: [preamble]
+      prefer_position: top
+      patterns:
+        - "agreement"
+        - "contract"
+        - "lease"
+        - "license"
+
+  parties:
+    type: array
+    description: |
+      Names of the contracting parties. Typically listed in the preamble:
+      "This Agreement is entered into by and between [Party A] and
+      [Party B]." Return as a list of party names.
+    hints:
+      look_in: [preamble]
+      prefer_position: top
+      patterns:
+        - "between"
+        - "by and among"
+        - "by and between"
+        - "party"
+        - "parties"
+
+  effective_date:
+    type: date
+    description: |
+      Date the contract takes effect. May appear as "effective as of
+      [date]" in the preamble, or as "dated [date]" in the header.
+      Not the signature date unless they are the same.
+    hints:
+      look_in: [preamble]
+      prefer_position: top
+      patterns:
+        - "effective"
+        - "dated as of"
+        - "entered into"
+        - "made and entered"
+      signals: [has_dates]
+
+  termination_date:
+    type: date
+    description: |
+      Date the contract expires or terminates. May be stated as a
+      specific date, or as a term ("for a period of three years from
+      the effective date"). If stated as a term, compute the end date
+      if possible; otherwise return null.
+    hints:
+      patterns:
+        - "terminat"
+        - "expir"
+        - "end date"
+        - "initial term"
+        - "period of"
+      signals: [has_dates]
+
+  governing_law:
+    type: string
+    description: |
+      Jurisdiction whose law governs the contract. Typically stated as
+      "This Agreement shall be governed by the laws of the State of
+      [state]" or "governed by the laws of [country]."
+    hints:
+      look_in: [governing]
+      patterns:
+        - "governing law"
+        - "governed by"
+        - "laws of the state"
+        - "laws of"

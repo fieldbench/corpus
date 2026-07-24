@@ -1,0 +1,11 @@
+{
+  "insurer_name": "Keystone Indemnity Group",
+  "named_insured": "Cornerstone Civil Engineering PC",
+  "policy_number": "CPR4788692",
+  "policy_type": "Commercial Property",
+  "effective_date": "2025-05-25",
+  "expiration_date": "2026-05-25",
+  "total_premium": 71350,
+  "each_occurrence_limit": 1000000,
+  "general_aggregate_limit": 5000000
+}

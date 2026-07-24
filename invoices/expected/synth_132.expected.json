@@ -1,0 +1,22 @@
+{
+  "merchant_name": "Rotterdam Port Services BV",
+  "date": "2026-05-08",
+  "total_amount": 576.61,
+  "subtotal": 537.63,
+  "tax": 38.98,
+  "currency": "EUR",
+  "items": [
+    {
+      "name": "Tracking and monitoring",
+      "quantity": 17,
+      "unit_price": 28.97,
+      "amount": 492.49
+    },
+    {
+      "name": "Warehouse storage (per pallet/month)",
+      "quantity": 1,
+      "unit_price": 45.14,
+      "amount": 45.14
+    }
+  ]
+}

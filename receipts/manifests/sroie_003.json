@@ -1,0 +1,18 @@
+{
+  "filename": "sroie_003.md",
+  "source_name": "SROIE Dataset (ICDAR 2019)",
+  "source_url": "https://rrc.cvc.uab.es/?ch=13",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Huang, Chen, He, Bai, Karatzas, Lu & Jawahar \u2014 ICDAR 2019 Robust Reading Challenge on Scanned Receipts OCR and Information Extraction (SROIE)",
+  "original_format": "JPEG image (OCR)",
+  "original_image": "003.jpg",
+  "r2_url": null,
+  "pages": 1,
+  "added_date": "2026-04-12",
+  "added_by": "corpus-bootstrap",
+  "schema": "receipts/schemas/invoice_basic.yaml",
+  "notes": "Singaporean receipt from SROIE Task 3. Ground truth from dataset annotations (company, date, total). Subtotal, tax, and line items left null \u2014 SROIE doesn't annotate them.",
+  "license_basis": "CC BY 4.0 requires attribution. Dataset described in arXiv:2103.10213. Obtained via a third-party mirror; terms should be re-verified against the official Robust Reading Competition source. See DATA_LICENSE.md.",
+  "source": "real"
+}

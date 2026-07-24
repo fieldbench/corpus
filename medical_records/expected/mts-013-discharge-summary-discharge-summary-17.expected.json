@@ -1,0 +1,14 @@
+{
+  "admission_date": null,
+  "attending_physician": "Dr. Z",
+  "discharge_date": "2009-06-14",
+  "medications_at_discharge": [
+    "IV Flagyl",
+    "Levaquin"
+  ],
+  "primary_diagnosis": "Acute right lobar pneumonia",
+  "procedures": [
+    "scalp skin biopsy",
+    "thoracentesis"
+  ]
+}

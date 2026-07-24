@@ -1,0 +1,58 @@
+{
+  "merchant_name": "Atlas Civil Engineering Inc.",
+  "date": "2024-04-03",
+  "total_amount": 85696.24,
+  "subtotal": 71413.53,
+  "tax": 14282.71,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "Drywall sheets 4x8",
+      "quantity": 20,
+      "unit_price": 18.38,
+      "amount": 367.6
+    },
+    {
+      "name": "Foundation inspection",
+      "quantity": 14,
+      "unit_price": 563.92,
+      "amount": 7894.88
+    },
+    {
+      "name": "Excavation (per hour)",
+      "quantity": 22,
+      "unit_price": 206.86,
+      "amount": 4550.92
+    },
+    {
+      "name": "Plumbing rough-in",
+      "quantity": 18,
+      "unit_price": 2138.47,
+      "amount": 38492.46
+    },
+    {
+      "name": "Lumber 2x4x8 (per bundle)",
+      "quantity": 3,
+      "unit_price": 257.49,
+      "amount": 772.47
+    },
+    {
+      "name": "Electrical wiring (per room)",
+      "quantity": 1,
+      "unit_price": 948.08,
+      "amount": 948.08
+    },
+    {
+      "name": "Paint and finishing (per room)",
+      "quantity": 3,
+      "unit_price": 389.12,
+      "amount": 1167.36
+    },
+    {
+      "name": "Rebar #4 (per ton)",
+      "quantity": 24,
+      "unit_price": 717.49,
+      "amount": 17219.76
+    }
+  ]
+}

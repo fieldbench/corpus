@@ -1,0 +1,11 @@
+{
+  "insurer_name": "Sterling National Insurance Co.",
+  "named_insured": "Westridge Concrete Foundations",
+  "policy_number": "WC3810652",
+  "policy_type": "Workers Compensation",
+  "effective_date": "2024-04-06",
+  "expiration_date": "2025-04-06",
+  "total_premium": 344000,
+  "each_occurrence_limit": 1000000,
+  "general_aggregate_limit": null
+}

@@ -1,0 +1,17 @@
+{
+  "filename": "wc_froi_utah.md",
+  "source_name": "Utah Form 122E — Employer's First Report of Injury",
+  "source_url": "https://laborcommission.utah.gov/wp-content/uploads/2019/11/Form-122-E-Revised-2-2019.pdf",
+  "license": "Public domain — state government form",
+  "license_url": null,
+  "attribution": "Utah Form 122E — Employer's First Report of Injury",
+  "original_format": "PDF (parsed via docling)",
+  "r2_url": null,
+  "pages": 1,
+  "added_date": "2026-04-16",
+  "added_by": "accuracy-25",
+  "schema": "insurance_claims/schemas/claim_form.yaml",
+  "doc_type": "first_report_of_injury",
+  "notes": "Real first_report_of_injury form from Utah Form 122E — Employer's First Report of Injury.",
+  "source": "real"
+}

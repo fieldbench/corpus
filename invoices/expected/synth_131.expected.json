@@ -1,0 +1,28 @@
+{
+  "merchant_name": "Compass Data Recovery",
+  "date": "2025-10-23",
+  "total_amount": 173815.35,
+  "subtotal": 146063.32,
+  "tax": 27752.03,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "DevOps pipeline setup",
+      "quantity": 6,
+      "unit_price": 2548.95,
+      "amount": 15293.7
+    },
+    {
+      "name": "Security audit",
+      "quantity": 34,
+      "unit_price": 2167.45,
+      "amount": 73693.3
+    },
+    {
+      "name": "Disaster recovery plan",
+      "quantity": 16,
+      "unit_price": 3567.27,
+      "amount": 57076.32
+    }
+  ]
+}

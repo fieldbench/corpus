@@ -1,0 +1,11 @@
+{
+  "insurer_name": "Liberty Bell Underwriters",
+  "named_insured": "Coastal Crane & Rigging LLC",
+  "policy_number": "CPR-9855765",
+  "policy_type": "Commercial Property",
+  "effective_date": "2025-04-09",
+  "expiration_date": "2026-04-09",
+  "total_premium": 147200,
+  "each_occurrence_limit": 5000000,
+  "general_aggregate_limit": 10000000
+}

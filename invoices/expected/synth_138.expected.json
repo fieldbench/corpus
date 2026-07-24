@@ -1,0 +1,58 @@
+{
+  "merchant_name": "Bay Area Pet Hospital",
+  "date": "2025-07-21",
+  "total_amount": 35064.91,
+  "subtotal": 29220.76,
+  "tax": 5844.15,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "Maintenance service",
+      "quantity": 8,
+      "unit_price": 189.68,
+      "amount": 1517.44
+    },
+    {
+      "name": "Administrative fee",
+      "quantity": 1,
+      "unit_price": 48.32,
+      "amount": 48.32
+    },
+    {
+      "name": "Consultation fee",
+      "quantity": 3,
+      "unit_price": 187.92,
+      "amount": 563.76
+    },
+    {
+      "name": "Inspection and testing",
+      "quantity": 44,
+      "unit_price": 326.97,
+      "amount": 14386.68
+    },
+    {
+      "name": "Professional service",
+      "quantity": 38,
+      "unit_price": 246.73,
+      "amount": 9375.74
+    },
+    {
+      "name": "Materials and supplies",
+      "quantity": 19,
+      "unit_price": 99.03,
+      "amount": 1881.57
+    },
+    {
+      "name": "Training session",
+      "quantity": 1,
+      "unit_price": 770.09,
+      "amount": 770.09
+    },
+    {
+      "name": "Shipping and handling",
+      "quantity": 19,
+      "unit_price": 35.64,
+      "amount": 677.16
+    }
+  ]
+}

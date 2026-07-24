@@ -1,0 +1,14 @@
+{
+  "admission_date": null,
+  "attending_physician": "Dr. Y",
+  "discharge_date": "2008-07-26",
+  "medications_at_discharge": null,
+  "primary_diagnosis": "Trauma/ATV accident resulting in left open humerus fracture.",
+  "procedures": [
+    "Irrigation and debridement of open type 3 subcondylar left distal humerus fracture",
+    "Open reduction and internal fixation of the left supracondylar humerus fracture",
+    "Negative pressure wound dressing",
+    "Irrigation and debridement of left elbow fracture",
+    "CT of the brain without contrast"
+  ]
+}

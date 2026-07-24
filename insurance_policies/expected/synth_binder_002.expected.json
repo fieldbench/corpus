@@ -1,0 +1,11 @@
+{
+  "insurer_name": "Mountain West Casualty Co.",
+  "named_insured": "Ryan P. Gallagher",
+  "policy_number": "UMB-735624",
+  "policy_type": "Umbrella/Excess",
+  "effective_date": "2025-05-15",
+  "expiration_date": "2026-05-15",
+  "each_occurrence_limit": 1000000,
+  "general_aggregate_limit": 4000000,
+  "total_premium": 2000
+}

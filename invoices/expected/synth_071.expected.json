@@ -1,0 +1,40 @@
+{
+  "merchant_name": "Emerald Isle Imports",
+  "date": "2025-11-01",
+  "total_amount": 30044.94,
+  "subtotal": 25037.45,
+  "tax": 5007.49,
+  "currency": "EUR",
+  "items": [
+    {
+      "name": "Consultation fee",
+      "quantity": 21,
+      "unit_price": 175.54,
+      "amount": 3686.34
+    },
+    {
+      "name": "Shipping and handling",
+      "quantity": 3,
+      "unit_price": 61.89,
+      "amount": 185.67
+    },
+    {
+      "name": "Materials and supplies",
+      "quantity": 9,
+      "unit_price": 277.0,
+      "amount": 2493.0
+    },
+    {
+      "name": "Administrative fee",
+      "quantity": 34,
+      "unit_price": 75.62,
+      "amount": 2571.08
+    },
+    {
+      "name": "Setup and configuration",
+      "quantity": 44,
+      "unit_price": 365.94,
+      "amount": 16101.36
+    }
+  ]
+}

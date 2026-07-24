@@ -1,0 +1,82 @@
+{
+  "merchant_name": "Sahara Print Solutions",
+  "date": "2025-08-28",
+  "total_amount": 40788.13,
+  "subtotal": 40788.13,
+  "tax": 0.0,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "Setup and configuration",
+      "quantity": 1,
+      "unit_price": 570.88,
+      "amount": 570.88
+    },
+    {
+      "name": "Inspection and testing",
+      "quantity": 29,
+      "unit_price": 126.69,
+      "amount": 3674.01
+    },
+    {
+      "name": "Professional service",
+      "quantity": 12,
+      "unit_price": 282.24,
+      "amount": 3386.88
+    },
+    {
+      "name": "Consultation fee",
+      "quantity": 23,
+      "unit_price": 567.65,
+      "amount": 13055.95
+    },
+    {
+      "name": "Training session",
+      "quantity": 8,
+      "unit_price": 643.49,
+      "amount": 5147.92
+    },
+    {
+      "name": "Travel expenses",
+      "quantity": 12,
+      "unit_price": 114.1,
+      "amount": 1369.2
+    },
+    {
+      "name": "Equipment rental",
+      "quantity": 7,
+      "unit_price": 217.15,
+      "amount": 1520.05
+    },
+    {
+      "name": "Administrative fee",
+      "quantity": 1,
+      "unit_price": 55.75,
+      "amount": 55.75
+    },
+    {
+      "name": "Materials and supplies",
+      "quantity": 15,
+      "unit_price": 106.4,
+      "amount": 1596.0
+    },
+    {
+      "name": "Shipping and handling",
+      "quantity": 17,
+      "unit_price": 62.15,
+      "amount": 1056.55
+    },
+    {
+      "name": "Documentation",
+      "quantity": 22,
+      "unit_price": 197.77,
+      "amount": 4350.94
+    },
+    {
+      "name": "Maintenance service",
+      "quantity": 36,
+      "unit_price": 139.0,
+      "amount": 5004.0
+    }
+  ]
+}

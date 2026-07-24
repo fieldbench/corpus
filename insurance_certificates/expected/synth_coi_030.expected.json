@@ -1,0 +1,45 @@
+{
+  "certificate_date": "2025-06-06",
+  "certificate_holder_name": "Crossroads Commercial Properties",
+  "insured_name": "Summit Landscaping & Excavation",
+  "policies": [
+    {
+      "policy_number": "AUT9168971",
+      "coverage_type": "Automobile Liability",
+      "carrier_name": "Pacific Crest Casualty",
+      "effective_date": "2025-05-15",
+      "expiration_date": "2026-05-15",
+      "limits": [
+        {
+          "name": "Combined Single Limit (Each Accident)",
+          "amount": 2000000
+        }
+      ],
+      "additional_insureds": []
+    },
+    {
+      "policy_number": "WC4241351",
+      "coverage_type": "Workers Compensation",
+      "carrier_name": "Pinnacle Specialty Insurance",
+      "effective_date": "2025-05-15",
+      "expiration_date": "2026-05-15",
+      "limits": [
+        {
+          "name": "Bodily Injury by Accident (Each Accident)",
+          "amount": 500000
+        },
+        {
+          "name": "Bodily Injury by Disease (Policy Limit)",
+          "amount": 500000
+        },
+        {
+          "name": "Bodily Injury by Disease (Each Employee)",
+          "amount": 500000
+        }
+      ],
+      "additional_insureds": []
+    }
+  ],
+  "producer_name": "Summit Risk Advisors LLC",
+  "producer_phone": "(215) 555-0188"
+}

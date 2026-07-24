@@ -1,0 +1,28 @@
+{
+  "merchant_name": "Cloudline Analytics Pty Ltd",
+  "date": "2024-05-01",
+  "total_amount": 20113.28,
+  "subtotal": 18797.46,
+  "tax": 1315.82,
+  "currency": "AUD",
+  "items": [
+    {
+      "name": "Cloud hosting (monthly)",
+      "quantity": 2,
+      "unit_price": 2313.14,
+      "amount": 4626.28
+    },
+    {
+      "name": "Technical consultation (hourly)",
+      "quantity": 42,
+      "unit_price": 281.54,
+      "amount": 11824.68
+    },
+    {
+      "name": "SSL certificate (annual)",
+      "quantity": 19,
+      "unit_price": 123.5,
+      "amount": 2346.5
+    }
+  ]
+}

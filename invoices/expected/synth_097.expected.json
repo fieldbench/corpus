@@ -1,0 +1,52 @@
+{
+  "merchant_name": "Capitol Hill Flowers",
+  "date": "2025-06-10",
+  "total_amount": 42337.37,
+  "subtotal": 42337.37,
+  "tax": 0.0,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "Inspection and testing",
+      "quantity": 4,
+      "unit_price": 231.54,
+      "amount": 926.16
+    },
+    {
+      "name": "Professional service",
+      "quantity": 17,
+      "unit_price": 162.28,
+      "amount": 2758.76
+    },
+    {
+      "name": "Consultation fee",
+      "quantity": 1,
+      "unit_price": 268.34,
+      "amount": 268.34
+    },
+    {
+      "name": "Training session",
+      "quantity": 43,
+      "unit_price": 725.08,
+      "amount": 31178.44
+    },
+    {
+      "name": "Equipment rental",
+      "quantity": 15,
+      "unit_price": 399.48,
+      "amount": 5992.2
+    },
+    {
+      "name": "Maintenance service",
+      "quantity": 4,
+      "unit_price": 247.08,
+      "amount": 988.32
+    },
+    {
+      "name": "Shipping and handling",
+      "quantity": 5,
+      "unit_price": 45.03,
+      "amount": 225.15
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "certificate_date": "2026-09-21",
+  "certificate_holder_name": "Lakewood Properties Inc.",
+  "insured_name": "Redline Fire Protection Corp.",
+  "policies": [
+    {
+      "policy_number": "AUT8524057",
+      "coverage_type": "Automobile Liability",
+      "carrier_name": "Sunbelt Workers Comp Trust",
+      "effective_date": "2025-04-03",
+      "expiration_date": "2026-04-03",
+      "limits": [
+        {
+          "name": "Combined Single Limit (Each Accident)",
+          "amount": 1000000
+        }
+      ],
+      "additional_insureds": []
+    },
+    {
+      "policy_number": "WC4917781",
+      "coverage_type": "Workers Compensation",
+      "carrier_name": "Appalachian Fidelity Mutual",
+      "effective_date": "2025-04-03",
+      "expiration_date": "2026-04-03",
+      "limits": [
+        {
+          "name": "Bodily Injury by Accident (Each Accident)",
+          "amount": 500000
+        },
+        {
+          "name": "Bodily Injury by Disease (Policy Limit)",
+          "amount": 500000
+        },
+        {
+          "name": "Bodily Injury by Disease (Each Employee)",
+          "amount": 1000000
+        }
+      ],
+      "additional_insureds": []
+    }
+  ],
+  "producer_name": "Pacific Brokerage Group",
+  "producer_phone": "(310) 555-0199"
+}

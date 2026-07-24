@@ -1,0 +1,11 @@
+{
+  "insurer_name": "Northern Lights Insurance Corp.",
+  "named_insured": "Sierra Technical Engineering PC",
+  "policy_number": "PL-8567247",
+  "policy_type": "Professional Liability",
+  "effective_date": "2025-05-03",
+  "expiration_date": "2026-05-03",
+  "total_premium": 64950,
+  "each_occurrence_limit": 1000000,
+  "general_aggregate_limit": 10000000
+}

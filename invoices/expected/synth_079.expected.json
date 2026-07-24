@@ -1,0 +1,22 @@
+{
+  "merchant_name": "Golden Gate Catering Co.",
+  "date": "2025-09-16",
+  "total_amount": 3089.83,
+  "subtotal": 2887.69,
+  "tax": 202.14,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "Linen rental",
+      "quantity": 8,
+      "unit_price": 43.43,
+      "amount": 347.44
+    },
+    {
+      "name": "Specialty cake",
+      "quantity": 15,
+      "unit_price": 169.35,
+      "amount": 2540.25
+    }
+  ]
+}

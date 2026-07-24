@@ -1,0 +1,64 @@
+{
+  "merchant_name": "Atlas Civil Engineering Inc.",
+  "date": "2024-03-22",
+  "total_amount": 202776.09,
+  "subtotal": 179447.87,
+  "tax": 23328.22,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "Roofing shingles (per square)",
+      "quantity": 49,
+      "unit_price": 107.2,
+      "amount": 5252.8
+    },
+    {
+      "name": "Rebar #4 (per ton)",
+      "quantity": 20,
+      "unit_price": 855.98,
+      "amount": 17119.6
+    },
+    {
+      "name": "Drywall sheets 4x8",
+      "quantity": 38,
+      "unit_price": 20.71,
+      "amount": 786.98
+    },
+    {
+      "name": "Window installation",
+      "quantity": 6,
+      "unit_price": 248.02,
+      "amount": 1488.12
+    },
+    {
+      "name": "Concrete (per cubic yard)",
+      "quantity": 49,
+      "unit_price": 145.56,
+      "amount": 7132.44
+    },
+    {
+      "name": "Foundation inspection",
+      "quantity": 22,
+      "unit_price": 648.42,
+      "amount": 14265.24
+    },
+    {
+      "name": "Electrical wiring (per room)",
+      "quantity": 1,
+      "unit_price": 449.53,
+      "amount": 449.53
+    },
+    {
+      "name": "Structural steel beam",
+      "quantity": 44,
+      "unit_price": 2182.91,
+      "amount": 96048.04
+    },
+    {
+      "name": "Plumbing rough-in",
+      "quantity": 14,
+      "unit_price": 2636.08,
+      "amount": 36905.12
+    }
+  ]
+}

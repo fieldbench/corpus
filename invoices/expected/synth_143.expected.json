@@ -1,0 +1,64 @@
+{
+  "merchant_name": "Berlin Language Academy",
+  "date": "2024-08-21",
+  "total_amount": 37122.42,
+  "subtotal": 31195.31,
+  "tax": 5927.11,
+  "currency": "EUR",
+  "items": [
+    {
+      "name": "Inspection and testing",
+      "quantity": 29,
+      "unit_price": 141.66,
+      "amount": 4108.14
+    },
+    {
+      "name": "Shipping and handling",
+      "quantity": 3,
+      "unit_price": 60.09,
+      "amount": 180.27
+    },
+    {
+      "name": "Documentation",
+      "quantity": 48,
+      "unit_price": 111.9,
+      "amount": 5371.2
+    },
+    {
+      "name": "Maintenance service",
+      "quantity": 16,
+      "unit_price": 322.12,
+      "amount": 5153.92
+    },
+    {
+      "name": "Administrative fee",
+      "quantity": 35,
+      "unit_price": 48.6,
+      "amount": 1701.0
+    },
+    {
+      "name": "Travel expenses",
+      "quantity": 6,
+      "unit_price": 129.29,
+      "amount": 775.74
+    },
+    {
+      "name": "Professional service",
+      "quantity": 20,
+      "unit_price": 439.31,
+      "amount": 8786.2
+    },
+    {
+      "name": "Setup and configuration",
+      "quantity": 1,
+      "unit_price": 421.84,
+      "amount": 421.84
+    },
+    {
+      "name": "Materials and supplies",
+      "quantity": 35,
+      "unit_price": 134.2,
+      "amount": 4697.0
+    }
+  ]
+}

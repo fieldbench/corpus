@@ -1,0 +1,22 @@
+{
+  "merchant_name": "Santiago Mining Equipment SpA",
+  "date": "2025-01-25",
+  "total_amount": 10258.95,
+  "subtotal": 10258.95,
+  "tax": 0.0,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "Consultation fee",
+      "quantity": 15,
+      "unit_price": 288.77,
+      "amount": 4331.55
+    },
+    {
+      "name": "Inspection and testing",
+      "quantity": 15,
+      "unit_price": 395.16,
+      "amount": 5927.4
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "certificate_date": "2025-06-24",
+  "producer_name": "Cascadia Insurance Brokers",
+  "producer_phone": "(206) 555-0199",
+  "insured_name": "Cornerstone Civil Engineering PC",
+  "certificate_holder_name": "Lakewood Properties Inc.",
+  "policies": [
+    {
+      "policy_number": "CGL9077760",
+      "coverage_type": "Commercial General Liability",
+      "carrier_name": "Atlantic Coast Mutual",
+      "effective_date": "2025-01-02",
+      "expiration_date": "2026-01-02",
+      "limits": [
+        {
+          "name": "Each Occurrence",
+          "amount": 2000000
+        },
+        {
+          "name": "General Aggregate",
+          "amount": 2000000
+        },
+        {
+          "name": "Products / Completed Operations",
+          "amount": 4000000
+        },
+        {
+          "name": "Personal & Advertising Injury",
+          "amount": 2000000
+        },
+        {
+          "name": "Damage to Rented Premises",
+          "amount": 100000
+        },
+        {
+          "name": "Medical Expense (Any One Person)",
+          "amount": 15000
+        }
+      ],
+      "additional_insureds": []
+    },
+    {
+      "policy_number": "WC1438834",
+      "coverage_type": "Workers Compensation",
+      "carrier_name": "Midwest Indemnity Holdings",
+      "effective_date": "2025-01-02",
+      "expiration_date": "2026-01-02",
+      "limits": [
+        {
+          "name": "Bodily Injury by Accident (Each Accident)",
+          "amount": 500000
+        },
+        {
+          "name": "Bodily Injury by Disease (Policy Limit)",
+          "amount": 1000000
+        },
+        {
+          "name": "Bodily Injury by Disease (Each Employee)",
+          "amount": 1000000
+        }
+      ],
+      "additional_insureds": []
+    },
+    {
+      "policy_number": "UMB5600867",
+      "coverage_type": "Umbrella Liability",
+      "carrier_name": "Ironbridge Excess Carriers Ltd.",
+      "effective_date": "2025-01-02",
+      "expiration_date": "2026-01-02",
+      "limits": [
+        {
+          "name": "Each Occurrence",
+          "amount": 25000000
+        },
+        {
+          "name": "Aggregate",
+          "amount": 25000000
+        },
+        {
+          "name": "Self-Insured Retention",
+          "amount": 25000
+        }
+      ],
+      "additional_insureds": []
+    },
+    {
+      "policy_number": "AUT2802201",
+      "coverage_type": "Automobile Liability",
+      "carrier_name": "Liberty Bell Underwriters",
+      "effective_date": "2025-01-02",
+      "expiration_date": "2026-01-02",
+      "limits": [
+        {
+          "name": "Combined Single Limit (Each Accident)",
+          "amount": 2000000
+        }
+      ],
+      "additional_insureds": []
+    }
+  ]
+}

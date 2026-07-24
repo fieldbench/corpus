@@ -1,0 +1,82 @@
+{
+  "merchant_name": "Solaris Energy Systems",
+  "date": "2025-10-24",
+  "total_amount": 93837.22,
+  "subtotal": 78197.68,
+  "tax": 15639.54,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "Maintenance service",
+      "quantity": 1,
+      "unit_price": 179.41,
+      "amount": 179.41
+    },
+    {
+      "name": "Shipping and handling",
+      "quantity": 1,
+      "unit_price": 24.37,
+      "amount": 24.37
+    },
+    {
+      "name": "Administrative fee",
+      "quantity": 50,
+      "unit_price": 61.39,
+      "amount": 3069.5
+    },
+    {
+      "name": "Equipment rental",
+      "quantity": 36,
+      "unit_price": 257.39,
+      "amount": 9266.04
+    },
+    {
+      "name": "Travel expenses",
+      "quantity": 7,
+      "unit_price": 177.4,
+      "amount": 1241.8
+    },
+    {
+      "name": "Training session",
+      "quantity": 49,
+      "unit_price": 538.64,
+      "amount": 26393.36
+    },
+    {
+      "name": "Setup and configuration",
+      "quantity": 11,
+      "unit_price": 528.61,
+      "amount": 5814.71
+    },
+    {
+      "name": "Inspection and testing",
+      "quantity": 43,
+      "unit_price": 344.35,
+      "amount": 14807.05
+    },
+    {
+      "name": "Consultation fee",
+      "quantity": 1,
+      "unit_price": 483.84,
+      "amount": 483.84
+    },
+    {
+      "name": "Professional service",
+      "quantity": 42,
+      "unit_price": 358.07,
+      "amount": 15038.94
+    },
+    {
+      "name": "Materials and supplies",
+      "quantity": 3,
+      "unit_price": 218.82,
+      "amount": 656.46
+    },
+    {
+      "name": "Documentation",
+      "quantity": 18,
+      "unit_price": 67.9,
+      "amount": 1222.2
+    }
+  ]
+}

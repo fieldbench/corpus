@@ -1,0 +1,16 @@
+{
+  "filename": "cap_013.md",
+  "source_name": "CourtListener",
+  "source_url": "https://www.courtlistener.com/opinion/9487007/",
+  "license": "Public Domain (US Court Opinions)",
+  "attribution": "Free Law Project / CourtListener",
+  "original_format": "HTML",
+  "pages": 9,
+  "added_date": "2026-05-21",
+  "added_by": "legal-cl-sourcer",
+  "schema": "legal_filings/schemas/legal_filing.yaml",
+  "case_name": "Edy v. Farmers Property Casualty Ins. Co.",
+  "citation": "2024 Ohio 1047",
+  "court": "Ohio Court of Appeals",
+  "source": "real"
+}

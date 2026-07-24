@@ -1,0 +1,22 @@
+{
+  "merchant_name": "Cascade Plumbing & Heating",
+  "date": "2024-02-08",
+  "total_amount": 7067.71,
+  "subtotal": 6589.94,
+  "tax": 477.77,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "Setup and configuration",
+      "quantity": 5,
+      "unit_price": 258.5,
+      "amount": 1292.5
+    },
+    {
+      "name": "Inspection and testing",
+      "quantity": 16,
+      "unit_price": 331.09,
+      "amount": 5297.44
+    }
+  ]
+}

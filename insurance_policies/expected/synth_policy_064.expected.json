@@ -1,0 +1,11 @@
+{
+  "insurer_name": "Mountain West Casualty Co.",
+  "named_insured": "Patricia M. O'Brien",
+  "policy_number": "HO-7021103",
+  "policy_type": "Homeowners",
+  "effective_date": "2025-10-03",
+  "expiration_date": "2026-10-03",
+  "total_premium": 2950,
+  "each_occurrence_limit": 100000,
+  "general_aggregate_limit": null
+}

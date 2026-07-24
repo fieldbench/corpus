@@ -1,0 +1,13 @@
+{
+  "admission_date": "2009-07-29",
+  "attending_physician": "Dr. X",
+  "discharge_date": "2009-08-11",
+  "medications_at_discharge": [
+    "Aspirin",
+    "Colace",
+    "Lipitor",
+    "albuterol"
+  ],
+  "primary_diagnosis": "acute ischemic right MCA/CVA",
+  "procedures": null
+}

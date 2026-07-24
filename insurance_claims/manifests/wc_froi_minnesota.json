@@ -1,0 +1,17 @@
+{
+  "filename": "wc_froi_minnesota.md",
+  "source_name": "Minnesota Form FR01 — First Report of Injury",
+  "source_url": "https://www.dli.mn.gov/sites/default/files/pdf/fr01.pdf",
+  "license": "Public domain — state government form",
+  "license_url": null,
+  "attribution": "Minnesota Form FR01 — First Report of Injury",
+  "original_format": "PDF (parsed via docling)",
+  "r2_url": null,
+  "pages": 3,
+  "added_date": "2026-04-16",
+  "added_by": "accuracy-25",
+  "schema": "insurance_claims/schemas/claim_form.yaml",
+  "doc_type": "first_report_of_injury",
+  "notes": "Real first_report_of_injury form from Minnesota Form FR01 — First Report of Injury.",
+  "source": "real"
+}

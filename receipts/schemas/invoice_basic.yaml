@@ -1,0 +1,130 @@
+name: invoice_basic
+description: Commercial invoice and receipt extraction — merchant, totals, line items
+
+compare:
+  fuzzy_threshold: 0.85
+
+locale:
+  infer_from: [merchant_name, vendor_address]
+  fallback:
+    date_format: MM/DD/YYYY
+    currency: USD
+
+categories:
+  keywords:
+    header: ["invoice", "receipt", "bill to", "ship to", "invoice number"]
+    line_items: ["description", "quantity", "unit price", "amount", "subtotal"]
+    totals: ["subtotal", "tax", "total", "amount due", "balance"]
+
+fields:
+  merchant_name:
+    type: string
+    required: true
+    description: |
+      Name of the business issuing the invoice or receipt. Typically appears
+      prominently at the top of the document, often the first bolded text
+      or the largest text in the header. Do not use the bill-to / customer
+      name — we want the seller, not the buyer.
+    hints:
+      look_in: [header]
+      prefer_position: top
+      patterns: ["(?:from|vendor|seller|merchant|bill\\s*from)[:\\s]"]
+      signals: [has_name_references]
+
+  date:
+    type: date
+    required: true
+    description: Invoice or purchase date
+    hints:
+      look_in: [header]
+      patterns: ["(?:invoice|purchase|transaction|receipt)\\s*date", "date\\s*:"]
+      signals: [has_dates]
+
+  total_amount:
+    type: number
+    required: true
+    description: Grand total including tax and fees
+    hints:
+      look_in: [totals]
+      patterns: ["(?:grand\\s*)?total\\s*(?:due|amount)?", "balance\\s*due", "amount\\s*due"]
+      signals: [has_dollar_amounts]
+
+  subtotal:
+    type: number
+    description: Subtotal before tax and fees
+    hints:
+      look_in: [totals]
+      patterns: ["sub\\s*total", "net\\s*amount"]
+      signals: [has_dollar_amounts]
+
+  tax:
+    type: number
+    description: Tax amount (sales tax, VAT, GST, etc.)
+    hints:
+      look_in: [totals]
+      patterns: ["(?:sales\\s*)?tax", "vat", "gst", "hst"]
+      signals: [has_dollar_amounts]
+
+  currency:
+    type: string
+    description: |
+      ISO currency code (USD, EUR, GBP, JPY, CAD, AUD, SGD, MYR, etc.).
+
+      Infer from the MOST SPECIFIC signal available, in this order:
+        1. Explicit code in the document (e.g., "USD", "EUR") — use it.
+        2. Currency symbol with country context:
+           - RM or MYR → MYR (Malaysian Ringgit)
+           - € → EUR
+           - £ → GBP
+           - ¥ → JPY (or CNY if Chinese company)
+           - S$ → SGD
+           - C$ or CA$ → CAD
+           - A$ or AU$ → AUD
+           - $ with a Canadian address (province codes like BC, ON, AB) → CAD
+           - $ with an Australian address → AUD
+           - $ with a Singapore address → SGD
+           - $ otherwise → USD
+        3. If the vendor address mentions a non-US country, match the
+           local currency (UK → GBP, Germany/France → EUR, etc.).
+    hints:
+      look_in: [header, totals]
+      patterns: ["\\$|€|£|¥", "(?:USD|EUR|GBP|JPY|CAD|AUD)"]
+
+  items:
+    type: array
+    description: |
+      Line items on the invoice or receipt. Each item has a name,
+      quantity, unit price (price per single unit), and amount
+      (line total = quantity × unit_price).
+
+      CRITICAL distinction:
+        - unit_price = price for ONE unit (per item, per hour, per piece)
+        - amount = total for that line (quantity × unit_price)
+      When the table has columns like "Qty | Rate | Amount", Rate is
+      the unit_price and Amount is the line total. Do NOT put the line
+      total in unit_price.
+
+      Receipt-style formats may list items as inline text rather than
+      a table, e.g. "3x  Widget  $45.00". Parse "3" as quantity,
+      "Widget" as name, and "$45.00" as amount (unit_price = amount
+      / quantity = $15.00).
+    items:
+      type: object
+      properties:
+        name:
+          type: string
+        quantity:
+          type: number
+        unit_price:
+          type: number
+        amount:
+          type: number
+    hints:
+      look_in: [line_items]
+      signals: [has_tables, has_dollar_amounts]
+
+validation:
+  - field_sum:
+      field: total_amount
+      addends: [subtotal, tax]
+      tolerance: 0.02

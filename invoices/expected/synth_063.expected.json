@@ -1,0 +1,40 @@
+{
+  "merchant_name": "Alpine Dental Supply GmbH",
+  "date": "2025-11-23",
+  "total_amount": 2464.91,
+  "subtotal": 2054.09,
+  "tax": 410.82,
+  "currency": "EUR",
+  "items": [
+    {
+      "name": "Disposable gown (pack of 10)",
+      "quantity": 1,
+      "unit_price": 22.38,
+      "amount": 22.38
+    },
+    {
+      "name": "Examination table paper (case)",
+      "quantity": 4,
+      "unit_price": 40.77,
+      "amount": 163.08
+    },
+    {
+      "name": "Bandage roll (case of 12)",
+      "quantity": 45,
+      "unit_price": 34.3,
+      "amount": 1543.5
+    },
+    {
+      "name": "Hand sanitizer (gallon)",
+      "quantity": 1,
+      "unit_price": 29.56,
+      "amount": 29.56
+    },
+    {
+      "name": "Face shield (box of 25)",
+      "quantity": 11,
+      "unit_price": 26.87,
+      "amount": 295.57
+    }
+  ]
+}

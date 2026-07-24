@@ -1,0 +1,22 @@
+{
+  "merchant_name": "Bright Spark Electrical",
+  "date": "2025-08-05",
+  "total_amount": 10494.88,
+  "subtotal": 8745.73,
+  "tax": 1749.15,
+  "currency": "SGD",
+  "items": [
+    {
+      "name": "Distribution board",
+      "quantity": 32,
+      "unit_price": 267.56,
+      "amount": 8561.92
+    },
+    {
+      "name": "Wiring (per meter)",
+      "quantity": 33,
+      "unit_price": 5.57,
+      "amount": 183.81
+    }
+  ]
+}

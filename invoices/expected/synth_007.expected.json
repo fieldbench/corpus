@@ -1,0 +1,16 @@
+{
+  "merchant_name": "Cloudline Analytics Pty Ltd",
+  "date": "2024-08-21",
+  "total_amount": 9265.5,
+  "subtotal": 9265.5,
+  "tax": 0.0,
+  "currency": "AUD",
+  "items": [
+    {
+      "name": "Software license renewal",
+      "quantity": 3,
+      "unit_price": 3088.5,
+      "amount": 9265.5
+    }
+  ]
+}

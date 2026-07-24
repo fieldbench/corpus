@@ -1,0 +1,28 @@
+{
+  "merchant_name": "Ivory & Clarke Solicitors",
+  "date": "2025-12-13",
+  "total_amount": 60689.44,
+  "subtotal": 57254.19,
+  "tax": 3435.25,
+  "currency": "GBP",
+  "items": [
+    {
+      "name": "Legal research memo",
+      "quantity": 40,
+      "unit_price": 1251.59,
+      "amount": 50063.6
+    },
+    {
+      "name": "Document review (per page)",
+      "quantity": 3,
+      "unit_price": 6.03,
+      "amount": 18.09
+    },
+    {
+      "name": "Legal consultation (hourly)",
+      "quantity": 19,
+      "unit_price": 377.5,
+      "amount": 7172.5
+    }
+  ]
+}

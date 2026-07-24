@@ -1,0 +1,28 @@
+{
+  "merchant_name": "PixelForge Studios",
+  "date": "2026-06-01",
+  "total_amount": 123149.81,
+  "subtotal": 102624.84,
+  "tax": 20524.97,
+  "currency": "GBP",
+  "items": [
+    {
+      "name": "Print layout design",
+      "quantity": 49,
+      "unit_price": 885.9,
+      "amount": 43409.1
+    },
+    {
+      "name": "Wireframe prototype",
+      "quantity": 3,
+      "unit_price": 1582.1,
+      "amount": 4746.3
+    },
+    {
+      "name": "Brand guidelines document",
+      "quantity": 48,
+      "unit_price": 1134.78,
+      "amount": 54469.44
+    }
+  ]
+}

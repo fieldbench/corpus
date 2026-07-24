@@ -1,0 +1,11 @@
+{
+  "insurer_name": "Evergreen Mutual Insurance Company",
+  "named_insured": "Kevin P. Sinclair",
+  "policy_number": "BND-815473",
+  "policy_type": "Commercial Auto",
+  "effective_date": "2025-09-27",
+  "expiration_date": "2026-09-27",
+  "each_occurrence_limit": 1000000,
+  "general_aggregate_limit": 2000000,
+  "total_premium": 15000
+}

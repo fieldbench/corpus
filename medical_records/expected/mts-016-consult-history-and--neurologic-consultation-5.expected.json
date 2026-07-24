@@ -1,0 +1,33 @@
+{
+  "admission_date": "2008-07-03",
+  "attending_physician": null,
+  "discharge_date": null,
+  "medications_at_discharge": [
+    "Fludrocortisone",
+    "midodrine",
+    "Cymbalta",
+    "Prilosec",
+    "Lortab",
+    "Amoxil",
+    "vitamin B12",
+    "vitamin D",
+    "Metamucil",
+    "enteric-coated aspirin",
+    "Colace",
+    "Senokot",
+    "Reglan",
+    "Xanax",
+    "Ambien",
+    "Dilaudid",
+    "Protonix",
+    "Megace"
+  ],
+  "primary_diagnosis": "severe neuropathy with marked large fiber sensory as well as motor findings",
+  "procedures": [
+    "nerve conduction and EMG",
+    "left radial sensory biopsy",
+    "left biceps biopsy",
+    "CT of chest, abdomen and pelvis",
+    "whole body gallium scan"
+  ]
+}

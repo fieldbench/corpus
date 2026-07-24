@@ -1,0 +1,22 @@
+{
+  "merchant_name": "Alpine Dental Supply GmbH",
+  "date": "2026-10-14",
+  "total_amount": 1308.39,
+  "subtotal": 1234.33,
+  "tax": 74.06,
+  "currency": "EUR",
+  "items": [
+    {
+      "name": "Face shield (box of 25)",
+      "quantity": 5,
+      "unit_price": 42.87,
+      "amount": 214.35
+    },
+    {
+      "name": "Disposable gown (pack of 10)",
+      "quantity": 26,
+      "unit_price": 39.23,
+      "amount": 1019.98
+    }
+  ]
+}

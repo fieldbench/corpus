@@ -1,0 +1,11 @@
+{
+  "insurer_name": "Ironbridge Excess Carriers Ltd.",
+  "named_insured": "Christopher S. Patel",
+  "policy_number": "BND-623214",
+  "policy_type": "Businessowners",
+  "effective_date": "2025-11-26",
+  "expiration_date": "2026-11-26",
+  "each_occurrence_limit": 2000000,
+  "general_aggregate_limit": 2000000,
+  "total_premium": 5000
+}

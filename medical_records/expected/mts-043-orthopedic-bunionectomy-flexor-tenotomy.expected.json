@@ -1,0 +1,17 @@
+{
+  "admission_date": null,
+  "attending_physician": "Dr. Kaczander",
+  "discharge_date": "2023-10-04",
+  "medications_at_discharge": [
+    "Demerol",
+    "Vistaril",
+    "Vicodin"
+  ],
+  "primary_diagnosis": "Hallux abductovalgus, right foot.",
+  "procedures": [
+    "Bunionectomy with distal first metatarsal osteotomy and internal screw fixation, right foot.",
+    "Proximal interphalangeal joint arthroplasty, bilateral fifth toes.",
+    "Distal interphalangeal joint arthroplasty, bilateral third and fourth toes.",
+    "Flexor tenotomy, bilateral third toes."
+  ]
+}

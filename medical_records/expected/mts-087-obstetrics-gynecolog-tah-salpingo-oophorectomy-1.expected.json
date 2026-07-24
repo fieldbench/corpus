@@ -1,0 +1,10 @@
+{
+  "admission_date": null,
+  "attending_physician": null,
+  "discharge_date": null,
+  "medications_at_discharge": null,
+  "primary_diagnosis": "Persistent abnormal uterine bleeding after endometrial ablation.",
+  "procedures": [
+    "Total abdominal hysterectomy (TAH) with a right salpingo-oophorectomy."
+  ]
+}

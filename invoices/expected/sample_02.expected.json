@@ -1,0 +1,14 @@
+{
+  "merchant_name": "Blue Door Cafe",
+  "date": "2025-04-02",
+  "total_amount": 49.12,
+  "subtotal": 38.00,
+  "tax": 3.52,
+  "currency": "USD",
+  "items": [
+    {"name": "House salad (large)", "quantity": 1, "unit_price": 13.50, "amount": 13.50},
+    {"name": "Grilled chicken sandwich", "quantity": 1, "unit_price": 15.75, "amount": 15.75},
+    {"name": "Iced tea", "quantity": 1, "unit_price": 3.50, "amount": 3.50},
+    {"name": "Seasonal fruit", "quantity": 1, "unit_price": 5.25, "amount": 5.25}
+  ]
+}

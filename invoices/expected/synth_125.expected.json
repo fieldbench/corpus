@@ -1,0 +1,34 @@
+{
+  "merchant_name": "Maple Leaf Landscaping",
+  "date": "2026-11-02",
+  "total_amount": 24322.65,
+  "subtotal": 21524.47,
+  "tax": 2798.18,
+  "currency": "CAD",
+  "items": [
+    {
+      "name": "Shipping and handling",
+      "quantity": 11,
+      "unit_price": 32.69,
+      "amount": 359.59
+    },
+    {
+      "name": "Setup and configuration",
+      "quantity": 7,
+      "unit_price": 775.14,
+      "amount": 5425.98
+    },
+    {
+      "name": "Training session",
+      "quantity": 27,
+      "unit_price": 576.44,
+      "amount": 15563.88
+    },
+    {
+      "name": "Travel expenses",
+      "quantity": 1,
+      "unit_price": 175.02,
+      "amount": 175.02
+    }
+  ]
+}

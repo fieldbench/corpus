@@ -1,0 +1,70 @@
+{
+  "merchant_name": "Aotearoa Wool Export Ltd",
+  "date": "2024-12-08",
+  "total_amount": 34063.13,
+  "subtotal": 31834.7,
+  "tax": 2228.43,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "Equipment rental",
+      "quantity": 10,
+      "unit_price": 364.23,
+      "amount": 3642.3
+    },
+    {
+      "name": "Inspection and testing",
+      "quantity": 11,
+      "unit_price": 303.82,
+      "amount": 3342.02
+    },
+    {
+      "name": "Materials and supplies",
+      "quantity": 3,
+      "unit_price": 246.59,
+      "amount": 739.77
+    },
+    {
+      "name": "Consultation fee",
+      "quantity": 25,
+      "unit_price": 403.86,
+      "amount": 10096.5
+    },
+    {
+      "name": "Training session",
+      "quantity": 10,
+      "unit_price": 620.26,
+      "amount": 6202.6
+    },
+    {
+      "name": "Administrative fee",
+      "quantity": 11,
+      "unit_price": 56.56,
+      "amount": 622.16
+    },
+    {
+      "name": "Shipping and handling",
+      "quantity": 1,
+      "unit_price": 71.39,
+      "amount": 71.39
+    },
+    {
+      "name": "Travel expenses",
+      "quantity": 13,
+      "unit_price": 130.19,
+      "amount": 1692.47
+    },
+    {
+      "name": "Professional service",
+      "quantity": 44,
+      "unit_price": 120.15,
+      "amount": 5286.6
+    },
+    {
+      "name": "Maintenance service",
+      "quantity": 1,
+      "unit_price": 138.89,
+      "amount": 138.89
+    }
+  ]
+}

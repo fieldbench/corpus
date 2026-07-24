@@ -1,0 +1,28 @@
+{
+  "merchant_name": "Berlin Language Academy",
+  "date": "2025-08-26",
+  "total_amount": 4690.29,
+  "subtotal": 4690.29,
+  "tax": 0.0,
+  "currency": "EUR",
+  "items": [
+    {
+      "name": "Training session",
+      "quantity": 1,
+      "unit_price": 635.28,
+      "amount": 635.28
+    },
+    {
+      "name": "Documentation",
+      "quantity": 21,
+      "unit_price": 181.99,
+      "amount": 3821.79
+    },
+    {
+      "name": "Maintenance service",
+      "quantity": 1,
+      "unit_price": 233.22,
+      "amount": 233.22
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "merchant_name": "Boulangerie Saint-Martin",
+  "date": "2025-06-10",
+  "total_amount": 12449.12,
+  "subtotal": 12449.12,
+  "tax": 0.0,
+  "currency": "EUR",
+  "items": [
+    {
+      "name": "Coffee and tea service",
+      "quantity": 19,
+      "unit_price": 23.38,
+      "amount": 444.22
+    },
+    {
+      "name": "Late-night snack station",
+      "quantity": 10,
+      "unit_price": 88.54,
+      "amount": 885.4
+    },
+    {
+      "name": "Specialty cake",
+      "quantity": 1,
+      "unit_price": 171.12,
+      "amount": 171.12
+    },
+    {
+      "name": "Catering \u2014 entr\u00e9e (per person)",
+      "quantity": 2,
+      "unit_price": 18.96,
+      "amount": 37.92
+    },
+    {
+      "name": "Beverage service (per person)",
+      "quantity": 1,
+      "unit_price": 15.06,
+      "amount": 15.06
+    },
+    {
+      "name": "Equipment rental",
+      "quantity": 18,
+      "unit_price": 187.56,
+      "amount": 3376.08
+    },
+    {
+      "name": "Linen rental",
+      "quantity": 5,
+      "unit_price": 75.06,
+      "amount": 375.3
+    },
+    {
+      "name": "Catering \u2014 appetizer platter",
+      "quantity": 20,
+      "unit_price": 114.46,
+      "amount": 2289.2
+    },
+    {
+      "name": "Table setup and service",
+      "quantity": 10,
+      "unit_price": 380.86,
+      "amount": 3808.6
+    },
+    {
+      "name": "Staff (per hour)",
+      "quantity": 21,
+      "unit_price": 49.82,
+      "amount": 1046.22
+    }
+  ]
+}

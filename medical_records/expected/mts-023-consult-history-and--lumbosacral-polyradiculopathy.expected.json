@@ -1,0 +1,16 @@
+{
+  "admission_date": "2008-10-30",
+  "attending_physician": "Dr. X",
+  "discharge_date": "2008-11-03",
+  "medications_at_discharge": [
+    "Gabapentin",
+    "Centrum",
+    "multivitamin"
+  ],
+  "primary_diagnosis": "lumbosacral polyradiculopathy",
+  "procedures": [
+    "Cesarean section",
+    "MRI scan",
+    "EMG study"
+  ]
+}

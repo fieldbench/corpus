@@ -1,0 +1,11 @@
+{
+  "insurer_name": "Mountain West Casualty Co.",
+  "named_insured": "Prairie Home Builders LLC",
+  "policy_number": "XS6673427-09",
+  "policy_type": "Umbrella/Excess",
+  "effective_date": "2024-07-19",
+  "expiration_date": "2025-07-19",
+  "total_premium": 28150,
+  "each_occurrence_limit": 10000000,
+  "general_aggregate_limit": 10000000
+}

@@ -1,0 +1,10 @@
+{
+  "contract_type": "Lease",
+  "effective_date": "2022-03-14",
+  "governing_law": "THE LAWS OF THE STATE WHERE THE APPLICABLE PREMISES ARE LOCATED WITHOUT GIVING EFFECT TO PRINCIPLES THEREOF RELATING TO CONFLICTS OF LAW RULES THAT WOULD DIRECT THE APPLICATION OF THE LAWS OF ANOTHER JURISDICTION.",
+  "parties": [
+    "Sinclair Wyoming Refining Company LLC",
+    "Sinclair Transportation Company LLC"
+  ],
+  "termination_date": null
+}

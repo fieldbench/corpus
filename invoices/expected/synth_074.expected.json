@@ -1,0 +1,58 @@
+{
+  "merchant_name": "Kensington Physiotherapy",
+  "date": "2025-05-07",
+  "total_amount": 2582.58,
+  "subtotal": 2152.15,
+  "tax": 430.43,
+  "currency": "GBP",
+  "items": [
+    {
+      "name": "Hand sanitizer (gallon)",
+      "quantity": 4,
+      "unit_price": 26.3,
+      "amount": 105.2
+    },
+    {
+      "name": "Suture kit 4-0",
+      "quantity": 7,
+      "unit_price": 18.47,
+      "amount": 129.29
+    },
+    {
+      "name": "Sterile drape pack",
+      "quantity": 4,
+      "unit_price": 24.73,
+      "amount": 98.92
+    },
+    {
+      "name": "Digital thermometer",
+      "quantity": 6,
+      "unit_price": 41.95,
+      "amount": 251.7
+    },
+    {
+      "name": "Face shield (box of 25)",
+      "quantity": 11,
+      "unit_price": 32.05,
+      "amount": 352.55
+    },
+    {
+      "name": "Examination table paper (case)",
+      "quantity": 19,
+      "unit_price": 42.2,
+      "amount": 801.8
+    },
+    {
+      "name": "Blood pressure cuff",
+      "quantity": 1,
+      "unit_price": 31.66,
+      "amount": 31.66
+    },
+    {
+      "name": "Disposable gown (pack of 10)",
+      "quantity": 13,
+      "unit_price": 29.31,
+      "amount": 381.03
+    }
+  ]
+}

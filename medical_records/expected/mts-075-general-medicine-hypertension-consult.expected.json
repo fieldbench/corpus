@@ -1,0 +1,19 @@
+{
+  "admission_date": null,
+  "attending_physician": "Dr. X",
+  "discharge_date": null,
+  "medications_at_discharge": [
+    "Multivitamin",
+    "Aspirin",
+    "Lisinopril",
+    "Felodipine",
+    "Klor-Con",
+    "Omeprazole",
+    "MiraLax",
+    "Lasix"
+  ],
+  "primary_diagnosis": "hypertension",
+  "procedures": [
+    "left hip surgery"
+  ]
+}

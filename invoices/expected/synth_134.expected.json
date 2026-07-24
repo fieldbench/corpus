@@ -1,0 +1,52 @@
+{
+  "merchant_name": "Ivory & Clarke Solicitors",
+  "date": "2025-09-15",
+  "total_amount": 84714.28,
+  "subtotal": 79919.13,
+  "tax": 4795.15,
+  "currency": "GBP",
+  "items": [
+    {
+      "name": "Mediation services (half day)",
+      "quantity": 2,
+      "unit_price": 2071.61,
+      "amount": 4143.22
+    },
+    {
+      "name": "Court filing preparation",
+      "quantity": 4,
+      "unit_price": 417.25,
+      "amount": 1669.0
+    },
+    {
+      "name": "Notarization (per document)",
+      "quantity": 28,
+      "unit_price": 37.37,
+      "amount": 1046.36
+    },
+    {
+      "name": "Deposition preparation",
+      "quantity": 12,
+      "unit_price": 2291.36,
+      "amount": 27496.32
+    },
+    {
+      "name": "Legal research memo",
+      "quantity": 1,
+      "unit_price": 1458.76,
+      "amount": 1458.76
+    },
+    {
+      "name": "Trademark application",
+      "quantity": 30,
+      "unit_price": 1386.24,
+      "amount": 41587.2
+    },
+    {
+      "name": "Contract drafting",
+      "quantity": 1,
+      "unit_price": 2518.27,
+      "amount": 2518.27
+    }
+  ]
+}

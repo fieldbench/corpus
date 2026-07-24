@@ -1,0 +1,22 @@
+{
+  "merchant_name": "Vancouver Film Equipment Rentals",
+  "date": "2025-06-12",
+  "total_amount": 2666.21,
+  "subtotal": 2666.21,
+  "tax": 0.0,
+  "currency": "CAD",
+  "items": [
+    {
+      "name": "Materials and supplies",
+      "quantity": 1,
+      "unit_price": 56.75,
+      "amount": 56.75
+    },
+    {
+      "name": "Professional service",
+      "quantity": 9,
+      "unit_price": 289.94,
+      "amount": 2609.46
+    }
+  ]
+}

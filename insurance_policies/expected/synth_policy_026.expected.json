@@ -1,0 +1,11 @@
+{
+  "insurer_name": "Harvest Plains Insurance Co.",
+  "named_insured": "Angela D. Foster",
+  "policy_number": "HPP-1412985",
+  "policy_type": "Homeowners",
+  "effective_date": "2025-03-06",
+  "expiration_date": "2026-03-06",
+  "total_premium": 2700,
+  "each_occurrence_limit": 100000,
+  "general_aggregate_limit": null
+}

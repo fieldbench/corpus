@@ -1,0 +1,11 @@
+{
+  "insurer_name": "Beacon Hill Mutual",
+  "named_insured": "Atlas Framing & Construction LLC",
+  "policy_number": "BOW 7215220",
+  "policy_type": "Businessowners",
+  "effective_date": "2025-11-02",
+  "expiration_date": "2026-11-02",
+  "total_premium": 17400,
+  "each_occurrence_limit": 500000,
+  "general_aggregate_limit": 4000000
+}

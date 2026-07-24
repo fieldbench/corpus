@@ -1,0 +1,11 @@
+{
+  "insurer_name": "Atlantic Coast Mutual",
+  "named_insured": "Clearwater Environmental Solutions",
+  "policy_number": "CPR 1129138",
+  "policy_type": "Commercial Property",
+  "effective_date": "2025-07-12",
+  "expiration_date": "2026-07-12",
+  "total_premium": 112400,
+  "each_occurrence_limit": 10000000,
+  "general_aggregate_limit": 10000000
+}

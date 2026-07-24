@@ -1,0 +1,25 @@
+{
+  "admission_date": "2008-04-23",
+  "attending_physician": "Shaun Eagan",
+  "discharge_date": null,
+  "medications_at_discharge": [
+    "Home oxygen",
+    "Ativan",
+    "Metformin",
+    "Glucotrol",
+    "Spiriva",
+    "Lantus",
+    "Cardizem CD",
+    "Advair",
+    "Iron",
+    "Aspirin",
+    "Lipitor",
+    "Digoxin",
+    "Lisinopril",
+    "DuoNeb",
+    "Prednisone",
+    "Clindamycin"
+  ],
+  "primary_diagnosis": "Aspiration pneumonia",
+  "procedures": null
+}

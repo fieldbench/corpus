@@ -1,0 +1,22 @@
+{
+  "merchant_name": "Heartland Grain Cooperative",
+  "date": "2025-03-05",
+  "total_amount": 2358.03,
+  "subtotal": 2224.56,
+  "tax": 133.47,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "Maintenance service",
+      "quantity": 3,
+      "unit_price": 393.52,
+      "amount": 1180.56
+    },
+    {
+      "name": "Shipping and handling",
+      "quantity": 50,
+      "unit_price": 20.88,
+      "amount": 1044.0
+    }
+  ]
+}

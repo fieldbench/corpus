@@ -1,0 +1,11 @@
+{
+  "admission_date": null,
+  "attending_physician": null,
+  "discharge_date": null,
+  "medications_at_discharge": [
+    "Vicodin",
+    "Flexeril"
+  ],
+  "primary_diagnosis": "Multiple contusions and abdominal pain, status post motor vehicle collision.",
+  "procedures": null
+}

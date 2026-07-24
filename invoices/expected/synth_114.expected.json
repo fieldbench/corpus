@@ -1,0 +1,58 @@
+{
+  "merchant_name": "Oceanic Freight Logistics",
+  "date": "2025-05-02",
+  "total_amount": 15859.31,
+  "subtotal": 14961.61,
+  "tax": 897.7,
+  "currency": "AUD",
+  "items": [
+    {
+      "name": "Container shipping 20ft",
+      "quantity": 1,
+      "unit_price": 2692.47,
+      "amount": 2692.47
+    },
+    {
+      "name": "Pallet wrapping",
+      "quantity": 10,
+      "unit_price": 5.32,
+      "amount": 53.2
+    },
+    {
+      "name": "Express courier",
+      "quantity": 14,
+      "unit_price": 38.94,
+      "amount": 545.16
+    },
+    {
+      "name": "Documentation handling",
+      "quantity": 22,
+      "unit_price": 128.81,
+      "amount": 2833.82
+    },
+    {
+      "name": "Tracking and monitoring",
+      "quantity": 8,
+      "unit_price": 69.95,
+      "amount": 559.6
+    },
+    {
+      "name": "Refrigerated transport",
+      "quantity": 1,
+      "unit_price": 1875.54,
+      "amount": 1875.54
+    },
+    {
+      "name": "Last-mile delivery",
+      "quantity": 18,
+      "unit_price": 189.06,
+      "amount": 3403.08
+    },
+    {
+      "name": "Packaging service",
+      "quantity": 46,
+      "unit_price": 65.19,
+      "amount": 2998.74
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "merchant_name": "Summit Accounting Services",
+  "date": "2025-09-25",
+  "total_amount": 39356.38,
+  "subtotal": 37128.66,
+  "tax": 2227.72,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "Administrative fee",
+      "quantity": 18,
+      "unit_price": 64.17,
+      "amount": 1155.06
+    },
+    {
+      "name": "Training session",
+      "quantity": 34,
+      "unit_price": 741.5,
+      "amount": 25211.0
+    },
+    {
+      "name": "Consultation fee",
+      "quantity": 18,
+      "unit_price": 477.18,
+      "amount": 8589.24
+    },
+    {
+      "name": "Inspection and testing",
+      "quantity": 8,
+      "unit_price": 271.67,
+      "amount": 2173.36
+    }
+  ]
+}

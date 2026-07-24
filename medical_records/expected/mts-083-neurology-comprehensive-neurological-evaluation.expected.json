@@ -1,0 +1,24 @@
+{
+  "admission_date": null,
+  "attending_physician": "Dr. X",
+  "discharge_date": null,
+  "medications_at_discharge": [
+    "Avonex",
+    "baclofen",
+    "good nutrition",
+    "vitamin supplements",
+    "fish oil",
+    "Medrol Dosepak",
+    "Solu-Medrol",
+    "prednisone",
+    "Zanaflex"
+  ],
+  "primary_diagnosis": "multiple sclerosis",
+  "procedures": [
+    "MRI scan of the brain",
+    "lumbar spine",
+    "nerve testing",
+    "visual evoked response testing",
+    "urodynamic testing"
+  ]
+}

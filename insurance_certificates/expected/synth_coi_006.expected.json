@@ -1,0 +1,79 @@
+{
+  "certificate_date": "2025-04-26",
+  "certificate_holder_name": "Golden Crest Hospitality Corp.",
+  "insured_name": "Granite Peak General Contractors",
+  "policies": [
+    {
+      "policy_number": "WC7185436",
+      "coverage_type": "Workers Compensation",
+      "carrier_name": "Pacific Crest Casualty",
+      "effective_date": "2025-05-03",
+      "expiration_date": "2026-05-03",
+      "limits": [
+        {
+          "name": "Bodily Injury by Accident (Each Accident)",
+          "amount": 1000000
+        },
+        {
+          "name": "Bodily Injury by Disease (Policy Limit)",
+          "amount": 500000
+        },
+        {
+          "name": "Bodily Injury by Disease (Each Employee)",
+          "amount": 500000
+        }
+      ],
+      "additional_insureds": []
+    },
+    {
+      "policy_number": "CGL4217701",
+      "coverage_type": "Commercial General Liability",
+      "carrier_name": "Continental Shield Insurance Co.",
+      "effective_date": "2025-05-03",
+      "expiration_date": "2026-05-03",
+      "limits": [
+        {
+          "name": "Each Occurrence",
+          "amount": 1000000
+        },
+        {
+          "name": "General Aggregate",
+          "amount": 2000000
+        },
+        {
+          "name": "Products / Completed Operations",
+          "amount": 4000000
+        },
+        {
+          "name": "Personal & Advertising Injury",
+          "amount": 1000000
+        },
+        {
+          "name": "Damage to Rented Premises",
+          "amount": 300000
+        },
+        {
+          "name": "Medical Expense (Any One Person)",
+          "amount": 15000
+        }
+      ],
+      "additional_insureds": []
+    },
+    {
+      "policy_number": "AUT9017737",
+      "coverage_type": "Automobile Liability",
+      "carrier_name": "Redwood Workers Compensation Fund",
+      "effective_date": "2025-05-03",
+      "expiration_date": "2026-05-03",
+      "limits": [
+        {
+          "name": "Combined Single Limit (Each Accident)",
+          "amount": 1000000
+        }
+      ],
+      "additional_insureds": []
+    }
+  ],
+  "producer_name": "Bayshore Risk Management",
+  "producer_phone": "(617) 555-0211"
+}

@@ -1,0 +1,11 @@
+{
+  "insurer_name": "Liberty Bell Underwriters",
+  "named_insured": "Silverline Electrical Contractors",
+  "policy_number": "CA1519182",
+  "policy_type": "Commercial Auto",
+  "effective_date": "2026-09-24",
+  "expiration_date": "2027-09-24",
+  "total_premium": 35200,
+  "each_occurrence_limit": 1000000,
+  "general_aggregate_limit": null
+}

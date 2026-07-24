@@ -1,0 +1,18 @@
+{
+  "admission_date": "2008-09-03",
+  "attending_physician": null,
+  "discharge_date": null,
+  "medications_at_discharge": [
+    "glyburide",
+    "Januvia",
+    "lisinopril",
+    "metformin",
+    "metoprolol",
+    "simvastatin",
+    "ranitidine",
+    "meloxicam",
+    "furosemide"
+  ],
+  "primary_diagnosis": "Coronary artery disease and prior aortocoronary bypass surgery, currently clinically the patient without any angina.",
+  "procedures": null
+}

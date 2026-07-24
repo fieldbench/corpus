@@ -1,0 +1,341 @@
+name: filing_metadata
+description: Metadata extractable from the body of an SEC filing — filer, form type, dates
+
+# When oss-28's classify+split pipeline stage is active, this schema
+# only applies to chunks classified as `sec_filing`. Packets containing
+# a mix of document types (e.g. an invoice + a COI + a policy) will
+# have non-sec_filing sections skipped for this schema, so the extractor
+# can't hallucinate SEC metadata from unrelated content. When the
+# classify stage is disabled, this key is ignored and the schema still
+# applies to the whole document — backward-compatible.
+apply_to: [sec_filing]
+
+# Schema scope: only fields a general-purpose extractor could reasonably find
+# in the document text itself. EDGAR-internal identifiers (CIK, accession
+# number) live in EDGAR's index, not in the filing body, so they are out of
+# scope here. Anyone who needs them should pull them from the EDGAR index
+# directly and feed the document to fieldbench separately. See accuracy-1 PR for
+# the full reasoning.
+
+categories:
+  keywords:
+    # ORDER MATTERS: the classifier iterates categories and returns on the
+    # first match. Signatures must come before header because the header
+    # keyword list is broad ("securities", "exchange") and those words also
+    # appear in signature blocks — if header is checked first, signature
+    # chunks get misclassified as header.
+    #
+    # Narrow signatures-block category for routing the filing_date field
+    # specifically. Real SEC filings put the filing date next to officer
+    # signatures on the signature page; these phrases are boilerplate
+    # that appears in nearly every signature block.
+    signatures:
+      - "duly authorized"
+      - "by the undersigned"
+      - "pursuant to the requirements of section 13"
+    # Mix of metadata-label keywords (for synthetic / hand-crafted samples) and
+    # cover-page boilerplate keywords (for real EDGAR filings parsed via docling).
+    # Real SEC cover pages reliably contain "exchange commission", "exchange act",
+    # "registrant", "commission file", "incorporation", "employer identification";
+    # the first set covers the synthetic stub format.
+    header: [
+      "form",
+      "filer",
+      "filing date",
+      "period of report",
+      "registrant",
+      "exchange commission",
+      "exchange act",
+      "commission file",
+      "securities",
+      "incorporation",
+      "employer identification",
+    ]
+
+fields:
+  filer_name:
+    type: string
+    required: true
+    description: Name of the company or individual filing the document
+    extraction_hint: |
+      Return the FULL registrant name as shown on the cover page.
+
+      For 10-K, 10-Q, and S-1 filings the name typically appears
+      immediately above "(Exact name of registrant as specified in its
+      charter)". The name is sometimes split across multiple consecutive
+      bold lines in the parsed markdown (e.g. "**America**" on one line
+      and "**Great Health**" on the next) — in that case combine the
+      lines into the single full name ("America Great Health"). Do not
+      return only the last bold fragment.
+
+      For 6-K filings the registrant name appears as a standalone
+      ALL-CAPS line after "Commission File Number:" and before the
+      address. It is NOT the address or building name — it is the
+      company name (e.g. "HAFNIA LIMITED", "BHP GROUP LIMITED").
+      There is no "(Exact name of registrant...)" label on 6-K filings.
+    hints:
+      look_in: [header]
+      patterns: ["filer[:\\s]", "(?:company|issuer)\\s*name", "registrant"]
+      signals: [has_name_references]
+
+  form_type:
+    type: enum
+    required: true
+    description: SEC form type (e.g., 10-K, 10-Q, 8-K)
+    extraction_hint: |
+      Use the full form identifier as printed on the cover page, including
+      any amendment suffix. If the cover page shows "FORM 10-K/A", return
+      "10-K/A", not "10-K" — the "/A" suffix is significant and must not
+      be dropped.
+
+      SEC amendments are often labeled in TWO separate places on the
+      cover page. The form header may say just "FORM S-1" or "FORM 10-K"
+      while "Amendment No. 1", "Amendment No. 3", or "AMENDMENT NO. 2"
+      appears on a nearby line (above, below, or adjacent to the form
+      label). When you see BOTH a base form identifier AND an "Amendment
+      No. N" label on the same cover page, append "/A" to the form type:
+        - "FORM S-1" + "Amendment No. 1" on cover    -> return "S-1/A"
+        - "FORM 10-K" + "AMENDMENT NO. 3" on cover   -> return "10-K/A"
+        - "FORM 10-K/A" already fully labeled        -> return "10-K/A"
+    options:
+      - 10-K
+      - 10-K/A
+      - 10-Q
+      - 10-Q/A
+      - 8-K
+      - 8-K/A
+      - S-1
+      - S-1/A
+      - DEF 14A
+      - 20-F
+      - 20-F/A
+      - 6-K
+      - 6-K/A
+      - 3
+      - 4
+      - 5
+      - 13F-HR
+      - SC 13G
+      - SC 13D
+      - Other
+    hints:
+      look_in: [header]
+      # Boost chunks that carry the "Amendment No." marker so when the
+      # form header and the amendment marker are on separate chunks
+      # (e.g. Pershing S-1/A where "Amendment No. 1" is in the chunk
+      # before "FORM S-1"), both chunks make it into the extraction
+      # context and the model can compose the /A suffix correctly.
+      prefer_contains:
+        - "Amendment No"
+        - "AMENDMENT NO"
+      patterns: ["form\\s*(?:type)?[:\\s]*(?:10-?[KQ]|8-?K|S-?1|DEF\\s*14A)"]
+
+  filing_date:
+    type: date
+    required: true
+    description: Date this document was filed with the SEC (signature page).
+    extraction_hint: |
+      Use the date next to the officer signatures in the signature block
+      ("Dated: Month DD, YYYY" next to "/s/ Officer Name", or "on the Xth
+      day of Month YYYY" in the preamble to the signature block).
+
+      For DEF 14A proxy statements there is usually no traditional
+      officer-signature block on the cover page. Use the mailing /
+      first-access date instead — the phrase "on or about Month DD,
+      YYYY" near the top of the proxy (e.g. "we sent the Notice on or
+      about April 10, 2026" or "proxy materials were first mailed on
+      or about April 10, 2026"). The annual meeting date itself is NOT
+      the filing date — that belongs in period_meeting_date.
+
+      Do NOT use:
+        - "As of Month DD, YYYY" share-count or record-holder dates
+        - "filed on Month DD, YYYY" references in the EXPLANATORY NOTE of
+          an amendment — that is the ORIGINAL filing's date, not this
+          amendment's. For 10-K/A and 10-Q/A filings, the filing date is
+          the date the amendment was signed, which appears in the
+          signature block near the bottom of the document.
+        - Auditor signing dates in the financial statements
+          ("/s/ [Accounting Firm]  Month DD, YYYY")
+        - Dates from board-of-directors audit-approval blocks that
+          appear INSIDE the audit report. On some filings a director
+          signs an "Approved on behalf of the Board of Directors"
+          block next to the auditor's signature ("For [Accounting
+          Firm] / Chartered Accountants"). That date goes with the
+          audit report, NOT the filing. The filing date is exclusively
+          on the top-level SIGNATURES page near the bottom of the
+          document, marked by "duly authorized" / "by the undersigned"
+          language and followed by officer titles like "Chief
+          Executive Officer" / "President" / "Chief Financial Officer"
+          — not "Director" alone.
+        - "Date of Report" on 8-K cover pages (that is the event date,
+          see period_of_report instead)
+        - Annual-meeting dates on DEF 14A proxy statements (that is the
+          period_of_report for proxies, not the filing date)
+
+      When multiple "Dated:" / "Date:" markers appear in the document,
+      always pick the one closest to the final **SIGNATURES** heading
+      at the bottom — that's the officer who signed the filing itself.
+      Audit approval and auditor signature blocks always come earlier
+      in the document (inside Item 8, Financial Statements).
+    hints:
+      # No look_in filter. On 10-K/10-Q/8-K the filing_date lives in the
+      # officer signature block and the prefer_contains phrases below
+      # (/s/, Dated:, duly authorized, by the undersigned) pick it up
+      # via their +12 score bonus. On DEF 14A proxies there is no
+      # officer-signature block — the mailing date lives in a body
+      # paragraph like "we sent the Notice on or about April 10, 2026",
+      # and those chunks are typically categorized 'other' so any
+      # look_in filter excludes them. Leaving look_in empty lets the
+      # router search the full chunk pool and the prefer_contains list
+      # below steers it to the right chunk for each form type.
+      prefer_contains:
+        - "/s/"
+        - "Dated:"
+        - "duly authorized"
+        - "by the undersigned"
+        - "SIGNATURES"
+        - "on or about"       # DEF 14A mailing date phrase
+        - "we sent the Notice"  # DEF 14A mailing date phrase
+      patterns: ["filing\\s*date", "filed\\s*(?:on|as\\s*of)", "date[:\\s]", "on\\s*or\\s*about"]
+      signals: [has_dates]
+
+  # The old single `period_of_report` field tried to mean different things
+  # per form type (fiscal year end for 10-K, quarter end for 10-Q, event
+  # date for 8-K, meeting date for DEF 14A). Each form populates only the
+  # relevant one of the four fields below; the others should be null.
+  # See accuracy-6 PR for the rationale — cleaner semantics, zero engine
+  # work, better per-form prompting.
+
+  period_fiscal_year_end:
+    type: date
+    depends_on: [form_type]
+    skip_unless:
+      form_type: ["10-K", "10-K/A"]
+    description: Fiscal year-end date for 10-K / 10-K/A filings.
+    extraction_hint: |
+      For 10-K and 10-K/A filings only. Extract the fiscal year-end date
+      referenced near "For the fiscal year ended" on the cover page.
+      The label may be line-broken in parsed markdown (e.g. "For the\n\n
+      fiscal year ended\n\nDecember 31, 2025") — return the date no
+      matter how the label is broken up.
+
+      For amendments (10-K/A), the period_fiscal_year_end is the SAME
+      period the original 10-K covered — it typically appears both on
+      the cover header AND inside the EXPLANATORY NOTE ("amends our
+      Annual Report on Form 10-K for the fiscal year ended December
+      31, 2025"). Use either reference.
+
+      Return null for any non-10-K form type.
+    hints:
+      look_in: [header]
+      patterns: ["fiscal\\s*year\\s*ended", "year\\s*ended", "for\\s*the\\s*fiscal\\s*year"]
+      signals: [has_dates]
+
+  period_quarter_end:
+    type: date
+    depends_on: [form_type]
+    skip_unless:
+      form_type: ["10-Q", "10-Q/A"]
+    description: Quarter-end date for 10-Q / 10-Q/A filings.
+    extraction_hint: |
+      For 10-Q and 10-Q/A filings only. Extract the quarter-end date
+      referenced near "For the quarterly period ended" on the cover page.
+      The label is often line-broken in parsed markdown ("For the\n\n
+      quarterly\n\nperiod ended\n\nDecember 31, 2025") — treat the date
+      adjacent to the broken-up label as the answer.
+
+      If the cover page shows multiple quarter-end dates (e.g. comparison
+      periods in financial-statement headers), pick the MOST RECENT one
+      — that is the period the filing reports on. Comparison periods
+      like "three months ended September 30, 2025" from the prior year
+      are not the answer.
+
+      Return null for any non-10-Q form type.
+    hints:
+      look_in: [header]
+      patterns: ["quarterly\\s*period\\s*ended", "quarter\\s*ended", "for\\s*the\\s*(?:quarter|three\\s*months)"]
+      signals: [has_dates]
+
+  period_date_of_report:
+    type: date
+    depends_on: [form_type]
+    skip_unless:
+      form_type: ["8-K", "8-K/A", "6-K", "6-K/A"]
+    description: Date of Report for 8-K / 8-K/A / 6-K filings.
+    extraction_hint: |
+      For **8-K** and **8-K/A** filings: extract the date labeled "Date
+      of Report (Date of earliest event reported)" on the cover page.
+      This is the date of the triggering event the 8-K is disclosing,
+      not the date the 8-K was filed with the SEC.
+
+      For **6-K** filings: extract the report date from the cover page.
+      A 6-K cover typically does NOT carry a "Date of Report:" label.
+      Instead the date appears as a bare standalone line (e.g. "14
+      April 2026" or "April 14, 2026") near the top of the cover,
+      usually immediately after the heading block "Pursuant to Rule
+      13a-16 or 15d-16(a) of the Securities Exchange Act of 1934" and
+      just above the registrant's name. It's the date the foreign
+      private issuer is furnishing the report for. Accept dates in
+      either US format ("April 14, 2026") or UK / international
+      format ("14 April 2026"). Normalize to YYYY-MM-DD.
+
+      Return null for any other form type (10-K, 10-Q, DEF 14A, S-1,
+      20-F, amendments of those — those have their own period fields).
+    hints:
+      look_in: [header]
+      patterns:
+        - "date\\s*of\\s*report"
+        - "date\\s*of\\s*earliest\\s*event"
+        - "pursuant\\s+to\\s+rule\\s+13a-16"
+      prefer_contains:
+        - "Date of Report"
+        - "Date of earliest event"
+        - "Pursuant to Rule 13a-16"
+        - "Report of Foreign Private Issuer"
+      signals: [has_dates]
+
+  period_meeting_date:
+    type: date
+    depends_on: [form_type]
+    skip_unless:
+      form_type: ["DEF 14A"]
+    description: Annual meeting date for DEF 14A proxy statements.
+    extraction_hint: |
+      For DEF 14A filings only. Extract the date of the annual meeting
+      of stockholders the proxy statement is soliciting votes for. This
+      date typically appears in a "NOTICE OF ANNUAL MEETING OF
+      SHAREHOLDERS" section near the top of the proxy statement, often
+      as a standalone line (e.g. "Wednesday, May 20, 2026") immediately
+      after the notice heading, or inside a sentence like "the Annual
+      Meeting... on Wednesday, May 20, 2026 at 10:00 a.m."
+
+      The meeting date may also appear in the document context section
+      (the cover page / invitation letter at the very start of the
+      proxy), particularly in phrases like "will be held on [date]" or
+      "Annual Meeting of Stockholders... on [date]". Check BOTH the
+      routed sections AND the document context for the meeting date.
+
+      Do NOT use:
+        - The fiscal year end of the accompanying annual report
+          ("for the year ended December 31, 2025")
+        - The record date for stockholder voting ("record date of
+          March 25, 2026")
+        - Any filing / signature / mailing date
+        - Any future-year annual meeting date (e.g. references to the
+          2027 or 2028 annual meeting — only THIS proxy's meeting date)
+      Only the date of the meeting itself is the answer.
+
+      If no annual meeting notice or date appears in the text, return null.
+    hints:
+      # No look_in filter — the meeting-date chunk on a proxy statement
+      # is typically titled "NOTICE OF ANNUAL MEETING" or similar and
+      # does not match the cover-page header keyword list. prefer_contains
+      # boosts the notice chunk above body chunks regardless of category.
+      prefer_contains:
+        - "notice of"
+        - "annual meeting of shareholders"
+        - "annual meeting of stockholders"
+        - "to be held"
+        - "meeting.*at"
+      patterns: ["annual\\s*meeting", "notice\\s*of.*meeting", "to\\s*be\\s*held"]
+      signals: [has_dates]

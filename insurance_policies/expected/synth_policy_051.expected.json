@@ -1,0 +1,11 @@
+{
+  "insurer_name": "Pacific Crest Casualty",
+  "named_insured": "Cascade Plumbing & HVAC Inc.",
+  "policy_number": "GL1239574",
+  "policy_type": "Commercial General Liability",
+  "effective_date": "2024-08-25",
+  "expiration_date": "2025-08-25",
+  "total_premium": 74150,
+  "each_occurrence_limit": 1000000,
+  "general_aggregate_limit": 1000000
+}

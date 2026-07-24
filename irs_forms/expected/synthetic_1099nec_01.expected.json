@@ -1,0 +1,9 @@
+{
+  "payer_name": "Acme Consulting LLC",
+  "payer_tin": "82-4567890",
+  "recipient_name": "Jane Q. Freelancer",
+  "recipient_tin": "XXX-XX-4321",
+  "nonemployee_compensation": 47500.00,
+  "federal_income_tax_withheld": 0.00,
+  "tax_year": 2024
+}

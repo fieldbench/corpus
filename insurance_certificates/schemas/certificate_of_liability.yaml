@@ -1,0 +1,233 @@
+name: certificate_of_liability
+description: |
+  Certificate of liability insurance extraction. Pulls certificate
+  metadata (producer, insured, certificate holder) plus a list of
+  policies. Each policy is a logical entity whose fields may be
+  spread across multiple sections of the document — the coverage
+  grid lists some fields, detailed limit sections list others, and
+  endorsement pages may reference specific policies by policy number.
+
+  The extraction target is the RECONCILED result: one entry per
+  unique policy_number with all fields collated from wherever they
+  appeared in the document.
+
+apply_to: [coi]
+
+# Comparison config for fieldbench bench: policies arrays contain nested
+# objects with limits that vary slightly between extraction runs due
+# to LLM non-determinism on limit label text. A 0.7 fuzzy threshold
+# passes when 70%+ of expected array items match — prevents flaky
+# benchmarks while still catching real regressions.
+compare:
+  fuzzy_threshold: 0.7
+
+categories:
+  keywords:
+    header: ["certificate", "liability insurance", "proof of insurance", "coverage"]
+    producer: ["producer", "agency", "broker", "insurance agent", "contact"]
+    insured: ["insured", "named insured", "policyholder"]
+    coverage_summary: ["coverage summary", "coverage grid", "policies in force", "coverage overview"]
+    coverage_detail:
+      - "coverage detail"
+      - "limit detail"
+      - "policy detail"
+      - "detailed limits"
+      # Per-policy block headings (a fragmented COI puts each policy's
+      # limits under its own section like "Policy CGL7842910 — Commercial
+      # General Liability"). Without these the policy-block chunks fall
+      # outside coverage_detail and the policies-field router skips them,
+      # so limits and additional_insureds come back empty (oss-65 +
+      # accuracy-20).
+      - "general liability"
+      - "automobile liability"
+      - "auto liability"
+      - "umbrella liability"
+      - "excess liability"
+      - "workers compensation"
+      - "workers' compensation"
+      - "professional liability"
+      - "cyber liability"
+      - "technology e&o"
+      - "policy "  # trailing space avoids matching "policies"
+    certificate_holder: ["certificate holder", "additional insured", "cancellation"]
+    remarks: ["remarks", "additional information", "endorsements", "schedule"]
+
+signals:
+  has_policy_numbers:
+    pattern: "[A-Z]{2,6}[\\s-]?\\d{5,}"
+  has_phone_numbers:
+    pattern: "\\(?\\d{3}\\)?[\\s.-]?\\d{3}[\\s.-]?\\d{4}"
+  has_limit_amounts:
+    pattern: "\\$[\\d,]+(?:,000)?(?:\\.\\d{2})?"
+
+fields:
+  certificate_date:
+    type: date
+    required: true
+    description: Date the certificate was issued
+    hints:
+      look_in: [header]
+      patterns: ["(?:date|issued)[:\\s]"]
+      signals: [has_dates]
+
+  producer_name:
+    type: string
+    required: true
+    description: |
+      Name of the producer / broker / agency issuing the certificate.
+      This is the insurance agent or brokerage, not the insured party
+      or the insurer.
+    hints:
+      look_in: [producer]
+      patterns: ["producer", "agency", "broker"]
+
+  producer_phone:
+    type: string
+    description: Producer's contact phone number
+    hints:
+      look_in: [producer]
+      signals: [has_phone_numbers]
+
+  insured_name:
+    type: string
+    required: true
+    description: |
+      Name of the insured party (the policyholder). This is the
+      entity whose policies are described in the certificate.
+    hints:
+      look_in: [insured]
+      patterns: ["insured"]
+
+  certificate_holder_name:
+    type: string
+    required: true
+    description: |
+      Name of the certificate holder — the party requesting proof
+      of insurance. Typically appears in a labeled box.
+    hints:
+      look_in: [certificate_holder]
+      patterns: ["certificate\\s*holder"]
+
+  policies:
+    type: array
+    description: |
+      List of insurance policies on the certificate. Each policy may
+      have data spread across multiple sections of the document:
+      the coverage summary (grid), detailed limit sections, and any
+      remarks or endorsement pages.
+
+      CRITICAL: Collate all information per unique policy_number
+      into a single entry. When the same policy_number appears in
+      multiple sections with different fields populated, merge them.
+      Do not return duplicate entries for the same policy.
+
+      Carrier name resolution: many certificates use letter codes
+      (A, B, C) in the coverage grid to reference an insurer list
+      elsewhere in the document (e.g., "Insurer A: Evergreen Mutual").
+      Always return the full company name — dereference the letter
+      code against the insurer list. Never return just "A" or "B".
+
+      Limits: each policy has a list of named limits with amounts.
+      The names vary by coverage type — use the exact label shown in
+      the document (e.g., "Each Occurrence", "General Aggregate",
+      "Combined Single Limit (Each Accident)", "Bodily Injury by
+      Accident"). Do not force limit names into fixed categories.
+
+      Additional insureds: the "Description of Operations / Locations /
+      Vehicles" box and any "Remarks" or "Additional Insured Schedule"
+      sections may name parties who are additional insureds. Parse
+      these carefully:
+
+      - When the text says "ABC Corp is additional insured on all
+        policies" or names no specific policy, add ABC Corp to EVERY
+        policy's additional_insureds list.
+      - When the text references specific policy numbers or coverage
+        types ("additional insured on CGL policy #CGL-123 and
+        umbrella policy #UMB-456 per CG 20 26"), add the party ONLY
+        to the referenced policies.
+      - When the text lists multiple parties ("ABC Corp, XYZ Inc, and
+        their respective officers, employees, and agents"), each
+        distinct organization is a separate entry. Do NOT concatenate
+        them into one string. Descriptors like "their officers,
+        employees" are part of the preceding org's entry only if
+        they're clearly a qualifier, not a separate named insured.
+      - The certificate holder is SOMETIMES also an additional insured,
+        but ONLY when the document explicitly says so. Look for
+        phrases like "certificate holder is included as additional
+        insured", "as required by written contract", "additional
+        insured per endorsement CG 20 26", or similar explicit
+        language in the Description of Operations or Remarks section.
+      - CRITICAL: Do NOT assume the certificate holder is an
+        additional insured just because they appear in the Certificate
+        Holder box. A certificate can be issued purely "for
+        informational purposes" with no additional insured status.
+        If the Description of Operations / Remarks section does not
+        mention "additional insured" at all, every policy's
+        additional_insureds list MUST be empty.
+      - If a policy is not mentioned in any endorsement or additional
+        insured section, its additional_insureds list is empty.
+    items:
+      type: object
+      properties:
+        policy_number:
+          type: string
+        coverage_type:
+          type: string
+        carrier_name:
+          type: string
+        effective_date:
+          type: date
+        expiration_date:
+          type: date
+        limits:
+          type: array
+          description: |
+            Named limits with dollar amounts. Use the exact label from the
+            document (e.g., "Each Occurrence", "General Aggregate"). On
+            ACORD forms the limit labels and amounts are in adjacent table
+            cells — the OCR may garble or merge them. Match each limit
+            label to the dollar amount in the same row/column. Standard
+            CGL limits: Each Occurrence, General Aggregate, Products -
+            Comp/Op Agg, Personal & Adv Injury, Damage to Rented Premises,
+            Med Exp. Standard auto: Combined Single Limit. Standard WC:
+            E.L. Each Accident, E.L. Disease - EA Employee, E.L. Disease -
+            Policy Limit. Do not invent limits not in the document.
+          items:
+            type: object
+            properties:
+              name:
+                type: string
+              amount:
+                type: number
+        additional_insureds:
+          type: array
+          items:
+            type: string
+    hints:
+      # No look_in filter. Per-policy detail chunks vary widely:
+      # some headings include the coverage type ("Policy CGL... —
+      # Commercial General Liability"), others are bare policy numbers
+      # ("GL-88104472"). A look_in filter pinned to coverage_summary /
+      # coverage_detail / remarks excludes the bare-policy-number
+      # variant entirely, so per-policy limit chunks never reach the
+      # router and `limits` comes back empty (accuracy-20 + oss-65).
+      # Signals + patterns + prefer_contains do the heavy lifting
+      # without an exclusionary look_in.
+      signals: [has_policy_numbers, has_limit_amounts, has_dates]
+      patterns:
+        - "general\\s*liability"
+        - "auto\\s*liability"
+        - "workers\\s*compensation"
+        - "umbrella"
+        - "excess\\s*liability"
+        - "each\\s*occurrence"
+        - "aggregate"
+        - "policy\\s*number"
+      prefer_contains:
+        - "Each Occurrence"
+        - "General Aggregate"
+        - "Combined Single Limit"
+        - "Bodily Injury"
+        - "Property Damage"
+        - "Policy Number"
+      max_chunks: 12  # policy data is spread across many detail chunks

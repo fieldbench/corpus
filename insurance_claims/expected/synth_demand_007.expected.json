@@ -1,0 +1,11 @@
+{
+  "form_type": "Demand Letter",
+  "claimant_name": "Frank B. Estrada",
+  "employer_name": null,
+  "date_of_loss": "2025-10-26",
+  "description_of_loss": "On 10/26/2025, a water leak originating from property owned or managed by Pauline M. Chandra at 90 State Street, Suite 700, Albany, NY 12207 caused extensive damage to our insured's property located at 1100 N. Meridian Street, Oklahoma City, OK 73107. The leak, which appears to have resulted from a burst pipe, went undetected for approximately two days, allowing water to infiltrate our insured's basement and first floor.",
+  "amount_claimed": 35000,
+  "policy_number": "HO-589104",
+  "body_part": null,
+  "state": "OK"
+}

@@ -1,0 +1,28 @@
+{
+  "merchant_name": "Kensington Physiotherapy",
+  "date": "2025-01-22",
+  "total_amount": 8303.07,
+  "subtotal": 8303.07,
+  "tax": 0.0,
+  "currency": "GBP",
+  "items": [
+    {
+      "name": "Stethoscope",
+      "quantity": 32,
+      "unit_price": 187.92,
+      "amount": 6013.44
+    },
+    {
+      "name": "Hand sanitizer (gallon)",
+      "quantity": 44,
+      "unit_price": 27.51,
+      "amount": 1210.44
+    },
+    {
+      "name": "Pulse oximeter",
+      "quantity": 27,
+      "unit_price": 39.97,
+      "amount": 1079.19
+    }
+  ]
+}

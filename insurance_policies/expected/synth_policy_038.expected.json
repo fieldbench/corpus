@@ -1,0 +1,11 @@
+{
+  "insurer_name": "Ironbridge Excess Carriers Ltd.",
+  "named_insured": "Summit Landscaping & Excavation",
+  "policy_number": "CU 3628301",
+  "policy_type": "Umbrella/Excess",
+  "effective_date": "2026-04-17",
+  "expiration_date": "2027-04-17",
+  "total_premium": 40800,
+  "each_occurrence_limit": 5000000,
+  "general_aggregate_limit": 5000000
+}

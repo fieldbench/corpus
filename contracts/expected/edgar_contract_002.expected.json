@@ -1,0 +1,11 @@
+{
+  "contract_type": "Credit Agreement",
+  "effective_date": "2022-10-07",
+  "governing_law": "Georgia",
+  "parties": [
+    "MHP PURSUITS LLC",
+    "RICHARD SMITH",
+    "ANNETTE SMITH"
+  ],
+  "termination_date": "2042-11-01"
+}

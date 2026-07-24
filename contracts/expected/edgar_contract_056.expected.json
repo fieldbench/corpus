@@ -1,0 +1,12 @@
+{
+  "contract_type": "Credit Agreement",
+  "effective_date": "2008-04-10",
+  "governing_law": "State of New York",
+  "parties": [
+    "BNP Paribas",
+    "ABN AMRO Bank, N.V.",
+    "Leggett & Platt, Incorporated",
+    "JPMorgan Chase Bank, N.A."
+  ],
+  "termination_date": null
+}

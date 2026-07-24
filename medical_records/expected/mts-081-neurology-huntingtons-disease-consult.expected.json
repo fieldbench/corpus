@@ -1,0 +1,18 @@
+{
+  "admission_date": "2023-10-01",
+  "attending_physician": "Dr. X",
+  "discharge_date": null,
+  "medications_at_discharge": [
+    "Prilosec",
+    "nortriptyline",
+    "Haldol",
+    "Artane",
+    "Xanax",
+    "fexofenadine",
+    "Flonase",
+    "amlodipine",
+    "lorazepam"
+  ],
+  "primary_diagnosis": "Major depressive disorder due to Huntington disease, severe",
+  "procedures": null
+}

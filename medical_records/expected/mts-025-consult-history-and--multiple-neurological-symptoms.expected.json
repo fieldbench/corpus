@@ -1,0 +1,29 @@
+{
+  "admission_date": null,
+  "attending_physician": "Dr. Y",
+  "discharge_date": null,
+  "medications_at_discharge": [
+    "Actos",
+    "Ambien",
+    "baby aspirin",
+    "Coreg",
+    "Entocort",
+    "folic acid",
+    "Flomax",
+    "iron",
+    "Lexapro",
+    "Lipitor",
+    "Pentasa",
+    "Plavix",
+    "Protonix",
+    "Toprol",
+    "Celebrex",
+    "Zetia"
+  ],
+  "primary_diagnosis": "mild peripheral neuropathy",
+  "procedures": [
+    "EMG",
+    "nerve conduction studies",
+    "physical therapy"
+  ]
+}

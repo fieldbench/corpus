@@ -1,0 +1,35 @@
+{
+  "admission_date": "2008-07-09",
+  "attending_physician": null,
+  "discharge_date": "2008-08-01",
+  "medications_at_discharge": [
+    "Acetaminophen",
+    "Albuterol",
+    "Vitamin C",
+    "Aspirin",
+    "Symbicort",
+    "Tums",
+    "Calcium plus vitamin D",
+    "Plavix",
+    "Clorazepate dipotassium",
+    "Lexapro",
+    "Hydrochlorothiazide",
+    "Ibuprofen",
+    "Imdur",
+    "Levoxyl",
+    "Ativan",
+    "Lopressor",
+    "Flagyl",
+    "Multivitamin",
+    "Nitrostat",
+    "Omeprazole",
+    "Oxycodone-acetaminophen",
+    "Lyrica",
+    "Zocor"
+  ],
+  "primary_diagnosis": "A nonhealing right below-knee amputation.",
+  "procedures": [
+    "Extensive debridement of right below-knee amputation",
+    "Irrigation and debridement of right below-knee amputation wound"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "admission_date": null,
+  "attending_physician": "Dr. X",
+  "discharge_date": null,
+  "medications_at_discharge": [
+    "Coreg",
+    "Lipitor",
+    "Nitro-Dur patch",
+    "Phenergan syrup",
+    "Synthroid",
+    "Zyrtec",
+    "Lamictal",
+    "Ferrous sulfate drops",
+    "Nexium",
+    "Neurontin",
+    "Lasix",
+    "Fentanyl",
+    "Calcium and vitamin D combination",
+    "Bactrim DS",
+    "Levaquin"
+  ],
+  "primary_diagnosis": "Colon cancer, status post right hemicolectomy.",
+  "procedures": [
+    "Colonoscopy",
+    "Right hemicolectomy"
+  ]
+}

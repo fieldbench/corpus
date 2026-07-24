@@ -1,0 +1,34 @@
+{
+  "merchant_name": "Catalonia Web Development",
+  "date": "2025-05-02",
+  "total_amount": 127734.66,
+  "subtotal": 127734.66,
+  "tax": 0.0,
+  "currency": "EUR",
+  "items": [
+    {
+      "name": "Database optimization",
+      "quantity": 24,
+      "unit_price": 703.58,
+      "amount": 16885.92
+    },
+    {
+      "name": "Security audit",
+      "quantity": 10,
+      "unit_price": 5406.67,
+      "amount": 54066.7
+    },
+    {
+      "name": "Data migration service",
+      "quantity": 44,
+      "unit_price": 1232.81,
+      "amount": 54243.64
+    },
+    {
+      "name": "Cloud hosting (monthly)",
+      "quantity": 2,
+      "unit_price": 1269.2,
+      "amount": 2538.4
+    }
+  ]
+}

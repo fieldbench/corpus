@@ -1,0 +1,34 @@
+{
+  "merchant_name": "Maple Leaf Landscaping",
+  "date": "2024-11-17",
+  "total_amount": 22149.48,
+  "subtotal": 18613.01,
+  "tax": 3536.47,
+  "currency": "CAD",
+  "items": [
+    {
+      "name": "Consultation fee",
+      "quantity": 12,
+      "unit_price": 373.69,
+      "amount": 4484.28
+    },
+    {
+      "name": "Equipment rental",
+      "quantity": 1,
+      "unit_price": 213.77,
+      "amount": 213.77
+    },
+    {
+      "name": "Materials and supplies",
+      "quantity": 40,
+      "unit_price": 195.77,
+      "amount": 7830.8
+    },
+    {
+      "name": "Training session",
+      "quantity": 16,
+      "unit_price": 380.26,
+      "amount": 6084.16
+    }
+  ]
+}

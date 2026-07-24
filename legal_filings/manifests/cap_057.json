@@ -1,0 +1,16 @@
+{
+  "filename": "cap_057.md",
+  "source_name": "CourtListener",
+  "source_url": "https://www.courtlistener.com/opinion/11330462/",
+  "license": "Public Domain (US Court Opinions)",
+  "attribution": "Free Law Project / CourtListener",
+  "original_format": "text",
+  "pages": 2,
+  "added_date": "2026-05-21",
+  "added_by": "legal-cl-opinions-sourcer",
+  "schema": "legal_filings/schemas/legal_filing.yaml",
+  "opinion_id": "11330462",
+  "case_name": "Singh v. Blanche",
+  "court": "Ca9",
+  "source": "real"
+}

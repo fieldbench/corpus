@@ -1,0 +1,11 @@
+{
+  "insurer_name": "Riverdale Insurance Exchange",
+  "named_insured": "James R. Patterson",
+  "policy_number": "HPP6116944",
+  "policy_type": "Homeowners",
+  "effective_date": "2024-08-02",
+  "expiration_date": "2025-08-02",
+  "total_premium": 3800,
+  "each_occurrence_limit": 300000,
+  "general_aggregate_limit": null
+}

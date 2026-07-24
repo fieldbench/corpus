@@ -1,0 +1,14 @@
+{
+  "admission_date": null,
+  "attending_physician": "Dr. A",
+  "discharge_date": null,
+  "medications_at_discharge": [
+    "Norco",
+    "oxycodone",
+    "Lunesta",
+    "Carisoprodol",
+    "Lyrica"
+  ],
+  "primary_diagnosis": "Post-laminectomy low back syndrome",
+  "procedures": null
+}

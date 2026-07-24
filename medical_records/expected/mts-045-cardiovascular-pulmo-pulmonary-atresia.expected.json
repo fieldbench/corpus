@@ -1,0 +1,13 @@
+{
+  "admission_date": null,
+  "attending_physician": "Dr. X",
+  "discharge_date": null,
+  "medications_at_discharge": null,
+  "primary_diagnosis": "Pulmonary atresia",
+  "procedures": [
+    "Cardiac catheterization",
+    "Balloon valvoplasty",
+    "Angioplasty",
+    "Occlusion of Fontan fenestration"
+  ]
+}

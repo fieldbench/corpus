@@ -1,0 +1,11 @@
+{
+  "insurer_name": "Appalachian Fidelity Mutual",
+  "named_insured": "Continental Scaffolding Inc.",
+  "policy_number": "WCA-6091210",
+  "policy_type": "Workers Compensation",
+  "effective_date": "2025-02-05",
+  "expiration_date": "2026-02-05",
+  "total_premium": 229350,
+  "each_occurrence_limit": 1000000,
+  "general_aggregate_limit": null
+}

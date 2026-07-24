@@ -1,0 +1,19 @@
+{
+  "admission_date": null,
+  "attending_physician": "Dr. X",
+  "discharge_date": null,
+  "medications_at_discharge": [
+    "Norvasc",
+    "Aspirin",
+    "Colace",
+    "Labetalol",
+    "Nephro-Vite",
+    "Dilantin",
+    "Renagel",
+    "Sensipar",
+    "Sertraline",
+    "Zocor"
+  ],
+  "primary_diagnosis": "Atrial fibrillation",
+  "procedures": null
+}

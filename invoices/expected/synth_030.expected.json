@@ -1,0 +1,22 @@
+{
+  "merchant_name": "Sterling Architectural Design",
+  "date": "2025-07-28",
+  "total_amount": 13007.24,
+  "subtotal": 12156.3,
+  "tax": 850.94,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "Setup and configuration",
+      "quantity": 23,
+      "unit_price": 510.17,
+      "amount": 11733.91
+    },
+    {
+      "name": "Consultation fee",
+      "quantity": 1,
+      "unit_price": 422.39,
+      "amount": 422.39
+    }
+  ]
+}

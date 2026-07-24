@@ -1,0 +1,16 @@
+{
+  "filename": "cap_032.md",
+  "source_name": "CourtListener",
+  "source_url": "https://www.courtlistener.com/opinion/11330495/",
+  "license": "Public Domain (US Court Opinions)",
+  "attribution": "Free Law Project / CourtListener",
+  "original_format": "text",
+  "pages": 12,
+  "added_date": "2026-05-21",
+  "added_by": "legal-cl-opinions-sourcer",
+  "schema": "legal_filings/schemas/legal_filing.yaml",
+  "opinion_id": "11330495",
+  "case_name": "Garcia v. John Hancock Life Ins. Co. CA2/7",
+  "court": "Calctapp",
+  "source": "real"
+}

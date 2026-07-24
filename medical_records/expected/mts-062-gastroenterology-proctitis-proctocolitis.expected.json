@@ -1,0 +1,11 @@
+{
+  "admission_date": null,
+  "attending_physician": null,
+  "discharge_date": null,
+  "medications_at_discharge": [
+    "ceftriaxone",
+    "doxycycline"
+  ],
+  "primary_diagnosis": "Acute Proctitis and Proctocolitis",
+  "procedures": []
+}

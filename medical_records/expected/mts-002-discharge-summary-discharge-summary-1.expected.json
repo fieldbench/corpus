@@ -1,0 +1,22 @@
+{
+  "admission_date": "2006-03-26",
+  "attending_physician": "Dr. S.",
+  "discharge_date": null,
+  "medications_at_discharge": [
+    "Cipro",
+    "Aggrenox",
+    "Docusate sodium",
+    "Zocor",
+    "Prevacid"
+  ],
+  "primary_diagnosis": "Acute cerebrovascular accident/left basal ganglia and deep white matter of the left parietal lobe.",
+  "procedures": [
+    "portable chest, single view",
+    "chest, portable, single view",
+    "swallowing study",
+    "head CT without contrast",
+    "MRI/MRA of the neck and brain, with and without contrast",
+    "echocardiogram with bubble study",
+    "carotid duplex ultrasound"
+  ]
+}

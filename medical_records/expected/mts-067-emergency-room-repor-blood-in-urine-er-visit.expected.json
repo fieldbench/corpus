@@ -1,0 +1,14 @@
+{
+  "admission_date": null,
+  "attending_physician": "Dr. X",
+  "discharge_date": null,
+  "medications_at_discharge": [
+    "Levaquin",
+    "Phenergan"
+  ],
+  "primary_diagnosis": "HEMATURIA",
+  "procedures": [
+    "blood transfusion",
+    "Foley catheter placement"
+  ]
+}

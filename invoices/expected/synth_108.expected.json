@@ -1,0 +1,52 @@
+{
+  "merchant_name": "Thornbury & Associates LLP",
+  "date": "2025-10-05",
+  "total_amount": 224648.4,
+  "subtotal": 198803.89,
+  "tax": 25844.51,
+  "currency": "GBP",
+  "items": [
+    {
+      "name": "Notarization (per document)",
+      "quantity": 3,
+      "unit_price": 35.52,
+      "amount": 106.56
+    },
+    {
+      "name": "Legal research memo",
+      "quantity": 41,
+      "unit_price": 988.52,
+      "amount": 40529.32
+    },
+    {
+      "name": "Legal consultation (hourly)",
+      "quantity": 4,
+      "unit_price": 764.94,
+      "amount": 3059.76
+    },
+    {
+      "name": "Trademark application",
+      "quantity": 12,
+      "unit_price": 1276.7,
+      "amount": 15320.4
+    },
+    {
+      "name": "Mediation services (half day)",
+      "quantity": 8,
+      "unit_price": 2579.54,
+      "amount": 20636.32
+    },
+    {
+      "name": "Contract drafting",
+      "quantity": 5,
+      "unit_price": 2148.85,
+      "amount": 10744.25
+    },
+    {
+      "name": "Compliance review",
+      "quantity": 41,
+      "unit_price": 2644.08,
+      "amount": 108407.28
+    }
+  ]
+}

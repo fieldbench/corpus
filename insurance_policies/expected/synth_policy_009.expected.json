@@ -1,0 +1,11 @@
+{
+  "insurer_name": "Mountain West Casualty Co.",
+  "named_insured": "Granite Peak General Contractors",
+  "policy_number": "BPP-9842984-02",
+  "policy_type": "Businessowners",
+  "effective_date": "2024-04-23",
+  "expiration_date": "2025-04-23",
+  "total_premium": 20400,
+  "each_occurrence_limit": 2000000,
+  "general_aggregate_limit": 4000000
+}

@@ -1,0 +1,18 @@
+{
+  "admission_date": "1996-03-11",
+  "attending_physician": null,
+  "discharge_date": "1996-03-15",
+  "medications_at_discharge": [
+    "FeSO4",
+    "Heparin IV",
+    "Solu-Medrol",
+    "Prednisone",
+    "Warfarin",
+    "ASA",
+    "Plaquenil"
+  ],
+  "primary_diagnosis": "SLE",
+  "procedures": [
+    "Temporal Artery biopsy"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "insurer_name": "Mountain West Casualty Co.",
+  "named_insured": "Apex Industrial Welding LLC",
+  "policy_number": "CPR 3904267",
+  "policy_type": "Commercial Property",
+  "effective_date": "2025-11-02",
+  "expiration_date": "2026-11-02",
+  "total_premium": 30250,
+  "each_occurrence_limit": 5000000,
+  "general_aggregate_limit": 5000000
+}

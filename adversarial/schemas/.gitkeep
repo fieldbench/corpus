@@ -1,0 +1,7 @@
+# Intentionally empty.
+#
+# The bench's discover_categories() in fieldbench/cli/bench.py requires every
+# category to have a schemas/ subdirectory, even if it is empty.
+# Adversarial docs reference schemas in other categories via their
+# manifest's "schema" field (e.g. sec_filings/schemas/filing_metadata.yaml),
+# so this directory stays empty — the file exists so git tracks it.

@@ -1,0 +1,16 @@
+{
+  "filename": "cap_029.md",
+  "source_name": "CourtListener",
+  "source_url": "https://www.courtlistener.com/opinion/11330500/",
+  "license": "Public Domain (US Court Opinions)",
+  "attribution": "Free Law Project / CourtListener",
+  "original_format": "text",
+  "pages": 4,
+  "added_date": "2026-05-21",
+  "added_by": "legal-cl-opinions-sourcer",
+  "schema": "legal_filings/schemas/legal_filing.yaml",
+  "opinion_id": "11330500",
+  "case_name": "Mahmoud v. United States Department of Homeland Security",
+  "court": "Dcd",
+  "source": "real"
+}

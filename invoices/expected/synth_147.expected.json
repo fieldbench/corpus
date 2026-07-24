@@ -1,0 +1,16 @@
+{
+  "merchant_name": "Capitol Hill Flowers",
+  "date": "2025-02-04",
+  "total_amount": 1112.59,
+  "subtotal": 927.16,
+  "tax": 185.43,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "Setup and configuration",
+      "quantity": 2,
+      "unit_price": 463.58,
+      "amount": 927.16
+    }
+  ]
+}

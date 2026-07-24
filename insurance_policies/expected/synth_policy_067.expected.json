@@ -1,0 +1,11 @@
+{
+  "insurer_name": "Pinnacle Specialty Insurance",
+  "named_insured": "Cascade Wealth Management LLC",
+  "policy_number": "PL-9333186",
+  "policy_type": "Professional Liability",
+  "effective_date": "2024-04-11",
+  "expiration_date": "2025-04-11",
+  "total_premium": 31950,
+  "each_occurrence_limit": 5000000,
+  "general_aggregate_limit": 10000000
+}

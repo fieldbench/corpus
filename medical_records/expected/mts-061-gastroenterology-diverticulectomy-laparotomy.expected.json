@@ -1,0 +1,14 @@
+{
+  "admission_date": null,
+  "attending_physician": null,
+  "discharge_date": null,
+  "medications_at_discharge": null,
+  "primary_diagnosis": "Perforated Meckel's diverticulum.",
+  "procedures": [
+    "Diagnostic laparotomy",
+    "Exploratory laparotomy",
+    "Meckel's diverticulectomy",
+    "Open incidental appendectomy",
+    "Peritoneal toilet"
+  ]
+}

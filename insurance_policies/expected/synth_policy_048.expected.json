@@ -1,0 +1,11 @@
+{
+  "insurer_name": "Appalachian Fidelity Mutual",
+  "named_insured": "Cornerstone Civil Engineering PC",
+  "policy_number": "GEN-2033940",
+  "policy_type": "Other",
+  "effective_date": "2025-05-11",
+  "expiration_date": "2026-05-11",
+  "total_premium": 16200,
+  "each_occurrence_limit": 1000000,
+  "general_aggregate_limit": 4000000
+}

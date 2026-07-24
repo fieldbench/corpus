@@ -1,0 +1,11 @@
+{
+  "insurer_name": "Midwest Indemnity Holdings",
+  "named_insured": "Lone Star Paving & Excavation",
+  "policy_number": "CU-2628255",
+  "policy_type": "Umbrella/Excess",
+  "effective_date": "2026-01-21",
+  "expiration_date": "2027-01-21",
+  "total_premium": 33400,
+  "each_occurrence_limit": 5000000,
+  "general_aggregate_limit": 10000000
+}

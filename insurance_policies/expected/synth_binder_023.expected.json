@@ -1,0 +1,11 @@
+{
+  "insurer_name": "Continental Shield Insurance Co.",
+  "named_insured": "Pamela E. Ogilvie",
+  "policy_number": "BND-508854",
+  "policy_type": "Commercial General Liability",
+  "effective_date": "2026-04-07",
+  "expiration_date": "2027-04-07",
+  "each_occurrence_limit": 2000000,
+  "general_aggregate_limit": 4000000,
+  "total_premium": null
+}

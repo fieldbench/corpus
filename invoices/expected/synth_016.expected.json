@@ -1,0 +1,40 @@
+{
+  "merchant_name": "Hartmann Elektrotechnik GmbH",
+  "date": "2024-12-11",
+  "total_amount": 14061.49,
+  "subtotal": 13110.95,
+  "tax": 950.54,
+  "currency": "EUR",
+  "items": [
+    {
+      "name": "Wiring (per meter)",
+      "quantity": 19,
+      "unit_price": 2.76,
+      "amount": 52.44
+    },
+    {
+      "name": "Smoke detector",
+      "quantity": 23,
+      "unit_price": 44.92,
+      "amount": 1033.16
+    },
+    {
+      "name": "LED panel light 600x600",
+      "quantity": 4,
+      "unit_price": 37.01,
+      "amount": 148.04
+    },
+    {
+      "name": "Cable tray (3m section)",
+      "quantity": 7,
+      "unit_price": 45.62,
+      "amount": 319.34
+    },
+    {
+      "name": "Distribution board",
+      "quantity": 43,
+      "unit_price": 268.79,
+      "amount": 11557.97
+    }
+  ]
+}

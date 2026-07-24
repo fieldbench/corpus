@@ -1,0 +1,11 @@
+{
+  "insurer_name": "Pacific Crest Casualty",
+  "named_insured": "Suncoast Roofing & Waterproofing",
+  "policy_number": "FPP8927306",
+  "policy_type": "Commercial Property",
+  "effective_date": "2026-09-21",
+  "expiration_date": "2027-09-21",
+  "total_premium": 80700,
+  "each_occurrence_limit": 5000000,
+  "general_aggregate_limit": 5000000
+}

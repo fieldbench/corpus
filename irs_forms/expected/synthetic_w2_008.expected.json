@@ -1,0 +1,13 @@
+{
+  "employer_name": "Meridian Consulting LLC",
+  "employer_ein": "61-6692553",
+  "employee_name": "Avery W. Rodriguez",
+  "employee_ssn": "XXX-XX-3296",
+  "wages": 115212.47,
+  "federal_income_tax": 24479.1,
+  "social_security_wages": 115212.47,
+  "social_security_tax": 7143.17,
+  "medicare_wages": 115212.47,
+  "medicare_tax": 1670.58,
+  "tax_year": 2024
+}

@@ -1,0 +1,14 @@
+{
+  "admission_date": null,
+  "attending_physician": "Dr. X",
+  "discharge_date": null,
+  "medications_at_discharge": null,
+  "primary_diagnosis": "Torn subscapularis tendon, right shoulder.",
+  "procedures": [
+    "Arthrotomy",
+    "Removal humeral head implant, right shoulder",
+    "Repair of torn subscapularis tendon (rotator cuff tendon) acute tear",
+    "Debridement glenohumeral joint",
+    "Biopsy and culturing the right shoulder"
+  ]
+}

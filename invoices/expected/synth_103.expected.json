@@ -1,0 +1,16 @@
+{
+  "merchant_name": "Sakura Sushi Bar",
+  "date": "2025-09-07",
+  "total_amount": 2657.78,
+  "subtotal": 2507.34,
+  "tax": 150.44,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "Catering \u2014 appetizer platter",
+      "quantity": 33,
+      "unit_price": 75.98,
+      "amount": 2507.34
+    }
+  ]
+}

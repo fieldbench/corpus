@@ -1,0 +1,109 @@
+{
+  "certificate_date": "2025-01-04",
+  "certificate_holder_name": "Lakewood Properties Inc.",
+  "insured_name": "Cornerstone Civil Engineering PC",
+  "policies": [
+    {
+      "policy_number": "CGL3245740",
+      "coverage_type": "Commercial General Liability",
+      "carrier_name": "Continental Shield Insurance Co.",
+      "effective_date": "2025-06-26",
+      "expiration_date": "2026-06-26",
+      "limits": [
+        {
+          "name": "Each Occurrence",
+          "amount": 2000000
+        },
+        {
+          "name": "General Aggregate",
+          "amount": 4000000
+        },
+        {
+          "name": "Products / Completed Operations",
+          "amount": 4000000
+        },
+        {
+          "name": "Personal & Advertising Injury",
+          "amount": 1000000
+        },
+        {
+          "name": "Damage to Rented Premises",
+          "amount": 500000
+        },
+        {
+          "name": "Medical Expense (Any One Person)",
+          "amount": 5000
+        }
+      ],
+      "additional_insureds": [
+        "Lakewood Properties Inc."
+      ]
+    },
+    {
+      "policy_number": "AUT3371184",
+      "coverage_type": "Automobile Liability",
+      "carrier_name": "Pacific Crest Casualty",
+      "effective_date": "2025-06-26",
+      "expiration_date": "2026-06-26",
+      "limits": [
+        {
+          "name": "Combined Single Limit (Each Accident)",
+          "amount": 2000000
+        }
+      ],
+      "additional_insureds": [
+        "Heritage Capital Partners"
+      ]
+    },
+    {
+      "policy_number": "UMB3481850",
+      "coverage_type": "Umbrella Liability",
+      "carrier_name": "Mountain West Casualty Co.",
+      "effective_date": "2025-06-26",
+      "expiration_date": "2026-06-26",
+      "limits": [
+        {
+          "name": "Each Occurrence",
+          "amount": 5000000
+        },
+        {
+          "name": "Aggregate",
+          "amount": 5000000
+        },
+        {
+          "name": "Self-Insured Retention",
+          "amount": 25000
+        }
+      ],
+      "additional_insureds": [
+        "Ironworks Joint Venture LLC"
+      ]
+    },
+    {
+      "policy_number": "WC3797422",
+      "coverage_type": "Workers Compensation",
+      "carrier_name": "Continental Shield Insurance Co.",
+      "effective_date": "2025-06-26",
+      "expiration_date": "2026-06-26",
+      "limits": [
+        {
+          "name": "Bodily Injury by Accident (Each Accident)",
+          "amount": 1000000
+        },
+        {
+          "name": "Bodily Injury by Disease (Policy Limit)",
+          "amount": 1000000
+        },
+        {
+          "name": "Bodily Injury by Disease (Each Employee)",
+          "amount": 1000000
+        }
+      ],
+      "additional_insureds": [
+        "Olympus General Contractors"
+      ]
+    }
+  ],
+  "producer_name": "Summit Risk Advisors LLC",
+  "producer_phone": "(215) 555-0188"
+}
