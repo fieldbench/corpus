@@ -63,4 +63,4 @@ categories use functionally-equivalent synthetic documents.
 
 ## Citation
 
-See `CITATION.cff` (added on the first tagged release).
+See `CITATION.cff`. A Zenodo DOI is minted on the first tagged release.

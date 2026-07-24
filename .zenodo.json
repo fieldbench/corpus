@@ -1,0 +1,22 @@
+{
+  "title": "FieldBench Corpus: A Cross-Domain Benchmark for Schema-Driven Document Extraction",
+  "description": "<p>A cross-domain, field-level benchmark for schema-driven document extraction (document &rarr; structured JSON): 1,114 documents across 12 categories with per-field ground truth, released so extraction-accuracy claims become falsifiable and comparable.</p><p>613 real documents (SEC EDGAR, CourtListener, Caselaw Access Project, MTSamples, SROIE, U.S. government forms) and 501 synthetic documents, each labeled by source. A datasheet documents composition, provenance, and per-source licensing.</p><p><strong>Read before quoting any accuracy number:</strong> ~94% of documents are extraction-from-clean-text rather than rendered-page extraction, and synthetic documents overestimate accuracy relative to real ones &mdash; always report results stratified by source. See the datasheet in the repository. The scorer and run harness are at https://github.com/fieldbench/fieldbench.</p>",
+  "upload_type": "dataset",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "creators": [
+    { "name": "Thomas, Frank" }
+  ],
+  "keywords": [
+    "document extraction",
+    "information extraction",
+    "schema-driven extraction",
+    "benchmark",
+    "evaluation",
+    "natural language processing"
+  ],
+  "related_identifiers": [
+    { "identifier": "https://github.com/fieldbench/corpus", "relation": "isSupplementTo", "scheme": "url" },
+    { "identifier": "https://github.com/fieldbench/fieldbench", "relation": "isSupplementedBy", "scheme": "url" }
+  ]
+}

@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this corpus, please cite it as below."
+title: "FieldBench Corpus: A Cross-Domain Benchmark for Schema-Driven Document Extraction"
+abstract: >-
+  A cross-domain, field-level benchmark for schema-driven document extraction
+  (document to structured JSON): 1,114 documents across 12 categories with
+  per-field ground truth, released so extraction-accuracy claims are falsifiable
+  and comparable. Includes real documents from public sources and synthetic
+  documents, each labeled by source, with a datasheet documenting composition,
+  provenance, and per-source licensing.
+type: dataset
+authors:
+  - family-names: Thomas
+    given-names: Frank
+version: 0.1.0
+date-released: "2026-07-24"
+url: "https://github.com/fieldbench/corpus"
+repository-code: "https://github.com/fieldbench/corpus"
+license: CC-BY-4.0
+keywords:
+  - document extraction
+  - information extraction
+  - schema-driven extraction
+  - benchmark
+  - evaluation
+  - natural language processing
