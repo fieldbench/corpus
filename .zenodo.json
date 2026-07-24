@@ -17,6 +17,7 @@
   ],
   "related_identifiers": [
     { "identifier": "https://github.com/fieldbench/corpus", "relation": "isSupplementTo", "scheme": "url" },
-    { "identifier": "https://github.com/fieldbench/fieldbench", "relation": "isSupplementedBy", "scheme": "url" }
+    { "identifier": "https://github.com/fieldbench/fieldbench", "relation": "isSupplementedBy", "scheme": "url" },
+    { "identifier": "10.57967/hf/9711", "relation": "isIdenticalTo", "scheme": "doi" }
   ]
 }

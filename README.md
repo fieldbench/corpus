@@ -1,5 +1,7 @@
 # FieldBench Corpus
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21532677.svg)](https://doi.org/10.5281/zenodo.21532677)
+
 A cross-domain, field-level benchmark for **schema-driven document extraction**
 (document → structured JSON). 1,114 documents across 12 categories with per-field
 ground truth, released so extraction-accuracy claims become **falsifiable and
@@ -63,4 +65,4 @@ categories use functionally-equivalent synthetic documents.
 
 ## Citation
 
-See `CITATION.cff`. A Zenodo DOI is minted on the first tagged release.
+See `CITATION.cff`. Zenodo DOI (all versions): [10.5281/zenodo.21532677](https://doi.org/10.5281/zenodo.21532677).

@@ -14,9 +14,17 @@ authors:
     given-names: Frank
 version: 0.1.0
 date-released: "2026-07-24"
+doi: 10.5281/zenodo.21532677
 url: "https://github.com/fieldbench/corpus"
 repository-code: "https://github.com/fieldbench/corpus"
 license: CC-BY-4.0
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.21532677
+    description: Concept DOI (all versions) on Zenodo
+  - type: doi
+    value: 10.57967/hf/9711
+    description: Hugging Face dataset DOI
 keywords:
   - document extraction
   - information extraction
