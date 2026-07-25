@@ -5,12 +5,15 @@ Measures how much a second, independent annotator agrees with the existing
 ground truth — the number that establishes the corpus's GT trustworthiness.
 
     # 1. draw a stratified sample of REAL docs and emit blind annotation templates
-    python scripts/iaa_harness.py sample --n 60 --out iaa/
+    python scripts/iaa_harness.py sample --n 60 --out iaa/ --exclude insurance_claims
 
     # 2. annotator 2 fills each iaa/<stem>.annotate.json (WITHOUT looking at GT)
 
     # 3. score agreement against the existing ground truth
     python scripts/iaa_harness.py score --dir iaa/
+
+    # 3b. or score two annotators against each other (no ground truth involved)
+    python scripts/iaa_harness.py score --dir iaa_annotator_a/ --against iaa_annotator_b/
 
 Synthetic documents are excluded by default — their GT is correct by construction,
 so they carry no IAA signal. Real-document GT is what needs validating.
@@ -42,10 +45,12 @@ except ImportError:
 ROOT = Path(".")
 
 
-def _real_docs(category: str | None):
+def _real_docs(category: str | None, exclude: set[str] | None = None):
     cats = [category] if category else sorted(
         p.name for p in ROOT.iterdir() if p.is_dir() and (p / "manifests").is_dir()
     )
+    if exclude:
+        cats = [c for c in cats if c not in exclude]
     for cat in cats:
         for mpath in sorted((ROOT / cat / "manifests").glob("*.json")):
             m = json.loads(mpath.read_text())
@@ -72,7 +77,8 @@ def cmd_sample(args) -> int:
     out = args.out
     out.mkdir(parents=True, exist_ok=True)
     by_cat = defaultdict(list)
-    for cat, stem, m in _real_docs(args.category):
+    exclude = {c.strip() for c in (args.exclude or "").split(",") if c.strip()}
+    for cat, stem, m in _real_docs(args.category, exclude):
         by_cat[cat].append((stem, m))
     if not by_cat:
         print("error: no real documents found", file=sys.stderr)
@@ -125,13 +131,19 @@ def _cohen_kappa(pairs: list[tuple[str, str]]) -> float | None:
     return None if pe >= 1.0 else (agree - pe) / (1 - pe)
 
 
+def _annotation(path: Path) -> dict:
+    return (json.loads(path.read_text()).get("annotation")) or {}
+
+
 def cmd_score(args) -> int:
     cache: dict = {}
     total = agree = 0
     per_cat = defaultdict(lambda: [0, 0])  # [agree, total]
-    enum_pairs = defaultdict(list)  # field_name -> [(gt_label, ann2_label)]
+    enum_pairs = defaultdict(list)  # field_name -> [(ref_label, ann_label)]
     disagreements = []
     scored_docs = 0
+    skipped = []
+    ref_name = "annotator_b" if args.against else "gt"
 
     for tmpl_path in sorted(args.dir.glob("*.annotate.json")):
         t = json.loads(tmpl_path.read_text())
@@ -139,12 +151,27 @@ def cmd_score(args) -> int:
         ann2 = t.get("annotation") or {}
         if all(is_empty(v) for v in ann2.values()):
             continue  # not yet annotated
+        # The field set is ALWAYS the ground-truth key list, even when scoring
+        # annotator-vs-annotator. That keeps A-vs-GT, B-vs-GT and A-vs-B over
+        # identical fields, so the three agreement rates compare directly.
         gt = json.loads((ROOT / cat / "expected" / f"{stem}.expected.json").read_text())
+        if args.against:
+            ref_path = args.against / tmpl_path.name
+            if not ref_path.exists():
+                skipped.append(f"{stem}: no counterpart in {args.against}")
+                continue
+            ref = _annotation(ref_path)
+            if all(is_empty(v) for v in ref.values()):
+                skipped.append(f"{stem}: counterpart not yet annotated")
+                continue
+        else:
+            ref = gt
         fields = _schema_fields(json.loads((ROOT / cat / "manifests" / f"{stem}.json").read_text()), cache)
         scored_docs += 1
-        for name, gt_val in gt.items():
+        for name in gt:
+            ref_val = ref.get(name)
             a2 = ann2.get(name)
-            r = compare_field(name, gt_val, a2)
+            r = compare_field(name, ref_val, a2)
             ok = r.passed
             total += 1
             agree += ok
@@ -152,9 +179,9 @@ def cmd_score(args) -> int:
             per_cat[cat][0] += ok
             spec = fields.get(name) or {}
             if str(spec.get("type", "")).lower() == "enum" or spec.get("options"):
-                enum_pairs[name].append((json.dumps(gt_val), json.dumps(a2)))
+                enum_pairs[name].append((json.dumps(ref_val), json.dumps(a2)))
             if not ok:
-                disagreements.append({"doc": stem, "field": name, "gt": gt_val, "annotator2": a2})
+                disagreements.append({"doc": stem, "field": name, ref_name: ref_val, "annotator2": a2})
 
     if total == 0:
         print("error: no filled annotations found in", args.dir, file=sys.stderr)
@@ -163,6 +190,7 @@ def cmd_score(args) -> int:
     kappas = {k: _cohen_kappa(v) for k, v in enum_pairs.items()}
     kappas = {k: v for k, v in kappas.items() if v is not None}
     report = {
+        "comparison": f"{args.dir} vs {args.against}" if args.against else f"{args.dir} vs ground truth",
         "scored_docs": scored_docs,
         "fields_compared": total,
         "agreement_rate": round(agree / total, 4),
@@ -172,10 +200,15 @@ def cmd_score(args) -> int:
         "n_disagreements": len(disagreements),
     }
     print(json.dumps(report, indent=2))
+    if skipped:
+        print(f"\nskipped {len(skipped)} doc(s):", file=sys.stderr)
+        for s in skipped:
+            print(f"  {s}", file=sys.stderr)
     if args.disagreements:
         print("\n=== disagreements (for adjudication) ===", file=sys.stderr)
+        label = "B" if args.against else "GT"
         for d in disagreements:
-            print(f"  [{d['doc']}] {d['field']}: GT={d['gt']!r}  A2={d['annotator2']!r}", file=sys.stderr)
+            print(f"  [{d['doc']}] {d['field']}: {label}={d[ref_name]!r}  A2={d['annotator2']!r}", file=sys.stderr)
     return 0
 
 
@@ -186,10 +219,25 @@ def main(argv=None) -> int:
     s.add_argument("--n", type=int, default=60)
     s.add_argument("--out", type=Path, default=Path("iaa"))
     s.add_argument("--category", default=None)
+    s.add_argument(
+        "--exclude",
+        default=None,
+        help="comma-separated categories to leave out of the sample. Use for pools that "
+        "carry no IAA signal — e.g. insurance_claims, whose real docs are blank form "
+        "templates with nothing to extract but form_type.",
+    )
     s.add_argument("--seed", type=int, default=20260724)
     s.set_defaults(func=cmd_sample)
     sc = sub.add_parser("score", help="compare filled annotations to GT; report agreement + kappa")
     sc.add_argument("--dir", type=Path, default=Path("iaa"))
+    sc.add_argument(
+        "--against",
+        type=Path,
+        default=None,
+        help="score --dir against a SECOND annotator's dir instead of the ground truth, "
+        "giving annotator-vs-annotator agreement. Fields compared are still the GT key "
+        "list, so the rate is directly comparable to the vs-GT runs.",
+    )
     sc.add_argument("--disagreements", action="store_true", help="list every disagreement for adjudication")
     sc.set_defaults(func=cmd_score)
     args = ap.parse_args(argv)

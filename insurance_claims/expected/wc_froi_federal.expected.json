@@ -1,1 +1,11 @@
-{}
+{
+  "form_type": "Employer's First Report",
+  "claimant_name": null,
+  "employer_name": null,
+  "date_of_loss": null,
+  "description_of_loss": null,
+  "body_part": null,
+  "amount_claimed": null,
+  "policy_number": null,
+  "state": null
+}
