@@ -1,0 +1,28 @@
+{
+  "merchant_name": "MAPLE & OAK BOOKSHOP",
+  "date": "2024-01-03",
+  "total_amount": 270.45,
+  "subtotal": 255.14,
+  "tax": 15.31,
+  "currency": "EUR",
+  "items": [
+    {
+      "name": "BALLPOINT PEN 5S",
+      "quantity": 2,
+      "unit_price": 32.71,
+      "amount": 65.42
+    },
+    {
+      "name": "GREEN TEA 25S",
+      "quantity": 2,
+      "unit_price": 45.66,
+      "amount": 91.32
+    },
+    {
+      "name": "DARK CHOCOLATE 100G",
+      "quantity": 4,
+      "unit_price": 24.6,
+      "amount": 98.4
+    }
+  ]
+}

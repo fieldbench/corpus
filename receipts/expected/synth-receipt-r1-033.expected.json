@@ -1,0 +1,28 @@
+{
+  "merchant_name": "GREENLEAF GROCERS SDN BHD",
+  "date": "2024-08-14",
+  "total_amount": 390.79,
+  "subtotal": 365.22,
+  "tax": 25.57,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "STICKY NOTES 3PK",
+      "quantity": 4,
+      "unit_price": 35.07,
+      "amount": 140.28
+    },
+    {
+      "name": "PAPER TOWEL 2PLY",
+      "quantity": 2,
+      "unit_price": 4.41,
+      "amount": 8.82
+    },
+    {
+      "name": "GREEN TEA 25S",
+      "quantity": 4,
+      "unit_price": 54.03,
+      "amount": 216.12
+    }
+  ]
+}

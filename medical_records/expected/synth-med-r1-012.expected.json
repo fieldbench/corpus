@@ -1,0 +1,15 @@
+{
+  "admission_date": "2024-11-21",
+  "discharge_date": "2024-11-23",
+  "primary_diagnosis": "Chronic obstructive pulmonary disease exacerbation",
+  "procedures": [
+    "Bronchoscopy"
+  ],
+  "medications_at_discharge": [
+    "Albuterol",
+    "Prednisone",
+    "Tiotropium",
+    "Azithromycin"
+  ],
+  "attending_physician": "Dr. Williams"
+}

@@ -1,0 +1,10 @@
+{
+  "contract_type": "Settlement Agreement",
+  "parties": [
+    "Pinnacle Inc.",
+    "Vanguard Manufacturing LLC"
+  ],
+  "effective_date": "2019-11-15",
+  "termination_date": null,
+  "governing_law": "State of Maryland"
+}

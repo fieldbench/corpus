@@ -1,0 +1,16 @@
+{
+  "merchant_name": "BLUE ORCHID PHARMACY",
+  "date": "2024-08-02",
+  "total_amount": 225.73,
+  "subtotal": 214.98,
+  "tax": 10.75,
+  "currency": "EUR",
+  "items": [
+    {
+      "name": "DISH SOAP 900ML",
+      "quantity": 3,
+      "unit_price": 71.66,
+      "amount": 214.98
+    }
+  ]
+}

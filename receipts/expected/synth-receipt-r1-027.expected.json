@@ -1,0 +1,34 @@
+{
+  "merchant_name": "CITY LIGHTS HARDWARE CO",
+  "date": "2023-01-11",
+  "total_amount": 218.3,
+  "subtotal": 207.9,
+  "tax": 10.4,
+  "currency": "GBP",
+  "items": [
+    {
+      "name": "POTATO CHIPS 150G",
+      "quantity": 4,
+      "unit_price": 6.9,
+      "amount": 27.6
+    },
+    {
+      "name": "LAUNDRY POWDER 1KG",
+      "quantity": 3,
+      "unit_price": 16.8,
+      "amount": 50.4
+    },
+    {
+      "name": "USB CABLE 1M",
+      "quantity": 3,
+      "unit_price": 22.12,
+      "amount": 66.36
+    },
+    {
+      "name": "PHONE CHARGER 20W",
+      "quantity": 3,
+      "unit_price": 21.18,
+      "amount": 63.54
+    }
+  ]
+}

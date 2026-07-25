@@ -1,0 +1,40 @@
+{
+  "merchant_name": "EASTGATE MINI MARKET",
+  "date": "2023-06-12",
+  "total_amount": 622.65,
+  "subtotal": 593.0,
+  "tax": 29.65,
+  "currency": "MYR",
+  "items": [
+    {
+      "name": "NOTEBOOK A5",
+      "quantity": 2,
+      "unit_price": 93.11,
+      "amount": 186.22
+    },
+    {
+      "name": "TOOTHPASTE 150G",
+      "quantity": 1,
+      "unit_price": 27.82,
+      "amount": 27.82
+    },
+    {
+      "name": "MINERAL WATER 1.5L",
+      "quantity": 3,
+      "unit_price": 7.9,
+      "amount": 23.7
+    },
+    {
+      "name": "STICKY NOTES 3PK",
+      "quantity": 3,
+      "unit_price": 69.11,
+      "amount": 207.33
+    },
+    {
+      "name": "YOGURT DRINK 700ML",
+      "quantity": 3,
+      "unit_price": 49.31,
+      "amount": 147.93
+    }
+  ]
+}

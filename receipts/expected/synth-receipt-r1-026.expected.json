@@ -1,0 +1,16 @@
+{
+  "merchant_name": "BLUE ORCHID PHARMACY",
+  "date": "2023-01-16",
+  "total_amount": 70.04,
+  "subtotal": 64.85,
+  "tax": 5.19,
+  "currency": "MYR",
+  "items": [
+    {
+      "name": "BALLPOINT PEN 5S",
+      "quantity": 1,
+      "unit_price": 64.85,
+      "amount": 64.85
+    }
+  ]
+}

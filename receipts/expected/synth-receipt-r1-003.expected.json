@@ -1,0 +1,16 @@
+{
+  "merchant_name": "GREENLEAF GROCERS SDN BHD",
+  "date": "2024-12-18",
+  "total_amount": 19.36,
+  "subtotal": 18.44,
+  "tax": 0.92,
+  "currency": "EUR",
+  "items": [
+    {
+      "name": "DARK CHOCOLATE 100G",
+      "quantity": 2,
+      "unit_price": 9.22,
+      "amount": 18.44
+    }
+  ]
+}

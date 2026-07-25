@@ -1,0 +1,15 @@
+{
+  "id": "synth-receipt-r1-018",
+  "source_name": "Synthetic generator (synthetic_receipts.py)",
+  "source_url": null,
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "schema": "receipts/schemas/invoice_basic.yaml",
+  "document": "documents/synth-receipt-r1-018.md",
+  "expected": "expected/synth-receipt-r1-018.expected.json",
+  "attribution": "Synthetic \u2014 no real merchant or transaction data.",
+  "license_basis": "Machine-generated synthetic document; released CC0.",
+  "source": "synthetic",
+  "matched_pair": true,
+  "synthetic_realism": 1
+}

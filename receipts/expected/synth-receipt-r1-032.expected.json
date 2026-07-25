@@ -1,0 +1,34 @@
+{
+  "merchant_name": "SILVERTON DEPARTMENT STORE",
+  "date": "2025-02-18",
+  "total_amount": 455.95,
+  "subtotal": 430.14,
+  "tax": 25.81,
+  "currency": "EUR",
+  "items": [
+    {
+      "name": "COOKING OIL 2L",
+      "quantity": 1,
+      "unit_price": 51.48,
+      "amount": 51.48
+    },
+    {
+      "name": "MINERAL WATER 1.5L",
+      "quantity": 4,
+      "unit_price": 73.53,
+      "amount": 294.12
+    },
+    {
+      "name": "RICE 5KG BAG",
+      "quantity": 4,
+      "unit_price": 1.71,
+      "amount": 6.84
+    },
+    {
+      "name": "TOMATO SAUCE 340G",
+      "quantity": 1,
+      "unit_price": 77.7,
+      "amount": 77.7
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "merchant_name": "HARBOUR POINT CONVENIENCE",
+  "date": "2024-06-06",
+  "total_amount": 318.24,
+  "subtotal": 318.24,
+  "tax": 0.0,
+  "currency": "GBP",
+  "items": [
+    {
+      "name": "PHONE CHARGER 20W",
+      "quantity": 1,
+      "unit_price": 28.49,
+      "amount": 28.49
+    },
+    {
+      "name": "LAUNDRY POWDER 1KG",
+      "quantity": 4,
+      "unit_price": 45.82,
+      "amount": 183.28
+    },
+    {
+      "name": "USB CABLE 1M",
+      "quantity": 1,
+      "unit_price": 73.35,
+      "amount": 73.35
+    },
+    {
+      "name": "RICE 5KG BAG",
+      "quantity": 1,
+      "unit_price": 33.12,
+      "amount": 33.12
+    }
+  ]
+}

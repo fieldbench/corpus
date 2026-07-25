@@ -1,0 +1,13 @@
+{
+  "admission_date": "2024-09-02",
+  "discharge_date": "2024-09-11",
+  "primary_diagnosis": "Sepsis secondary to urinary tract infection",
+  "procedures": [
+    "Central venous catheter placement"
+  ],
+  "medications_at_discharge": [
+    "Vancomycin",
+    "Piperacillin-tazobactam"
+  ],
+  "attending_physician": "Dr. Thomas"
+}

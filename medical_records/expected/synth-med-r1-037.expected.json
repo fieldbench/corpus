@@ -1,0 +1,14 @@
+{
+  "admission_date": "2024-01-18",
+  "discharge_date": "2024-02-01",
+  "primary_diagnosis": "Acute cholecystitis",
+  "procedures": [
+    "Laparoscopic cholecystectomy"
+  ],
+  "medications_at_discharge": [
+    "Cefazolin",
+    "Ketorolac",
+    "Ondansetron"
+  ],
+  "attending_physician": "Dr. Johnson"
+}

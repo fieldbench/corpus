@@ -1,0 +1,10 @@
+{
+  "contract_type": "Employment Agreement",
+  "parties": [
+    "William Sterling",
+    "Beacon Hill Ventures Inc."
+  ],
+  "effective_date": "2018-05-26",
+  "termination_date": "2028-05-23",
+  "governing_law": "State of Florida"
+}

@@ -1,0 +1,14 @@
+{
+  "admission_date": "2024-11-30",
+  "discharge_date": "2024-12-14",
+  "primary_diagnosis": "Ischemic stroke",
+  "procedures": [
+    "Carotid endarterectomy"
+  ],
+  "medications_at_discharge": [
+    "Atorvastatin",
+    "Clopidogrel",
+    "Aspirin"
+  ],
+  "attending_physician": "Dr. Lopez"
+}

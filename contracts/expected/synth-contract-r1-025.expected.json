@@ -1,0 +1,10 @@
+{
+  "contract_type": "Employment Agreement",
+  "parties": [
+    "John Quill",
+    "Eastvale Labs Ltd."
+  ],
+  "effective_date": "2021-03-19",
+  "termination_date": "2024-03-18",
+  "governing_law": "State of California"
+}

@@ -1,0 +1,22 @@
+{
+  "merchant_name": "GOLDEN LOTUS RESTAURANT",
+  "date": "2023-10-04",
+  "total_amount": 426.3,
+  "subtotal": 398.41,
+  "tax": 27.89,
+  "currency": "EUR",
+  "items": [
+    {
+      "name": "GREEN TEA 25S",
+      "quantity": 4,
+      "unit_price": 62.38,
+      "amount": 249.52
+    },
+    {
+      "name": "TOOTHPASTE 150G",
+      "quantity": 3,
+      "unit_price": 49.63,
+      "amount": 148.89
+    }
+  ]
+}

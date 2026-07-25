@@ -1,0 +1,40 @@
+{
+  "merchant_name": "RIVERSIDE BAKERY & DELI",
+  "date": "2023-08-07",
+  "total_amount": 595.63,
+  "subtotal": 551.51,
+  "tax": 44.12,
+  "currency": "AUD",
+  "items": [
+    {
+      "name": "AA BATTERY 4PK",
+      "quantity": 4,
+      "unit_price": 46.51,
+      "amount": 186.04
+    },
+    {
+      "name": "SALT 500G",
+      "quantity": 1,
+      "unit_price": 33.46,
+      "amount": 33.46
+    },
+    {
+      "name": "YOGURT DRINK 700ML",
+      "quantity": 4,
+      "unit_price": 8.29,
+      "amount": 33.16
+    },
+    {
+      "name": "LAUNDRY POWDER 1KG",
+      "quantity": 2,
+      "unit_price": 99.55,
+      "amount": 199.1
+    },
+    {
+      "name": "BROWN EGGS 12S",
+      "quantity": 1,
+      "unit_price": 99.75,
+      "amount": 99.75
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "admission_date": "2024-05-06",
+  "discharge_date": "2024-05-08",
+  "primary_diagnosis": "Congestive heart failure exacerbation",
+  "procedures": [
+    "Right heart catheterization",
+    "Echocardiography"
+  ],
+  "medications_at_discharge": [
+    "Lisinopril",
+    "Spironolactone",
+    "Carvedilol",
+    "Furosemide"
+  ],
+  "attending_physician": "Dr. Williams"
+}

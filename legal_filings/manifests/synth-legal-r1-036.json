@@ -1,0 +1,15 @@
+{
+  "id": "synth-legal-r1-036",
+  "source_name": "Synthetic generator (synthetic_legal.py)",
+  "source_url": null,
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "schema": "legal_filings/schemas/legal_filing.yaml",
+  "document": "documents/synth-legal-r1-036.md",
+  "expected": "expected/synth-legal-r1-036.expected.json",
+  "attribution": "Synthetic \u2014 no real case data.",
+  "license_basis": "Machine-generated synthetic document; released CC0.",
+  "source": "synthetic",
+  "matched_pair": true,
+  "synthetic_realism": 1
+}

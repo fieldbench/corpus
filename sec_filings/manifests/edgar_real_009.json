@@ -1,0 +1,13 @@
+{
+  "id": "edgar_real_009",
+  "source_name": "SEC EDGAR",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526191507/msft-20260331.htm",
+  "license": "Public disclosure record",
+  "schema": "sec_filings/schemas/filing_metadata.yaml",
+  "document": "documents/edgar_real_009.md",
+  "expected": "expected/edgar_real_009.expected.json",
+  "attribution": "U.S. SEC EDGAR \u2014 public company filing.",
+  "license_basis": "Not a US Government work: 17 U.S.C. 105 does not apply (authored by the registrant, not the SEC). Redistributed as a public disclosure record. See DATA_LICENSE.md.",
+  "gt_provenance": "Authoritative EDGAR submissions index, reconciled to the document text: each field kept only if grounded in the extractable text, else nulled.",
+  "source": "real"
+}

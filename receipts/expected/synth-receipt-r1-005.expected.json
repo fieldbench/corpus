@@ -1,0 +1,34 @@
+{
+  "merchant_name": "VICTORIA STATIONERS LTD",
+  "date": "2023-02-03",
+  "total_amount": 255.41,
+  "subtotal": 238.7,
+  "tax": 16.71,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "FRESH MILK 1L",
+      "quantity": 1,
+      "unit_price": 10.88,
+      "amount": 10.88
+    },
+    {
+      "name": "INSTANT COFFEE 200G",
+      "quantity": 1,
+      "unit_price": 92.52,
+      "amount": 92.52
+    },
+    {
+      "name": "BATH SOAP 3PK",
+      "quantity": 3,
+      "unit_price": 11.8,
+      "amount": 35.4
+    },
+    {
+      "name": "AA BATTERY 4PK",
+      "quantity": 2,
+      "unit_price": 49.95,
+      "amount": 99.9
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "merchant_name": "CITY LIGHTS HARDWARE CO",
+  "date": "2025-02-17",
+  "total_amount": 375.06,
+  "subtotal": 347.28,
+  "tax": 27.78,
+  "currency": "CAD",
+  "items": [
+    {
+      "name": "SHAMPOO 400ML",
+      "quantity": 4,
+      "unit_price": 86.82,
+      "amount": 347.28
+    }
+  ]
+}

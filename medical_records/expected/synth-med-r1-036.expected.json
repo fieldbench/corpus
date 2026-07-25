@@ -1,0 +1,14 @@
+{
+  "admission_date": "2023-02-01",
+  "discharge_date": "2023-02-05",
+  "primary_diagnosis": "Acute cholecystitis",
+  "procedures": [
+    "Laparoscopic cholecystectomy"
+  ],
+  "medications_at_discharge": [
+    "Cefazolin",
+    "Ketorolac",
+    "Ondansetron"
+  ],
+  "attending_physician": "Dr. Rodriguez"
+}

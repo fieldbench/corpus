@@ -1,0 +1,15 @@
+{
+  "admission_date": "2023-06-04",
+  "discharge_date": "2023-06-10",
+  "primary_diagnosis": "Gastrointestinal hemorrhage",
+  "procedures": [
+    "Colonoscopy",
+    "Upper endoscopy"
+  ],
+  "medications_at_discharge": [
+    "Octreotide",
+    "Ferrous sulfate",
+    "Pantoprazole"
+  ],
+  "attending_physician": "Dr. Hernandez"
+}

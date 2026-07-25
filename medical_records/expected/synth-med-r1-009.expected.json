@@ -1,0 +1,15 @@
+{
+  "admission_date": "2023-10-21",
+  "discharge_date": "2023-11-01",
+  "primary_diagnosis": "Community-acquired pneumonia",
+  "procedures": [
+    "Bronchoscopy"
+  ],
+  "medications_at_discharge": [
+    "Ceftriaxone",
+    "Prednisone",
+    "Azithromycin",
+    "Albuterol"
+  ],
+  "attending_physician": "Dr. Garcia"
+}

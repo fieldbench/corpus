@@ -1,0 +1,16 @@
+{
+  "merchant_name": "RIVERSIDE BAKERY & DELI",
+  "date": "2024-03-15",
+  "total_amount": 190.7,
+  "subtotal": 181.62,
+  "tax": 9.08,
+  "currency": "CAD",
+  "items": [
+    {
+      "name": "SHAMPOO 400ML",
+      "quantity": 3,
+      "unit_price": 60.54,
+      "amount": 181.62
+    }
+  ]
+}

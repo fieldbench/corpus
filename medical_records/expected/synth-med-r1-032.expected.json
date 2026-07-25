@@ -1,0 +1,16 @@
+{
+  "admission_date": "2024-03-26",
+  "discharge_date": "2024-04-01",
+  "primary_diagnosis": "Ischemic stroke",
+  "procedures": [
+    "Thrombolysis",
+    "Carotid endarterectomy"
+  ],
+  "medications_at_discharge": [
+    "Amlodipine",
+    "Clopidogrel",
+    "Atorvastatin",
+    "Aspirin"
+  ],
+  "attending_physician": "Dr. Rodriguez"
+}

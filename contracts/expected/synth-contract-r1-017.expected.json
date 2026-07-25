@@ -1,0 +1,10 @@
+{
+  "contract_type": "Employment Agreement",
+  "parties": [
+    "Thomas Ellery",
+    "Cascade L.P."
+  ],
+  "effective_date": "2017-07-31",
+  "termination_date": "2018-07-31",
+  "governing_law": "State of Minnesota"
+}

@@ -1,0 +1,10 @@
+{
+  "contract_type": "Lease",
+  "parties": [
+    "Keystone Logistics LLC",
+    "Brightwater Energy Company"
+  ],
+  "effective_date": "2018-07-03",
+  "termination_date": "2028-06-30",
+  "governing_law": "State of Texas"
+}

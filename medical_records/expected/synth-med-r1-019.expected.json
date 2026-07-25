@@ -1,0 +1,15 @@
+{
+  "admission_date": "2023-01-29",
+  "discharge_date": "2023-01-31",
+  "primary_diagnosis": "Diabetic ketoacidosis",
+  "procedures": [
+    "Central line placement"
+  ],
+  "medications_at_discharge": [
+    "Metformin",
+    "Potassium chloride",
+    "Insulin lispro",
+    "Insulin glargine"
+  ],
+  "attending_physician": "Dr. Garcia"
+}

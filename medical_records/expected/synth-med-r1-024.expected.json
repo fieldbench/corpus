@@ -1,0 +1,13 @@
+{
+  "admission_date": "2023-09-15",
+  "discharge_date": "2023-09-20",
+  "primary_diagnosis": "Total knee arthroplasty",
+  "procedures": [
+    "Right total knee replacement"
+  ],
+  "medications_at_discharge": [
+    "Celecoxib",
+    "Oxycodone"
+  ],
+  "attending_physician": "Dr. Thomas"
+}

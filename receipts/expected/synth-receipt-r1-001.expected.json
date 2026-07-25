@@ -1,0 +1,16 @@
+{
+  "merchant_name": "VICTORIA STATIONERS LTD",
+  "date": "2023-12-11",
+  "total_amount": 38.26,
+  "subtotal": 35.76,
+  "tax": 2.5,
+  "currency": "SGD",
+  "items": [
+    {
+      "name": "LAUNDRY POWDER 1KG",
+      "quantity": 2,
+      "unit_price": 17.88,
+      "amount": 35.76
+    }
+  ]
+}

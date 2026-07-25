@@ -1,0 +1,10 @@
+{
+  "contract_type": "Lease",
+  "parties": [
+    "Whitmore Technologies Company",
+    "Beacon Hill Financial Inc."
+  ],
+  "effective_date": "2023-06-12",
+  "termination_date": "2026-06-11",
+  "governing_law": "State of Texas"
+}

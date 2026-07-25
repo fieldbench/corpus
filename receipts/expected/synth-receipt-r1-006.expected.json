@@ -1,0 +1,40 @@
+{
+  "merchant_name": "BLUE ORCHID PHARMACY",
+  "date": "2023-02-03",
+  "total_amount": 527.98,
+  "subtotal": 527.98,
+  "tax": 0.0,
+  "currency": "SGD",
+  "items": [
+    {
+      "name": "FACE MASK 10PK",
+      "quantity": 2,
+      "unit_price": 79.69,
+      "amount": 159.38
+    },
+    {
+      "name": "COOKING OIL 2L",
+      "quantity": 4,
+      "unit_price": 41.84,
+      "amount": 167.36
+    },
+    {
+      "name": "BATH SOAP 3PK",
+      "quantity": 3,
+      "unit_price": 19.35,
+      "amount": 58.05
+    },
+    {
+      "name": "TRASH BAGS 30S",
+      "quantity": 1,
+      "unit_price": 9.19,
+      "amount": 9.19
+    },
+    {
+      "name": "BROWN EGGS 12S",
+      "quantity": 4,
+      "unit_price": 33.5,
+      "amount": 134.0
+    }
+  ]
+}

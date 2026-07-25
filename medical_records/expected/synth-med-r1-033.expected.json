@@ -1,0 +1,13 @@
+{
+  "admission_date": "2024-11-25",
+  "discharge_date": "2024-12-02",
+  "primary_diagnosis": "Ischemic stroke",
+  "procedures": [
+    "CT angiography"
+  ],
+  "medications_at_discharge": [
+    "Atorvastatin",
+    "Amlodipine"
+  ],
+  "attending_physician": "Dr. Wilson"
+}

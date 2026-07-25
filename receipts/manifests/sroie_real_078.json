@@ -1,0 +1,21 @@
+{
+  "filename": "sroie_real_078.md",
+  "source_name": "SROIE Dataset (ICDAR 2019)",
+  "source_url": "https://rrc.cvc.uab.es/?ch=13",
+  "source_repo": "https://github.com/zzzDavid/ICDAR-2019-SROIE (Task-3 mirror; box=OCR, key=annotations)",
+  "source_receipt": "data/key/077.json",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Huang, Chen, He, Bai, Karatzas, Lu & Jawahar \u2014 ICDAR 2019 Robust Reading Challenge on Scanned Receipts OCR and Information Extraction (SROIE)",
+  "original_format": "JPEG image (OCR)",
+  "original_image": "077.jpg",
+  "r2_url": null,
+  "pages": 1,
+  "added_date": "2026-07-25",
+  "added_by": "fetch_real_receipts",
+  "schema": "receipts/schemas/invoice_basic.yaml",
+  "notes": "SROIE Task-3 receipt. Document text is the receipt's OCR lines. Ground truth from SROIE's shipped key annotations (company, date, total). merchant_name, date, total_amount populated only where grounded in the OCR text; subtotal, tax, currency, and items left null \u2014 SROIE does not annotate them.",
+  "license_basis": "CC BY 4.0 requires attribution. Dataset described in arXiv:2103.10213. Task-3 box/key files obtained via a third-party mirror; terms should be re-verified against the official Robust Reading Competition source. See DATA_LICENSE.md.",
+  "gt_provenance": "SROIE-provided key-information annotations, reconciled to the receipt text: each field kept only if grounded in the OCR text, else nulled.",
+  "source": "real"
+}

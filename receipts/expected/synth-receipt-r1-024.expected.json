@@ -1,0 +1,28 @@
+{
+  "merchant_name": "HARBOUR POINT CONVENIENCE",
+  "date": "2024-02-10",
+  "total_amount": 477.26,
+  "subtotal": 433.87,
+  "tax": 43.39,
+  "currency": "SGD",
+  "items": [
+    {
+      "name": "DARK CHOCOLATE 100G",
+      "quantity": 4,
+      "unit_price": 23.99,
+      "amount": 95.96
+    },
+    {
+      "name": "MINERAL WATER 1.5L",
+      "quantity": 4,
+      "unit_price": 67.55,
+      "amount": 270.2
+    },
+    {
+      "name": "SALT 500G",
+      "quantity": 3,
+      "unit_price": 22.57,
+      "amount": 67.71
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "merchant_name": "PACIFIC FRESH SEAFOOD",
+  "date": "2023-07-09",
+  "total_amount": 268.72,
+  "subtotal": 268.72,
+  "tax": 0.0,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "INSTANT COFFEE 200G",
+      "quantity": 4,
+      "unit_price": 67.18,
+      "amount": 268.72
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "contract_type": "Settlement Agreement",
+  "parties": [
+    "Pinnacle Technologies L.P.",
+    "Granite Peak Energy L.P."
+  ],
+  "effective_date": "2016-10-02",
+  "termination_date": null,
+  "governing_law": "Commonwealth of Virginia"
+}

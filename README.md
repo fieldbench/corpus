@@ -3,7 +3,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21532677.svg)](https://doi.org/10.5281/zenodo.21532677)
 
 A cross-domain, field-level benchmark for **schema-driven document extraction**
-(document → structured JSON). 1,114 documents across 12 categories with per-field
+(document → structured JSON). 1,470 documents across 12 categories with per-field
 ground truth, released so extraction-accuracy claims become **falsifiable and
 comparable**.
 
@@ -12,12 +12,16 @@ comparable**.
 
 ## ⚠️ Read before quoting any accuracy number
 
-- **~94% of documents are extraction-from-clean-text, not rendered-page extraction**
-  (only 5.7% came from an image or PDF). Parse-stage difficulty — OCR error, layout
+- **~90% of documents are extraction-from-clean-text, not rendered-page extraction**
+  (only 9.8% came from an image or PDF). Parse-stage difficulty — OCR error, layout
   collapse, table-structure loss — is largely absent by construction. See
   [`docs/composition.md`](docs/composition.md).
-- **Synthetic documents (~45%) overestimate accuracy** relative to real ones. Always
+- **Synthetic documents (~48%) overestimate accuracy** relative to real ones. Always
   report results **stratified by `source`** (real / synthetic).
+- **Matched-pair subset:** five categories are dual-source — real documents plus
+  synthetic ones generated against the *same schema* (tagged `matched_pair` /
+  `synthetic_realism` in their manifests) — so the synthetic-vs-real gap can be measured
+  holding category constant. See `DATASHEET.md` and `scripts/wire_matched_pairs.py`.
 
 ## Layout
 
@@ -51,7 +55,7 @@ breakdown (match / miss / hallucination / correct-absence), and per-category res
 Ground-truth annotations, schemas, and tooling are freely licensed (see `LICENSE`).
 **Document licensing is per-source** — see [`ATTRIBUTION.md`](ATTRIBUTION.md): synthetic
 CC0; SEC EDGAR public disclosure; SROIE CC BY 4.0; MTSamples educational-use with
-attribution; CourtListener / Caselaw Access public domain; government forms public
+attribution; Caselaw Access Project public domain; government forms public
 domain. ACORD/ISO copyrighted insurance form layouts are **not** included — those
 categories use functionally-equivalent synthetic documents.
 

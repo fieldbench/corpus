@@ -1,0 +1,10 @@
+{
+  "contract_type": "Settlement Agreement",
+  "parties": [
+    "Fairhaven Materials LLC",
+    "Eastvale Industries Inc."
+  ],
+  "effective_date": "2021-07-09",
+  "termination_date": "2023-07-09",
+  "governing_law": "State of New York"
+}

@@ -1,0 +1,16 @@
+{
+  "merchant_name": "GOLDEN LOTUS RESTAURANT",
+  "date": "2024-12-04",
+  "total_amount": 182.98,
+  "subtotal": 174.27,
+  "tax": 8.71,
+  "currency": "EUR",
+  "items": [
+    {
+      "name": "SUGAR 1KG",
+      "quantity": 3,
+      "unit_price": 58.09,
+      "amount": 174.27
+    }
+  ]
+}

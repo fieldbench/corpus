@@ -1,0 +1,15 @@
+{
+  "admission_date": "2024-09-10",
+  "discharge_date": "2024-09-24",
+  "primary_diagnosis": "Community-acquired pneumonia",
+  "procedures": [
+    "Bronchoscopy",
+    "Thoracentesis"
+  ],
+  "medications_at_discharge": [
+    "Albuterol",
+    "Ceftriaxone",
+    "Azithromycin"
+  ],
+  "attending_physician": "Dr. Gonzalez"
+}

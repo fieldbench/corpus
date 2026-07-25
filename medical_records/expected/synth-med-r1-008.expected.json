@@ -1,0 +1,13 @@
+{
+  "admission_date": "2023-02-10",
+  "discharge_date": "2023-02-13",
+  "primary_diagnosis": "Community-acquired pneumonia",
+  "procedures": [
+    "Bronchoscopy"
+  ],
+  "medications_at_discharge": [
+    "Prednisone",
+    "Albuterol"
+  ],
+  "attending_physician": "Dr. Hernandez"
+}

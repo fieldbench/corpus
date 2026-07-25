@@ -1,0 +1,15 @@
+{
+  "id": "synth-med-r1-035",
+  "source_name": "Synthetic generator (synthetic_medical.py)",
+  "source_url": null,
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "schema": "medical_records/schemas/discharge_summary.yaml",
+  "document": "documents/synth-med-r1-035.md",
+  "expected": "expected/synth-med-r1-035.expected.json",
+  "attribution": "Synthetic \u2014 no real patient data.",
+  "license_basis": "Machine-generated synthetic document; released CC0.",
+  "source": "synthetic",
+  "matched_pair": true,
+  "synthetic_realism": 1
+}

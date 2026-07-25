@@ -1,0 +1,22 @@
+{
+  "merchant_name": "VICTORIA STATIONERS LTD",
+  "date": "2023-09-30",
+  "total_amount": 103.06,
+  "subtotal": 103.06,
+  "tax": 0.0,
+  "currency": "AUD",
+  "items": [
+    {
+      "name": "AA BATTERY 4PK",
+      "quantity": 2,
+      "unit_price": 25.17,
+      "amount": 50.34
+    },
+    {
+      "name": "COOKING OIL 2L",
+      "quantity": 2,
+      "unit_price": 26.36,
+      "amount": 52.72
+    }
+  ]
+}

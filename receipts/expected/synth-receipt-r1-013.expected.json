@@ -1,0 +1,40 @@
+{
+  "merchant_name": "MAPLE & OAK BOOKSHOP",
+  "date": "2025-02-24",
+  "total_amount": 383.13,
+  "subtotal": 383.13,
+  "tax": 0.0,
+  "currency": "EUR",
+  "items": [
+    {
+      "name": "FACE MASK 10PK",
+      "quantity": 3,
+      "unit_price": 27.36,
+      "amount": 82.08
+    },
+    {
+      "name": "SUGAR 1KG",
+      "quantity": 4,
+      "unit_price": 23.56,
+      "amount": 94.24
+    },
+    {
+      "name": "LAUNDRY POWDER 1KG",
+      "quantity": 1,
+      "unit_price": 17.72,
+      "amount": 17.72
+    },
+    {
+      "name": "PHONE CHARGER 20W",
+      "quantity": 3,
+      "unit_price": 37.15,
+      "amount": 111.45
+    },
+    {
+      "name": "STICKY NOTES 3PK",
+      "quantity": 3,
+      "unit_price": 25.88,
+      "amount": 77.64
+    }
+  ]
+}

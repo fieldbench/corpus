@@ -1,0 +1,10 @@
+{
+  "contract_type": "Settlement Agreement",
+  "parties": [
+    "Harbor Point Holdings L.P.",
+    "Harbor Point Pharmaceuticals Inc."
+  ],
+  "effective_date": "2017-12-03",
+  "termination_date": "2027-12-01",
+  "governing_law": "State of Florida"
+}

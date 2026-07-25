@@ -1,0 +1,13 @@
+{
+  "id": "edgar_real_104",
+  "source_name": "SEC EDGAR",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
+  "license": "Public disclosure record",
+  "schema": "sec_filings/schemas/filing_metadata.yaml",
+  "document": "documents/edgar_real_104.md",
+  "expected": "expected/edgar_real_104.expected.json",
+  "attribution": "U.S. SEC EDGAR \u2014 public company filing.",
+  "license_basis": "Not a US Government work: 17 U.S.C. 105 does not apply (authored by the registrant, not the SEC). Redistributed as a public disclosure record. See DATA_LICENSE.md.",
+  "gt_provenance": "Authoritative EDGAR submissions index, reconciled to the document text: each field kept only if grounded in the extractable text, else nulled.",
+  "source": "real"
+}

@@ -28,11 +28,11 @@ its manifest (`<category>/manifests/<doc>.json` → `license`, `license_url`,
 
 | Source | Categories | Docs | Terms | Status |
 |---|---|---:|---|---|
-| **SEC EDGAR** | `sec_filings`, `contracts` | 388 | No explicit licence. Authored by the **filing registrant**, not the SEC — *not* a US Government work. Redistributed as a mandatory public disclosure record for research use. | ✅ Labelled correctly |
-| **CourtListener / Caselaw Access Project** | `legal_filings` | 61 | US judicial opinions are uncopyrightable (government edicts doctrine); CAP text released CC0. | ✅ Clear |
+| **SEC EDGAR** | `sec_filings`, `contracts` | 466 | No explicit licence. Authored by the **filing registrant**, not the SEC — *not* a US Government work. Redistributed as a mandatory public disclosure record for research use. | ✅ Labelled correctly |
+| **Caselaw Access Project** | `legal_filings` | 59 | US judicial opinions are uncopyrightable (government edicts doctrine); CAP text released CC0. | ✅ Clear |
 | **FEMA / US DOL forms** | `insurance_claims` | 3 | US Government works — public domain (17 U.S.C. §105). | ✅ Clear |
 | **US state WC forms** (AL, ID, MN, MS, SC, TX, UT, VA) | `insurance_claims` | 9 | State government forms. **No explicit licence asserted**; state works are *not* automatically public domain. Low risk, unverified per state. | ⚠️ Assumption |
-| **SROIE (ICDAR 2019)** | `receipts` | 52 | CC BY 4.0 per the Robust Reading Competition. Attribution now recorded. | ✅ Labelled correctly |
+| **SROIE (ICDAR 2019)** | `receipts` | 132 | CC BY 4.0 per the Robust Reading Competition. Attribution now recorded. | ✅ Labelled correctly |
 | **MTSamples** | `medical_records` | 100 | **Not CC0.** Site terms permit print/share/link **for educational purposes with credit**. | 🔴 Redistribution under review |
 | **ACORD forms** (real certificates) | `insurance_certificates` | 18 | ACORD Forms are **licensed, not sold**; use requires a written agreement with ACORD Corporation. | 🔴 Redistribution under review |
 | **ISO/Verisk forms & insurer specimens** | `insurance_policies` | 17 | © Insurance Services Office / the issuing insurer. | 🔴 Redistribution under review |
@@ -61,7 +61,7 @@ Reproducing the full ISO form **text** is a different matter and is covered by t
 
 ## Open issues
 
-**Labelling is now honest across all 1,114 manifests** — no manifest claims a licence it
+**Labelling is now honest across all 1,470 manifests** — no manifest claims a licence it
 cannot support. What remains open is a **redistribution** question, not a labelling one.
 
 **135 documents are reproduced without an affirmative licence grant:**

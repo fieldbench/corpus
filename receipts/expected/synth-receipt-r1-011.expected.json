@@ -1,0 +1,40 @@
+{
+  "merchant_name": "CITY LIGHTS HARDWARE CO",
+  "date": "2023-04-14",
+  "total_amount": 398.28,
+  "subtotal": 362.07,
+  "tax": 36.21,
+  "currency": "SGD",
+  "items": [
+    {
+      "name": "FACE MASK 10PK",
+      "quantity": 2,
+      "unit_price": 20.03,
+      "amount": 40.06
+    },
+    {
+      "name": "LED BULB 9W",
+      "quantity": 2,
+      "unit_price": 88.61,
+      "amount": 177.22
+    },
+    {
+      "name": "POTATO CHIPS 150G",
+      "quantity": 1,
+      "unit_price": 15.71,
+      "amount": 15.71
+    },
+    {
+      "name": "TRASH BAGS 30S",
+      "quantity": 4,
+      "unit_price": 27.19,
+      "amount": 108.76
+    },
+    {
+      "name": "AA BATTERY 4PK",
+      "quantity": 4,
+      "unit_price": 5.08,
+      "amount": 20.32
+    }
+  ]
+}

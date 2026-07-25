@@ -1,0 +1,13 @@
+{
+  "admission_date": "2023-04-12",
+  "discharge_date": "2023-04-21",
+  "primary_diagnosis": "Ischemic stroke",
+  "procedures": [
+    "CT angiography"
+  ],
+  "medications_at_discharge": [
+    "Aspirin",
+    "Atorvastatin"
+  ],
+  "attending_physician": "Dr. Lopez"
+}

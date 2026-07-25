@@ -1,0 +1,14 @@
+{
+  "admission_date": "2024-06-13",
+  "discharge_date": "2024-06-21",
+  "primary_diagnosis": "Chronic obstructive pulmonary disease exacerbation",
+  "procedures": [
+    "Bronchoscopy"
+  ],
+  "medications_at_discharge": [
+    "Tiotropium",
+    "Prednisone",
+    "Albuterol"
+  ],
+  "attending_physician": "Dr. Martin"
+}

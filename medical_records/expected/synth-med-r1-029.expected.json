@@ -1,0 +1,14 @@
+{
+  "admission_date": "2023-11-03",
+  "discharge_date": "2023-11-17",
+  "primary_diagnosis": "Gastrointestinal hemorrhage",
+  "procedures": [
+    "Colonoscopy"
+  ],
+  "medications_at_discharge": [
+    "Pantoprazole",
+    "Ferrous sulfate",
+    "Octreotide"
+  ],
+  "attending_physician": "Dr. Martin"
+}

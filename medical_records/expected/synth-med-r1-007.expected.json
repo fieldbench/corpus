@@ -1,0 +1,16 @@
+{
+  "admission_date": "2023-03-03",
+  "discharge_date": "2023-03-16",
+  "primary_diagnosis": "Acute myocardial infarction",
+  "procedures": [
+    "Percutaneous coronary intervention",
+    "Cardiac catheterization"
+  ],
+  "medications_at_discharge": [
+    "Atorvastatin",
+    "Clopidogrel",
+    "Aspirin",
+    "Lisinopril"
+  ],
+  "attending_physician": "Dr. Thomas"
+}

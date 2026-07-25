@@ -1,0 +1,22 @@
+{
+  "merchant_name": "PACIFIC FRESH SEAFOOD",
+  "date": "2023-09-01",
+  "total_amount": 133.73,
+  "subtotal": 127.36,
+  "tax": 6.37,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "CANNED TUNA 185G",
+      "quantity": 4,
+      "unit_price": 9.9,
+      "amount": 39.6
+    },
+    {
+      "name": "DISH SOAP 900ML",
+      "quantity": 4,
+      "unit_price": 21.94,
+      "amount": 87.76
+    }
+  ]
+}

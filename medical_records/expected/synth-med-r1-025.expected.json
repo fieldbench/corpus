@@ -1,0 +1,13 @@
+{
+  "admission_date": "2024-11-21",
+  "discharge_date": "2024-12-04",
+  "primary_diagnosis": "Chronic obstructive pulmonary disease exacerbation",
+  "procedures": [
+    "Bronchoscopy"
+  ],
+  "medications_at_discharge": [
+    "Albuterol",
+    "Azithromycin"
+  ],
+  "attending_physician": "Dr. Jackson"
+}

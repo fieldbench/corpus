@@ -1,0 +1,16 @@
+{
+  "merchant_name": "THE DAILY BEAN CAFE",
+  "date": "2024-12-27",
+  "total_amount": 35.06,
+  "subtotal": 32.46,
+  "tax": 2.6,
+  "currency": "AUD",
+  "items": [
+    {
+      "name": "GREEN TEA 25S",
+      "quantity": 2,
+      "unit_price": 16.23,
+      "amount": 32.46
+    }
+  ]
+}

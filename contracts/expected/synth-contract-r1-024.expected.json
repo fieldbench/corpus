@@ -1,0 +1,10 @@
+{
+  "contract_type": "Credit Agreement",
+  "parties": [
+    "Granite Peak Energy LLC",
+    "Copperline Materials Inc."
+  ],
+  "effective_date": "2015-06-13",
+  "termination_date": null,
+  "governing_law": "State of Delaware"
+}

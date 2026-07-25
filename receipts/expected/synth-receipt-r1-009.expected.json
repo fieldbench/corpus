@@ -1,0 +1,28 @@
+{
+  "merchant_name": "NORTHWIND ELECTRONICS",
+  "date": "2023-02-09",
+  "total_amount": 137.11,
+  "subtotal": 126.95,
+  "tax": 10.16,
+  "currency": "AUD",
+  "items": [
+    {
+      "name": "COOKING OIL 2L",
+      "quantity": 1,
+      "unit_price": 15.6,
+      "amount": 15.6
+    },
+    {
+      "name": "AA BATTERY 4PK",
+      "quantity": 2,
+      "unit_price": 48.56,
+      "amount": 97.12
+    },
+    {
+      "name": "GREEN TEA 25S",
+      "quantity": 1,
+      "unit_price": 14.23,
+      "amount": 14.23
+    }
+  ]
+}

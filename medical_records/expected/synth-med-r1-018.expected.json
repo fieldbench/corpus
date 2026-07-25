@@ -1,0 +1,13 @@
+{
+  "admission_date": "2023-05-07",
+  "discharge_date": "2023-05-18",
+  "primary_diagnosis": "Chronic obstructive pulmonary disease exacerbation",
+  "procedures": [
+    "Bronchoscopy"
+  ],
+  "medications_at_discharge": [
+    "Prednisone",
+    "Tiotropium"
+  ],
+  "attending_physician": "Dr. Martinez"
+}

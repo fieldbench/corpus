@@ -1,0 +1,34 @@
+{
+  "merchant_name": "MAPLE & OAK BOOKSHOP",
+  "date": "2023-07-13",
+  "total_amount": 529.46,
+  "subtotal": 490.24,
+  "tax": 39.22,
+  "currency": "MYR",
+  "items": [
+    {
+      "name": "SUGAR 1KG",
+      "quantity": 1,
+      "unit_price": 32.66,
+      "amount": 32.66
+    },
+    {
+      "name": "BATH SOAP 3PK",
+      "quantity": 2,
+      "unit_price": 49.47,
+      "amount": 98.94
+    },
+    {
+      "name": "POTATO CHIPS 150G",
+      "quantity": 4,
+      "unit_price": 57.5,
+      "amount": 230.0
+    },
+    {
+      "name": "FRESH MILK 1L",
+      "quantity": 4,
+      "unit_price": 32.16,
+      "amount": 128.64
+    }
+  ]
+}

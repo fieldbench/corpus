@@ -1,0 +1,10 @@
+{
+  "contract_type": "Lease",
+  "parties": [
+    "Crestwood Energy LLC",
+    "Pinnacle Pharmaceuticals L.P."
+  ],
+  "effective_date": "2019-05-21",
+  "termination_date": "2022-05-20",
+  "governing_law": "Commonwealth of Massachusetts"
+}

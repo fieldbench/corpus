@@ -1,0 +1,28 @@
+{
+  "merchant_name": "NORTHWIND ELECTRONICS",
+  "date": "2024-01-02",
+  "total_amount": 489.37,
+  "subtotal": 466.07,
+  "tax": 23.3,
+  "currency": "MYR",
+  "items": [
+    {
+      "name": "CANNED TUNA 185G",
+      "quantity": 4,
+      "unit_price": 43.33,
+      "amount": 173.32
+    },
+    {
+      "name": "ORANGE JUICE 1L",
+      "quantity": 3,
+      "unit_price": 86.12,
+      "amount": 258.36
+    },
+    {
+      "name": "AA BATTERY 4PK",
+      "quantity": 1,
+      "unit_price": 34.39,
+      "amount": 34.39
+    }
+  ]
+}

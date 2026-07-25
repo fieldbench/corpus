@@ -1,0 +1,10 @@
+{
+  "contract_type": "Credit Agreement",
+  "parties": [
+    "Whitmore L.P.",
+    "Clearfield Group Inc."
+  ],
+  "effective_date": "2015-09-07",
+  "termination_date": "2016-09-06",
+  "governing_law": "State of Minnesota"
+}

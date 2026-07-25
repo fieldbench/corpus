@@ -1,0 +1,10 @@
+{
+  "contract_type": "Settlement Agreement",
+  "parties": [
+    "Dunmore Logistics Inc.",
+    "Meridian Holdings Corporation"
+  ],
+  "effective_date": "2016-10-24",
+  "termination_date": "2026-10-22",
+  "governing_law": "State of Ohio"
+}

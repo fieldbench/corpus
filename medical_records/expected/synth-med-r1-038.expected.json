@@ -1,0 +1,15 @@
+{
+  "admission_date": "2023-08-10",
+  "discharge_date": "2023-08-14",
+  "primary_diagnosis": "Congestive heart failure exacerbation",
+  "procedures": [
+    "Echocardiography"
+  ],
+  "medications_at_discharge": [
+    "Carvedilol",
+    "Furosemide",
+    "Lisinopril",
+    "Spironolactone"
+  ],
+  "attending_physician": "Dr. Davis"
+}

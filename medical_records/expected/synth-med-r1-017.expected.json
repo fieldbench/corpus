@@ -1,0 +1,13 @@
+{
+  "admission_date": "2024-11-16",
+  "discharge_date": "2024-11-28",
+  "primary_diagnosis": "Gastrointestinal hemorrhage",
+  "procedures": [
+    "Upper endoscopy"
+  ],
+  "medications_at_discharge": [
+    "Octreotide",
+    "Ferrous sulfate"
+  ],
+  "attending_physician": "Dr. Jones"
+}

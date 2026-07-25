@@ -1,0 +1,40 @@
+{
+  "merchant_name": "GREENLEAF GROCERS SDN BHD",
+  "date": "2023-08-08",
+  "total_amount": 661.24,
+  "subtotal": 623.81,
+  "tax": 37.43,
+  "currency": "MYR",
+  "items": [
+    {
+      "name": "COOKING OIL 2L",
+      "quantity": 3,
+      "unit_price": 66.21,
+      "amount": 198.63
+    },
+    {
+      "name": "CANNED TUNA 185G",
+      "quantity": 4,
+      "unit_price": 31.9,
+      "amount": 127.6
+    },
+    {
+      "name": "FRESH MILK 1L",
+      "quantity": 1,
+      "unit_price": 4.05,
+      "amount": 4.05
+    },
+    {
+      "name": "POTATO CHIPS 150G",
+      "quantity": 2,
+      "unit_price": 97.31,
+      "amount": 194.62
+    },
+    {
+      "name": "INSTANT COFFEE 200G",
+      "quantity": 3,
+      "unit_price": 32.97,
+      "amount": 98.91
+    }
+  ]
+}

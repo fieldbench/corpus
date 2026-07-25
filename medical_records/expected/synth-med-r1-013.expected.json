@@ -1,0 +1,15 @@
+{
+  "admission_date": "2023-02-06",
+  "discharge_date": "2023-02-17",
+  "primary_diagnosis": "Total knee arthroplasty",
+  "procedures": [
+    "Right total knee replacement"
+  ],
+  "medications_at_discharge": [
+    "Enoxaparin",
+    "Celecoxib",
+    "Oxycodone",
+    "Acetaminophen"
+  ],
+  "attending_physician": "Dr. Lopez"
+}

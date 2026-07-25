@@ -1,0 +1,14 @@
+{
+  "admission_date": "2024-04-30",
+  "discharge_date": "2024-05-02",
+  "primary_diagnosis": "Sepsis secondary to urinary tract infection",
+  "procedures": [
+    "Central venous catheter placement"
+  ],
+  "medications_at_discharge": [
+    "Norepinephrine",
+    "Vancomycin",
+    "Piperacillin-tazobactam"
+  ],
+  "attending_physician": "Dr. Hernandez"
+}

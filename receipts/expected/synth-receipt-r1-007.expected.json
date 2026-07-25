@@ -1,0 +1,28 @@
+{
+  "merchant_name": "VICTORIA STATIONERS LTD",
+  "date": "2024-03-04",
+  "total_amount": 579.38,
+  "subtotal": 551.79,
+  "tax": 27.59,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "TRASH BAGS 30S",
+      "quantity": 3,
+      "unit_price": 41.3,
+      "amount": 123.9
+    },
+    {
+      "name": "CANNED TUNA 185G",
+      "quantity": 3,
+      "unit_price": 67.35,
+      "amount": 202.05
+    },
+    {
+      "name": "GREEN TEA 25S",
+      "quantity": 4,
+      "unit_price": 56.46,
+      "amount": 225.84
+    }
+  ]
+}

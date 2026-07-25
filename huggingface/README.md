@@ -16,7 +16,7 @@ pretty_name: FieldBench Corpus
 # FieldBench Corpus
 
 A cross-domain, field-level benchmark for **schema-driven document extraction**
-(document → structured JSON). 1,114 documents across 12 categories with per-field
+(document → structured JSON). 1,470 documents across 12 categories with per-field
 ground truth, released so extraction-accuracy claims become falsifiable and comparable.
 
 - **Code / scorer:** https://github.com/fieldbench/fieldbench (`pip install fieldbench`)
@@ -55,15 +55,15 @@ fieldbench score --corpus <corpus-checkout> --results <your-predictions>/
 
 ## Important caveats
 
-- **~94% of documents are extraction-from-clean-text, not rendered-page extraction**
-  (only 5.7% came from an image/PDF). Parse-stage difficulty is largely absent by
+- **~90% of documents are extraction-from-clean-text, not rendered-page extraction**
+  (only 9.8% came from an image/PDF). Parse-stage difficulty is largely absent by
   construction — scope accuracy claims accordingly. See the composition table in the
   corpus repo.
-- **Synthetic documents (~45%) overestimate accuracy** relative to real ones. Never
+- **Synthetic documents (~48%) overestimate accuracy** relative to real ones. Never
   report a synthetic-inclusive number without the real/synthetic split.
 - **Licensing is per-source** (see `ATTRIBUTION.md`): synthetic CC0; SEC EDGAR public
   disclosure; SROIE CC BY 4.0; MTSamples educational-use with attribution;
-  CourtListener/Caselaw Access public domain; government forms public domain. ACORD/ISO
+  Caselaw Access Project public domain; government forms public domain. ACORD/ISO
   copyrighted forms are not included (those categories use synthetic equivalents).
 
 ## Citation

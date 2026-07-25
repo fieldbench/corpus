@@ -1,0 +1,22 @@
+{
+  "merchant_name": "SILVERTON DEPARTMENT STORE",
+  "date": "2023-04-25",
+  "total_amount": 154.43,
+  "subtotal": 140.39,
+  "tax": 14.04,
+  "currency": "SGD",
+  "items": [
+    {
+      "name": "BATH SOAP 3PK",
+      "quantity": 1,
+      "unit_price": 92.27,
+      "amount": 92.27
+    },
+    {
+      "name": "HAND SANITIZER 250ML",
+      "quantity": 1,
+      "unit_price": 48.12,
+      "amount": 48.12
+    }
+  ]
+}

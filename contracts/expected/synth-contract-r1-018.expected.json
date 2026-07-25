@@ -1,0 +1,10 @@
+{
+  "contract_type": "Credit Agreement",
+  "parties": [
+    "Cascade Pharmaceuticals L.P.",
+    "Whitmore Industries L.P."
+  ],
+  "effective_date": "2022-04-23",
+  "termination_date": null,
+  "governing_law": "State of Tennessee"
+}

@@ -1,0 +1,10 @@
+{
+  "contract_type": "Lease",
+  "parties": [
+    "Summit Partners L.P.",
+    "Beacon Hill Partners Corporation"
+  ],
+  "effective_date": "2022-04-09",
+  "termination_date": "2027-04-08",
+  "governing_law": "State of Georgia"
+}

@@ -1,0 +1,10 @@
+{
+  "contract_type": "Credit Agreement",
+  "parties": [
+    "Silverline Corporation",
+    "Crestwood Logistics Company"
+  ],
+  "effective_date": "2015-09-29",
+  "termination_date": "2018-09-28",
+  "governing_law": "State of Maryland"
+}

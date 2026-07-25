@@ -1,0 +1,22 @@
+{
+  "merchant_name": "BLUE ORCHID PHARMACY",
+  "date": "2023-04-22",
+  "total_amount": 245.58,
+  "subtotal": 227.39,
+  "tax": 18.19,
+  "currency": "AUD",
+  "items": [
+    {
+      "name": "COOKING OIL 2L",
+      "quantity": 3,
+      "unit_price": 56.3,
+      "amount": 168.9
+    },
+    {
+      "name": "YOGURT DRINK 700ML",
+      "quantity": 1,
+      "unit_price": 58.49,
+      "amount": 58.49
+    }
+  ]
+}

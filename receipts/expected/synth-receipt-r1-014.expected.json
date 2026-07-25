@@ -1,0 +1,28 @@
+{
+  "merchant_name": "PACIFIC FRESH SEAFOOD",
+  "date": "2023-09-18",
+  "total_amount": 438.9,
+  "subtotal": 410.19,
+  "tax": 28.71,
+  "currency": "AUD",
+  "items": [
+    {
+      "name": "MINERAL WATER 1.5L",
+      "quantity": 4,
+      "unit_price": 6.88,
+      "amount": 27.52
+    },
+    {
+      "name": "TOMATO SAUCE 340G",
+      "quantity": 1,
+      "unit_price": 72.99,
+      "amount": 72.99
+    },
+    {
+      "name": "PAPER TOWEL 2PLY",
+      "quantity": 4,
+      "unit_price": 77.42,
+      "amount": 309.68
+    }
+  ]
+}

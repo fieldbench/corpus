@@ -1,0 +1,13 @@
+{
+  "admission_date": "2024-04-18",
+  "discharge_date": "2024-04-30",
+  "primary_diagnosis": "Gastrointestinal hemorrhage",
+  "procedures": [
+    "Colonoscopy"
+  ],
+  "medications_at_discharge": [
+    "Pantoprazole",
+    "Octreotide"
+  ],
+  "attending_physician": "Dr. Brown"
+}

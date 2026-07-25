@@ -1,0 +1,10 @@
+{
+  "contract_type": "Credit Agreement",
+  "parties": [
+    "Whitmore Inc.",
+    "Silverline Partners Company"
+  ],
+  "effective_date": "2016-07-09",
+  "termination_date": "2017-07-09",
+  "governing_law": "Commonwealth of Kentucky"
+}

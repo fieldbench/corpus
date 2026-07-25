@@ -1,0 +1,40 @@
+{
+  "merchant_name": "SILVERTON DEPARTMENT STORE",
+  "date": "2024-04-19",
+  "total_amount": 437.01,
+  "subtotal": 412.27,
+  "tax": 24.74,
+  "currency": "AUD",
+  "items": [
+    {
+      "name": "POTATO CHIPS 150G",
+      "quantity": 3,
+      "unit_price": 9.38,
+      "amount": 28.14
+    },
+    {
+      "name": "NOTEBOOK A5",
+      "quantity": 2,
+      "unit_price": 72.91,
+      "amount": 145.82
+    },
+    {
+      "name": "CANNED TUNA 185G",
+      "quantity": 1,
+      "unit_price": 64.45,
+      "amount": 64.45
+    },
+    {
+      "name": "HAND SANITIZER 250ML",
+      "quantity": 4,
+      "unit_price": 24.8,
+      "amount": 99.2
+    },
+    {
+      "name": "TOOTHPASTE 150G",
+      "quantity": 1,
+      "unit_price": 74.66,
+      "amount": 74.66
+    }
+  ]
+}

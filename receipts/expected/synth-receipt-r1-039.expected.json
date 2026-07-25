@@ -1,0 +1,40 @@
+{
+  "merchant_name": "EASTGATE MINI MARKET",
+  "date": "2024-07-20",
+  "total_amount": 762.04,
+  "subtotal": 725.75,
+  "tax": 36.29,
+  "currency": "EUR",
+  "items": [
+    {
+      "name": "MINERAL WATER 1.5L",
+      "quantity": 3,
+      "unit_price": 35.72,
+      "amount": 107.16
+    },
+    {
+      "name": "LAUNDRY POWDER 1KG",
+      "quantity": 2,
+      "unit_price": 84.04,
+      "amount": 168.08
+    },
+    {
+      "name": "WHITE BREAD 400G",
+      "quantity": 1,
+      "unit_price": 59.25,
+      "amount": 59.25
+    },
+    {
+      "name": "BATH SOAP 3PK",
+      "quantity": 3,
+      "unit_price": 79.79,
+      "amount": 239.37
+    },
+    {
+      "name": "STICKY NOTES 3PK",
+      "quantity": 3,
+      "unit_price": 50.63,
+      "amount": 151.89
+    }
+  ]
+}

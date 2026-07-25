@@ -1,0 +1,16 @@
+{
+  "admission_date": "2024-06-01",
+  "discharge_date": "2024-06-15",
+  "primary_diagnosis": "Acute myocardial infarction",
+  "procedures": [
+    "Cardiac catheterization"
+  ],
+  "medications_at_discharge": [
+    "Atorvastatin",
+    "Clopidogrel",
+    "Metoprolol",
+    "Lisinopril",
+    "Aspirin"
+  ],
+  "attending_physician": "Dr. Jones"
+}

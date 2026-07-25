@@ -1,0 +1,16 @@
+{
+  "merchant_name": "GREENLEAF GROCERS SDN BHD",
+  "date": "2025-03-11",
+  "total_amount": 19.15,
+  "subtotal": 18.24,
+  "tax": 0.91,
+  "currency": "USD",
+  "items": [
+    {
+      "name": "LAUNDRY POWDER 1KG",
+      "quantity": 4,
+      "unit_price": 4.56,
+      "amount": 18.24
+    }
+  ]
+}

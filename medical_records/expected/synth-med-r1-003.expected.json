@@ -1,0 +1,14 @@
+{
+  "admission_date": "2024-07-08",
+  "discharge_date": "2024-07-20",
+  "primary_diagnosis": "Diabetic ketoacidosis",
+  "procedures": [
+    "Central line placement"
+  ],
+  "medications_at_discharge": [
+    "Insulin glargine",
+    "Potassium chloride",
+    "Metformin"
+  ],
+  "attending_physician": "Dr. Anderson"
+}

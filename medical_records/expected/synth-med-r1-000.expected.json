@@ -1,0 +1,14 @@
+{
+  "admission_date": "2024-11-30",
+  "discharge_date": "2024-12-02",
+  "primary_diagnosis": "Diabetic ketoacidosis",
+  "procedures": [
+    "Central line placement"
+  ],
+  "medications_at_discharge": [
+    "Metformin",
+    "Insulin lispro",
+    "Insulin glargine"
+  ],
+  "attending_physician": "Dr. Lopez"
+}

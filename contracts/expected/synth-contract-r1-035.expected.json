@@ -1,0 +1,10 @@
+{
+  "contract_type": "Employment Agreement",
+  "parties": [
+    "Robert Quill",
+    "Stonebridge Manufacturing Corporation"
+  ],
+  "effective_date": "2017-05-12",
+  "termination_date": null,
+  "governing_law": "State of Ohio"
+}

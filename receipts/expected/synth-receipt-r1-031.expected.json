@@ -1,0 +1,22 @@
+{
+  "merchant_name": "BLUE ORCHID PHARMACY",
+  "date": "2025-04-06",
+  "total_amount": 266.05,
+  "subtotal": 246.34,
+  "tax": 19.71,
+  "currency": "MYR",
+  "items": [
+    {
+      "name": "PAPER TOWEL 2PLY",
+      "quantity": 2,
+      "unit_price": 49.79,
+      "amount": 99.58
+    },
+    {
+      "name": "AA BATTERY 4PK",
+      "quantity": 3,
+      "unit_price": 48.92,
+      "amount": 146.76
+    }
+  ]
+}

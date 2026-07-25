@@ -1,0 +1,16 @@
+{
+  "merchant_name": "SUMMIT SPORTS OUTFITTERS",
+  "date": "2024-06-22",
+  "total_amount": 57.6,
+  "subtotal": 57.6,
+  "tax": 0.0,
+  "currency": "AUD",
+  "items": [
+    {
+      "name": "STICKY NOTES 3PK",
+      "quantity": 1,
+      "unit_price": 57.6,
+      "amount": 57.6
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "merchant_name": "MAPLE & OAK BOOKSHOP",
+  "date": "2024-08-30",
+  "total_amount": 210.81,
+  "subtotal": 197.02,
+  "tax": 13.79,
+  "currency": "EUR",
+  "items": [
+    {
+      "name": "RICE 5KG BAG",
+      "quantity": 2,
+      "unit_price": 98.51,
+      "amount": 197.02
+    }
+  ]
+}
