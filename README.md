@@ -3,7 +3,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21532677.svg)](https://doi.org/10.5281/zenodo.21532677)
 
 A cross-domain, field-level benchmark for **schema-driven document extraction**
-(document → structured JSON). 1,470 documents across 12 categories with per-field
+(document → structured JSON). 1,442 documents across 10 categories with per-field
 ground truth, released so extraction-accuracy claims become **falsifiable and
 comparable**.
 
@@ -33,9 +33,9 @@ comparable**.
   schemas/<schema>.yaml        # field definitions for the category
 ```
 
-12 categories: `sec_filings`, `invoices`, `insurance_claims`, `insurance_policies`,
+10 categories: `sec_filings`, `invoices`, `insurance_claims`, `insurance_policies`,
 `contracts`, `medical_records`, `insurance_certificates`, `legal_filings`, `receipts`,
-`irs_forms`, `adversarial`, `multi_format`.
+`irs_forms`.
 
 ## Score a system
 

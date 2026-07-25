@@ -5,29 +5,27 @@ This corpus is used as a **document extraction** benchmark. Most of its document
 
 ## Headline
 
-- **144 of 1470 documents (9.8%) came from a rendered page** (image or PDF).
-- 147 (10.0%) went through a parse engine at all, counting office formats.
-- 357 (24.3%) are machine-readable HTML converted to markdown.
-- **966 (65.7%) never had a page at all** — plain text or authored markdown.
+- **144 of 1442 documents (10.0%) came from a rendered page** (image or PDF).
+- 144 (10.0%) went through a parse engine at all, counting office formats.
+- 357 (24.8%) are machine-readable HTML converted to markdown.
+- **941 (65.3%) never had a page at all** — plain text or authored markdown.
 - Of the 769 documents labelled *real*, only **144 (18.7%) came from a rendered page**. The rest are clean HTML or plain text.
 
-> **Scope every accuracy claim accordingly.** For roughly 90.2% of this corpus, the benchmark measures *extraction from clean text*, not document extraction. Parse-stage failures — OCR error, layout collapse, table structure loss, glyph mis-decoding — are largely absent by construction.
+> **Scope every accuracy claim accordingly.** For roughly 90.0% of this corpus, the benchmark measures *extraction from clean text*, not document extraction. Parse-stage failures — OCR error, layout collapse, table structure loss, glyph mis-decoding — are largely absent by construction.
 
 ## By input tier
 
 | Tier | Input | Real | Synthetic | Total | % of corpus |
 |---|---|---:|---:|---:|---:|
-| A1 | Image → OCR | 132 | 0 | 132 | 9.0% |
+| A1 | Image → OCR | 132 | 0 | 132 | 9.2% |
 | A2 | PDF → parse | 12 | 0 | 12 | 0.8% |
-| A3 | Office → parse | 0 | 3 | 3 | 0.2% |
-| B | HTML → markdown | 357 | 0 | 357 | 24.3% |
-| C | Plain text | 268 | 200 | 468 | 31.8% |
-| D | Authored markdown | 0 | 498 | 498 | 33.9% |
-| | **Total** | **769** | **701** | **1470** | **100.0%** |
+| B | HTML → markdown | 357 | 0 | 357 | 24.8% |
+| C | Plain text | 268 | 200 | 468 | 32.5% |
+| D | Authored markdown | 0 | 473 | 473 | 32.8% |
+| | **Total** | **769** | **673** | **1442** | **100.0%** |
 
 - **A1 — Image → OCR.** Scanned raster image decoded by an OCR engine.
 - **A2 — PDF → parse.** PDF decoded by a layout-aware parse engine.
-- **A3 — Office → parse.** xlsx/docx/pptx decoded by a parse engine.
 - **B — HTML → markdown.** Machine-readable HTML converted to markdown. No visual layout.
 - **C — Plain text.** Delivered as text. Never had a page.
 - **D — Authored markdown.** Synthesised directly as markdown. Never had a page.
@@ -45,9 +43,7 @@ This corpus is used as a **document extraction** benchmark. Most of its document
 | `legal_filings` | 99 | 0 | 11 | 88 |
 | `insurance_policies` | 97 | 0 | 0 | 97 |
 | `insurance_certificates` | 61 | 0 | 0 | 61 |
-| `adversarial` | 25 | 0 | 0 | 25 |
 | `irs_forms` | 20 | 0 | 0 | 20 |
-| `multi_format` | 3 | 3 (3 office) | 0 | 0 |
 
 ## Why this matters for the real-vs-synthetic gap
 

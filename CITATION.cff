@@ -3,7 +3,7 @@ message: "If you use this corpus, please cite it as below."
 title: "FieldBench Corpus: A Cross-Domain Benchmark for Schema-Driven Document Extraction"
 abstract: >-
   A cross-domain, field-level benchmark for schema-driven document extraction
-  (document to structured JSON): 1,470 documents across 12 categories with
+  (document to structured JSON): 1,442 documents across 10 categories with
   per-field ground truth, released so extraction-accuracy claims are falsifiable
   and comparable. Includes real documents from public sources and synthetic
   documents, each labeled by source, with a datasheet documenting composition,
@@ -12,7 +12,7 @@ type: dataset
 authors:
   - family-names: Thomas
     given-names: Frank
-version: 0.2.0
+version: 0.3.0
 date-released: "2026-07-24"
 doi: 10.5281/zenodo.21532677
 url: "https://github.com/fieldbench/corpus"

@@ -61,7 +61,7 @@ Reproducing the full ISO form **text** is a different matter and is covered by t
 
 ## Open issues
 
-**Labelling is now honest across all 1,470 manifests** — no manifest claims a licence it
+**Labelling is now honest across all 1,442 manifests** — no manifest claims a licence it
 cannot support. What remains open is a **redistribution** question, not a labelling one.
 
 **135 documents are reproduced without an affirmative licence grant:**
