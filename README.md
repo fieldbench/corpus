@@ -62,6 +62,8 @@ categories use functionally-equivalent synthetic documents.
 ## Tooling (`scripts/`)
 
 - `sources/` — deterministic synthetic-document generators.
+- `grounding_audit.py` — grounding audit + coverage probe (are missed fields present in the
+  source? which fields does no system recover?); depends only on the released scorer.
 - `composition_report.py` — regenerate the input-composition disclosure.
 - `iaa_harness.py` — inter-annotator-agreement sampling + scoring.
 - `fetch_corpus.py` — re-fetch raw source documents from their origins.
