@@ -62,6 +62,7 @@ categories use functionally-equivalent synthetic documents.
 ## Tooling (`scripts/`)
 
 - `sources/` — deterministic synthetic-document generators.
+- `bootstrap_ci.py` — document-level bootstrap confidence intervals (1000 resamples, seed 42) for the headline claims.
 - `grounding_audit.py` — grounding audit + coverage probe (are missed fields present in the
   source? which fields does no system recover?); depends only on the released scorer.
 - `composition_report.py` — regenerate the input-composition disclosure.
