@@ -115,15 +115,67 @@ fields:
       signals: [has_dates]
 
   governing_law:
-    type: string
+    type: enum
     description: |
-      Jurisdiction whose law governs the contract. Typically stated as
-      "This Agreement shall be governed by the laws of the State of
-      [state]" or "governed by the laws of [country]."
+      U.S. state whose law governs the contract, as the bare state name
+      ("New York", not "State of New York"). Read from the governing-law
+      clause, NOT the state of incorporation ("a Delaware corporation").
+      "Other" for non-U.S. or floating jurisdictions; null if none stated.
+    options:
+      - Alabama
+      - Alaska
+      - Arizona
+      - Arkansas
+      - California
+      - Colorado
+      - Connecticut
+      - Delaware
+      - Florida
+      - Georgia
+      - Hawaii
+      - Idaho
+      - Illinois
+      - Indiana
+      - Iowa
+      - Kansas
+      - Kentucky
+      - Louisiana
+      - Maine
+      - Maryland
+      - Massachusetts
+      - Michigan
+      - Minnesota
+      - Mississippi
+      - Missouri
+      - Montana
+      - Nebraska
+      - Nevada
+      - New Hampshire
+      - New Jersey
+      - New Mexico
+      - New York
+      - North Carolina
+      - North Dakota
+      - Ohio
+      - Oklahoma
+      - Oregon
+      - Pennsylvania
+      - Rhode Island
+      - South Carolina
+      - South Dakota
+      - Tennessee
+      - Texas
+      - Utah
+      - Vermont
+      - Virginia
+      - Washington
+      - West Virginia
+      - Wisconsin
+      - Wyoming
+      - Other
     hints:
       look_in: [governing]
       patterns:
         - "governing law"
         - "governed by"
-        - "laws of the state"
-        - "laws of"
+        - "construed in accordance with"
