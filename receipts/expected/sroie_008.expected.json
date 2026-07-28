@@ -1,5 +1,8 @@
 {
   "merchant_name": "PERNIAGAAN ZHENG HUI",
   "date": "2018-02-12",
-  "total_amount": 112.45
+  "total_amount": 112.45,
+  "currency": "MYR",
+  "subtotal": 106.1,
+  "tax": 6.37
 }

@@ -1,5 +1,8 @@
 {
   "merchant_name": "SHELL ISNI PETRO TRADING",
   "date": "2018-03-18",
-  "total_amount": 86.0
+  "total_amount": 86.0,
+  "currency": "MYR",
+  "subtotal": 86.0,
+  "tax": 0.0
 }

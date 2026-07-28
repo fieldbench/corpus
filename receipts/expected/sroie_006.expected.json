@@ -1,5 +1,8 @@
 {
   "merchant_name": "SOON HUAT MACHINERY ENTERPRISE",
   "date": "2019-01-11",
-  "total_amount": 327.0
+  "total_amount": 327.0,
+  "currency": "MYR",
+  "subtotal": 327.0,
+  "tax": 0.0
 }

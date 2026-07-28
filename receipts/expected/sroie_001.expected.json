@@ -1,5 +1,8 @@
 {
   "merchant_name": "INDAH GIFT & HOME DECO",
   "date": "2018-10-19",
-  "total_amount": 60.3
+  "total_amount": 60.3,
+  "currency": "MYR",
+  "subtotal": 60.3,
+  "tax": 0.0
 }

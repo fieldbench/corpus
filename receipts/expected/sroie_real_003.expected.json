@@ -2,8 +2,7 @@
   "merchant_name": "MR D.I.Y. (JOHOR) SDN BHD",
   "date": "2019-01-12",
   "total_amount": 33.9,
-  "subtotal": null,
-  "tax": null,
-  "currency": null,
-  "items": null
+  "subtotal": 33.9,
+  "tax": 0.0,
+  "currency": "MYR"
 }

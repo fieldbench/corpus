@@ -1,5 +1,8 @@
 {
   "merchant_name": "THREE STOOGES",
   "date": "2018-03-03",
-  "total_amount": 174.9
+  "total_amount": 174.9,
+  "currency": "MYR",
+  "subtotal": 165.0,
+  "tax": 9.9
 }

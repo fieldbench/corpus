@@ -2,8 +2,7 @@
   "merchant_name": "MR. D.I.Y. (M) SDN BHD",
   "date": "2018-03-14",
   "total_amount": 37.1,
-  "subtotal": null,
-  "tax": null,
-  "currency": null,
-  "items": null
+  "subtotal": 35.0,
+  "tax": 2.1,
+  "currency": "MYR"
 }

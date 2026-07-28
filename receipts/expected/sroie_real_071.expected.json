@@ -2,8 +2,7 @@
   "merchant_name": "99 SPEED MART S/B",
   "date": "2018-02-05",
   "total_amount": 141.5,
-  "subtotal": null,
-  "tax": null,
-  "currency": null,
-  "items": null
+  "subtotal": 141.5,
+  "tax": 0.0,
+  "currency": "MYR"
 }

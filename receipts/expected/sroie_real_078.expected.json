@@ -2,8 +2,7 @@
   "merchant_name": "BANH MI CAFE SDN BHD",
   "date": "2017-10-29",
   "total_amount": 23.25,
-  "subtotal": null,
-  "tax": null,
-  "currency": null,
-  "items": null
+  "subtotal": 21.3,
+  "tax": 1.31,
+  "currency": "MYR"
 }

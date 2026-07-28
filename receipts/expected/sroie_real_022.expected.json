@@ -2,8 +2,7 @@
   "merchant_name": "TEO HENG STATIONERY & BOOKS",
   "date": "2018-01-18",
   "total_amount": 4.9,
-  "subtotal": null,
-  "tax": null,
-  "currency": null,
-  "items": null
+  "subtotal": 4.6,
+  "tax": 0.28,
+  "currency": "MYR"
 }

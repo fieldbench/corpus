@@ -2,8 +2,7 @@
   "merchant_name": "RESTAURANT SIN DU",
   "date": "2018-03-09",
   "total_amount": 170.0,
-  "subtotal": null,
-  "tax": null,
-  "currency": null,
-  "items": null
+  "subtotal": 170.0,
+  "tax": 0.0,
+  "currency": "MYR"
 }

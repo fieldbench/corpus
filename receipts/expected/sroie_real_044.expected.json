@@ -3,7 +3,6 @@
   "date": "2018-03-10",
   "total_amount": 190.0,
   "subtotal": null,
-  "tax": null,
-  "currency": null,
-  "items": null
+  "tax": 10.75,
+  "currency": "MYR"
 }

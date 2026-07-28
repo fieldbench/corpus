@@ -1,5 +1,8 @@
 {
   "merchant_name": "32 PUB & BISTRO OWN BY CNU TRADING",
   "date": "2018-03-10",
-  "total_amount": 190.0
+  "total_amount": 190.0,
+  "currency": "MYR",
+  "subtotal": 179.25,
+  "tax": 10.75
 }

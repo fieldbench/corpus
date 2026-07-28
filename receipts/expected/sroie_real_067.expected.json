@@ -2,8 +2,7 @@
   "merchant_name": "PASARAYA BORONG PINTAR SDN BHD",
   "date": "2018-03-14",
   "total_amount": 8.2,
-  "subtotal": null,
-  "tax": null,
-  "currency": null,
-  "items": null
+  "subtotal": 8.2,
+  "tax": 0.0,
+  "currency": "MYR"
 }

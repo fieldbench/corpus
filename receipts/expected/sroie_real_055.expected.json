@@ -2,8 +2,7 @@
   "merchant_name": "CARREFOUR RESTAURANT",
   "date": "2018-03-20",
   "total_amount": 13.8,
-  "subtotal": null,
-  "tax": null,
-  "currency": null,
-  "items": null
+  "subtotal": 13.0,
+  "tax": 0.78,
+  "currency": "MYR"
 }

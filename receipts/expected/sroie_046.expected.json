@@ -1,5 +1,8 @@
 {
   "merchant_name": "PASAR MINI JIN SENG",
   "date": "2018-03-18",
-  "total_amount": 28.6
+  "total_amount": 28.6,
+  "currency": "MYR",
+  "subtotal": 28.6,
+  "tax": 0.0
 }

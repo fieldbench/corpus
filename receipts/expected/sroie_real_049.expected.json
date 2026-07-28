@@ -2,8 +2,7 @@
   "merchant_name": "YONG TAT HARDWARE TRADING",
   "date": "2018-03-13",
   "total_amount": 100.9,
-  "subtotal": null,
-  "tax": null,
-  "currency": null,
-  "items": null
+  "subtotal": 95.17,
+  "tax": 5.71,
+  "currency": "MYR"
 }

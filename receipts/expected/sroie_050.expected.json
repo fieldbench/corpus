@@ -1,5 +1,8 @@
 {
   "merchant_name": "TIMELESS KITCHENETTE SDN BHD",
   "date": "2018-03-23",
-  "total_amount": 593.1
+  "total_amount": 593.1,
+  "currency": "MYR",
+  "subtotal": 593.1,
+  "tax": 0.0
 }

@@ -2,8 +2,7 @@
   "merchant_name": "AEON CO. (M) BHD",
   "date": "2018-02-19",
   "total_amount": 17.7,
-  "subtotal": null,
-  "tax": null,
-  "currency": null,
-  "items": null
+  "subtotal": 17.7,
+  "tax": 0.0,
+  "currency": "MYR"
 }

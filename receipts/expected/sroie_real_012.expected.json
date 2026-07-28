@@ -2,8 +2,7 @@
   "merchant_name": "AIK HUAT HARDWARE ENTERPRISE (SETIA ALAM) SDN BHD",
   "date": "2017-06-15",
   "total_amount": 15.0,
-  "subtotal": null,
-  "tax": null,
-  "currency": null,
-  "items": null
+  "subtotal": 15.0,
+  "tax": 0.0,
+  "currency": "MYR"
 }

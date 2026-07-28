@@ -2,8 +2,7 @@
   "merchant_name": "PAGOH REST AND SERVICE AREA",
   "date": "2018-03-23",
   "total_amount": 10.0,
-  "subtotal": null,
-  "tax": null,
-  "currency": null,
-  "items": null
+  "subtotal": 10.0,
+  "tax": 0.0,
+  "currency": "MYR"
 }

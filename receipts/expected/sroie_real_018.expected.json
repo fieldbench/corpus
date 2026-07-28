@@ -2,8 +2,7 @@
   "merchant_name": "LIGHTROOM GALLERY SDN BHD",
   "date": "2017-11-20",
   "total_amount": 39.8,
-  "subtotal": null,
-  "tax": null,
-  "currency": null,
-  "items": null
+  "subtotal": 37.55,
+  "tax": 2.25,
+  "currency": "MYR"
 }

@@ -2,8 +2,7 @@
   "merchant_name": "LIAN HING STATIONERY SDN BHD",
   "date": "2018-03-27",
   "total_amount": 79.5,
-  "subtotal": null,
-  "tax": null,
-  "currency": null,
-  "items": null
+  "subtotal": 75.0,
+  "tax": 4.5,
+  "currency": "MYR"
 }

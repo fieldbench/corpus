@@ -1,4 +1,7 @@
 {
   "merchant_name": "UNIHAKKA INTERNATIONAL SDN BHD",
-  "total_amount": 7.6
+  "total_amount": 7.6,
+  "currency": "MYR",
+  "subtotal": 7.17,
+  "tax": 0.43
 }

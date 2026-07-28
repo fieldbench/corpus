@@ -2,8 +2,7 @@
   "merchant_name": "SYL ROASTED DELIGHTS SDN. BHD.",
   "date": "2018-03-06",
   "total_amount": 54.5,
-  "subtotal": null,
-  "tax": null,
-  "currency": null,
-  "items": null
+  "subtotal": 51.42,
+  "tax": 3.08,
+  "currency": "MYR"
 }

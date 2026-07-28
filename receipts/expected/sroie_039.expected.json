@@ -1,5 +1,8 @@
 {
   "merchant_name": "OWNER BY CASTLE BLUE S/B",
   "date": "2018-03-30",
-  "total_amount": 189.75
+  "total_amount": 189.75,
+  "currency": "MYR",
+  "subtotal": 179.0,
+  "tax": 10.74
 }

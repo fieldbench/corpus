@@ -2,8 +2,7 @@
   "merchant_name": "YONGFATT ENTERPRISE",
   "date": "2018-12-25",
   "total_amount": 80.9,
-  "subtotal": null,
-  "tax": null,
-  "currency": null,
-  "items": null
+  "subtotal": 80.91,
+  "tax": 0.0,
+  "currency": "MYR"
 }

@@ -2,8 +2,7 @@
   "merchant_name": "UNIHAKKA INTERNATIONAL SDN BHD",
   "date": "2018-03-05",
   "total_amount": 8.2,
-  "subtotal": null,
-  "tax": null,
-  "currency": null,
-  "items": null
+  "subtotal": 7.74,
+  "tax": 0.46,
+  "currency": "MYR"
 }

@@ -1,5 +1,8 @@
 {
   "merchant_name": "C W KHOO HARDWARE SDN BHD",
   "date": "2018-03-01",
-  "total_amount": 21.2
+  "total_amount": 21.2,
+  "currency": "MYR",
+  "subtotal": 20.0,
+  "tax": 1.2
 }

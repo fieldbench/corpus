@@ -1,3 +1,8 @@
 {
-  "merchant_name": "UNIHAKKA INTERNATIONAL SDN BHD"
+  "merchant_name": "UNIHAKKA INTERNATIONAL SDN BHD",
+  "currency": "MYR",
+  "date": "2018-03-10",
+  "total_amount": 8.2,
+  "tax": 0.48,
+  "subtotal": 7.4
 }

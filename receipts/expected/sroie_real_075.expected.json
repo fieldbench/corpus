@@ -2,8 +2,7 @@
   "merchant_name": "GL HANDICRAFT & TAIL ORING",
   "date": "2018-03-20",
   "total_amount": 102.0,
-  "subtotal": null,
-  "tax": null,
-  "currency": null,
-  "items": null
+  "subtotal": 102.0,
+  "tax": 0.0,
+  "currency": "MYR"
 }

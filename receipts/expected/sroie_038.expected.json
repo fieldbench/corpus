@@ -1,5 +1,8 @@
 {
   "merchant_name": "YHM AEON TEBRAU CITY",
   "date": "2018-03-11",
-  "total_amount": 13.1
+  "total_amount": 13.1,
+  "currency": "MYR",
+  "subtotal": 13.1,
+  "tax": 0.0
 }

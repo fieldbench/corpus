@@ -1,5 +1,8 @@
 {
   "merchant_name": "RESTAURANT SIN DU",
   "date": "2018-03-09",
-  "total_amount": 170.0
+  "total_amount": 170.0,
+  "currency": "MYR",
+  "subtotal": 170.0,
+  "tax": 0.0
 }
