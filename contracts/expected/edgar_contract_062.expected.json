@@ -1,7 +1,7 @@
 {
   "contract_type": "Credit Agreement",
   "effective_date": "2009-02-10",
-  "governing_law": null,
+  "governing_law": "State of Illinois",
   "parties": [
     "Allscripts-Misys Healthcare Solutions, Inc.",
     "Allscripts, LLC",
