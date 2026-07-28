@@ -3,7 +3,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21532677.svg)](https://doi.org/10.5281/zenodo.21532677)
 
 A cross-domain, field-level benchmark for **schema-driven document extraction**
-(document → structured JSON). 1,442 documents across 10 categories with per-field
+(document → structured JSON). 1,441 documents across 10 categories with per-field
 ground truth, released so extraction-accuracy claims become **falsifiable and
 comparable**.
 

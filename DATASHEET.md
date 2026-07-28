@@ -17,15 +17,15 @@ tooling are the maintainers' own work; source documents are credited in `ATTRIBU
 
 ## Composition
 
-- **1,442 documents**, 10 categories, **769 real / 673 synthetic** (real-majority).
-- **9,694 ground-truth field slots**, of which **7,279 are non-null** values (the rest
+- **1,441 documents**, 10 categories, **768 real / 673 synthetic** (real-majority).
+- **9,768 ground-truth field slots**, of which **7,691 are non-null** values (the rest
   are deliberate nulls — a field a correct system should decline to fill).
 - Categories: sec_filings (406), receipts (172), invoices (155), insurance_claims (152),
   contracts (140), medical_records (140), legal_filings (99), insurance_policies (97),
   insurance_certificates (61), irs_forms (20).
 
 **Input composition — the load-bearing caveat (see `docs/composition.md`):** most
-documents never existed as a rendered page. Only **144 of 1,442 (10.0%) came from an image
+documents never existed as a rendered page. Only **143 of 1,441 (9.9%) came from an image
 or PDF**; 357 (24.8%) are machine-readable HTML→markdown; 941 (65.3%) never had a page
 (plain text or authored markdown). **For ~90% of this corpus, the benchmark measures
 extraction from clean text, not from rendered documents** — parse-stage failures (OCR

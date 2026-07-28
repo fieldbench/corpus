@@ -12,8 +12,8 @@ type: dataset
 authors:
   - family-names: Thomas
     given-names: Frank
-version: 0.3.0
-date-released: "2026-07-24"
+version: 0.4.0
+date-released: "2026-07-28"
 doi: 10.5281/zenodo.21532677
 url: "https://github.com/fieldbench/corpus"
 repository-code: "https://github.com/fieldbench/corpus"
