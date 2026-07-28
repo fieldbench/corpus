@@ -171,13 +171,15 @@ def cmd_score(args) -> int:
         for name in gt:
             ref_val = ref.get(name)
             a2 = ann2.get(name)
-            r = compare_field(name, ref_val, a2)
+            spec = fields.get(name) or {}
+            enum_opts = spec.get("options") if str(spec.get("type", "")).lower() == "enum" else None
+            maps = spec.get("mappings") if isinstance(spec.get("mappings"), dict) else None
+            r = compare_field(name, ref_val, a2, mappings=maps, enum_options=enum_opts)
             ok = r.passed
             total += 1
             agree += ok
             per_cat[cat][1] += 1
             per_cat[cat][0] += ok
-            spec = fields.get(name) or {}
             if str(spec.get("type", "")).lower() == "enum" or spec.get("options"):
                 enum_pairs[name].append((json.dumps(ref_val), json.dumps(a2)))
             if not ok:
