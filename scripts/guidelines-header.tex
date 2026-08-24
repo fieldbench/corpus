@@ -1,0 +1,19 @@
+% LaTeX header for the annotation-guidelines PDF (render_guidelines_pdf.sh).
+% Keeps the elegant default font (Latin Modern) and fixes the two things pandoc
+% can't handle out of the box for this document.
+
+% 1. Glyphs the text font lacks: route them through math so any font works.
+\usepackage{newunicodechar}
+\newunicodechar{κ}{\ensuremath{\kappa}}
+\newunicodechar{→}{\ensuremath{\rightarrow}}
+
+% 2. Long inline-code tokens (e.g. fieldbench.scoring.compare_field) can't break;
+%    let TeX relax the line so the whole token drops to the next line instead of
+%    overrunning the margin.
+\setlength{\emergencystretch}{3em}
+
+% 3. Light styling: colored section headers to match the corpus blue.
+\usepackage{xcolor}
+\definecolor{fbblue}{HTML}{2F5FD4}
+\usepackage{sectsty}
+\allsectionsfont{\color{fbblue}}
