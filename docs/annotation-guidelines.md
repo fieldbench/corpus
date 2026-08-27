@@ -143,8 +143,16 @@ like → what not to confuse it with → when it is absent.
 - **discharge_date** — Header, "Discharge Date:".
 - **primary_diagnosis** — Diagnosis section ("Principal/Primary/Discharge
   Diagnosis"); the first (principal) one if several. Not the secondaries.
-- **procedures** — "Procedures/Operations/Major Procedures" section; list, one
-  per row. **Absent** if the stay involved none.
+- **procedures** — Take from a labeled header ("PROCEDURE PERFORMED", "OPERATION",
+  "TITLE OF OPERATION"), **verbatim** — *not* from the "PROCEDURE IN DETAIL" /
+  operative narrative. One entry per named operation: split numbered lists and
+  comma-joined distinct operations. Not the operative steps (trocars, clamping,
+  closure); not the patient's past-history procedures ("has had six
+  cardioversions"). Where there is no header (many discharge summaries /
+  consults), list procedures performed *this* admission from the hospital-course
+  text; include a diagnostic procedure only if the note lists it as one.
+  **Absent** if none. *(This is the softest field — see § Limitations: list
+  fields are scored with partial-credit F1, not all-or-nothing.)*
 - **medications_at_discharge** — "Discharge Medications" section; medication
   names (drop dosing unless part of the name). Absent if none listed.
 - **attending_physician** — Header ("Attending:") or signature. Records are
@@ -202,9 +210,17 @@ like → what not to confuse it with → when it is absent.
   (`contract_type`, `filing_type`, `form_type`), ~12 instances each in the
   current sample — too few for a stable κ. It is reported with an explicit n
   caveat; enlarging the enum-bearing categories is left to a future pass.
-- **Strict comparison.** The IAA harness scores exact-after-normalization (fuzzy
-  matching off), so agreement is a lower bound relative to the fuzzy threshold
-  the main benchmark applies.
+- **Scoring — strict and partial.** Comparison is exact-after-normalization
+  (fuzzy matching off), so the strict `agreement_rate` is a lower bound relative
+  to the main benchmark's fuzzy threshold. Array/list fields (`procedures`,
+  `medications_at_discharge`, `items`) are **additionally** reported with an
+  element-F1 partial-credit rate (`agreement_rate_partial`): a near-miss on a
+  multi-item list scores its F1, not zero.
+- **Free-prose list fields double as a GT audit.** For `procedures` the ground
+  truth is an AI-synthesized reading of narrative text, so disagreement there
+  reflects open-ended-extraction consistency (segmentation, naming, granularity)
+  as much as correctness — read it against the partial-credit rate, and treat
+  disagreements as a check on the AI labels, not only on the annotators.
 
 ## Reproducing this document
 

@@ -138,7 +138,8 @@ def _annotation(path: Path) -> dict:
 def cmd_score(args) -> int:
     cache: dict = {}
     total = agree = 0
-    per_cat = defaultdict(lambda: [0, 0])  # [agree, total]
+    wagree = 0.0  # F1-weighted agreement (partial credit for array fields)
+    per_cat = defaultdict(lambda: [0, 0, 0.0])  # [strict_agree, total, partial_agree]
     enum_pairs = defaultdict(list)  # field_name -> [(ref_label, ann_label)]
     disagreements = []
     scored_docs = 0
@@ -178,8 +179,10 @@ def cmd_score(args) -> int:
             ok = r.passed
             total += 1
             agree += ok
+            wagree += r.weighted_score
             per_cat[cat][1] += 1
             per_cat[cat][0] += ok
+            per_cat[cat][2] += r.weighted_score
             if str(spec.get("type", "")).lower() == "enum" or spec.get("options"):
                 enum_pairs[name].append((json.dumps(ref_val), json.dumps(a2)))
             if not ok:
@@ -196,7 +199,13 @@ def cmd_score(args) -> int:
         "scored_docs": scored_docs,
         "fields_compared": total,
         "agreement_rate": round(agree / total, 4),
-        "by_category": {c: round(a / n, 4) for c, (a, n) in sorted(per_cat.items())},
+        # Partial-credit variant: array fields (procedures, medications, items)
+        # score by element-F1 instead of all-or-nothing; identical to the strict
+        # rate on scalar/enum fields. Report both — list fields are inherently
+        # softer, and a binary miss on a 4-item list overstates disagreement.
+        "agreement_rate_partial": round(wagree / total, 4),
+        "by_category": {c: round(a / n, 4) for c, (a, n, w) in sorted(per_cat.items())},
+        "by_category_partial": {c: round(w / n, 4) for c, (a, n, w) in sorted(per_cat.items())},
         "enum_field_cohen_kappa": {k: round(v, 4) for k, v in sorted(kappas.items())},
         "mean_enum_kappa": round(sum(kappas.values()) / len(kappas), 4) if kappas else None,
         "n_disagreements": len(disagreements),
