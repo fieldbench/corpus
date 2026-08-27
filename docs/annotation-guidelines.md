@@ -131,17 +131,30 @@ like → what not to confuse it with → when it is absent.
 
 ### `legal_filings` — `legal_filing`
 
-- **case_number** — Caption; docket format (`1:24-cv-01234`, `No. 24-1234`).
-  Nearly always present.
-- **court** — Caption; full court name, not an abbreviation.
-- **filing_date** — Clerk's file-stamp at top, or "Dated:" in the signature
-  block; prefer the file-stamp when both appear. Absent if undated.
-- **filing_type** — Title/header; nearest option; "Other" if none fit.
+- **case_number** — The **bare docket number** ("114582", "24-1234",
+  "1:24-cv-01234") — drop the "No." / "Case No." label. On an appeal use the
+  **appellate** docket, not the trial-court "Case No. …" or "Motion No. …" also
+  in the caption.
+- **court** — The **full** court name from the body heading, including
+  district/division/county ("Court of Appeals of Ohio, Eighth Appellate
+  District, County of Cuyahoga"). Not a "Court:" metadata slug at the top
+  ("Ohioctapp"), not an abbreviation.
+- **filing_date** — Clerk's file-stamp, a "Dated:" signature line, or — for an
+  opinion — the **released / journalized / decision** date (often a "Decision
+  Date:" line). Prefer the file-stamp when several appear. Absent only if the
+  document truly carries none — an opinion's journalized date counts.
+- **filing_type** — Nearest option to the title. A court's **Opinion** is
+  "Opinion" even when it decides a motion/application (don't pick "Motion" off
+  the "Application for Reopening" / "Motion No." it rules on). "Other" if none fit.
 - **plaintiff** — Caption, above "v."; person/company/government. For a class
   action, the named plaintiff.
 - **defendant** — Caption, below "v.".
-- **judge** — Caption/header/order signature ("Before the Honorable …"). Often
-  **absent** on initial complaints (no judge assigned yet).
+- **judge** — The judge who **authored/decided this filing** — the
+  byline/signature block ("EMANUELLA D. GROVES, J.:"; or "MORI, acting P.J."
+  above "We concur:"). Full name where given, **drop the ", J." / "P.J." /
+  "Honorable" honorific**. On an appellate opinion this is NOT the trial judge
+  in the caption ("…County, Steve Cochran, Judge" = the judge being reviewed).
+  Often **absent** on initial complaints (no judge assigned yet).
 
 ### `medical_records` — `discharge_summary`
 
