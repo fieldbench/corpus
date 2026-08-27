@@ -2,6 +2,12 @@
   "contract_type": null,
   "effective_date": null,
   "governing_law": null,
-  "parties": null,
+  "parties": [
+    "AmeriCredit Automobile Receivables Trust 2006-R-M",
+    "AFS SenSub Corp.",
+    "AmeriCredit Financial Services, Inc.",
+    "MBIA Insurance Corporation",
+    "Wells Fargo Bank, National Association"
+  ],
   "termination_date": null
 }

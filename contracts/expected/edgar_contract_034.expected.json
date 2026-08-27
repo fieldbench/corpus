@@ -2,6 +2,16 @@
   "contract_type": null,
   "effective_date": null,
   "governing_law": "Florida",
-  "parties": null,
+  "parties": [
+    "MiMedx Group, Inc.",
+    "Kathleen Behrens Wilsey",
+    "K. Todd Newton",
+    "Richard J. Barry",
+    "Prescience Partners, LP",
+    "Prescience Point Special Opportunity LP",
+    "Prescience Capital, LLC",
+    "Prescience Investment Group, LLC",
+    "Eiad Asbahi"
+  ],
   "termination_date": null
 }

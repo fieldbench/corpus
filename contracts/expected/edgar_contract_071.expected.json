@@ -2,6 +2,10 @@
   "contract_type": null,
   "effective_date": null,
   "governing_law": "New York",
-  "parties": null,
+  "parties": [
+    "Primus Telecommunications Holding, Inc.",
+    "Guarantors",
+    "Noteholders"
+  ],
   "termination_date": null
 }

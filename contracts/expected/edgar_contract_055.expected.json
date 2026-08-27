@@ -2,6 +2,10 @@
   "contract_type": null,
   "effective_date": null,
   "governing_law": "New York",
-  "parties": null,
+  "parties": [
+    "Spartacus Acquisition Corp. II",
+    "Spartacus Sponsor II LLC",
+    "Holders"
+  ],
   "termination_date": null
 }

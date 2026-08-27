@@ -113,8 +113,14 @@ like → what not to confuse it with → when it is absent.
 
 - **contract_type** — Title/preamble; nearest option to the title; "Other" only
   if none fit. Prefer "Other" over absent.
-- **parties** — Preamble ("by and between …"); the contracting entities, one per
-  row. Not the drafting law firm, witnesses, or signatory titles.
+- **parties** — Preamble ("by and between/among …"), one entry per distinct
+  party: a named entity by its name (resolve aliases — "the Company" = the named
+  company, listed once); a class/group by its **short defined term**
+  ("Guarantors", "Noteholders", "Holders", "Anchor Investors"). Don't copy the
+  long descriptor ("each of the parties listed on the signature pages hereto
+  under 'Holders'") — use the label it defines; don't enumerate the individuals
+  behind a class; not the drafting law firm or signatory titles. **Absent** only
+  if no party is named or defined.
 - **effective_date** — Preamble/header ("effective as of", "dated"). **Not** the
   signature date unless the document equates them. Absent if unstated.
 - **termination_date** — Term/termination clause; a specific date or a computable

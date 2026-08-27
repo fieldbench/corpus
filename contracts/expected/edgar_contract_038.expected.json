@@ -2,6 +2,15 @@
   "contract_type": null,
   "effective_date": null,
   "governing_law": "New York",
-  "parties": null,
+  "parties": [
+    "Senior Housing Properties Trust",
+    "Lenders",
+    "Wells Fargo Bank, National Association",
+    "Wells Fargo Securities, LLC",
+    "RBC Capital Markets",
+    "Royal Bank of Canada",
+    "Bank of America, N.A.",
+    "Regions Bank"
+  ],
   "termination_date": "2014-06-24"
 }

@@ -2,6 +2,9 @@
   "contract_type": null,
   "effective_date": null,
   "governing_law": "Delaware",
-  "parties": null,
+  "parties": [
+    "Nubia Brand International Corp.",
+    "Indemnitees"
+  ],
   "termination_date": null
 }
