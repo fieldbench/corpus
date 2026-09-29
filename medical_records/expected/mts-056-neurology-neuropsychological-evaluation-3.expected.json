@@ -1,6 +1,6 @@
 {
-  "admission_date": "2009-09-30",
-  "attending_physician": "Dr. X",
+  "admission_date": null,
+  "attending_physician": null,
   "discharge_date": null,
   "medications_at_discharge": null,
   "primary_diagnosis": "Transient global amnesia",
