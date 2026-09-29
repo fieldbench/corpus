@@ -8,12 +8,13 @@
 
 ## Why this document exists
 
-Real-document ground truth in this corpus is **produced by an AI extraction
-pipeline**, not hand-labeled. Inter-annotator agreement here therefore measures
-something specific: **how well an independent human, reading the document,
-reproduces the AI-produced ground truth.** It is a validation of AI-generated
-labels against independent human judgment — not human-vs-human agreement on
-human labels.
+Real-document ground truth in this corpus is **sourced from each source's existing
+annotations and revised by the maintainers** to the exact-extraction schema (with AI
+assistance for mechanical edits) — not hand-labeled from scratch, and the source
+annotations are of mixed origin. Inter-annotator agreement here therefore measures
+something specific: **how well an independent human, reading the document, reproduces
+the reference ground truth.** It is a validation of the reference against independent
+human judgment — not human-vs-human agreement on from-scratch human labels.
 
 That number is only interpretable relative to the instructions the human
 annotators followed. "Agreement was 0.9x" means nothing without "…under these
@@ -201,14 +202,15 @@ like → what not to confuse it with → when it is absent.
 
 ## Annotators & provenance
 
-- **Ground truth.** Real-document ground truth is produced by an **AI extraction
-  pipeline**, then used as the reference the IAA measures against. The human
-  annotators below do **not** see the ground truth while annotating (blind), and
-  none of them produced it — so their agreement with it is an independent check
-  on the AI labels, not self-agreement.
+- **Ground truth.** Real-document ground truth is **sourced-then-revised** (from
+  each source's existing annotations, reviewed and corrected against the document
+  text by the maintainers, with AI assistance for mechanical edits), then used as
+  the reference the IAA measures against. The human annotators below do **not** see
+  the ground truth while annotating (blind), and none of them produced it — so their
+  agreement with it is an independent check on the reference, not self-agreement.
 - **Annotators.** Independent human annotators fill the blind templates through
   the annotation tool. Each carries a distinct token so the harness can score
-  each against the AI ground truth and against one another. Arms are recorded by
+  each against the reference ground truth and against one another. Arms are recorded by
   role, and any arm annotated by an author of the accompanying paper is disclosed
   as such rather than presented as fully independent. At least one **fully
   external** annotator (unaffiliated with the corpus) is included so the headline
@@ -216,9 +218,9 @@ like → what not to confuse it with → when it is absent.
 - **Annotators are trained, not naive.** Annotators are given these guidelines
   (the same rules the extraction pipeline follows). The number therefore reports
   *"a competent human following the documented guideline agrees with the
-  AI-produced ground truth"* — not *"the document is unambiguous to a naive
+  reference ground truth"* — not *"the document is unambiguous to a naive
   reader."* Because the humans did not produce the ground truth, this is a
-  genuine independent validation of the AI labels; the shared element is the
+  genuine independent validation of the reference; the shared element is the
   guideline, not the answers.
 - **Adjudication.** Field-level disagreements are surfaced with
   `iaa_harness.py score --disagreements`; each is reviewed to separate genuine
