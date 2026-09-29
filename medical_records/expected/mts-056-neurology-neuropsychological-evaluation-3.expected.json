@@ -2,17 +2,7 @@
   "admission_date": "2009-09-30",
   "attending_physician": "Dr. X",
   "discharge_date": null,
-  "medications_at_discharge": [
-    "Celebrex",
-    "levothyroxine",
-    "Vytorin",
-    "lisinopril",
-    "Coreg",
-    "glucosamine with chondroitin",
-    "prostate",
-    "aspirin",
-    "laxative stimulant or stool softener"
-  ],
+  "medications_at_discharge": null,
   "primary_diagnosis": "transient ischemic aphasia",
   "procedures": null
 }
