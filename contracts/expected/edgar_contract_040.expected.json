@@ -1,7 +1,11 @@
 {
   "contract_type": "Settlement Agreement",
-  "effective_date": null,
+  "effective_date": "2007-12-06",
   "governing_law": "Texas",
-  "parties": null,
+  "parties": [
+    "Glenn Adair",
+    "Motive, Inc.",
+    "Settling Individual Defendants"
+  ],
   "termination_date": null
 }
