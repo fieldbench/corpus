@@ -6,10 +6,15 @@ Reuses intervention_full_stats' per-doc scorer but splits by category.
 Row order matches Table 10 (sorted by Delta-acc); gpt-4o-mini last (control, dagger).
 Emits longtable rows: model & cat & prompt & acc & match & wrong & miss & halluc & corr-abs.
 """
-import json, glob, os, pathlib, sys
+import json, glob, os, pathlib, sys, argparse
 sys.path.insert(0, str(pathlib.Path.home() / "dev/fieldbench/fieldbench/src"))
 from fieldbench.scoring import compare_field
 from fieldbench.corpus import _schema_mappings
+
+_ap = argparse.ArgumentParser()
+_ap.add_argument("--out", type=pathlib.Path, default=pathlib.Path("appG_body.tex"),
+                 help="output .tex path (default: ./appG_body.tex; the paper inlines these rows by hand)")
+_args = _ap.parse_args()
 
 CORPUS = pathlib.Path.home() / "dev/fieldbench/corpus"
 DATA = pathlib.Path.home() / "dev/fieldbench/data"
@@ -65,7 +70,7 @@ for mi, (disp, dd, rr) in enumerate(MODELS):
     if mi != len(MODELS) - 1:
         rows.append("\\addlinespace")
 
-out = pathlib.Path.home() / "dev/fieldbench/paper/appG_body.tex"
+out = _args.out
 out.write_text("\n".join(rows) + "\n")
 print(f"wrote {out}: {len(MODELS)} models x 2 cats x 2 prompts")
 print("\n--- CONSISTENCY CHECK: gpt-4o/Sonnet/mini vs existing hardcoded App G ---")

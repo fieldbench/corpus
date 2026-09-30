@@ -6,10 +6,21 @@ Row order per category = leaderboard order (overall accuracy desc) then framewor
 Category floor (fl) is a corpus constant, carried over from the existing appA_body.
 Values are % of the category's fields; accuracy = match + correct-absence.
 """
-import json, re, pathlib
+import json, re, pathlib, argparse, sys
 
-PC = pathlib.Path.home() / "dev/fieldbench/data/results-percat"
-BODY = pathlib.Path.home() / "dev/fieldbench/paper/appA_body.tex"
+_ap = argparse.ArgumentParser()
+_ap.add_argument("--results", type=pathlib.Path,
+                 default=pathlib.Path.home() / "dev/fieldbench/data/results-percat",
+                 help="dir of results-percat/*.json")
+_ap.add_argument("--body", type=pathlib.Path, required=True,
+                 help="existing appA_body.tex, read for per-category floor constants and "
+                      "rewritten in place (e.g. the paper's appA_body.tex)")
+_args = _ap.parse_args()
+PC = _args.results
+BODY = _args.body
+if not BODY.exists():
+    sys.exit(f"error: --body {BODY} does not exist; point it at the paper's existing "
+             "appA_body.tex (its per-category floor constants are carried over)")
 
 # display name -> results-percat filename ; order = leaderboard (overall desc), frameworks last
 SYSTEMS = [

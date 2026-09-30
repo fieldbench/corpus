@@ -127,6 +127,12 @@ not support. `receipts`
 
 - **Versioned.** Releases are versioned (v1.0, v1.1, …); citations point at a version/DOI
   so expansion does not break references.
+- **v0.4.2 (2026-09-30):** documentation and tooling only — **no data changes from v0.4.1**.
+  Corrected the datasheet composition count (9,773 slots / 7,710 non-null, consistent with the
+  21.1% all-null floor; the v0.4.1 datasheet miscounted these as 9,768 / 7,691) and the IAA
+  reporting (two-annotator 91.5% / κ = 0.75, each vs reference 93.8% / 89.2%); released
+  reproduction-script improvements (`grounding_audit.py --real-only`, `bootstrap_ci.py`
+  leaderboard real-doc CIs, `intervention_full_stats.py` clinical default).
 - **v0.4.1 (2026-09-29):** ground-truth revision pass — 191 field corrections across 151
   real documents (legal-filing judge, sec/receipt/contract dates, medical procedures, etc.),
   validated by two-annotator blind IAA (91.5% inter-annotator agreement); per-curiam judge
