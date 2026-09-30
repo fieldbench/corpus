@@ -11,7 +11,7 @@ acc = (match + correct_absence) / all_slots  (matches paper convention).
 Run: fieldbench/.venv/bin/python data/intervention_full_stats.py
 """
 from __future__ import annotations
-import sys, json, glob, os, pathlib
+import sys, json, glob, os, pathlib, argparse
 sys.path.insert(0, "fieldbench/src")
 sys.path.insert(0, "corpus/scripts")
 import numpy as np
@@ -20,7 +20,13 @@ from fieldbench.corpus import _schema_mappings
 from grounding_audit import grounded, source_numbers, _norm
 
 CORPUS = pathlib.Path("corpus")
-CATS = ["medical_records", "legal_filings"]
+# Paper Tables 9 & 10 are the CLINICAL result (medical_records) — the long-form category where
+# over-abstention dominates. The legal filings, where frontier abstention is mild, are the contrast
+# reported per-category in Appendix G (gen_appG_body.py). Default here is therefore clinical-only;
+# pass --categories medical_records legal_filings for the pooled view, or legal_filings alone.
+_ap = argparse.ArgumentParser()
+_ap.add_argument("--categories", nargs="+", default=["medical_records"])
+CATS = _ap.parse_args().categories
 N, SEED = 1000, 42
 cache = {}
 

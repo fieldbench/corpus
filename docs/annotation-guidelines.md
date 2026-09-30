@@ -1,8 +1,9 @@
 # Annotation Guidelines — FieldBench Corpus
 
 > **Status: v1.0 — methodology final; IAA reported.** The annotation rules and
-> per-field definitions below are authoritative. Independent blind inter-annotator
-> agreement (93.8%; see § Annotators & provenance and `DATASHEET.md`) is reported.
+> per-field definitions below are authoritative. Blind inter-annotator agreement
+> between two independent annotators (91.5%; each also agrees with the reference on
+> 93.8% / 89.2%; see § Annotators & provenance and `DATASHEET.md`) is reported.
 
 ## Why this document exists
 
@@ -211,9 +212,9 @@ like → what not to confuse it with → when it is absent.
   the annotation tool. Each carries a distinct token so the harness can score
   each against the reference ground truth and against one another. Arms are recorded by
   role, and any arm annotated by an author of the accompanying paper is disclosed
-  as such rather than presented as fully independent. At least one **fully
-  external** annotator (unaffiliated with the corpus) is included so the headline
-  number rests on a disinterested arm.
+  as such rather than presented as fully independent. **Two fully
+  external** annotators (unaffiliated with the corpus) are included, so the headline
+  inter-annotator number rests on two disinterested arms.
 - **Annotators are trained, not naive.** Annotators are given these guidelines
   (the same rules the extraction pipeline follows). The number therefore reports
   *"a competent human following the documented guideline agrees with the

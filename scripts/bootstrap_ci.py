@@ -84,3 +84,23 @@ for cat, a, b, lbl in [("medical_records","gpt-4o-mini","gpt-4o","clinical mini-
     rz = RESTR if cat == "receipts" else None
     Pa, Fa = catvec(a, cat, rz); Pb, Fb = catvec(b, cat, rz)
     print(f"  {lbl:22} {ci_margin(Pa,Fa,Pb,Fb)}")
+
+print("\n=== Table 11: real-document accuracy + 95% CI (11 systems) ===")
+LB = [  # (label, preddir) in Table 11 order
+    ("Claude Sonnet-4.5", "preds-v0.2/sonnet-4-5"),
+    ("gemini-2.5-flash",  "preds-extra/gemini-2.5-flash"),
+    ("gemini-2.5-pro",    "preds-extra/gemini-2.5-pro"),
+    ("deepseek-chat",     "preds-extra/deepseek-chat"),
+    ("gpt-4o",            "preds-v0.2/gpt-4o"),
+    ("gpt-4o-mini",       "preds-v0.2/gpt-4o-mini"),
+    ("llama-3.3-70b",     "preds-extra/llama-3.3-70b"),
+    ("qwen-2.5-7b",       "preds-extra/qwen-2.5-7b"),
+    ("LangChain",         "preds-v0.2/langchain"),
+    ("LlamaIndex",        "preds-v0.2/llamaindex"),
+    ("llama-3.1-8b",      "preds-extra/llama-3.1-8b"),
+]
+for lbl, pdir in LB:
+    docs = score_corpus(CORPUS, pathlib.Path(f"data/{pdir}"))[0]
+    P = np.array([sum(int(r.passed) for r in d.fields) for d in docs if d.source == "real" and d.fields])
+    F = np.array([len(d.fields) for d in docs if d.source == "real" and d.fields])
+    print(f"  {lbl:18} {100*P.sum()/F.sum():5.1f}  95% CI {ci_single(P, F)}")

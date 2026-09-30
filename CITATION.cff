@@ -3,7 +3,7 @@ message: "If you use this corpus, please cite it as below."
 title: "FieldBench Corpus: A Cross-Domain Benchmark for Schema-Driven Document Extraction"
 abstract: >-
   A cross-domain, field-level benchmark for schema-driven document extraction
-  (document to structured JSON): 1,442 documents across 10 categories with
+  (document to structured JSON): 1,441 documents across 10 categories with
   per-field ground truth, released so extraction-accuracy claims are falsifiable
   and comparable. Includes real documents from public sources and synthetic
   documents, each labeled by source, with a datasheet documenting composition,

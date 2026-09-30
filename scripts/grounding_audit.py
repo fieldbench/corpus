@@ -84,7 +84,7 @@ def grounded(value, source: str, nsource: str, snums: set[float]) -> bool:
     return hits >= (len(leaves) + 1) // 2
 
 
-def audit(corpus: Path, category: str, preds: dict[str, Path]) -> dict:
+def audit(corpus: Path, category: str, preds: dict[str, Path], real_only: bool = False) -> dict:
     cat = corpus / category
     per_model = {m: {"miss": 0, "miss_grounded": 0} for m in preds}
     gt_nonnull = 0
@@ -94,6 +94,10 @@ def audit(corpus: Path, category: str, preds: dict[str, Path]) -> dict:
 
     for exp_path in sorted((cat / "expected").glob("*.expected.json")):
         stem = exp_path.name[: -len(".expected.json")]
+        if real_only:
+            man = cat / "manifests" / f"{stem}.json"
+            if not man.exists() or json.loads(man.read_text()).get("source") != "real":
+                continue
         doc = cat / "documents" / f"{stem}.md"
         if not doc.exists():
             continue
@@ -133,6 +137,8 @@ def main(argv=None) -> int:
     ap.add_argument("--corpus", required=True, type=Path)
     ap.add_argument("--preds", nargs="+", required=True, help="name=dir pairs")
     ap.add_argument("--categories", nargs="+", required=True)
+    ap.add_argument("--real-only", action="store_true",
+                    help="restrict to real documents (the slice §6.2 reports)")
     args = ap.parse_args(argv)
     preds = {p.split("=", 1)[0]: Path(p.split("=", 1)[1]) for p in args.preds}
 
@@ -140,10 +146,16 @@ def main(argv=None) -> int:
     print("matcher also can't find (likely genuine coverage gap, matcher-independent numerator).\n")
     print(f"{'category':<24}{'GTf':>6}{'univ-miss':>11}{'gap(ungrnd)':>13}{'gap %of GT':>11}")
     for cat in args.categories:
-        r = audit(args.corpus, cat, preds)
+        r = audit(args.corpus, cat, preds, real_only=args.real_only)
         n = r["gt_nonnull"] or 1
         um, gap = r["universal_miss"], r["universal_miss_ungrounded"]
         print(f"{cat:<24}{r['gt_nonnull']:>6}{um:>11}{gap:>13}{100*gap/n:>10.1f}%")
+
+    print("\nPer-model misses (over the same slice):")
+    for cat in args.categories:
+        r = audit(args.corpus, cat, preds, real_only=args.real_only)
+        cells = "  ".join(f"{m}={r['per_model'][m]['miss']}" for m in preds)
+        print(f"  {cat:<20} {cells}")
     return 0
 
 
