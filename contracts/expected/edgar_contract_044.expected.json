@@ -1,9 +1,11 @@
 {
   "contract_type": "Other",
   "effective_date": "2014-12-10",
-  "governing_law": null,
+  "governing_law": "New York",
   "parties": [
-    "NISSAN AUTO RECEIVABLES 2014-B OWNER TRUST"
+    "NISSAN AUTO RECEIVABLES 2014-B OWNER TRUST",
+    "NISSAN AUTO RECEIVABLES CORPORATION II",
+    "NISSAN MOTOR ACCEPTANCE CORPORATION"
   ],
   "termination_date": null
 }

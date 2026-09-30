@@ -3,6 +3,6 @@
   "date": "2018-03-09",
   "total_amount": 65.2,
   "subtotal": 65.2,
-  "tax": 0.0,
+  "tax": null,
   "currency": "MYR"
 }

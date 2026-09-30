@@ -151,13 +151,14 @@ like → what not to confuse it with → when it is absent.
   action, the named plaintiff.
 - **defendant** — Caption, below "v.".
 - **judge** — The **single** judge who decided this filing. Single-author
-  opinion → its byline ("EMANUELLA D. GROVES, J.:"). **Multi-judge panel / per
-  curiam** → the **Presiding Justice** ("…, J.P." / "P.J."), or the first-listed
-  judge if none is marked. Full name where given; **drop the ", J." / "P.J." /
-  "Hon." honorific and any "Presiding Judge" title**. NOT the trial judge in the
-  caption ("…County, Emerson, J." = the judge being reviewed) and NOT the court
-  clerk ("…, Acting Clerk of the Court"). **Absent** when no judge is named
-  (e.g. many complaints).
+  opinion → its byline ("EMANUELLA D. GROVES, J.:"). **Multi-judge panel** with a
+  signed author or a **Presiding Justice** ("…, J.P." / "P.J.") → that judge. Full
+  name where given; **drop the ", J." / "P.J." / "Hon." honorific and any
+  "Presiding Judge" title**. **Per curiam** (issued "by the court" with no
+  authoring judge named) → **null** — do **not** substitute the first-listed panel
+  member. NOT the trial judge in the caption ("…County, Emerson, J." = the judge
+  being reviewed) and NOT the court clerk ("…, Acting Clerk of the Court").
+  **Absent** (null) when no judge is named (e.g. many complaints).
 
 ### `medical_records` — `discharge_summary`
 

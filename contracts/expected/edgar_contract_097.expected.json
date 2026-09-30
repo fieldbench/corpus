@@ -1,7 +1,18 @@
 {
   "contract_type": "Lease",
   "effective_date": "2015-01-01",
-  "governing_law": null,
-  "parties": null,
+  "governing_law": "Other",
+  "parties": [
+    "Frontier El Dorado Refining LLC",
+    "Frontier Refining LLC",
+    "Holly Refining & Marketing \u2013 Tulsa LLC",
+    "Holly Refining & Marketing Company \u2013 Woods Cross LLC",
+    "Navajo Refining Company, L.L.C.",
+    "El Dorado Logistics LLC",
+    "Cheyenne Logistics LLC",
+    "HEP Tulsa LLC",
+    "HEP Woods Cross, L.L.C.",
+    "HEP Pipeline, L.L.C."
+  ],
   "termination_date": null
 }

@@ -7,8 +7,5 @@
     "Inderal"
   ],
   "primary_diagnosis": "liver cirrhosis",
-  "procedures": [
-    "EGD",
-    "colonoscopy"
-  ]
+  "procedures": null
 }

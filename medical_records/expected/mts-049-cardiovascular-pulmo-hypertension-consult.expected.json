@@ -13,7 +13,5 @@
     "Lasix"
   ],
   "primary_diagnosis": "hypertension",
-  "procedures": [
-    "left hip surgery"
-  ]
+  "procedures": null
 }

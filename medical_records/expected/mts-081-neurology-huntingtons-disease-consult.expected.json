@@ -1,5 +1,5 @@
 {
-  "admission_date": "2023-10-01",
+  "admission_date": null,
   "attending_physician": "Dr. X",
   "discharge_date": null,
   "medications_at_discharge": [

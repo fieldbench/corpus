@@ -1,7 +1,7 @@
 {
   "admission_date": null,
   "attending_physician": "Dr. Kaczander",
-  "discharge_date": "2023-10-04",
+  "discharge_date": null,
   "medications_at_discharge": [
     "Demerol",
     "Vistaril",

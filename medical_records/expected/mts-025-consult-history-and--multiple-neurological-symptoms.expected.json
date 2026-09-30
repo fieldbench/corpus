@@ -21,9 +21,5 @@
     "Zetia"
   ],
   "primary_diagnosis": "mild peripheral neuropathy",
-  "procedures": [
-    "EMG",
-    "nerve conduction studies",
-    "physical therapy"
-  ]
+  "procedures": null
 }

@@ -1,7 +1,12 @@
 {
   "contract_type": "Other",
-  "effective_date": null,
+  "effective_date": "2016-08-10",
   "governing_law": "New York",
-  "parties": null,
+  "parties": [
+    "NISSAN AUTO RECEIVABLES 2016-C OWNER TRUST",
+    "NISSAN AUTO RECEIVABLES CORPORATION II",
+    "NISSAN MOTOR ACCEPTANCE CORPORATION",
+    "U.S. BANK NATIONAL ASSOCIATION"
+  ],
   "termination_date": null
 }

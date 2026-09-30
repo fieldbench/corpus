@@ -1,6 +1,6 @@
 {
   "admission_date": "2006-03-26",
-  "attending_physician": "Dr. S.",
+  "attending_physician": null,
   "discharge_date": null,
   "medications_at_discharge": [
     "Cipro",

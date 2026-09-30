@@ -1,5 +1,5 @@
 {
-  "admission_date": "2008-11-20",
+  "admission_date": null,
   "attending_physician": null,
   "discharge_date": null,
   "medications_at_discharge": [
@@ -7,8 +7,5 @@
     "Aleve"
   ],
   "primary_diagnosis": "sprain of the cervical spine and lumbar spine superimposed upon some early degenerative changes",
-  "procedures": [
-    "CT scan",
-    "MRI"
-  ]
+  "procedures": null
 }

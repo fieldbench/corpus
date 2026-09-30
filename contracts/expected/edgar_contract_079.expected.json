@@ -1,7 +1,10 @@
 {
   "contract_type": null,
-  "effective_date": null,
-  "governing_law": null,
-  "parties": null,
+  "effective_date": "2011-02-17",
+  "governing_law": "New York",
+  "parties": [
+    "Cell Therapeutics, Inc.",
+    "Purchaser"
+  ],
   "termination_date": null
 }

@@ -21,8 +21,5 @@
     "Zetia"
   ],
   "primary_diagnosis": "multiple neurologic and nonneurologic symptoms including numbness, gait instability, decreased dexterity of his arms and general fatigue",
-  "procedures": [
-    "EMG",
-    "nerve conduction studies"
-  ]
+  "procedures": null
 }
