@@ -1,10 +1,8 @@
 # Annotation Guidelines — FieldBench Corpus
 
-> **Status: v1.0 — methodology final; IAA results in collection.** The
-> annotation rules and per-field definitions below are authoritative. The IAA
-> *numbers* are being collected (see § Annotators & provenance) and will be
-> reported in `DATASHEET.md`; until then, real-document ground truth is marked
-> single-source there.
+> **Status: v1.0 — methodology final; IAA reported.** The annotation rules and
+> per-field definitions below are authoritative. Independent blind inter-annotator
+> agreement (93.8%; see § Annotators & provenance and `DATASHEET.md`) is reported.
 
 ## Why this document exists
 
