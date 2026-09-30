@@ -12,15 +12,15 @@ type: dataset
 authors:
   - family-names: Thomas
     given-names: Frank
-version: 0.4.0
-date-released: "2026-07-28"
-doi: 10.5281/zenodo.21532677
+version: 0.4.1
+date-released: "2026-09-29"
+doi: 10.5281/zenodo.21532676
 url: "https://github.com/fieldbench/corpus"
 repository-code: "https://github.com/fieldbench/corpus"
 license: CC-BY-4.0
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.21532677
+    value: 10.5281/zenodo.21532676
     description: Concept DOI (all versions) on Zenodo
   - type: doi
     value: 10.57967/hf/9711
